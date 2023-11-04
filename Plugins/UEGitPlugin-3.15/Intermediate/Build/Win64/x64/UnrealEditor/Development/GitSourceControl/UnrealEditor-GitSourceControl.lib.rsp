@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-GitSourceControl.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"M:\Projects\Unreal\ScaleGame\Intermediate\Build\Win64\x64\ScaleGameEditor\Development\UnrealEd\SharedPCH.UnrealEd.Cpp17.h.obj"
+"M:\Projects\Unreal\ScaleGame\Plugins\UEGitPlugin-3.15\Intermediate\Build\Win64\x64\UnrealEditor\Development\GitSourceControl\Module.GitSourceControl.cpp.obj"
+"M:\Projects\Unreal\ScaleGame\Plugins\UEGitPlugin-3.15\Intermediate\Build\Win64\x64\UnrealEditor\Development\GitSourceControl\Default.rc2.res"
+/OUT:"M:\Projects\Unreal\ScaleGame\Plugins\UEGitPlugin-3.15\Intermediate\Build\Win64\x64\UnrealEditor\Development\GitSourceControl\UnrealEditor-GitSourceControl.lib"

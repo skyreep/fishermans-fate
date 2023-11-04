@@ -79,7 +79,10 @@ DerivedDataCache/*
 Export/*
 
 # Dont ignore the .exe in the git plugin!
-!Plugins/UEGitPlugin*/**/*.exe
+!Plugins/UEGitPlugin*/**
+!Plugins/UEGitPlugin*/Binaries/
+!Plugins/UEGitPlugin*/Intermediate/
+
 
 # Rider
 Plugins/Developer/RiderLink/Binaries/
