@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6563C153-EC11-4CB0-A699-253738AD5F3B}" SchemaVersion="110">
+	<SoundBanks>
+		<WorkUnit Name="Scale_Game" ID="{6563C153-EC11-4CB0-A699-253738AD5F3B}" PersistMode="Standalone"/>
+	</SoundBanks>
+</WwiseDocument>

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{66834572-B8EA-99A4-7528-A01A4873C5C2}",
+    "Hash": "{F2441379-A7C3-38BB-59E3-0C16407507A1}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -36,9 +36,123 @@
     },
     "Busses": [
      {
-      "Id": "3803692087",
-      "Name": "Master Audio Bus",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "Id": "85412153",
+      "Name": "AMBIENCE",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\SFX\\AMBIENCE",
+      "GUID": "{F9659496-102B-4B94-823A-78B4042A4CC7}"
+     },
+     {
+      "Id": "92861911",
+      "Name": "DX_SISARITH",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\DX\\DX_SISARITH",
+      "GUID": "{041C3A94-60E0-486A-BB69-15355561EB68}"
+     },
+     {
+      "Id": "393239870",
+      "Name": "SFX",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\SFX",
+      "GUID": "{D694299A-C7DF-4B84-A54C-FB8501EA2F39}"
+     },
+     {
+      "Id": "612957004",
+      "Name": "EMITTERS",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\SFX\\EMITTERS",
+      "GUID": "{6563AFA8-162C-4EF4-B85B-0635888B6781}"
+     },
+     {
+      "Id": "640021946",
+      "Name": "EFFORTS",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\DX\\DX_LANDRY\\EFFORTS",
+      "GUID": "{AA2C8DE0-214C-43D6-B81D-B62C3B2BFC63}"
+     },
+     {
+      "Id": "1069431850",
+      "Name": "PLAYER",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\SFX\\PLAYER",
+      "GUID": "{1BCA237D-61C0-4EDE-AC56-E79779BDD759}"
+     },
+     {
+      "Id": "1468218592",
+      "Name": "DX_AMADAN",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\DX\\DX_AMADAN",
+      "GUID": "{C2976B30-5BD7-4E17-BAFE-0FB23C04F886}"
+     },
+     {
+      "Id": "1504787782",
+      "Name": "DX_EFTER",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\DX\\DX_EFTER",
+      "GUID": "{E42B2D65-D8D5-4B9B-91F0-D1032F4D0BDB}"
+     },
+     {
+      "Id": "1534528548",
+      "Name": "VO",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\DX\\DX_LANDRY\\VO",
+      "GUID": "{FEA204E4-3CD9-4DB9-81AA-F4E9F06C8D1D}"
+     },
+     {
+      "Id": "1551306167",
+      "Name": "UI",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\UI",
+      "GUID": "{40B69F9A-36B7-4EFC-8DE9-257A2D23BAC4}"
+     },
+     {
+      "Id": "1587414417",
+      "Name": "MX_EFTER",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\MX\\MX_EFTER",
+      "GUID": "{67C11E52-7961-40D3-B8CF-0AEA299A7EEC}"
+     },
+     {
+      "Id": "1685527054",
+      "Name": "MX",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\MX",
+      "GUID": "{753DD298-76AA-4A1C-B8E9-849DF6EE696E}"
+     },
+     {
+      "Id": "1687182458",
+      "Name": "MX_SISARITH",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\MX\\MX_SISARITH",
+      "GUID": "{59E594F1-C824-461D-A112-5E73030B2587}"
+     },
+     {
+      "Id": "1751122160",
+      "Name": "MX_CEDERARE",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\MX\\MX_CEDERARE",
+      "GUID": "{D74E371B-4F22-457D-8F9D-7F2EBD9D3323}"
+     },
+     {
+      "Id": "1836525785",
+      "Name": "DX",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\DX",
+      "GUID": "{0E3EB6F5-F672-42A4-B452-13EBD4EFB74B}"
+     },
+     {
+      "Id": "2096227861",
+      "Name": "MX_AMADAN",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\MX\\MX_AMADAN",
+      "GUID": "{6029E4B1-8B04-463B-8BF5-9A5BA4621901}"
+     },
+     {
+      "Id": "2607556080",
+      "Name": "MENU",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\UI\\MENU",
+      "GUID": "{127B5923-E5F3-4A07-88A1-03F5D8780E77}"
+     },
+     {
+      "Id": "3422337480",
+      "Name": "DX_LANDRY",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\DX\\DX_LANDRY",
+      "GUID": "{C0870839-A378-4B0C-A13F-6C75EA96473A}"
+     },
+     {
+      "Id": "3710512361",
+      "Name": "DX_CEDERARE",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\DX\\DX_CEDERARE",
+      "GUID": "{91E1218C-F98B-4F3A-AB7C-5A7CC6445457}"
+     },
+     {
+      "Id": "4056684167",
+      "Name": "MASTER",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
      }
     ],
@@ -500,6 +614,6 @@
     ]
    }
   ],
-  "FileHash": "{DE154961-966A-38EB-C515-2834212FF67C}"
+  "FileHash": "{7C487448-F6E1-2AEE-AA25-91DB20C780E3}"
  }
 }
