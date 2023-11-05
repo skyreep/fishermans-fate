@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}" SchemaVersion="110">
+	<Busses>
+		<WorkUnit Name="Scale_Game" ID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{871BDCD1-8779-4A50-BEA6-48C589C272F9}" WorkUnitID="{0DC84AC3-67F7-4213-A223-8188D3F508A2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="SFX" ID="{D694299A-C7DF-4B84-A54C-FB8501EA2F39}">
+							<ChildrenList>
+								<Bus Name="PLAYER" ID="{1BCA237D-61C0-4EDE-AC56-E79779BDD759}"/>
+								<Bus Name="AMBIENCE" ID="{F9659496-102B-4B94-823A-78B4042A4CC7}"/>
+								<Bus Name="EMITTERS" ID="{6563AFA8-162C-4EF4-B85B-0635888B6781}"/>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="DX" ID="{0E3EB6F5-F672-42A4-B452-13EBD4EFB74B}">
+							<ChildrenList>
+								<Bus Name="DX_LANDRY" ID="{C0870839-A378-4B0C-A13F-6C75EA96473A}">
+									<ChildrenList>
+										<Bus Name="VO" ID="{FEA204E4-3CD9-4DB9-81AA-F4E9F06C8D1D}"/>
+										<Bus Name="EFFORTS" ID="{AA2C8DE0-214C-43D6-B81D-B62C3B2BFC63}"/>
+									</ChildrenList>
+								</Bus>
+								<Bus Name="DX_SISARITH" ID="{041C3A94-60E0-486A-BB69-15355561EB68}"/>
+								<Bus Name="DX_CEDERARE" ID="{91E1218C-F98B-4F3A-AB7C-5A7CC6445457}"/>
+								<Bus Name="DX_EFTER" ID="{E42B2D65-D8D5-4B9B-91F0-D1032F4D0BDB}"/>
+								<Bus Name="DX_AMADAN" ID="{C2976B30-5BD7-4E17-BAFE-0FB23C04F886}"/>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="MX" ID="{753DD298-76AA-4A1C-B8E9-849DF6EE696E}">
+							<ChildrenList>
+								<Bus Name="MX_AMADAN" ID="{6029E4B1-8B04-463B-8BF5-9A5BA4621901}"/>
+								<Bus Name="MX_CEDERARE" ID="{D74E371B-4F22-457D-8F9D-7F2EBD9D3323}"/>
+								<Bus Name="MX_EFTER" ID="{67C11E52-7961-40D3-B8CF-0AEA299A7EEC}"/>
+								<Bus Name="MX_SISARITH" ID="{59E594F1-C824-461D-A112-5E73030B2587}"/>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="UI" ID="{40B69F9A-36B7-4EFC-8DE9-257A2D23BAC4}">
+							<ChildrenList>
+								<Bus Name="MENU" ID="{127B5923-E5F3-4A07-88A1-03F5D8780E77}"/>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>
