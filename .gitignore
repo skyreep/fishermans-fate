@@ -87,3 +87,7 @@ Export/*
 # Rider
 Plugins/Developer/RiderLink/Binaries/
 Plugins/Developer/RiderLink/Intermediate/
+
+# Don't ignore Wwise .dll and .lib files as these are needed for compiling
+!Plugins/Wwise/*.dll
+!Plugins/Wwise/*.lib
