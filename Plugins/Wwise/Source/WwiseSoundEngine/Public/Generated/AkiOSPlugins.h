@@ -16,9 +16,5 @@ Copyright (c) 2023 Audiokinetic Inc.
 *******************************************************************************/
 
 #if PLATFORM_IOS
-#include <AK/Plugin/AkSilenceSourceFactory.h>
-#include <AK/Plugin/AkParametricEQFXFactory.h>
-#include <AK/Plugin/AkStereoDelayFXFactory.h>
-#include <AK/Plugin/AkPitchShifterFXFactory.h>
-#include <AK/Plugin/AkSynthOneSourceFactory.h>
+
 #endif

@@ -4,41 +4,6 @@
   "BasePlatform": "Windows",
   "PluginLibs": [
    {
-    "LibName": "Wwise Silence",
-    "LibId": "6619138",
-    "Type": "Source",
-    "DLL": "AkSilenceGenerator",
-    "StaticLib": "AkSilenceSource"
-   },
-   {
-    "LibName": "Wwise Parametric EQ",
-    "LibId": "6881283",
-    "Type": "Effect",
-    "DLL": "AkParametricEQ",
-    "StaticLib": "AkParametricEQFX"
-   },
-   {
-    "LibName": "Wwise Stereo Delay",
-    "LibId": "8847363",
-    "Type": "Effect",
-    "DLL": "AkStereoDelay",
-    "StaticLib": "AkStereoDelayFX"
-   },
-   {
-    "LibName": "Wwise Pitch Shifter",
-    "LibId": "8912899",
-    "Type": "Effect",
-    "DLL": "AkPitchShifter",
-    "StaticLib": "AkPitchShifterFX"
-   },
-   {
-    "LibName": "Wwise Synth One",
-    "LibId": "9699330",
-    "Type": "Source",
-    "DLL": "AkSynthOne",
-    "StaticLib": "AkSynthOneSource"
-   },
-   {
     "LibName": "System",
     "LibId": "11403271",
     "Type": "AudioDevice"
@@ -49,6 +14,6 @@
     "Type": "AudioDevice"
    }
   ],
-  "FileHash": "{966D2F87-382A-428C-3F21-73973F3726F5}"
+  "FileHash": "{71F42CD2-2880-BF0B-D154-F41540A353AF}"
  }
 }
