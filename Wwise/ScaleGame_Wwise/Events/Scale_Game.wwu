@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{76CB56BA-7300-4FEF-A72F-E4CE3E173E81}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Scale_Game" ID="{76CB56BA-7300-4FEF-A72F-E4CE3E173E81}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="DX" ID="{BBA4FD3F-F0FF-4DCD-8609-EE5D17C4A129}" ShortID="984027361">
+					<ChildrenList>
+						<Folder Name="AM" ID="{80E3F462-ABB4-494E-B893-8B6D2851611B}" ShortID="319765608"/>
+						<Folder Name="CD" ID="{47768E05-77E1-4F63-ADA3-97ED26B21A1F}" ShortID="293721338"/>
+						<Folder Name="SI" ID="{8BA2E326-10D4-4713-A05B-635CB09F0A73}" ShortID="108815146"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="SFX" ID="{78227371-A984-4069-9F7A-13E74EFBAAC1}" ShortID="916286070">
+					<ChildrenList>
+						<Folder Name="AM" ID="{BC58754D-3D2F-47B6-9BAD-C5B2E754D599}" ShortID="95006278"/>
+						<Folder Name="CD" ID="{2FA76C60-199F-433D-8515-DA64AD7C9356}" ShortID="971588566"/>
+						<Folder Name="SI" ID="{A19CDA4C-FB3B-414E-B36A-B20933372798}" ShortID="973533485"/>
+						<Folder Name="PLAYER" ID="{6B15E315-CD26-4FB4-9A6D-CCC28B793578}" ShortID="228088513"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="UI" ID="{A4023210-9760-4ED2-BA5F-BA156626F49E}" ShortID="28412407"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

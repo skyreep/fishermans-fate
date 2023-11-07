@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FE97195E-9202-4A68-8654-D598E9BDBC35}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Scale_Game" ID="{FE97195E-9202-4A68-8654-D598E9BDBC35}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="IMPORT" ID="{DF81CF7E-F079-4DAF-85B7-731EAD4A3467}" ShortID="368074531">
+					<ChildrenList>
+						<Folder Name="Wylie" ID="{3288F7E1-3742-49BD-8519-1341B0CE9555}" ShortID="422929140"/>
+						<Folder Name="Lauda" ID="{59F7183C-2E7D-4CB3-A2EC-97F7F15A692B}" ShortID="882152346"/>
+						<Folder Name="Aidan" ID="{091DD541-8962-4060-95FA-0C3D25150859}" ShortID="1015703150"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="SFX" ID="{BA68AB05-E806-4954-9646-2C87521890D6}" ShortID="832016092">
+					<ChildrenList>
+						<Folder Name="SI" ID="{F2274D45-162C-4559-B2CC-95C083856610}" ShortID="892142587">
+							<ChildrenList>
+								<Folder Name="AMBIENCE" ID="{3CC2548C-3AF4-42ED-9C42-F5E2086597E6}" ShortID="1033393098"/>
+								<Folder Name="EMITTERS" ID="{5557A6DF-FAFE-40BB-940C-A82F69C0CC18}" ShortID="491126565"/>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="AM" ID="{348F4AA4-BD0A-44E6-BD45-3AE4E8A51F50}" ShortID="537924710">
+							<ChildrenList>
+								<Folder Name="AMBIENCE" ID="{04751222-BCB3-4291-9150-3F98171A099C}" ShortID="893814536"/>
+								<Folder Name="EMITTERS" ID="{EF6280AB-F349-477E-BF94-F7BE86BF8CAC}" ShortID="864403966"/>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="CD" ID="{39F3F740-F5D7-4043-BFAA-3F5A378A11EE}" ShortID="98002934">
+							<ChildrenList>
+								<Folder Name="AMBIENCE" ID="{F84F374F-B236-44B5-B0EF-6A8D386E74A5}" ShortID="497336499"/>
+								<Folder Name="EMITTERS" ID="{44DAE384-3508-4F76-9C92-805A132C8ED8}" ShortID="820021672"/>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="PLAYER" ID="{7CC807D3-9F3A-437B-8BB7-3CC336FB6C07}" ShortID="179494403">
+							<ChildrenList>
+								<Folder Name="Footsteps" ID="{07D522B8-A681-4185-90F8-32226A5CED52}" ShortID="528427405"/>
+								<Folder Name="Abilities" ID="{9CBC6721-CFCF-42F3-9AFE-81F3F7792B6D}" ShortID="928294450"/>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="UI" ID="{41AA2933-2523-4129-9B76-C7BF3499FA6F}" ShortID="872576863">
+					<ChildrenList>
+						<Folder Name="MENU" ID="{947B7E69-23EA-4DAA-AD22-EA761243D8DA}" ShortID="282326088"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="DX" ID="{398096D8-A547-4D60-8565-0AB0561C83F8}" ShortID="717808457">
+					<ChildrenList>
+						<Folder Name="AM" ID="{7A8AC09C-556B-49D7-9B2B-7803BE653CAD}" ShortID="888869598"/>
+						<Folder Name="CD" ID="{4185E3AF-BE3E-49AB-AB8E-155A91ED6EA6}" ShortID="611231422"/>
+						<Folder Name="SI" ID="{82277832-5578-4FB6-B942-856972942EBB}" ShortID="912244731"/>
+						<Folder Name="PLAYER" ID="{3579C0ED-53B6-4AE2-BF25-B6F4BB420F46}" ShortID="956664602"/>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
