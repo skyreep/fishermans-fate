@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2CBB1A4C-2327-4CB4-8527-FF6EEEA8957E}" SchemaVersion="110">
+	<Switches>
+		<WorkUnit Name="Scale_Game" ID="{2CBB1A4C-2327-4CB4-8527-FF6EEEA8957E}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Form" ID="{6B34F204-9AC5-4C47-B728-C6BBCDA66A98}">
+					<ChildrenList>
+						<Switch Name="Fire_Form" ID="{DF777A52-3A08-4C83-A610-8DDE12C21186}"/>
+						<Switch Name="Ice_Form" ID="{FCA3DDB7-33D8-4BDA-9495-4A6FCEB30E92}"/>
+						<Switch Name="Base_Form" ID="{7E67AF8A-75DD-492B-8BCC-8499F51EFE58}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<Folder Name="Footsteps" ID="{12CBB217-EBCB-4997-8973-C89580520C28}" ShortID="1021394221">
+					<ChildrenList>
+						<SwitchGroup Name="Surfaces" ID="{F9DF1E7E-B488-4E02-9259-0AA9E9122922}">
+							<ChildrenList>
+								<Switch Name="Grass" ID="{0C94A94C-E6AE-4818-8212-39A05454FD13}"/>
+								<Switch Name="Stone" ID="{EA23D431-D524-4E95-B3D5-98F351E22ABC}"/>
+								<Switch Name="Metal" ID="{0E81217E-5D7D-42D0-AED6-D679BD01FA58}"/>
+								<Switch Name="Snow" ID="{D3863FAA-D83D-40D1-8477-DE7064397BF7}"/>
+								<Switch Name="Ice" ID="{682C7814-C55A-4A8D-BF7A-493474F9AB94}"/>
+							</ChildrenList>
+						</SwitchGroup>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>
