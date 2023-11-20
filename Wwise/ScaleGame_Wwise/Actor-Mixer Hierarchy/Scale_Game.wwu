@@ -32,8 +32,124 @@
 						</Folder>
 						<Folder Name="PLAYER" ID="{7CC807D3-9F3A-437B-8BB7-3CC336FB6C07}" ShortID="179494403">
 							<ChildrenList>
-								<Folder Name="Footsteps" ID="{07D522B8-A681-4185-90F8-32226A5CED52}" ShortID="528427405"/>
-								<Folder Name="Abilities" ID="{9CBC6721-CFCF-42F3-9AFE-81F3F7792B6D}" ShortID="928294450"/>
+								<Folder Name="Footsteps" ID="{07D522B8-A681-4185-90F8-32226A5CED52}" ShortID="528427405">
+									<ChildrenList>
+										<SwitchContainer Name="Footsteps" ID="{9D86F9F4-53A9-4862-8397-3EB19C7AB025}" ShortID="588482950">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+												</Reference>
+												<Reference Name="DefaultSwitchOrState">
+													<ObjectRef Name="Base_Form" ID="{7E67AF8A-75DD-492B-8BCC-8499F51EFE58}" WorkUnitID="{2CBB1A4C-2327-4CB4-8527-FF6EEEA8957E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+												</Reference>
+												<Reference Name="SwitchGroupOrStateGroup">
+													<ObjectRef Name="Form" ID="{6B34F204-9AC5-4C47-B728-C6BBCDA66A98}" WorkUnitID="{2CBB1A4C-2327-4CB4-8527-FF6EEEA8957E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SwitchContainer Name="Base_Form" ID="{C7B7C851-CD1D-4CE8-B354-8A9244D076A4}" ShortID="34863798">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+														</Reference>
+														<Reference Name="DefaultSwitchOrState">
+															<ObjectRef Name="Stone" ID="{EA23D431-D524-4E95-B3D5-98F351E22ABC}" WorkUnitID="{2CBB1A4C-2327-4CB4-8527-FF6EEEA8957E}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+														</Reference>
+														<Reference Name="SwitchGroupOrStateGroup">
+															<ObjectRef Name="Surfaces" ID="{F9DF1E7E-B488-4E02-9259-0AA9E9122922}" WorkUnitID="{2CBB1A4C-2327-4CB4-8527-FF6EEEA8957E}"/>
+														</Reference>
+													</ReferenceList>
+													<GroupingInfo/>
+												</SwitchContainer>
+												<SwitchContainer Name="Fire_Form" ID="{9F80D4EB-C32D-4E98-A367-994FC760A304}" ShortID="88671743">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+														</Reference>
+														<Reference Name="DefaultSwitchOrState">
+															<ObjectRef Name="Stone" ID="{EA23D431-D524-4E95-B3D5-98F351E22ABC}" WorkUnitID="{2CBB1A4C-2327-4CB4-8527-FF6EEEA8957E}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+														</Reference>
+														<Reference Name="SwitchGroupOrStateGroup">
+															<ObjectRef Name="Surfaces" ID="{F9DF1E7E-B488-4E02-9259-0AA9E9122922}" WorkUnitID="{2CBB1A4C-2327-4CB4-8527-FF6EEEA8957E}"/>
+														</Reference>
+													</ReferenceList>
+													<GroupingInfo/>
+												</SwitchContainer>
+												<SwitchContainer Name="Ice_Form" ID="{6A31FFC2-AC83-4899-BD94-05587C619052}" ShortID="783593804">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+														</Reference>
+														<Reference Name="DefaultSwitchOrState">
+															<ObjectRef Name="Stone" ID="{EA23D431-D524-4E95-B3D5-98F351E22ABC}" WorkUnitID="{2CBB1A4C-2327-4CB4-8527-FF6EEEA8957E}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+														</Reference>
+														<Reference Name="SwitchGroupOrStateGroup">
+															<ObjectRef Name="Surfaces" ID="{F9DF1E7E-B488-4E02-9259-0AA9E9122922}" WorkUnitID="{2CBB1A4C-2327-4CB4-8527-FF6EEEA8957E}"/>
+														</Reference>
+													</ReferenceList>
+													<GroupingInfo/>
+												</SwitchContainer>
+											</ChildrenList>
+											<GroupingInfo>
+												<GroupingBehaviorList>
+													<GroupingBehavior>
+														<ItemRef Name="Base_Form" ID="{C7B7C851-CD1D-4CE8-B354-8A9244D076A4}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="Ice_Form" ID="{6A31FFC2-AC83-4899-BD94-05587C619052}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="Fire_Form" ID="{9F80D4EB-C32D-4E98-A367-994FC760A304}"/>
+													</GroupingBehavior>
+												</GroupingBehaviorList>
+												<GroupingList>
+													<Grouping>
+														<SwitchRef Name="Base_Form" ID="{7E67AF8A-75DD-492B-8BCC-8499F51EFE58}"/>
+														<ItemList>
+															<ItemRef Name="Base_Form" ID="{C7B7C851-CD1D-4CE8-B354-8A9244D076A4}"/>
+														</ItemList>
+													</Grouping>
+												</GroupingList>
+											</GroupingInfo>
+										</SwitchContainer>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Abilities" ID="{9CBC6721-CFCF-42F3-9AFE-81F3F7792B6D}" ShortID="928294450">
+									<ChildrenList>
+										<RandomSequenceContainer Name="Player_Ability_BaseToHot" ID="{3C97C71E-BD80-4881-A609-29A62E435A21}" ShortID="887166248">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+												</Reference>
+											</ReferenceList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Player_Ability_BaseToCold" ID="{262F2A10-AD67-4EDB-9ABF-A2CB98A55840}" ShortID="51908674">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+												</Reference>
+											</ReferenceList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

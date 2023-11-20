@@ -15,7 +15,56 @@
 						<Folder Name="AM" ID="{BC58754D-3D2F-47B6-9BAD-C5B2E754D599}" ShortID="95006278"/>
 						<Folder Name="CD" ID="{2FA76C60-199F-433D-8515-DA64AD7C9356}" ShortID="971588566"/>
 						<Folder Name="SI" ID="{A19CDA4C-FB3B-414E-B36A-B20933372798}" ShortID="973533485"/>
-						<Folder Name="PLAYER" ID="{6B15E315-CD26-4FB4-9A6D-CCC28B793578}" ShortID="228088513"/>
+						<Folder Name="PLAYER" ID="{6B15E315-CD26-4FB4-9A6D-CCC28B793578}" ShortID="228088513">
+							<ChildrenList>
+								<Folder Name="ABILITIES" ID="{4DD86BF1-DB86-401E-96C1-9D90C51200FD}" ShortID="494311608">
+									<ChildrenList>
+										<Event Name="BaseToHot" ID="{40530FCD-F9DA-465A-A2D2-1349C8136310}">
+											<ChildrenList>
+												<Action Name="" ID="{0647A5A8-D1B4-4D60-8FF7-AA68B68C9F3D}" ShortID="86743703">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="23"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Fire_Form" ID="{DF777A52-3A08-4C83-A610-8DDE12C21186}" WorkUnitID="{2CBB1A4C-2327-4CB4-8527-FF6EEEA8957E}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{47308893-B262-4D97-8D15-17B1AD0FD88E}" ShortID="621267411">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Player_Ability_BaseToHot" ID="{3C97C71E-BD80-4881-A609-29A62E435A21}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="BaseToCold" ID="{E6F27384-46D8-41F2-9B7A-95CE05FE1A13}">
+											<ChildrenList>
+												<Action Name="" ID="{8E40BF8C-9CA5-405D-8DD0-EF2A910FC7B2}" ShortID="314322802">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="23"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Ice_Form" ID="{FCA3DDB7-33D8-4BDA-9495-4A6FCEB30E92}" WorkUnitID="{2CBB1A4C-2327-4CB4-8527-FF6EEEA8957E}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{0FA0F047-20F6-4F3F-AA53-AE3B8FB43B25}" ShortID="985204468">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Player_Ability_BaseToCold" ID="{262F2A10-AD67-4EDB-9ABF-A2CB98A55840}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="UI" ID="{A4023210-9760-4ED2-BA5F-BA156626F49E}" ShortID="28412407"/>
