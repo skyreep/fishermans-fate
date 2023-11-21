@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{EB1970BA-36C2-43C1-86B8-76AC2A54EDF2}" SchemaVersion="110">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{EB1970BA-36C2-43C1-86B8-76AC2A54EDF2}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{EB1970BA-36C2-43C1-86B8-76AC2A54EDF2}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Footstep_Tests" ID="{8A536699-61B8-415A-A6FE-2225CC73D58D}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="SFX_PlayFootstep" ID="{5895F1CF-136D-416A-8913-2B0DBFFB1A76}" WorkUnitID="{76CB56BA-7300-4FEF-A72F-E4CE3E173E81}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Stone" ID="{EA23D431-D524-4E95-B3D5-98F351E22ABC}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>
