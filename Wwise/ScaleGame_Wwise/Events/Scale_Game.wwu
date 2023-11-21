@@ -63,6 +63,21 @@
 										</Event>
 									</ChildrenList>
 								</Folder>
+								<Folder Name="FOOTSTEPS" ID="{5E283223-8AD7-41E9-AE35-59D6AD66FE55}" ShortID="202993952">
+									<ChildrenList>
+										<Event Name="SFX_PlayFootstep" ID="{5895F1CF-136D-416A-8913-2B0DBFFB1A76}">
+											<ChildrenList>
+												<Action Name="" ID="{407574FE-1174-48C7-B2FD-7D870066996C}" ShortID="875280636">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Footsteps" ID="{9D86F9F4-53A9-4862-8397-3EB19C7AB025}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

@@ -1,0 +1,19 @@
+Event	ID	Name			Wwise Object Path	Notes
+	753980219	BaseToCold			\Scale_Game\SFX\PLAYER\ABILITIES\BaseToCold	
+	2264193906	BaseToHot			\Scale_Game\SFX\PLAYER\ABILITIES\BaseToHot	
+	3302377865	SFX_PlayFootstep			\Scale_Game\SFX\PLAYER\FOOTSTEPS\SFX_PlayFootstep	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2947616871	Form			\Scale_Game\Form	
+	3714303081	Surfaces			\Scale_Game\Footsteps\Surfaces	
+
+Switch	ID	Name	Switch Group			Notes
+	699461374	Fire_Form	Form			
+	3283007359	Ice_Form	Form			
+	3977289983	Base_Form	Form			
+	344481046	Ice	Surfaces			
+	787898836	Snow	Surfaces			
+	1216965916	Stone	Surfaces			
+	2473969246	Metal	Surfaces			
+	4248645337	Grass	Surfaces			
+

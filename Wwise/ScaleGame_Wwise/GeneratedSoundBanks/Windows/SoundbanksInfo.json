@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{081E5AF0-035A-FD93-4095-7F36D537C9C8}",
+    "Hash": "{AA40A463-535F-484F-740C-87FA93EBD46E}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -224,6 +224,72 @@
       "Name": "SS_Air_Turbulence",
       "ObjectPath": "\\Game Parameters\\Factory Soundseed Air Game Syncs\\SS_Air_Turbulence",
       "GUID": "{EDA87B19-73AA-40A0-9F19-2073606DB710}"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2947616871",
+      "Name": "Form",
+      "ObjectPath": "\\Switches\\Scale_Game\\Form",
+      "GUID": "{6B34F204-9AC5-4C47-B728-C6BBCDA66A98}",
+      "Switches": [
+       {
+        "Id": "699461374",
+        "Name": "Fire_Form",
+        "ObjectPath": "\\Switches\\Scale_Game\\Form\\Fire_Form",
+        "GUID": "{DF777A52-3A08-4C83-A610-8DDE12C21186}"
+       },
+       {
+        "Id": "3283007359",
+        "Name": "Ice_Form",
+        "ObjectPath": "\\Switches\\Scale_Game\\Form\\Ice_Form",
+        "GUID": "{FCA3DDB7-33D8-4BDA-9495-4A6FCEB30E92}"
+       },
+       {
+        "Id": "3977289983",
+        "Name": "Base_Form",
+        "ObjectPath": "\\Switches\\Scale_Game\\Form\\Base_Form",
+        "GUID": "{7E67AF8A-75DD-492B-8BCC-8499F51EFE58}"
+       }
+      ]
+     },
+     {
+      "Id": "3714303081",
+      "Name": "Surfaces",
+      "ObjectPath": "\\Switches\\Scale_Game\\Footsteps\\Surfaces",
+      "GUID": "{F9DF1E7E-B488-4E02-9259-0AA9E9122922}",
+      "Switches": [
+       {
+        "Id": "344481046",
+        "Name": "Ice",
+        "ObjectPath": "\\Switches\\Scale_Game\\Footsteps\\Surfaces\\Ice",
+        "GUID": "{682C7814-C55A-4A8D-BF7A-493474F9AB94}"
+       },
+       {
+        "Id": "787898836",
+        "Name": "Snow",
+        "ObjectPath": "\\Switches\\Scale_Game\\Footsteps\\Surfaces\\Snow",
+        "GUID": "{D3863FAA-D83D-40D1-8477-DE7064397BF7}"
+       },
+       {
+        "Id": "1216965916",
+        "Name": "Stone",
+        "ObjectPath": "\\Switches\\Scale_Game\\Footsteps\\Surfaces\\Stone",
+        "GUID": "{EA23D431-D524-4E95-B3D5-98F351E22ABC}"
+       },
+       {
+        "Id": "2473969246",
+        "Name": "Metal",
+        "ObjectPath": "\\Switches\\Scale_Game\\Footsteps\\Surfaces\\Metal",
+        "GUID": "{0E81217E-5D7D-42D0-AED6-D679BD01FA58}"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Scale_Game\\Footsteps\\Surfaces\\Grass",
+        "GUID": "{0C94A94C-E6AE-4818-8212-39A05454FD13}"
+       }
+      ]
      }
     ],
     "AcousticTextures": [
@@ -622,138 +688,130 @@
     ]
    },
    {
-    "Id": "1472884630",
+    "Id": "3161908922",
     "Type": "User",
-    "GUID": "{3B8943E3-200E-4A4C-8B67-D7D31C96716E}",
+    "GUID": "{181571D8-5C1B-4B16-A2F1-3E5A021A1A77}",
     "Language": "SFX",
-    "Hash": "{5D290143-1E8D-5463-357F-51B7AC01E64F}",
-    "ObjectPath": "\\SoundBanks\\Scale_Game\\Scale_Game",
-    "ShortName": "Scale_Game",
-    "Path": "Scale_Game.bnk",
-    "Busses": [
+    "Hash": "{E4C32002-BDC7-269C-4F21-287204A8CA5A}",
+    "ObjectPath": "\\SoundBanks\\Scale_Game\\Main",
+    "ShortName": "Main",
+    "Path": "Main.bnk",
+    "Events": [
      {
-      "Id": "85412153",
-      "Name": "AMBIENCE",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\SFX\\AMBIENCE",
-      "GUID": "{F9659496-102B-4B94-823A-78B4042A4CC7}"
+      "Id": "753980219",
+      "Name": "BaseToCold",
+      "ObjectPath": "\\Events\\Scale_Game\\SFX\\PLAYER\\ABILITIES\\BaseToCold",
+      "GUID": "{E6F27384-46D8-41F2-9B7A-95CE05FE1A13}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetSwitch": [
+       {
+        "GroupId": "2947616871",
+        "Id": "3283007359",
+        "Name": "Ice_Form",
+        "ObjectPath": "\\Switches\\Scale_Game\\Form\\Ice_Form",
+        "GUID": "{FCA3DDB7-33D8-4BDA-9495-4A6FCEB30E92}"
+       }
+      ]
      },
      {
-      "Id": "92861911",
-      "Name": "DX_SISARITH",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\DX\\DX_SISARITH",
-      "GUID": "{041C3A94-60E0-486A-BB69-15355561EB68}"
+      "Id": "2264193906",
+      "Name": "BaseToHot",
+      "ObjectPath": "\\Events\\Scale_Game\\SFX\\PLAYER\\ABILITIES\\BaseToHot",
+      "GUID": "{40530FCD-F9DA-465A-A2D2-1349C8136310}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetSwitch": [
+       {
+        "GroupId": "2947616871",
+        "Id": "699461374",
+        "Name": "Fire_Form",
+        "ObjectPath": "\\Switches\\Scale_Game\\Form\\Fire_Form",
+        "GUID": "{DF777A52-3A08-4C83-A610-8DDE12C21186}"
+       }
+      ]
      },
      {
-      "Id": "393239870",
-      "Name": "SFX",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\SFX",
-      "GUID": "{D694299A-C7DF-4B84-A54C-FB8501EA2F39}"
+      "Id": "3302377865",
+      "Name": "SFX_PlayFootstep",
+      "ObjectPath": "\\Events\\Scale_Game\\SFX\\PLAYER\\FOOTSTEPS\\SFX_PlayFootstep",
+      "GUID": "{5895F1CF-136D-416A-8913-2B0DBFFB1A76}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "SwitchContainers": []
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2947616871",
+      "Name": "Form",
+      "ObjectPath": "\\Switches\\Scale_Game\\Form",
+      "GUID": "{6B34F204-9AC5-4C47-B728-C6BBCDA66A98}",
+      "Switches": [
+       {
+        "Id": "699461374",
+        "Name": "Fire_Form",
+        "ObjectPath": "\\Switches\\Scale_Game\\Form\\Fire_Form",
+        "GUID": "{DF777A52-3A08-4C83-A610-8DDE12C21186}"
+       },
+       {
+        "Id": "3283007359",
+        "Name": "Ice_Form",
+        "ObjectPath": "\\Switches\\Scale_Game\\Form\\Ice_Form",
+        "GUID": "{FCA3DDB7-33D8-4BDA-9495-4A6FCEB30E92}"
+       },
+       {
+        "Id": "3977289983",
+        "Name": "Base_Form",
+        "ObjectPath": "\\Switches\\Scale_Game\\Form\\Base_Form",
+        "GUID": "{7E67AF8A-75DD-492B-8BCC-8499F51EFE58}"
+       }
+      ]
      },
      {
-      "Id": "612957004",
-      "Name": "EMITTERS",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\SFX\\EMITTERS",
-      "GUID": "{6563AFA8-162C-4EF4-B85B-0635888B6781}"
-     },
-     {
-      "Id": "640021946",
-      "Name": "EFFORTS",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\DX\\DX_LANDRY\\EFFORTS",
-      "GUID": "{AA2C8DE0-214C-43D6-B81D-B62C3B2BFC63}"
-     },
-     {
-      "Id": "1069431850",
-      "Name": "PLAYER",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\SFX\\PLAYER",
-      "GUID": "{1BCA237D-61C0-4EDE-AC56-E79779BDD759}"
-     },
-     {
-      "Id": "1468218592",
-      "Name": "DX_AMADAN",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\DX\\DX_AMADAN",
-      "GUID": "{C2976B30-5BD7-4E17-BAFE-0FB23C04F886}"
-     },
-     {
-      "Id": "1504787782",
-      "Name": "DX_EFTER",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\DX\\DX_EFTER",
-      "GUID": "{E42B2D65-D8D5-4B9B-91F0-D1032F4D0BDB}"
-     },
-     {
-      "Id": "1534528548",
-      "Name": "VO",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\DX\\DX_LANDRY\\VO",
-      "GUID": "{FEA204E4-3CD9-4DB9-81AA-F4E9F06C8D1D}"
-     },
-     {
-      "Id": "1551306167",
-      "Name": "UI",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\UI",
-      "GUID": "{40B69F9A-36B7-4EFC-8DE9-257A2D23BAC4}"
-     },
-     {
-      "Id": "1587414417",
-      "Name": "MX_EFTER",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\MX\\MX_EFTER",
-      "GUID": "{67C11E52-7961-40D3-B8CF-0AEA299A7EEC}"
-     },
-     {
-      "Id": "1685527054",
-      "Name": "MX",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\MX",
-      "GUID": "{753DD298-76AA-4A1C-B8E9-849DF6EE696E}"
-     },
-     {
-      "Id": "1687182458",
-      "Name": "MX_SISARITH",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\MX\\MX_SISARITH",
-      "GUID": "{59E594F1-C824-461D-A112-5E73030B2587}"
-     },
-     {
-      "Id": "1751122160",
-      "Name": "MX_CEDERARE",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\MX\\MX_CEDERARE",
-      "GUID": "{D74E371B-4F22-457D-8F9D-7F2EBD9D3323}"
-     },
-     {
-      "Id": "1836525785",
-      "Name": "DX",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\DX",
-      "GUID": "{0E3EB6F5-F672-42A4-B452-13EBD4EFB74B}"
-     },
-     {
-      "Id": "2096227861",
-      "Name": "MX_AMADAN",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\MX\\MX_AMADAN",
-      "GUID": "{6029E4B1-8B04-463B-8BF5-9A5BA4621901}"
-     },
-     {
-      "Id": "2607556080",
-      "Name": "MENU",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\UI\\MENU",
-      "GUID": "{127B5923-E5F3-4A07-88A1-03F5D8780E77}"
-     },
-     {
-      "Id": "3422337480",
-      "Name": "DX_LANDRY",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\DX\\DX_LANDRY",
-      "GUID": "{C0870839-A378-4B0C-A13F-6C75EA96473A}"
-     },
-     {
-      "Id": "3710512361",
-      "Name": "DX_CEDERARE",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\DX\\DX_CEDERARE",
-      "GUID": "{91E1218C-F98B-4F3A-AB7C-5A7CC6445457}"
-     },
-     {
-      "Id": "4056684167",
-      "Name": "MASTER",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER",
-      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+      "Id": "3714303081",
+      "Name": "Surfaces",
+      "ObjectPath": "\\Switches\\Scale_Game\\Footsteps\\Surfaces",
+      "GUID": "{F9DF1E7E-B488-4E02-9259-0AA9E9122922}",
+      "Switches": [
+       {
+        "Id": "344481046",
+        "Name": "Ice",
+        "ObjectPath": "\\Switches\\Scale_Game\\Footsteps\\Surfaces\\Ice",
+        "GUID": "{682C7814-C55A-4A8D-BF7A-493474F9AB94}"
+       },
+       {
+        "Id": "787898836",
+        "Name": "Snow",
+        "ObjectPath": "\\Switches\\Scale_Game\\Footsteps\\Surfaces\\Snow",
+        "GUID": "{D3863FAA-D83D-40D1-8477-DE7064397BF7}"
+       },
+       {
+        "Id": "1216965916",
+        "Name": "Stone",
+        "ObjectPath": "\\Switches\\Scale_Game\\Footsteps\\Surfaces\\Stone",
+        "GUID": "{EA23D431-D524-4E95-B3D5-98F351E22ABC}"
+       },
+       {
+        "Id": "2473969246",
+        "Name": "Metal",
+        "ObjectPath": "\\Switches\\Scale_Game\\Footsteps\\Surfaces\\Metal",
+        "GUID": "{0E81217E-5D7D-42D0-AED6-D679BD01FA58}"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Scale_Game\\Footsteps\\Surfaces\\Grass",
+        "GUID": "{0C94A94C-E6AE-4818-8212-39A05454FD13}"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{DF75ADB8-982E-FE9E-657C-14C1E069CE14}"
+  "FileHash": "{F881F203-A3B7-4CBD-29F7-EAC42E22D32C}"
  }
 }
