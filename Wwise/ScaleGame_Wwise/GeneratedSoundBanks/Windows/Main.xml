@@ -1,10 +1,332 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{181571D8-5C1B-4B16-A2F1-3E5A021A1A77}" Language="SFX" Hash="{E4C32002-BDC7-269C-4F21-287204A8CA5A}">
+		<SoundBank Id="3161908922" Type="User" GUID="{181571D8-5C1B-4B16-A2F1-3E5A021A1A77}" Language="SFX" Hash="{7EEA94FE-2613-07C4-0A16-CE8AABB902FB}">
 			<ObjectPath>\SoundBanks\Scale_Game\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="49495630" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_01.wav</ShortName>
+					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="50240114" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_19.wav</ShortName>
+					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_19_10C4C929.wem</CachePath>
+				</File>
+				<File Id="50793692" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_14.wav</ShortName>
+					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_14_10C4C929.wem</CachePath>
+				</File>
+				<File Id="78787271" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Landings\SFX_UNI_Player_Land_BaseForm_Metal_02.wav</ShortName>
+					<CachePath>SFX/Landings/SFX_UNI_Player_Land_BaseForm_Metal_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="93955131" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Stone\SFX_UNI_Player_Footstep_BaseForm_Stone_02.wav</ShortName>
+					<CachePath>SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="101375614" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Snow\SFX_UNI_Player_Footstep_BaseForm_Snow_12.wav</ShortName>
+					<CachePath>SFX/Footsteps/Snow/SFX_UNI_Player_Footstep_BaseForm_Snow_12_10C4C929.wem</CachePath>
+				</File>
+				<File Id="143937575" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Stone\SFX_UNI_Player_Footstep_BaseForm_Stone_09.wav</ShortName>
+					<CachePath>SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="145471257" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Metal\SFX_UNI_Player_Footstep_BaseForm_Metal_07.wav</ShortName>
+					<CachePath>SFX/Footsteps/Metal/SFX_UNI_Player_Footstep_BaseForm_Metal_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="164934613" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Stone\SFX_UNI_Player_Footstep_BaseForm_Stone_07.wav</ShortName>
+					<CachePath>SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="173408922" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_03.wav</ShortName>
+					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="196646842" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Metal\SFX_UNI_Player_Footstep_BaseForm_Metal_04.wav</ShortName>
+					<CachePath>SFX/Footsteps/Metal/SFX_UNI_Player_Footstep_BaseForm_Metal_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="199128518" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_16.wav</ShortName>
+					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_16_10C4C929.wem</CachePath>
+				</File>
+				<File Id="206857669" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_17.wav</ShortName>
+					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_17_10C4C929.wem</CachePath>
+				</File>
+				<File Id="221138683" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Stone\SFX_UNI_Player_Footstep_BaseForm_Stone_17.wav</ShortName>
+					<CachePath>SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_17_10C4C929.wem</CachePath>
+				</File>
+				<File Id="237203416" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Snow\SFX_UNI_Player_Footstep_BaseForm_Snow_09.wav</ShortName>
+					<CachePath>SFX/Footsteps/Snow/SFX_UNI_Player_Footstep_BaseForm_Snow_09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="242388446" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Metal\SFX_UNI_Player_Footstep_BaseForm_Metal_01.wav</ShortName>
+					<CachePath>SFX/Footsteps/Metal/SFX_UNI_Player_Footstep_BaseForm_Metal_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="275344003" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Landings\SFX_UNI_Player_Land_BaseForm_Grass_01.wav</ShortName>
+					<CachePath>SFX/Landings/SFX_UNI_Player_Land_BaseForm_Grass_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="293491081" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Stone\SFX_UNI_Player_Footstep_BaseForm_Stone_04.wav</ShortName>
+					<CachePath>SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="302948468" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_18.wav</ShortName>
+					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_18_10C4C929.wem</CachePath>
+				</File>
+				<File Id="314209416" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Snow\SFX_UNI_Player_Footstep_BaseForm_Snow_06.wav</ShortName>
+					<CachePath>SFX/Footsteps/Snow/SFX_UNI_Player_Footstep_BaseForm_Snow_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="317789159" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Snow\SFX_UNI_Player_Footstep_BaseForm_Snow_02.wav</ShortName>
+					<CachePath>SFX/Footsteps/Snow/SFX_UNI_Player_Footstep_BaseForm_Snow_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="321938921" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Landings\SFX_UNI_Player_Land_BaseForm_Metal_04.wav</ShortName>
+					<CachePath>SFX/Landings/SFX_UNI_Player_Land_BaseForm_Metal_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="328172047" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Stone\SFX_UNI_Player_Footstep_BaseForm_Stone_10.wav</ShortName>
+					<CachePath>SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="349560223" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Stone\SFX_UNI_Player_Footstep_BaseForm_Stone_12.wav</ShortName>
+					<CachePath>SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_12_10C4C929.wem</CachePath>
+				</File>
+				<File Id="404173135" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Stone\SFX_UNI_Player_Footstep_BaseForm_Stone_15.wav</ShortName>
+					<CachePath>SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_15_10C4C929.wem</CachePath>
+				</File>
+				<File Id="414511005" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Metal\SFX_UNI_Player_Footstep_BaseForm_Metal_09.wav</ShortName>
+					<CachePath>SFX/Footsteps/Metal/SFX_UNI_Player_Footstep_BaseForm_Metal_09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="431562899" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Snow\SFX_UNI_Player_Footstep_BaseForm_Snow_15.wav</ShortName>
+					<CachePath>SFX/Footsteps/Snow/SFX_UNI_Player_Footstep_BaseForm_Snow_15_10C4C929.wem</CachePath>
+				</File>
+				<File Id="437371362" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Stone\SFX_UNI_Player_Footstep_BaseForm_Stone_05.wav</ShortName>
+					<CachePath>SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="466562833" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Landings\SFX_UNI_Player_Land_BaseForm_Snow_04.wav</ShortName>
+					<CachePath>SFX/Landings/SFX_UNI_Player_Land_BaseForm_Snow_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="482753125" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Stone\SFX_UNI_Player_Footstep_BaseForm_Stone_16.wav</ShortName>
+					<CachePath>SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_16_10C4C929.wem</CachePath>
+				</File>
+				<File Id="497630648" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Landings\SFX_UNI_Player_Land_BaseForm_Stone_04.wav</ShortName>
+					<CachePath>SFX/Landings/SFX_UNI_Player_Land_BaseForm_Stone_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="498237780" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_12.wav</ShortName>
+					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_12_10C4C929.wem</CachePath>
+				</File>
+				<File Id="500032320" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_06.wav</ShortName>
+					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="525095255" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Snow\SFX_UNI_Player_Footstep_BaseForm_Snow_07.wav</ShortName>
+					<CachePath>SFX/Footsteps/Snow/SFX_UNI_Player_Footstep_BaseForm_Snow_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="527518421" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Stone\SFX_UNI_Player_Footstep_BaseForm_Stone_06.wav</ShortName>
+					<CachePath>SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="530167634" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Snow\SFX_UNI_Player_Footstep_BaseForm_Snow_08.wav</ShortName>
+					<CachePath>SFX/Footsteps/Snow/SFX_UNI_Player_Footstep_BaseForm_Snow_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="531867341" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_10.wav</ShortName>
+					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="542086802" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Stone\SFX_UNI_Player_Footstep_BaseForm_Stone_13.wav</ShortName>
+					<CachePath>SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_13_10C4C929.wem</CachePath>
+				</File>
+				<File Id="563854850" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Snow\SFX_UNI_Player_Footstep_BaseForm_Snow_10.wav</ShortName>
+					<CachePath>SFX/Footsteps/Snow/SFX_UNI_Player_Footstep_BaseForm_Snow_10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="575083913" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Landings\SFX_UNI_Player_Land_BaseForm_Snow_03.wav</ShortName>
+					<CachePath>SFX/Landings/SFX_UNI_Player_Land_BaseForm_Snow_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="594487904" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Landings\SFX_UNI_Player_Land_BaseForm_Stone_01.wav</ShortName>
+					<CachePath>SFX/Landings/SFX_UNI_Player_Land_BaseForm_Stone_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="620257089" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Snow\SFX_UNI_Player_Footstep_BaseForm_Snow_04.wav</ShortName>
+					<CachePath>SFX/Footsteps/Snow/SFX_UNI_Player_Footstep_BaseForm_Snow_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="628836744" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Landings\SFX_UNI_Player_Land_BaseForm_Stone_02.wav</ShortName>
+					<CachePath>SFX/Landings/SFX_UNI_Player_Land_BaseForm_Stone_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="654005851" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_15.wav</ShortName>
+					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_15_10C4C929.wem</CachePath>
+				</File>
+				<File Id="669932054" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Stone\SFX_UNI_Player_Footstep_BaseForm_Stone_14.wav</ShortName>
+					<CachePath>SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_14_10C4C929.wem</CachePath>
+				</File>
+				<File Id="679662746" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_08.wav</ShortName>
+					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="679892057" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Snow\SFX_UNI_Player_Footstep_BaseForm_Snow_13.wav</ShortName>
+					<CachePath>SFX/Footsteps/Snow/SFX_UNI_Player_Footstep_BaseForm_Snow_13_10C4C929.wem</CachePath>
+				</File>
+				<File Id="694395620" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Stone\SFX_UNI_Player_Footstep_BaseForm_Stone_03.wav</ShortName>
+					<CachePath>SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="735764247" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Landings\SFX_UNI_Player_Land_BaseForm_Stone_03.wav</ShortName>
+					<CachePath>SFX/Landings/SFX_UNI_Player_Land_BaseForm_Stone_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="736505251" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Landings\SFX_UNI_Player_Land_BaseForm_Metal_03.wav</ShortName>
+					<CachePath>SFX/Landings/SFX_UNI_Player_Land_BaseForm_Metal_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="745364906" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_02.wav</ShortName>
+					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="751119909" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Stone\SFX_UNI_Player_Footstep_BaseForm_Stone_01.wav</ShortName>
+					<CachePath>SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="755957384" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Stone\SFX_UNI_Player_Footstep_BaseForm_Stone_08.wav</ShortName>
+					<CachePath>SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="766442009" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Snow\SFX_UNI_Player_Footstep_BaseForm_Snow_14.wav</ShortName>
+					<CachePath>SFX/Footsteps/Snow/SFX_UNI_Player_Footstep_BaseForm_Snow_14_10C4C929.wem</CachePath>
+				</File>
+				<File Id="774912862" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Landings\SFX_UNI_Player_Land_BaseForm_Grass_02.wav</ShortName>
+					<CachePath>SFX/Landings/SFX_UNI_Player_Land_BaseForm_Grass_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="778317978" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_07.wav</ShortName>
+					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="791789816" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Snow\SFX_UNI_Player_Footstep_BaseForm_Snow_11.wav</ShortName>
+					<CachePath>SFX/Footsteps/Snow/SFX_UNI_Player_Footstep_BaseForm_Snow_11_10C4C929.wem</CachePath>
+				</File>
+				<File Id="802617084" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_05.wav</ShortName>
+					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="806431556" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Metal\SFX_UNI_Player_Footstep_BaseForm_Metal_02.wav</ShortName>
+					<CachePath>SFX/Footsteps/Metal/SFX_UNI_Player_Footstep_BaseForm_Metal_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="807512412" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Landings\SFX_UNI_Player_Land_BaseForm_Grass_04.wav</ShortName>
+					<CachePath>SFX/Landings/SFX_UNI_Player_Land_BaseForm_Grass_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="808195287" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Stone\SFX_UNI_Player_Footstep_BaseForm_Stone_18.wav</ShortName>
+					<CachePath>SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_18_10C4C929.wem</CachePath>
+				</File>
+				<File Id="814046876" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Metal\SFX_UNI_Player_Footstep_BaseForm_Metal_06.wav</ShortName>
+					<CachePath>SFX/Footsteps/Metal/SFX_UNI_Player_Footstep_BaseForm_Metal_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="825072310" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_04.wav</ShortName>
+					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="836303112" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_13.wav</ShortName>
+					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_13_10C4C929.wem</CachePath>
+				</File>
+				<File Id="855982724" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Metal\SFX_UNI_Player_Footstep_BaseForm_Metal_03.wav</ShortName>
+					<CachePath>SFX/Footsteps/Metal/SFX_UNI_Player_Footstep_BaseForm_Metal_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="857983961" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_09.wav</ShortName>
+					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="867309686" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Snow\SFX_UNI_Player_Footstep_BaseForm_Snow_16.wav</ShortName>
+					<CachePath>SFX/Footsteps/Snow/SFX_UNI_Player_Footstep_BaseForm_Snow_16_10C4C929.wem</CachePath>
+				</File>
+				<File Id="874093688" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Snow\SFX_UNI_Player_Footstep_BaseForm_Snow_05.wav</ShortName>
+					<CachePath>SFX/Footsteps/Snow/SFX_UNI_Player_Footstep_BaseForm_Snow_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="926540451" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Snow\SFX_UNI_Player_Footstep_BaseForm_Snow_01.wav</ShortName>
+					<CachePath>SFX/Footsteps/Snow/SFX_UNI_Player_Footstep_BaseForm_Snow_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="927415257" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Snow\SFX_UNI_Player_Footstep_BaseForm_Snow_17.wav</ShortName>
+					<CachePath>SFX/Footsteps/Snow/SFX_UNI_Player_Footstep_BaseForm_Snow_17_10C4C929.wem</CachePath>
+				</File>
+				<File Id="928052215" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Metal\SFX_UNI_Player_Footstep_BaseForm_Metal_08.wav</ShortName>
+					<CachePath>SFX/Footsteps/Metal/SFX_UNI_Player_Footstep_BaseForm_Metal_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="942843214" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Landings\SFX_UNI_Player_Land_BaseForm_Snow_01.wav</ShortName>
+					<CachePath>SFX/Landings/SFX_UNI_Player_Land_BaseForm_Snow_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="943342087" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Stone\SFX_UNI_Player_Footstep_BaseForm_Stone_11.wav</ShortName>
+					<CachePath>SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_11_10C4C929.wem</CachePath>
+				</File>
+				<File Id="951353149" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_11.wav</ShortName>
+					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_11_10C4C929.wem</CachePath>
+				</File>
+				<File Id="982618165" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Metal\SFX_UNI_Player_Footstep_BaseForm_Metal_10.wav</ShortName>
+					<CachePath>SFX/Footsteps/Metal/SFX_UNI_Player_Footstep_BaseForm_Metal_10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1010328572" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Landings\SFX_UNI_Player_Land_BaseForm_Grass_03.wav</ShortName>
+					<CachePath>SFX/Landings/SFX_UNI_Player_Land_BaseForm_Grass_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1022933934" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Metal\SFX_UNI_Player_Footstep_BaseForm_Metal_05.wav</ShortName>
+					<CachePath>SFX/Footsteps/Metal/SFX_UNI_Player_Footstep_BaseForm_Metal_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1038025620" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Snow\SFX_UNI_Player_Footstep_BaseForm_Snow_03.wav</ShortName>
+					<CachePath>SFX/Footsteps/Snow/SFX_UNI_Player_Footstep_BaseForm_Snow_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1046540910" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Landings\SFX_UNI_Player_Land_BaseForm_Snow_02.wav</ShortName>
+					<CachePath>SFX/Landings/SFX_UNI_Player_Land_BaseForm_Snow_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1050241607" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Landings\SFX_UNI_Player_Land_BaseForm_Metal_01.wav</ShortName>
+					<CachePath>SFX/Landings/SFX_UNI_Player_Land_BaseForm_Metal_01_10C4C929.wem</CachePath>
+				</File>
+			</Media>
 			<Events>
 				<Event Id="753980219" Name="BaseToCold" ObjectPath="\Events\Scale_Game\SFX\PLAYER\ABILITIES\BaseToCold" GUID="{E6F27384-46D8-41F2-9B7A-95CE05FE1A13}" DurationType="OneShot" DurationMin="0" DurationMax="0">
 					<ActionSetSwitch>
@@ -16,8 +338,273 @@
 						<ActionSetSwitchEntry GroupId="2947616871" Id="699461374" Name="Fire_Form" ObjectPath="\Switches\Scale_Game\Form\Fire_Form" GUID="{DF777A52-3A08-4C83-A610-8DDE12C21186}"/>
 					</ActionSetSwitch>
 				</Event>
-				<Event Id="3302377865" Name="SFX_PlayFootstep" ObjectPath="\Events\Scale_Game\SFX\PLAYER\FOOTSTEPS\SFX_PlayFootstep" GUID="{5895F1CF-136D-416A-8913-2B0DBFFB1A76}" DurationType="OneShot" DurationMin="0" DurationMax="0">
-					<SwitchContainers/>
+				<Event Id="3302377865" Name="SFX_PlayFootstep" ObjectPath="\Events\Scale_Game\SFX\PLAYER\FOOTSTEPS\SFX_PlayFootstep" GUID="{5895F1CF-136D-416A-8913-2B0DBFFB1A76}" DurationType="OneShot" DurationMin="0" DurationMax="0.9404375">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2947616871" Id="3977289983" GUID="{7E67AF8A-75DD-492B-8BCC-8499F51EFE58}" Default="true"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="3714303081" Id="1216965916" GUID="{EA23D431-D524-4E95-B3D5-98F351E22ABC}" Default="true"/>
+									<MediaRefs>
+										<MediaRef Id="93955131"/>
+										<MediaRef Id="143937575"/>
+										<MediaRef Id="164934613"/>
+										<MediaRef Id="221138683"/>
+										<MediaRef Id="293491081"/>
+										<MediaRef Id="328172047"/>
+										<MediaRef Id="349560223"/>
+										<MediaRef Id="404173135"/>
+										<MediaRef Id="437371362"/>
+										<MediaRef Id="482753125"/>
+										<MediaRef Id="527518421"/>
+										<MediaRef Id="542086802"/>
+										<MediaRef Id="669932054"/>
+										<MediaRef Id="694395620"/>
+										<MediaRef Id="751119909"/>
+										<MediaRef Id="755957384"/>
+										<MediaRef Id="808195287"/>
+										<MediaRef Id="943342087"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="3714303081" Id="4248645337" GUID="{0C94A94C-E6AE-4818-8212-39A05454FD13}"/>
+									<MediaRefs>
+										<MediaRef Id="49495630"/>
+										<MediaRef Id="50240114"/>
+										<MediaRef Id="50793692"/>
+										<MediaRef Id="173408922"/>
+										<MediaRef Id="199128518"/>
+										<MediaRef Id="206857669"/>
+										<MediaRef Id="302948468"/>
+										<MediaRef Id="498237780"/>
+										<MediaRef Id="500032320"/>
+										<MediaRef Id="531867341"/>
+										<MediaRef Id="654005851"/>
+										<MediaRef Id="679662746"/>
+										<MediaRef Id="745364906"/>
+										<MediaRef Id="778317978"/>
+										<MediaRef Id="802617084"/>
+										<MediaRef Id="825072310"/>
+										<MediaRef Id="836303112"/>
+										<MediaRef Id="857983961"/>
+										<MediaRef Id="951353149"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="3714303081" Id="2473969246" GUID="{0E81217E-5D7D-42D0-AED6-D679BD01FA58}"/>
+									<MediaRefs>
+										<MediaRef Id="145471257"/>
+										<MediaRef Id="196646842"/>
+										<MediaRef Id="242388446"/>
+										<MediaRef Id="414511005"/>
+										<MediaRef Id="806431556"/>
+										<MediaRef Id="814046876"/>
+										<MediaRef Id="855982724"/>
+										<MediaRef Id="928052215"/>
+										<MediaRef Id="982618165"/>
+										<MediaRef Id="1022933934"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="3714303081" Id="787898836" GUID="{D3863FAA-D83D-40D1-8477-DE7064397BF7}"/>
+									<MediaRefs>
+										<MediaRef Id="101375614"/>
+										<MediaRef Id="237203416"/>
+										<MediaRef Id="314209416"/>
+										<MediaRef Id="317789159"/>
+										<MediaRef Id="431562899"/>
+										<MediaRef Id="525095255"/>
+										<MediaRef Id="530167634"/>
+										<MediaRef Id="563854850"/>
+										<MediaRef Id="620257089"/>
+										<MediaRef Id="679892057"/>
+										<MediaRef Id="766442009"/>
+										<MediaRef Id="791789816"/>
+										<MediaRef Id="867309686"/>
+										<MediaRef Id="874093688"/>
+										<MediaRef Id="926540451"/>
+										<MediaRef Id="927415257"/>
+										<MediaRef Id="1038025620"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2947616871" Id="3977289983" GUID="{7E67AF8A-75DD-492B-8BCC-8499F51EFE58}" Default="true"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="3714303081" Id="1216965916" GUID="{EA23D431-D524-4E95-B3D5-98F351E22ABC}" Default="true"/>
+									<MediaRefs>
+										<MediaRef Id="93955131"/>
+										<MediaRef Id="143937575"/>
+										<MediaRef Id="164934613"/>
+										<MediaRef Id="221138683"/>
+										<MediaRef Id="293491081"/>
+										<MediaRef Id="328172047"/>
+										<MediaRef Id="349560223"/>
+										<MediaRef Id="404173135"/>
+										<MediaRef Id="437371362"/>
+										<MediaRef Id="482753125"/>
+										<MediaRef Id="527518421"/>
+										<MediaRef Id="542086802"/>
+										<MediaRef Id="669932054"/>
+										<MediaRef Id="694395620"/>
+										<MediaRef Id="751119909"/>
+										<MediaRef Id="755957384"/>
+										<MediaRef Id="808195287"/>
+										<MediaRef Id="943342087"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="3714303081" Id="4248645337" GUID="{0C94A94C-E6AE-4818-8212-39A05454FD13}"/>
+									<MediaRefs>
+										<MediaRef Id="49495630"/>
+										<MediaRef Id="50240114"/>
+										<MediaRef Id="50793692"/>
+										<MediaRef Id="173408922"/>
+										<MediaRef Id="199128518"/>
+										<MediaRef Id="206857669"/>
+										<MediaRef Id="302948468"/>
+										<MediaRef Id="498237780"/>
+										<MediaRef Id="500032320"/>
+										<MediaRef Id="531867341"/>
+										<MediaRef Id="654005851"/>
+										<MediaRef Id="679662746"/>
+										<MediaRef Id="745364906"/>
+										<MediaRef Id="778317978"/>
+										<MediaRef Id="802617084"/>
+										<MediaRef Id="825072310"/>
+										<MediaRef Id="836303112"/>
+										<MediaRef Id="857983961"/>
+										<MediaRef Id="951353149"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="3714303081" Id="2473969246" GUID="{0E81217E-5D7D-42D0-AED6-D679BD01FA58}"/>
+									<MediaRefs>
+										<MediaRef Id="145471257"/>
+										<MediaRef Id="196646842"/>
+										<MediaRef Id="242388446"/>
+										<MediaRef Id="414511005"/>
+										<MediaRef Id="806431556"/>
+										<MediaRef Id="814046876"/>
+										<MediaRef Id="855982724"/>
+										<MediaRef Id="928052215"/>
+										<MediaRef Id="982618165"/>
+										<MediaRef Id="1022933934"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="3714303081" Id="787898836" GUID="{D3863FAA-D83D-40D1-8477-DE7064397BF7}"/>
+									<MediaRefs>
+										<MediaRef Id="101375614"/>
+										<MediaRef Id="237203416"/>
+										<MediaRef Id="314209416"/>
+										<MediaRef Id="317789159"/>
+										<MediaRef Id="431562899"/>
+										<MediaRef Id="525095255"/>
+										<MediaRef Id="530167634"/>
+										<MediaRef Id="563854850"/>
+										<MediaRef Id="620257089"/>
+										<MediaRef Id="679892057"/>
+										<MediaRef Id="766442009"/>
+										<MediaRef Id="791789816"/>
+										<MediaRef Id="867309686"/>
+										<MediaRef Id="874093688"/>
+										<MediaRef Id="926540451"/>
+										<MediaRef Id="927415257"/>
+										<MediaRef Id="1038025620"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3321841820" Name="SFX_PlayLanding" ObjectPath="\Events\Scale_Game\SFX\PLAYER\FOOTSTEPS\SFX_PlayLanding" GUID="{DAA7A6D7-A772-4479-90AA-42544783BCA2}" DurationType="OneShot" DurationMin="0" DurationMax="0.88547915">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2947616871" Id="3977289983" GUID="{7E67AF8A-75DD-492B-8BCC-8499F51EFE58}" Default="true"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="3714303081" Id="1216965916" GUID="{EA23D431-D524-4E95-B3D5-98F351E22ABC}" Default="true"/>
+									<MediaRefs>
+										<MediaRef Id="497630648"/>
+										<MediaRef Id="594487904"/>
+										<MediaRef Id="628836744"/>
+										<MediaRef Id="735764247"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="3714303081" Id="4248645337" GUID="{0C94A94C-E6AE-4818-8212-39A05454FD13}"/>
+									<MediaRefs>
+										<MediaRef Id="275344003"/>
+										<MediaRef Id="774912862"/>
+										<MediaRef Id="807512412"/>
+										<MediaRef Id="1010328572"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="3714303081" Id="2473969246" GUID="{0E81217E-5D7D-42D0-AED6-D679BD01FA58}"/>
+									<MediaRefs>
+										<MediaRef Id="78787271"/>
+										<MediaRef Id="321938921"/>
+										<MediaRef Id="736505251"/>
+										<MediaRef Id="1050241607"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="3714303081" Id="787898836" GUID="{D3863FAA-D83D-40D1-8477-DE7064397BF7}"/>
+									<MediaRefs>
+										<MediaRef Id="466562833"/>
+										<MediaRef Id="575083913"/>
+										<MediaRef Id="942843214"/>
+										<MediaRef Id="1046540910"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2947616871" Id="3977289983" GUID="{7E67AF8A-75DD-492B-8BCC-8499F51EFE58}" Default="true"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="3714303081" Id="1216965916" GUID="{EA23D431-D524-4E95-B3D5-98F351E22ABC}" Default="true"/>
+									<MediaRefs>
+										<MediaRef Id="497630648"/>
+										<MediaRef Id="594487904"/>
+										<MediaRef Id="628836744"/>
+										<MediaRef Id="735764247"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="3714303081" Id="4248645337" GUID="{0C94A94C-E6AE-4818-8212-39A05454FD13}"/>
+									<MediaRefs>
+										<MediaRef Id="275344003"/>
+										<MediaRef Id="774912862"/>
+										<MediaRef Id="807512412"/>
+										<MediaRef Id="1010328572"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="3714303081" Id="2473969246" GUID="{0E81217E-5D7D-42D0-AED6-D679BD01FA58}"/>
+									<MediaRefs>
+										<MediaRef Id="78787271"/>
+										<MediaRef Id="321938921"/>
+										<MediaRef Id="736505251"/>
+										<MediaRef Id="1050241607"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="3714303081" Id="787898836" GUID="{D3863FAA-D83D-40D1-8477-DE7064397BF7}"/>
+									<MediaRefs>
+										<MediaRef Id="466562833"/>
+										<MediaRef Id="575083913"/>
+										<MediaRef Id="942843214"/>
+										<MediaRef Id="1046540910"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 			</Events>
 			<SwitchGroups>
@@ -40,5 +627,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{96F18688-5764-7F45-DE0A-B69528136D10}</FileHash>
+	<FileHash>{5D538DF5-174B-6387-F40D-C424CDF7624E}</FileHash>
 </SoundBanksInfo>

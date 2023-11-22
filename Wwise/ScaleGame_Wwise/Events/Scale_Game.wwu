@@ -76,6 +76,17 @@
 												</Action>
 											</ChildrenList>
 										</Event>
+										<Event Name="SFX_PlayLanding" ID="{DAA7A6D7-A772-4479-90AA-42544783BCA2}">
+											<ChildrenList>
+												<Action Name="" ID="{52950F09-6D6C-4A87-9431-CF8E25057F85}" ShortID="166927406">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Landings" ID="{5B3CECBA-E3C4-431C-AA75-C4DFC2284743}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
 								</Folder>
 							</ChildrenList>

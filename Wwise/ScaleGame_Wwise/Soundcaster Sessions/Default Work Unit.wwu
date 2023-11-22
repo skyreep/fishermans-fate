@@ -13,7 +13,8 @@
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Stone" ID="{EA23D431-D524-4E95-B3D5-98F351E22ABC}"/>
+						<CurrentSwitchRef Name="Base_Form" ID="{7E67AF8A-75DD-492B-8BCC-8499F51EFE58}"/>
+						<CurrentSwitchRef Name="Snow" ID="{D3863FAA-D83D-40D1-8477-DE7064397BF7}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
