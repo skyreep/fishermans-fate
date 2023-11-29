@@ -3930,6 +3930,84 @@
 												</GroupingList>
 											</GroupingInfo>
 										</SwitchContainer>
+										<RandomSequenceContainer Name="Water_Splash" ID="{D2AE7D16-BA6B-40CF-862A-017325337E16}" ShortID="873145412">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_UNI_Player_BaseForm_WaterSplash_01" ID="{14D0B420-5A92-43D1-A4C7-7A06111B4874}" ShortID="821863489">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_UNI_Player_BaseForm_WaterSplash_01" ID="{E5889F3B-15F1-475D-930E-D4069D35C30D}">
+															<Language>SFX</Language>
+															<AudioFile>Footsteps\Water_Splash\SFX_UNI_Player_BaseForm_WaterSplash_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="418323662"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_UNI_Player_BaseForm_WaterSplash_01" ID="{E5889F3B-15F1-475D-930E-D4069D35C30D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_UNI_Player_BaseForm_WaterSplash_02" ID="{638C5041-1923-4F34-A0A8-A95FAFBCB94B}" ShortID="280618803">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_UNI_Player_BaseForm_WaterSplash_02" ID="{F9A964C0-59F7-41D5-9C9F-E1B7247FC8C0}">
+															<Language>SFX</Language>
+															<AudioFile>Footsteps\Water_Splash\SFX_UNI_Player_BaseForm_WaterSplash_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="675987768"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_UNI_Player_BaseForm_WaterSplash_02" ID="{F9A964C0-59F7-41D5-9C9F-E1B7247FC8C0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_UNI_Player_BaseForm_WaterSplash_03" ID="{459E9971-5AB5-4C01-9856-E1CBD130949E}" ShortID="11406392">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_UNI_Player_BaseForm_WaterSplash_03" ID="{A6023D66-546B-4F2B-BC65-B33C72602DDD}">
+															<Language>SFX</Language>
+															<AudioFile>Footsteps\Water_Splash\SFX_UNI_Player_BaseForm_WaterSplash_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="232026882"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_UNI_Player_BaseForm_WaterSplash_03" ID="{A6023D66-546B-4F2B-BC65-B33C72602DDD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Abilities" ID="{9CBC6721-CFCF-42F3-9AFE-81F3F7792B6D}" ShortID="928294450">

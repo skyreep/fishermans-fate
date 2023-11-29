@@ -718,7 +718,7 @@
     "Type": "User",
     "GUID": "{181571D8-5C1B-4B16-A2F1-3E5A021A1A77}",
     "Language": "SFX",
-    "Hash": "{68BF8EBC-0421-820A-B1DD-09F5FD076F12}",
+    "Hash": "{C76D0596-0C8E-2B95-6D22-E85EC0AD6285}",
     "ObjectPath": "\\SoundBanks\\Scale_Game\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -930,6 +930,14 @@
       "Location": "Memory",
       "ShortName": "Footsteps\\Stone\\SFX_UNI_Player_Footstep_BaseForm_Stone_17.wav",
       "CachePath": "SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_17_10C4C929.wem"
+     },
+     {
+      "Id": "232026882",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Water_Splash\\SFX_UNI_Player_BaseForm_WaterSplash_03.wav",
+      "CachePath": "SFX/Footsteps/Water_Splash/SFX_UNI_Player_BaseForm_WaterSplash_03_10C4C929.wem"
      },
      {
       "Id": "242033932",
@@ -1172,6 +1180,14 @@
       "CachePath": "SFX/SGAssetsTurnover/GRAPPLE/SFX_UNI_Player_Grapple_Shoot/SFX_UNI_Player_Grapple_Shoot_03_10C4C929.wem"
      },
      {
+      "Id": "418323662",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Water_Splash\\SFX_UNI_Player_BaseForm_WaterSplash_01.wav",
+      "CachePath": "SFX/Footsteps/Water_Splash/SFX_UNI_Player_BaseForm_WaterSplash_01_10C4C929.wem"
+     },
+     {
       "Id": "423369765",
       "Language": "SFX",
       "Streaming": "false",
@@ -1402,6 +1418,14 @@
       "Location": "Memory",
       "ShortName": "Footsteps\\Stone\\SFX_UNI_Player_Footstep_BaseForm_Stone_14.wav",
       "CachePath": "SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_14_10C4C929.wem"
+     },
+     {
+      "Id": "675987768",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Water_Splash\\SFX_UNI_Player_BaseForm_WaterSplash_02.wav",
+      "CachePath": "SFX/Footsteps/Water_Splash/SFX_UNI_Player_BaseForm_WaterSplash_02_10C4C929.wem"
      },
      {
       "Id": "679662746",
@@ -2061,16 +2085,6 @@
       "DurationMax": "0"
      },
      {
-      "Id": "1591852251",
-      "Name": "Play_Water_Splash",
-      "ObjectPath": "\\Events\\Scale_Game\\SFX\\AM\\Play_Water_Splash",
-      "GUID": "{43351BF7-1EEC-46A6-A674-7F9FF2AC6C06}",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
-     },
-     {
       "Id": "467174588",
       "Name": "Play_Waterfall",
       "ObjectPath": "\\Events\\Scale_Game\\SFX\\AM\\EMITTERS\\Play_Waterfall",
@@ -2080,6 +2094,39 @@
       "MediaRefs": [
        {
         "Id": "358645539"
+       }
+      ]
+     },
+     {
+      "Id": "1418208654",
+      "Name": "Play_Waterfall_Splash",
+      "ObjectPath": "\\Events\\Scale_Game\\SFX\\AM\\EMITTERS\\Play_Waterfall_Splash",
+      "GUID": "{43351BF7-1EEC-46A6-A674-7F9FF2AC6C06}",
+      "MaxAttenuation": "100",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "342915962"
+       }
+      ]
+     },
+     {
+      "Id": "2774863440",
+      "Name": "SFX_Play_WaterLand",
+      "ObjectPath": "\\Events\\Scale_Game\\SFX\\PLAYER\\FOOTSTEPS\\SFX_Play_WaterLand",
+      "GUID": "{C0A281F5-2D02-4B15-84BC-4ADD3D50DBA9}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.5498866",
+      "DurationMax": "1.6722676",
+      "MediaRefs": [
+       {
+        "Id": "232026882"
+       },
+       {
+        "Id": "418323662"
+       },
+       {
+        "Id": "675987768"
        }
       ]
      },
@@ -2962,6 +3009,6 @@
     ]
    }
   ],
-  "FileHash": "{88F46B4D-2239-CB83-8F44-D25E880075D7}"
+  "FileHash": "{53C30F4E-14F8-1D0E-28A5-5620FFC84C7E}"
  }
 }

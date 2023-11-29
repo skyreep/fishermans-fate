@@ -42,9 +42,19 @@
 												</Action>
 											</ChildrenList>
 										</Event>
+										<Event Name="Play_Waterfall_Splash" ID="{43351BF7-1EEC-46A6-A674-7F9FF2AC6C06}">
+											<ChildrenList>
+												<Action Name="" ID="{3A3F5216-310C-4D45-AD42-B5A65FACAE06}" ShortID="849195717">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="WaterfallSplash" ID="{97FC555B-917D-4635-8641-2918FE7A4726}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
 								</Folder>
-								<Event Name="Play_Water_Splash" ID="{43351BF7-1EEC-46A6-A674-7F9FF2AC6C06}"/>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="CD" ID="{2FA76C60-199F-433D-8515-DA64AD7C9356}" ShortID="971588566"/>
@@ -138,6 +148,17 @@
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="Landings" ID="{5B3CECBA-E3C4-431C-AA75-C4DFC2284743}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="SFX_Play_WaterLand" ID="{C0A281F5-2D02-4B15-84BC-4ADD3D50DBA9}">
+											<ChildrenList>
+												<Action Name="" ID="{B332CD63-F368-4258-A602-EAF3D860C61D}" ShortID="494984536">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Water_Splash" ID="{D2AE7D16-BA6B-40CF-862A-017325337E16}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>

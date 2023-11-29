@@ -193,7 +193,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" GUID="{181571D8-5C1B-4B16-A2F1-3E5A021A1A77}" Language="SFX" Hash="{68BF8EBC-0421-820A-B1DD-09F5FD076F12}">
+		<SoundBank Id="3161908922" Type="User" GUID="{181571D8-5C1B-4B16-A2F1-3E5A021A1A77}" Language="SFX" Hash="{C76D0596-0C8E-2B95-6D22-E85EC0AD6285}">
 			<ObjectPath>\SoundBanks\Scale_Game\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -301,6 +301,10 @@
 				<File Id="221138683" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Stone\SFX_UNI_Player_Footstep_BaseForm_Stone_17.wav</ShortName>
 					<CachePath>SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_17_10C4C929.wem</CachePath>
+				</File>
+				<File Id="232026882" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Water_Splash\SFX_UNI_Player_BaseForm_WaterSplash_03.wav</ShortName>
+					<CachePath>SFX/Footsteps/Water_Splash/SFX_UNI_Player_BaseForm_WaterSplash_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="242033932" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SGAssetsTurnover\SPECS\AM_CD_AMBIENCE_SPECS_TEMPLE_1.wav</ShortName>
@@ -422,6 +426,10 @@
 					<ShortName>SGAssetsTurnover\GRAPPLE\SFX_UNI_Player_Grapple_Shoot\SFX_UNI_Player_Grapple_Shoot_03.wav</ShortName>
 					<CachePath>SFX/SGAssetsTurnover/GRAPPLE/SFX_UNI_Player_Grapple_Shoot/SFX_UNI_Player_Grapple_Shoot_03_10C4C929.wem</CachePath>
 				</File>
+				<File Id="418323662" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Water_Splash\SFX_UNI_Player_BaseForm_WaterSplash_01.wav</ShortName>
+					<CachePath>SFX/Footsteps/Water_Splash/SFX_UNI_Player_BaseForm_WaterSplash_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="423369765" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SGAssetsTurnover\SPECS\AM_CD_AMBIENCE_SPECS_TEMPLE_2.wav</ShortName>
 					<CachePath>SFX/SGAssetsTurnover/SPECS/AM_CD_AMBIENCE_SPECS_TEMPLE_2_10C4C929.wem</CachePath>
@@ -537,6 +545,10 @@
 				<File Id="669932054" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Stone\SFX_UNI_Player_Footstep_BaseForm_Stone_14.wav</ShortName>
 					<CachePath>SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_14_10C4C929.wem</CachePath>
+				</File>
+				<File Id="675987768" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Water_Splash\SFX_UNI_Player_BaseForm_WaterSplash_02.wav</ShortName>
+					<CachePath>SFX/Footsteps/Water_Splash/SFX_UNI_Player_BaseForm_WaterSplash_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="679662746" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_08.wav</ShortName>
@@ -842,10 +854,21 @@
 				</Event>
 				<Event Id="595748461" Name="Play_DoubleJump" ObjectPath="\Events\Scale_Game\SFX\PLAYER\JUMP\Play_DoubleJump" GUID="{AF1AEF94-52A3-4452-BEBB-A1E84B0C8486}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3689126666" Name="Play_Jump" ObjectPath="\Events\Scale_Game\SFX\PLAYER\JUMP\Play_Jump" GUID="{3DE10F46-00F8-41EA-B3AC-1D0CE4BEF67C}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="1591852251" Name="Play_Water_Splash" ObjectPath="\Events\Scale_Game\SFX\AM\Play_Water_Splash" GUID="{43351BF7-1EEC-46A6-A674-7F9FF2AC6C06}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="467174588" Name="Play_Waterfall" ObjectPath="\Events\Scale_Game\SFX\AM\EMITTERS\Play_Waterfall" GUID="{9719FBAD-DF46-42ED-8DE8-9F1627842BC8}" MaxAttenuation="100" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="358645539"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1418208654" Name="Play_Waterfall_Splash" ObjectPath="\Events\Scale_Game\SFX\AM\EMITTERS\Play_Waterfall_Splash" GUID="{43351BF7-1EEC-46A6-A674-7F9FF2AC6C06}" MaxAttenuation="100" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="342915962"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2774863440" Name="SFX_Play_WaterLand" ObjectPath="\Events\Scale_Game\SFX\PLAYER\FOOTSTEPS\SFX_Play_WaterLand" GUID="{C0A281F5-2D02-4B15-84BC-4ADD3D50DBA9}" DurationType="OneShot" DurationMin="1.5498866" DurationMax="1.6722676">
+					<MediaRefs>
+						<MediaRef Id="232026882"/>
+						<MediaRef Id="418323662"/>
+						<MediaRef Id="675987768"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3302377865" Name="SFX_PlayFootstep" ObjectPath="\Events\Scale_Game\SFX\PLAYER\FOOTSTEPS\SFX_PlayFootstep" GUID="{5895F1CF-136D-416A-8913-2B0DBFFB1A76}" DurationType="OneShot" DurationMin="0" DurationMax="0.92983675">
@@ -1172,5 +1195,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A1EA00B0-22E9-35DD-D96D-69FFB00C144E}</FileHash>
+	<FileHash>{649BDE36-BAB2-B779-C47A-936B239FF18F}</FileHash>
 </SoundBanksInfo>
