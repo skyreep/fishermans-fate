@@ -14,7 +14,7 @@
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Base_Form" ID="{7E67AF8A-75DD-492B-8BCC-8499F51EFE58}"/>
-						<CurrentSwitchRef Name="Snow" ID="{D3863FAA-D83D-40D1-8477-DE7064397BF7}"/>
+						<CurrentSwitchRef Name="Grass" ID="{0C94A94C-E6AE-4818-8212-39A05454FD13}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

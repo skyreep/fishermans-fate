@@ -16,12 +16,6 @@
 				</Folder>
 				<Folder Name="SFX" ID="{BA68AB05-E806-4954-9646-2C87521890D6}" ShortID="832016092">
 					<ChildrenList>
-						<Folder Name="SI" ID="{F2274D45-162C-4559-B2CC-95C083856610}" ShortID="892142587">
-							<ChildrenList>
-								<Folder Name="AMBIENCE" ID="{3CC2548C-3AF4-42ED-9C42-F5E2086597E6}" ShortID="1033393098"/>
-								<Folder Name="EMITTERS" ID="{5557A6DF-FAFE-40BB-940C-A82F69C0CC18}" ShortID="491126565"/>
-							</ChildrenList>
-						</Folder>
 						<Folder Name="AM" ID="{348F4AA4-BD0A-44E6-BD45-3AE4E8A51F50}" ShortID="537924710">
 							<ChildrenList>
 								<Folder Name="AMBIENCE" ID="{04751222-BCB3-4291-9150-3F98171A099C}" ShortID="893814536"/>
@@ -866,7 +860,7 @@
 														</RandomSequenceContainer>
 														<RandomSequenceContainer Name="SFX_UNI_Player_Footstep_BaseForm_Grass" ID="{B0948A90-237D-4EE4-BDF9-1F2752D69C54}" ShortID="852285743">
 															<PropertyList>
-																<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+																<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="10"/>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
@@ -888,6 +882,11 @@
 																	</ReferenceList>
 																	<ChildrenList>
 																		<AudioFileSource Name="SFX_UNI_Player_Footstep_BaseForm_Grass_01" ID="{4A8C435C-B89B-4420-A87B-6EFDC02AC2D8}">
+																			<PropertyList>
+																				<Property Name="LoopBegin" Type="Real64" Value="0.0771716485507246"/>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="0.0771716485507246"/>
+																			</PropertyList>
 																			<Language>SFX</Language>
 																			<AudioFile>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_01.wav</AudioFile>
 																			<MediaIDList>
@@ -910,6 +909,11 @@
 																	</ReferenceList>
 																	<ChildrenList>
 																		<AudioFileSource Name="SFX_UNI_Player_Footstep_BaseForm_Grass_02" ID="{933CA18F-DE0C-4CB9-AFCE-16BCE45A425B}">
+																			<PropertyList>
+																				<Property Name="LoopBegin" Type="Real64" Value="0.0544384057971014"/>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="0.0544384057971014"/>
+																			</PropertyList>
 																			<Language>SFX</Language>
 																			<AudioFile>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_02.wav</AudioFile>
 																			<MediaIDList>
@@ -932,6 +936,11 @@
 																	</ReferenceList>
 																	<ChildrenList>
 																		<AudioFileSource Name="SFX_UNI_Player_Footstep_BaseForm_Grass_03" ID="{5C73CC25-AB2F-4951-B60A-D1CA022A42EA}">
+																			<PropertyList>
+																				<Property Name="LoopBegin" Type="Real64" Value="0.0172758990874933"/>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="0.0172758990874933"/>
+																			</PropertyList>
 																			<Language>SFX</Language>
 																			<AudioFile>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_03.wav</AudioFile>
 																			<MediaIDList>
@@ -976,6 +985,11 @@
 																	</ReferenceList>
 																	<ChildrenList>
 																		<AudioFileSource Name="SFX_UNI_Player_Footstep_BaseForm_Grass_05" ID="{0F0CCBD5-B428-4396-9A32-466B10460CE8}">
+																			<PropertyList>
+																				<Property Name="LoopBegin" Type="Real64" Value="0.0740638586956522"/>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="0.0716114130434783"/>
+																			</PropertyList>
 																			<Language>SFX</Language>
 																			<AudioFile>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_05.wav</AudioFile>
 																			<MediaIDList>
@@ -998,6 +1012,11 @@
 																	</ReferenceList>
 																	<ChildrenList>
 																		<AudioFileSource Name="SFX_UNI_Player_Footstep_BaseForm_Grass_06" ID="{3AB81E31-8FE0-4660-B14D-A52CC7FC894A}">
+																			<PropertyList>
+																				<Property Name="LoopBegin" Type="Real64" Value="0.0246716988727858"/>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="0.0246716988727858"/>
+																			</PropertyList>
 																			<Language>SFX</Language>
 																			<AudioFile>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_06.wav</AudioFile>
 																			<MediaIDList>
@@ -1020,6 +1039,11 @@
 																	</ReferenceList>
 																	<ChildrenList>
 																		<AudioFileSource Name="SFX_UNI_Player_Footstep_BaseForm_Grass_07" ID="{C47D6F97-546B-4671-8A80-8C8B3BF42066}">
+																			<PropertyList>
+																				<Property Name="LoopBegin" Type="Real64" Value="0.00699788647342995"/>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="0.00699788647342995"/>
+																			</PropertyList>
 																			<Language>SFX</Language>
 																			<AudioFile>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_07.wav</AudioFile>
 																			<MediaIDList>
@@ -1042,6 +1066,11 @@
 																	</ReferenceList>
 																	<ChildrenList>
 																		<AudioFileSource Name="SFX_UNI_Player_Footstep_BaseForm_Grass_08" ID="{06D73B9D-3902-4F08-BFFD-7DAC57DD5F08}">
+																			<PropertyList>
+																				<Property Name="LoopBegin" Type="Real64" Value="0.0636026570048308"/>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="0.0636026570048308"/>
+																			</PropertyList>
 																			<Language>SFX</Language>
 																			<AudioFile>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_08.wav</AudioFile>
 																			<MediaIDList>
@@ -1064,6 +1093,11 @@
 																	</ReferenceList>
 																	<ChildrenList>
 																		<AudioFileSource Name="SFX_UNI_Player_Footstep_BaseForm_Grass_09" ID="{DA3963AD-EA66-4BD4-A35B-B9552C776051}">
+																			<PropertyList>
+																				<Property Name="LoopBegin" Type="Real64" Value="0.0998533279656469"/>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="0.0998533279656469"/>
+																			</PropertyList>
 																			<Language>SFX</Language>
 																			<AudioFile>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_09.wav</AudioFile>
 																			<MediaIDList>
@@ -1086,6 +1120,10 @@
 																	</ReferenceList>
 																	<ChildrenList>
 																		<AudioFileSource Name="SFX_UNI_Player_Footstep_BaseForm_Grass_10" ID="{6CEF3688-E0A8-4EB1-BD5B-DDF5946F14CB}">
+																			<PropertyList>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="0.106075348899624"/>
+																			</PropertyList>
 																			<Language>SFX</Language>
 																			<AudioFile>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_10.wav</AudioFile>
 																			<MediaIDList>
@@ -1108,6 +1146,11 @@
 																	</ReferenceList>
 																	<ChildrenList>
 																		<AudioFileSource Name="SFX_UNI_Player_Footstep_BaseForm_Grass_11" ID="{B273BE95-E833-4A0A-90CA-F16183B4C2A4}">
+																			<PropertyList>
+																				<Property Name="LoopBegin" Type="Real64" Value="0.0288016639828234"/>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="0.0288016639828234"/>
+																			</PropertyList>
 																			<Language>SFX</Language>
 																			<AudioFile>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_11.wav</AudioFile>
 																			<MediaIDList>
@@ -1152,6 +1195,11 @@
 																	</ReferenceList>
 																	<ChildrenList>
 																		<AudioFileSource Name="SFX_UNI_Player_Footstep_BaseForm_Grass_13" ID="{DCF6B97E-F542-4400-9075-57F87A905ED9}">
+																			<PropertyList>
+																				<Property Name="LoopBegin" Type="Real64" Value="0.0632980072463768"/>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="0.0632980072463768"/>
+																			</PropertyList>
 																			<Language>SFX</Language>
 																			<AudioFile>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_13.wav</AudioFile>
 																			<MediaIDList>
@@ -1174,6 +1222,11 @@
 																	</ReferenceList>
 																	<ChildrenList>
 																		<AudioFileSource Name="SFX_UNI_Player_Footstep_BaseForm_Grass_14" ID="{D778E13E-79F6-40AE-9C16-C53B7A99DAE8}">
+																			<PropertyList>
+																				<Property Name="LoopBegin" Type="Real64" Value="0.0650588768115942"/>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="0.0650588768115942"/>
+																			</PropertyList>
 																			<Language>SFX</Language>
 																			<AudioFile>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_14.wav</AudioFile>
 																			<MediaIDList>
@@ -1196,6 +1249,11 @@
 																	</ReferenceList>
 																	<ChildrenList>
 																		<AudioFileSource Name="SFX_UNI_Player_Footstep_BaseForm_Grass_15" ID="{C8325F9A-E5EF-4E64-BC61-BDAD8FCD6DC2}">
+																			<PropertyList>
+																				<Property Name="LoopBegin" Type="Real64" Value="0.0455660225442834"/>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="0.0455660225442834"/>
+																			</PropertyList>
 																			<Language>SFX</Language>
 																			<AudioFile>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_15.wav</AudioFile>
 																			<MediaIDList>
@@ -1218,6 +1276,11 @@
 																	</ReferenceList>
 																	<ChildrenList>
 																		<AudioFileSource Name="SFX_UNI_Player_Footstep_BaseForm_Grass_16" ID="{AD911155-4F88-4C47-AB52-A88B6D054714}">
+																			<PropertyList>
+																				<Property Name="LoopBegin" Type="Real64" Value="0.0526589841653248"/>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="0.0526589841653248"/>
+																			</PropertyList>
 																			<Language>SFX</Language>
 																			<AudioFile>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_16.wav</AudioFile>
 																			<MediaIDList>
@@ -1240,6 +1303,11 @@
 																	</ReferenceList>
 																	<ChildrenList>
 																		<AudioFileSource Name="SFX_UNI_Player_Footstep_BaseForm_Grass_17" ID="{4A2F4EBC-499A-4828-B976-1D9FC8C2600F}">
+																			<PropertyList>
+																				<Property Name="LoopBegin" Type="Real64" Value="0.0924968129361246"/>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="0.0924968129361246"/>
+																			</PropertyList>
 																			<Language>SFX</Language>
 																			<AudioFile>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_17.wav</AudioFile>
 																			<MediaIDList>
@@ -1262,6 +1330,11 @@
 																	</ReferenceList>
 																	<ChildrenList>
 																		<AudioFileSource Name="SFX_UNI_Player_Footstep_BaseForm_Grass_18" ID="{6A72BA88-D3BD-47A3-BC58-0AAE04EC131D}">
+																			<PropertyList>
+																				<Property Name="LoopBegin" Type="Real64" Value="0.0651600241545894"/>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="0.0651600241545894"/>
+																			</PropertyList>
 																			<Language>SFX</Language>
 																			<AudioFile>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_18.wav</AudioFile>
 																			<MediaIDList>
@@ -1284,6 +1357,11 @@
 																	</ReferenceList>
 																	<ChildrenList>
 																		<AudioFileSource Name="SFX_UNI_Player_Footstep_BaseForm_Grass_19" ID="{5D46CFC1-0972-4F14-931A-2F6F2B514CDE}">
+																			<PropertyList>
+																				<Property Name="LoopBegin" Type="Real64" Value="0.0106007447665056"/>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="0.0106007447665056"/>
+																			</PropertyList>
 																			<Language>SFX</Language>
 																			<AudioFile>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_19.wav</AudioFile>
 																			<MediaIDList>
@@ -2237,8 +2315,6 @@
 				<Folder Name="DX" ID="{398096D8-A547-4D60-8565-0AB0561C83F8}" ShortID="717808457">
 					<ChildrenList>
 						<Folder Name="AM" ID="{7A8AC09C-556B-49D7-9B2B-7803BE653CAD}" ShortID="888869598"/>
-						<Folder Name="CD" ID="{4185E3AF-BE3E-49AB-AB8E-155A91ED6EA6}" ShortID="611231422"/>
-						<Folder Name="SI" ID="{82277832-5578-4FB6-B942-856972942EBB}" ShortID="912244731"/>
 						<Folder Name="PLAYER" ID="{3579C0ED-53B6-4AE2-BF25-B6F4BB420F46}" ShortID="956664602"/>
 					</ChildrenList>
 				</Folder>
