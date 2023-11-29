@@ -9,10 +9,17 @@
 							<ObjectRef Name="SFX_PlayFootstep" ID="{5895F1CF-136D-416A-8913-2B0DBFFB1A76}" WorkUnitID="{76CB56BA-7300-4FEF-A72F-E4CE3E173E81}"/>
 							<Position X="0" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Waterfall" ID="{009552A6-098A-4615-B2C0-8905307F94AB}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
+							<Position X="1" Y="0"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
-					<CurrentSwitchList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Base_Form" ID="{7E67AF8A-75DD-492B-8BCC-8499F51EFE58}"/>
+						<CurrentSwitchRef Name="Dirt" ID="{22A37D54-D3DD-4687-A44F-D240BD429E36}"/>
+					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>

@@ -145,6 +145,12 @@
 										</Event>
 									</ChildrenList>
 								</Folder>
+								<Folder Name="JUMP" ID="{C4190718-7CCF-4A22-A056-AF7D8F51429C}" ShortID="733556309">
+									<ChildrenList>
+										<Event Name="Play_Jump" ID="{3DE10F46-00F8-41EA-B3AC-1D0CE4BEF67C}"/>
+										<Event Name="Play_DoubleJump" ID="{AF1AEF94-52A3-4452-BEBB-A1E84B0C8486}"/>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
