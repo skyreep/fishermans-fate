@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{181571D8-5C1B-4B16-A2F1-3E5A021A1A77}",
     "Language": "SFX",
-    "Hash": "{D89E0B0D-3CCC-6A1A-5120-AE5AFB7F75AF}",
+    "Hash": "{B2251A42-8AA4-668B-65D9-16EEEC63EA1F}",
     "ObjectPath": "\\SoundBanks\\Scale_Game\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -200,6 +200,14 @@
       "CachePath": "SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_10_10C4C929.wem"
      },
      {
+      "Id": "348775715",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambiences\\AM_CD_AMBIENCE_TEMPLE.wav",
+      "CachePath": "SFX/Ambiences/AM_CD_AMBIENCE_TEMPLE_D79FB2B7.wem"
+     },
+     {
       "Id": "349560223",
       "Language": "SFX",
       "Streaming": "false",
@@ -326,6 +334,14 @@
       "Location": "Memory",
       "ShortName": "Footsteps\\Snow\\SFX_UNI_Player_Footstep_BaseForm_Snow_10.wav",
       "CachePath": "SFX/Footsteps/Snow/SFX_UNI_Player_Footstep_BaseForm_Snow_10_10C4C929.wem"
+     },
+     {
+      "Id": "571047480",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambiences\\AM_CD_AMBIENCE_JUNGLE.wav",
+      "CachePath": "SFX/Ambiences/AM_CD_AMBIENCE_JUNGLE_D79FB2B7.wem"
      },
      {
       "Id": "575083913",
@@ -694,20 +710,67 @@
       ]
      },
      {
-      "Id": "2245623692",
-      "Name": "Play_Jungle_Ambience",
-      "ObjectPath": "\\Events\\Scale_Game\\SFX\\AM\\AMBIENCE\\Play_Jungle_Ambience",
-      "GUID": "{7FCC1BE0-EBCA-4862-A89B-ED186D883F6E}",
-      "DurationType": "Infinite"
-     },
-     {
-      "Id": "3347891624",
-      "Name": "Play_Temple_Ambience",
-      "ObjectPath": "\\Events\\Scale_Game\\SFX\\AM\\AMBIENCE\\Play_Temple_Ambience",
+      "Id": "278617630",
+      "Name": "Play_Ambience",
+      "ObjectPath": "\\Events\\Scale_Game\\SFX\\AM\\AMBIENCE\\Play_Ambience",
       "GUID": "{F926092A-95C3-49A4-8E63-49B505D71FD0}",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1017660616",
+         "Id": "2323193050",
+         "GUID": "{A0DC6F9A-6F96-47C8-BF9C-72A78FC24686}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "348775715"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1017660616",
+         "Id": "219304270",
+         "GUID": "{D14A6CE0-B1FA-4ADA-99E3-3807DE08E45E}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "571047480"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1017660616",
+         "Id": "2323193050",
+         "GUID": "{A0DC6F9A-6F96-47C8-BF9C-72A78FC24686}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "348775715"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1017660616",
+         "Id": "219304270",
+         "GUID": "{D14A6CE0-B1FA-4ADA-99E3-3807DE08E45E}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "571047480"
+         }
+        ]
+       }
+      ]
      },
      {
       "Id": "467174588",
@@ -1431,6 +1494,26 @@
     ],
     "SwitchGroups": [
      {
+      "Id": "1017660616",
+      "Name": "Ambiences",
+      "ObjectPath": "\\Switches\\Scale_Game\\Ambiences",
+      "GUID": "{18B5CAB8-EAE7-4F24-BEA2-9DE9C8BEC78B}",
+      "Switches": [
+       {
+        "Id": "219304270",
+        "Name": "Jungle",
+        "ObjectPath": "\\Switches\\Scale_Game\\Ambiences\\Jungle",
+        "GUID": "{D14A6CE0-B1FA-4ADA-99E3-3807DE08E45E}"
+       },
+       {
+        "Id": "2323193050",
+        "Name": "Temple",
+        "ObjectPath": "\\Switches\\Scale_Game\\Ambiences\\Temple",
+        "GUID": "{A0DC6F9A-6F96-47C8-BF9C-72A78FC24686}"
+       }
+      ]
+     },
+     {
       "Id": "2947616871",
       "Name": "Form",
       "ObjectPath": "\\Switches\\Scale_Game\\Form",
@@ -1497,6 +1580,6 @@
     ]
    }
   ],
-  "FileHash": "{7C155A0E-057A-2DD5-2611-43BDA1ACAA24}"
+  "FileHash": "{ED0C8A76-20C6-96F0-C915-5A7E86D578F0}"
  }
 }

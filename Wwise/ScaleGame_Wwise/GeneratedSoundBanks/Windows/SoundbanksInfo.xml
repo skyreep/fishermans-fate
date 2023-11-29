@@ -192,7 +192,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" GUID="{181571D8-5C1B-4B16-A2F1-3E5A021A1A77}" Language="SFX" Hash="{D89E0B0D-3CCC-6A1A-5120-AE5AFB7F75AF}">
+		<SoundBank Id="3161908922" Type="User" GUID="{181571D8-5C1B-4B16-A2F1-3E5A021A1A77}" Language="SFX" Hash="{B2251A42-8AA4-668B-65D9-16EEEC63EA1F}">
 			<ObjectPath>\SoundBanks\Scale_Game\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -289,6 +289,10 @@
 					<ShortName>Footsteps\Stone\SFX_UNI_Player_Footstep_BaseForm_Stone_10.wav</ShortName>
 					<CachePath>SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_10_10C4C929.wem</CachePath>
 				</File>
+				<File Id="348775715" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ambiences\AM_CD_AMBIENCE_TEMPLE.wav</ShortName>
+					<CachePath>SFX/Ambiences/AM_CD_AMBIENCE_TEMPLE_D79FB2B7.wem</CachePath>
+				</File>
 				<File Id="349560223" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Stone\SFX_UNI_Player_Footstep_BaseForm_Stone_12.wav</ShortName>
 					<CachePath>SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_12_10C4C929.wem</CachePath>
@@ -352,6 +356,10 @@
 				<File Id="563854850" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Snow\SFX_UNI_Player_Footstep_BaseForm_Snow_10.wav</ShortName>
 					<CachePath>SFX/Footsteps/Snow/SFX_UNI_Player_Footstep_BaseForm_Snow_10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="571047480" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ambiences\AM_CD_AMBIENCE_JUNGLE.wav</ShortName>
+					<CachePath>SFX/Ambiences/AM_CD_AMBIENCE_JUNGLE_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="575083913" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Landings\SFX_UNI_Player_Land_BaseForm_Snow_03.wav</ShortName>
@@ -529,8 +537,34 @@
 						<ActionSetSwitchEntry GroupId="2947616871" Id="699461374" Name="Fire_Form" ObjectPath="\Switches\Scale_Game\Form\Fire_Form" GUID="{DF777A52-3A08-4C83-A610-8DDE12C21186}"/>
 					</ActionSetSwitch>
 				</Event>
-				<Event Id="2245623692" Name="Play_Jungle_Ambience" ObjectPath="\Events\Scale_Game\SFX\AM\AMBIENCE\Play_Jungle_Ambience" GUID="{7FCC1BE0-EBCA-4862-A89B-ED186D883F6E}" DurationType="Infinite"/>
-				<Event Id="3347891624" Name="Play_Temple_Ambience" ObjectPath="\Events\Scale_Game\SFX\AM\AMBIENCE\Play_Temple_Ambience" GUID="{F926092A-95C3-49A4-8E63-49B505D71FD0}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="278617630" Name="Play_Ambience" ObjectPath="\Events\Scale_Game\SFX\AM\AMBIENCE\Play_Ambience" GUID="{F926092A-95C3-49A4-8E63-49B505D71FD0}" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1017660616" Id="2323193050" GUID="{A0DC6F9A-6F96-47C8-BF9C-72A78FC24686}"/>
+							<MediaRefs>
+								<MediaRef Id="348775715"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1017660616" Id="219304270" GUID="{D14A6CE0-B1FA-4ADA-99E3-3807DE08E45E}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="571047480"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1017660616" Id="2323193050" GUID="{A0DC6F9A-6F96-47C8-BF9C-72A78FC24686}"/>
+							<MediaRefs>
+								<MediaRef Id="348775715"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1017660616" Id="219304270" GUID="{D14A6CE0-B1FA-4ADA-99E3-3807DE08E45E}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="571047480"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="467174588" Name="Play_Waterfall" ObjectPath="\Events\Scale_Game\SFX\AM\EMITTERS\Play_Waterfall" GUID="{9719FBAD-DF46-42ED-8DE8-9F1627842BC8}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3302377865" Name="SFX_PlayFootstep" ObjectPath="\Events\Scale_Game\SFX\PLAYER\FOOTSTEPS\SFX_PlayFootstep" GUID="{5895F1CF-136D-416A-8913-2B0DBFFB1A76}" DurationType="OneShot" DurationMin="0" DurationMax="0.92983675">
 					<SwitchContainers>
@@ -802,6 +836,12 @@
 				</Event>
 			</Events>
 			<SwitchGroups>
+				<SwitchGroup Id="1017660616" Name="Ambiences" ObjectPath="\Switches\Scale_Game\Ambiences" GUID="{18B5CAB8-EAE7-4F24-BEA2-9DE9C8BEC78B}">
+					<Switches>
+						<Switch Id="219304270" Name="Jungle" ObjectPath="\Switches\Scale_Game\Ambiences\Jungle" GUID="{D14A6CE0-B1FA-4ADA-99E3-3807DE08E45E}"/>
+						<Switch Id="2323193050" Name="Temple" ObjectPath="\Switches\Scale_Game\Ambiences\Temple" GUID="{A0DC6F9A-6F96-47C8-BF9C-72A78FC24686}"/>
+					</Switches>
+				</SwitchGroup>
 				<SwitchGroup Id="2947616871" Name="Form" ObjectPath="\Switches\Scale_Game\Form" GUID="{6B34F204-9AC5-4C47-B728-C6BBCDA66A98}">
 					<Switches>
 						<Switch Id="699461374" Name="Fire_Form" ObjectPath="\Switches\Scale_Game\Form\Fire_Form" GUID="{DF777A52-3A08-4C83-A610-8DDE12C21186}"/>
@@ -821,5 +861,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A51B550F-9EFF-927B-EBD4-CE9FF93ED0EC}</FileHash>
+	<FileHash>{F95AAA7A-C220-18F8-0E58-3D8858520181}</FileHash>
 </SoundBanksInfo>
