@@ -1,17 +1,19 @@
 Event	ID	Name			Wwise Object Path	Notes
+	278617630	Play_Ambience			\Scale_Game\SFX\AM\AMBIENCE\Play_Ambience	
 	467174588	Play_Waterfall			\Scale_Game\SFX\AM\EMITTERS\Play_Waterfall	
 	753980219	BaseToCold			\Scale_Game\SFX\PLAYER\ABILITIES\BaseToCold	
-	2245623692	Play_Jungle_Ambience			\Scale_Game\SFX\AM\AMBIENCE\Play_Jungle_Ambience	
 	2264193906	BaseToHot			\Scale_Game\SFX\PLAYER\ABILITIES\BaseToHot	
 	3302377865	SFX_PlayFootstep			\Scale_Game\SFX\PLAYER\FOOTSTEPS\SFX_PlayFootstep	
 	3321841820	SFX_PlayLanding			\Scale_Game\SFX\PLAYER\FOOTSTEPS\SFX_PlayLanding	
-	3347891624	Play_Temple_Ambience			\Scale_Game\SFX\AM\AMBIENCE\Play_Temple_Ambience	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
+	1017660616	Ambiences			\Scale_Game\Ambiences	
 	2947616871	Form			\Scale_Game\Form	
 	3714303081	Surfaces			\Scale_Game\Footsteps\Surfaces	
 
 Switch	ID	Name	Switch Group			Notes
+	219304270	Jungle	Ambiences			
+	2323193050	Temple	Ambiences			
 	699461374	Fire_Form	Form			
 	3283007359	Ice_Form	Form			
 	3977289983	Base_Form	Form			
@@ -45,6 +47,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	317789159	SFX_UNI_Player_Footstep_BaseForm_Snow_02	D:\CtrlAltDefeat\scale-game\Wwise\ScaleGame_Wwise\.cache\Windows\SFX\Footsteps\Snow\SFX_UNI_Player_Footstep_BaseForm_Snow_02_10C4C929.wem		\Actor-Mixer Hierarchy\Scale_Game\SFX\PLAYER\Footsteps\Footsteps\Base_Form\SFX_UNI_Player_Footstep_BaseForm_Snow\SFX_UNI_Player_Footstep_BaseForm_Snow_02		42418
 	321938921	SFX_UNI_Player_Land_BaseForm_Metal_04	D:\CtrlAltDefeat\scale-game\Wwise\ScaleGame_Wwise\.cache\Windows\SFX\Landings\SFX_UNI_Player_Land_BaseForm_Metal_04_10C4C929.wem		\Actor-Mixer Hierarchy\Scale_Game\SFX\PLAYER\Footsteps\Landings\Base_Form\SFX_UNI_Player_Land_BaseForm_Metal\SFX_UNI_Player_Land_BaseForm_Metal_04		65236
 	328172047	SFX_UNI_Player_Footstep_BaseForm_Stone_10	D:\CtrlAltDefeat\scale-game\Wwise\ScaleGame_Wwise\.cache\Windows\SFX\Footsteps\Stone\SFX_UNI_Player_Footstep_BaseForm_Stone_10_10C4C929.wem		\Actor-Mixer Hierarchy\Scale_Game\SFX\PLAYER\Footsteps\Footsteps\Base_Form\SFX_UNI_Player_Footstep_BaseForm_Stone\SFX_UNI_Player_Footstep_BaseForm_Stone_10		63436
+	348775715	AM_CD_AMBIENCE_TEMPLE	D:\CtrlAltDefeat\scale-game\Wwise\ScaleGame_Wwise\.cache\Windows\SFX\Ambiences\AM_CD_AMBIENCE_TEMPLE_D79FB2B7.wem		\Actor-Mixer Hierarchy\Scale_Game\SFX\AM\AMBIENCE\AMBIENCE\Temple\AM_CD_AMBIENCE_TEMPLE		6094944
 	349560223	SFX_UNI_Player_Footstep_BaseForm_Stone_12	D:\CtrlAltDefeat\scale-game\Wwise\ScaleGame_Wwise\.cache\Windows\SFX\Footsteps\Stone\SFX_UNI_Player_Footstep_BaseForm_Stone_12_10C4C929.wem		\Actor-Mixer Hierarchy\Scale_Game\SFX\PLAYER\Footsteps\Footsteps\Base_Form\SFX_UNI_Player_Footstep_BaseForm_Stone\SFX_UNI_Player_Footstep_BaseForm_Stone_12		52928
 	404173135	SFX_UNI_Player_Footstep_BaseForm_Stone_15	D:\CtrlAltDefeat\scale-game\Wwise\ScaleGame_Wwise\.cache\Windows\SFX\Footsteps\Stone\SFX_UNI_Player_Footstep_BaseForm_Stone_15_10C4C929.wem		\Actor-Mixer Hierarchy\Scale_Game\SFX\PLAYER\Footsteps\Footsteps\Base_Form\SFX_UNI_Player_Footstep_BaseForm_Stone\SFX_UNI_Player_Footstep_BaseForm_Stone_15		58290
 	414511005	SFX_UNI_Player_Footstep_BaseForm_Metal_09	D:\CtrlAltDefeat\scale-game\Wwise\ScaleGame_Wwise\.cache\Windows\SFX\Footsteps\Metal\SFX_UNI_Player_Footstep_BaseForm_Metal_09_10C4C929.wem		\Actor-Mixer Hierarchy\Scale_Game\SFX\PLAYER\Footsteps\Footsteps\Base_Form\SFX_UNI_Player_Footstep_BaseForm_Metal\SFX_UNI_Player_Footstep_BaseForm_Metal_09		57504
@@ -61,6 +64,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	531867341	SFX_UNI_Player_Footstep_BaseForm_Grass_10	D:\CtrlAltDefeat\scale-game\Wwise\ScaleGame_Wwise\.cache\Windows\SFX\Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_10_E4DBADB6.wem		\Actor-Mixer Hierarchy\Scale_Game\SFX\PLAYER\Footsteps\Footsteps\Base_Form\SFX_UNI_Player_Footstep_BaseForm_Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_10		51308
 	542086802	SFX_UNI_Player_Footstep_BaseForm_Stone_13	D:\CtrlAltDefeat\scale-game\Wwise\ScaleGame_Wwise\.cache\Windows\SFX\Footsteps\Stone\SFX_UNI_Player_Footstep_BaseForm_Stone_13_10C4C929.wem		\Actor-Mixer Hierarchy\Scale_Game\SFX\PLAYER\Footsteps\Footsteps\Base_Form\SFX_UNI_Player_Footstep_BaseForm_Stone\SFX_UNI_Player_Footstep_BaseForm_Stone_13		56274
 	563854850	SFX_UNI_Player_Footstep_BaseForm_Snow_10	D:\CtrlAltDefeat\scale-game\Wwise\ScaleGame_Wwise\.cache\Windows\SFX\Footsteps\Snow\SFX_UNI_Player_Footstep_BaseForm_Snow_10_10C4C929.wem		\Actor-Mixer Hierarchy\Scale_Game\SFX\PLAYER\Footsteps\Footsteps\Base_Form\SFX_UNI_Player_Footstep_BaseForm_Snow\SFX_UNI_Player_Footstep_BaseForm_Snow_10		65740
+	571047480	AM_CD_AMBIENCE_JUNGLE	D:\CtrlAltDefeat\scale-game\Wwise\ScaleGame_Wwise\.cache\Windows\SFX\Ambiences\AM_CD_AMBIENCE_JUNGLE_D79FB2B7.wem		\Actor-Mixer Hierarchy\Scale_Game\SFX\AM\AMBIENCE\AMBIENCE\Jungle\AM_CD_AMBIENCE_JUNGLE		4127560
 	575083913	SFX_UNI_Player_Land_BaseForm_Snow_03	D:\CtrlAltDefeat\scale-game\Wwise\ScaleGame_Wwise\.cache\Windows\SFX\Landings\SFX_UNI_Player_Land_BaseForm_Snow_03_10C4C929.wem		\Actor-Mixer Hierarchy\Scale_Game\SFX\PLAYER\Footsteps\Landings\Base_Form\SFX_UNI_Player_Land_BaseForm_Snow\SFX_UNI_Player_Land_BaseForm_Snow_03		82754
 	594487904	SFX_UNI_Player_Land_BaseForm_Stone_01	D:\CtrlAltDefeat\scale-game\Wwise\ScaleGame_Wwise\.cache\Windows\SFX\Landings\SFX_UNI_Player_Land_BaseForm_Stone_01_10C4C929.wem		\Actor-Mixer Hierarchy\Scale_Game\SFX\PLAYER\Footsteps\Landings\Base_Form\SFX_UNI_Player_Land_BaseForm_Stone\SFX_UNI_Player_Land_BaseForm_Stone_01		64012
 	620257089	SFX_UNI_Player_Footstep_BaseForm_Snow_04	D:\CtrlAltDefeat\scale-game\Wwise\ScaleGame_Wwise\.cache\Windows\SFX\Footsteps\Snow\SFX_UNI_Player_Footstep_BaseForm_Snow_04_10C4C929.wem		\Actor-Mixer Hierarchy\Scale_Game\SFX\PLAYER\Footsteps\Footsteps\Base_Form\SFX_UNI_Player_Footstep_BaseForm_Snow\SFX_UNI_Player_Footstep_BaseForm_Snow_04		55662

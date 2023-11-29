@@ -16,43 +16,12 @@
 							<ChildrenList>
 								<Folder Name="AMBIENCE" ID="{18A4A329-BECC-4B4B-859C-DE3563FD461D}" ShortID="552104108">
 									<ChildrenList>
-										<Event Name="Play_Jungle_Ambience" ID="{7FCC1BE0-EBCA-4862-A89B-ED186D883F6E}">
+										<Event Name="Play_Ambience" ID="{F926092A-95C3-49A4-8E63-49B505D71FD0}">
 											<ChildrenList>
-												<Action Name="" ID="{9839F963-BF07-4441-9C51-942966368686}" ShortID="288071258">
-													<PropertyList>
-														<Property Name="ActionType" Type="int16" Value="2"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Temple" ID="{0E8421A4-493C-4BF0-8750-0C7AF6D9D6F2}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-												<Action Name="" ID="{B894050B-8440-45AF-9FC8-5361C290DCEE}" ShortID="492543152">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Jungle" ID="{23A46254-9C49-4E1F-9FD9-FB64481218E4}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
-										<Event Name="Play_Temple_Ambience" ID="{F926092A-95C3-49A4-8E63-49B505D71FD0}">
-											<ChildrenList>
-												<Action Name="" ID="{3DF224E6-F4C9-45E7-8AFB-F5C011B72440}" ShortID="138754311">
-													<PropertyList>
-														<Property Name="ActionType" Type="int16" Value="2"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Jungle" ID="{23A46254-9C49-4E1F-9FD9-FB64481218E4}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
 												<Action Name="" ID="{7CACA84D-C34B-457E-AE60-18E371E1EBE8}" ShortID="1009089655">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="Temple" ID="{0E8421A4-493C-4BF0-8750-0C7AF6D9D6F2}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
+															<ObjectRef Name="AMBIENCE" ID="{C7198263-277F-4A4A-80BE-2F71A2CD67C1}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
