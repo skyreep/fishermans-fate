@@ -95,6 +95,28 @@
 												</Action>
 											</ChildrenList>
 										</Event>
+										<Event Name="GrappleAttach" ID="{0C721032-0672-4945-8B71-64E0929F320B}">
+											<ChildrenList>
+												<Action Name="" ID="{C404ACA0-1E28-43B0-B8E8-F8FB75308A77}" ShortID="249401835">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SFX_UNI_Player_Grapple_Attach" ID="{216A70F3-A761-49BF-BB65-02247594D0B7}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="GrappleShoot" ID="{FB195B47-2C81-4C5B-BB7B-57EECA966C6D}">
+											<ChildrenList>
+												<Action Name="" ID="{D44439AB-FCC4-46A8-BCD1-D034CDB83EB8}" ShortID="451978756">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SFX_UNI_Player_Grapple_Shoot" ID="{0A28F27B-EDF9-44FF-8A21-907A821534B4}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="FOOTSTEPS" ID="{5E283223-8AD7-41E9-AE35-59D6AD66FE55}" ShortID="202993952">
