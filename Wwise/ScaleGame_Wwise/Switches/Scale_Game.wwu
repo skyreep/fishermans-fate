@@ -17,8 +17,9 @@
 								<Switch Name="Grass" ID="{0C94A94C-E6AE-4818-8212-39A05454FD13}"/>
 								<Switch Name="Stone" ID="{EA23D431-D524-4E95-B3D5-98F351E22ABC}"/>
 								<Switch Name="Metal" ID="{0E81217E-5D7D-42D0-AED6-D679BD01FA58}"/>
-								<Switch Name="Snow" ID="{D3863FAA-D83D-40D1-8477-DE7064397BF7}"/>
-								<Switch Name="Ice" ID="{682C7814-C55A-4A8D-BF7A-493474F9AB94}"/>
+								<Switch Name="Dirt" ID="{22A37D54-D3DD-4687-A44F-D240BD429E36}"/>
+								<Switch Name="Leaves" ID="{6284C819-A785-4040-A443-36CAA919EB60}"/>
+								<Switch Name="Water" ID="{0F78037C-C696-4B32-941D-66988DF4B509}"/>
 							</ChildrenList>
 						</SwitchGroup>
 					</ChildrenList>

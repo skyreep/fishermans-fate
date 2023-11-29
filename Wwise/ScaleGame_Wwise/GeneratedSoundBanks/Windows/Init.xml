@@ -61,10 +61,11 @@
 				</SwitchGroup>
 				<SwitchGroup Id="3714303081" Name="Surfaces" ObjectPath="\Switches\Scale_Game\Footsteps\Surfaces" GUID="{F9DF1E7E-B488-4E02-9259-0AA9E9122922}">
 					<Switches>
-						<Switch Id="344481046" Name="Ice" ObjectPath="\Switches\Scale_Game\Footsteps\Surfaces\Ice" GUID="{682C7814-C55A-4A8D-BF7A-493474F9AB94}"/>
-						<Switch Id="787898836" Name="Snow" ObjectPath="\Switches\Scale_Game\Footsteps\Surfaces\Snow" GUID="{D3863FAA-D83D-40D1-8477-DE7064397BF7}"/>
+						<Switch Id="582824249" Name="Leaves" ObjectPath="\Switches\Scale_Game\Footsteps\Surfaces\Leaves" GUID="{6284C819-A785-4040-A443-36CAA919EB60}"/>
 						<Switch Id="1216965916" Name="Stone" ObjectPath="\Switches\Scale_Game\Footsteps\Surfaces\Stone" GUID="{EA23D431-D524-4E95-B3D5-98F351E22ABC}"/>
+						<Switch Id="2195636714" Name="Dirt" ObjectPath="\Switches\Scale_Game\Footsteps\Surfaces\Dirt" GUID="{22A37D54-D3DD-4687-A44F-D240BD429E36}"/>
 						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Scale_Game\Footsteps\Surfaces\Metal" GUID="{0E81217E-5D7D-42D0-AED6-D679BD01FA58}"/>
+						<Switch Id="2654748154" Name="Water" ObjectPath="\Switches\Scale_Game\Footsteps\Surfaces\Water" GUID="{0F78037C-C696-4B32-941D-66988DF4B509}"/>
 						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Scale_Game\Footsteps\Surfaces\Grass" GUID="{0C94A94C-E6AE-4818-8212-39A05454FD13}"/>
 					</Switches>
 				</SwitchGroup>
@@ -185,5 +186,5 @@
 			</AcousticTextures>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{BC5528A7-9965-6FA0-34B1-EFDA722DCE69}</FileHash>
+	<FileHash>{B8BBEEDB-3A5D-7065-A50D-AE8B8C4953A7}</FileHash>
 </SoundBanksInfo>

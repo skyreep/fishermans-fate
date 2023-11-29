@@ -44,6 +44,7 @@
 										</Event>
 									</ChildrenList>
 								</Folder>
+								<Event Name="Play_Water_Splash" ID="{43351BF7-1EEC-46A6-A674-7F9FF2AC6C06}"/>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="CD" ID="{2FA76C60-199F-433D-8515-DA64AD7C9356}" ShortID="971588566"/>
