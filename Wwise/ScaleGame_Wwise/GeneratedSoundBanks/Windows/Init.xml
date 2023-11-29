@@ -46,6 +46,12 @@
 				<GameParameter Id="4160247818" Name="SS_Air_Turbulence" ObjectPath="\Game Parameters\Factory Soundseed Air Game Syncs\SS_Air_Turbulence" GUID="{EDA87B19-73AA-40A0-9F19-2073606DB710}"/>
 			</GameParameters>
 			<SwitchGroups>
+				<SwitchGroup Id="1017660616" Name="Ambiences" ObjectPath="\Switches\Scale_Game\Ambiences" GUID="{18B5CAB8-EAE7-4F24-BEA2-9DE9C8BEC78B}">
+					<Switches>
+						<Switch Id="219304270" Name="Jungle" ObjectPath="\Switches\Scale_Game\Ambiences\Jungle" GUID="{D14A6CE0-B1FA-4ADA-99E3-3807DE08E45E}"/>
+						<Switch Id="2323193050" Name="Temple" ObjectPath="\Switches\Scale_Game\Ambiences\Temple" GUID="{A0DC6F9A-6F96-47C8-BF9C-72A78FC24686}"/>
+					</Switches>
+				</SwitchGroup>
 				<SwitchGroup Id="2947616871" Name="Form" ObjectPath="\Switches\Scale_Game\Form" GUID="{6B34F204-9AC5-4C47-B728-C6BBCDA66A98}">
 					<Switches>
 						<Switch Id="699461374" Name="Fire_Form" ObjectPath="\Switches\Scale_Game\Form\Fire_Form" GUID="{DF777A52-3A08-4C83-A610-8DDE12C21186}"/>
@@ -179,5 +185,5 @@
 			</AcousticTextures>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{36F36391-560C-DB06-93C9-3672380C7D78}</FileHash>
+	<FileHash>{BC5528A7-9965-6FA0-34B1-EFDA722DCE69}</FileHash>
 </SoundBanksInfo>

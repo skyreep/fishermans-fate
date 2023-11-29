@@ -18,14 +18,51 @@
 					<ChildrenList>
 						<Folder Name="AM" ID="{348F4AA4-BD0A-44E6-BD45-3AE4E8A51F50}" ShortID="537924710">
 							<ChildrenList>
-								<Folder Name="AMBIENCE" ID="{04751222-BCB3-4291-9150-3F98171A099C}" ShortID="893814536"/>
-								<Folder Name="EMITTERS" ID="{EF6280AB-F349-477E-BF94-F7BE86BF8CAC}" ShortID="864403966"/>
-							</ChildrenList>
-						</Folder>
-						<Folder Name="CD" ID="{39F3F740-F5D7-4043-BFAA-3F5A378A11EE}" ShortID="98002934">
-							<ChildrenList>
-								<Folder Name="AMBIENCE" ID="{F84F374F-B236-44B5-B0EF-6A8D386E74A5}" ShortID="497336499"/>
-								<Folder Name="EMITTERS" ID="{44DAE384-3508-4F76-9C92-805A132C8ED8}" ShortID="820021672"/>
+								<Folder Name="AMBIENCE" ID="{04751222-BCB3-4291-9150-3F98171A099C}" ShortID="893814536">
+									<ChildrenList>
+										<RandomSequenceContainer Name="Jungle" ID="{23A46254-9C49-4E1F-9FD9-FB64481218E4}" ShortID="741253320">
+											<PropertyList>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+												</Reference>
+											</ReferenceList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Temple" ID="{0E8421A4-493C-4BF0-8750-0C7AF6D9D6F2}" ShortID="175557520">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+												</Reference>
+											</ReferenceList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="EMITTERS" ID="{EF6280AB-F349-477E-BF94-F7BE86BF8CAC}" ShortID="864403966">
+									<ChildrenList>
+										<RandomSequenceContainer Name="Waterfall" ID="{009552A6-098A-4615-B2C0-8905307F94AB}" ShortID="705249583">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+												</Reference>
+											</ReferenceList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="PLAYER" ID="{7CC807D3-9F3A-437B-8BB7-3CC336FB6C07}" ShortID="179494403">
