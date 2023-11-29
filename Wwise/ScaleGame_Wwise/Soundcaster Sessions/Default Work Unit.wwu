@@ -15,6 +15,7 @@
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Base_Form" ID="{7E67AF8A-75DD-492B-8BCC-8499F51EFE58}"/>
 						<CurrentSwitchRef Name="Grass" ID="{0C94A94C-E6AE-4818-8212-39A05454FD13}"/>
+						<CurrentSwitchRef Name="Jungle" ID="{D14A6CE0-B1FA-4ADA-99E3-3807DE08E45E}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

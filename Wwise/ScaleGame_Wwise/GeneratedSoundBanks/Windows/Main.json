@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{181571D8-5C1B-4B16-A2F1-3E5A021A1A77}",
     "Language": "SFX",
-    "Hash": "{7EEA94FE-2613-07C4-0A16-CE8AABB902FB}",
+    "Hash": "{D89E0B0D-3CCC-6A1A-5120-AE5AFB7F75AF}",
     "ObjectPath": "\\SoundBanks\\Scale_Game\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -21,7 +21,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Grass\\SFX_UNI_Player_Footstep_BaseForm_Grass_01.wav",
-      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_01_10C4C929.wem"
+      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_01_0644A972.wem"
      },
      {
       "Id": "50240114",
@@ -29,7 +29,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Grass\\SFX_UNI_Player_Footstep_BaseForm_Grass_19.wav",
-      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_19_10C4C929.wem"
+      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_19_6882F651.wem"
      },
      {
       "Id": "50793692",
@@ -37,7 +37,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Grass\\SFX_UNI_Player_Footstep_BaseForm_Grass_14.wav",
-      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_14_10C4C929.wem"
+      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_14_D631A6B3.wem"
      },
      {
       "Id": "78787271",
@@ -93,7 +93,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Grass\\SFX_UNI_Player_Footstep_BaseForm_Grass_03.wav",
-      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_03_10C4C929.wem"
+      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_03_829FE9DC.wem"
      },
      {
       "Id": "196646842",
@@ -109,7 +109,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Grass\\SFX_UNI_Player_Footstep_BaseForm_Grass_16.wav",
-      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_16_10C4C929.wem"
+      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_16_F1E9EEC3.wem"
      },
      {
       "Id": "206857669",
@@ -117,7 +117,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Grass\\SFX_UNI_Player_Footstep_BaseForm_Grass_17.wav",
-      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_17_10C4C929.wem"
+      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_17_C321EB1B.wem"
      },
      {
       "Id": "221138683",
@@ -165,7 +165,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Grass\\SFX_UNI_Player_Footstep_BaseForm_Grass_18.wav",
-      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_18_10C4C929.wem"
+      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_18_E518C2AE.wem"
      },
      {
       "Id": "314209416",
@@ -277,7 +277,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Grass\\SFX_UNI_Player_Footstep_BaseForm_Grass_06.wav",
-      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_06_10C4C929.wem"
+      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_06_51CC2826.wem"
      },
      {
       "Id": "525095255",
@@ -309,7 +309,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Grass\\SFX_UNI_Player_Footstep_BaseForm_Grass_10.wav",
-      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_10_10C4C929.wem"
+      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_10_E4DBADB6.wem"
      },
      {
       "Id": "542086802",
@@ -365,7 +365,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Grass\\SFX_UNI_Player_Footstep_BaseForm_Grass_15.wav",
-      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_15_10C4C929.wem"
+      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_15_AFB387C2.wem"
      },
      {
       "Id": "669932054",
@@ -381,7 +381,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Grass\\SFX_UNI_Player_Footstep_BaseForm_Grass_08.wav",
-      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_08_10C4C929.wem"
+      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_08_A09FB44F.wem"
      },
      {
       "Id": "679892057",
@@ -421,7 +421,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Grass\\SFX_UNI_Player_Footstep_BaseForm_Grass_02.wav",
-      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_02_10C4C929.wem"
+      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_02_A4A18F10.wem"
      },
      {
       "Id": "751119909",
@@ -461,7 +461,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Grass\\SFX_UNI_Player_Footstep_BaseForm_Grass_07.wav",
-      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_07_10C4C929.wem"
+      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_07_BB92FCE7.wem"
      },
      {
       "Id": "791789816",
@@ -477,7 +477,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Grass\\SFX_UNI_Player_Footstep_BaseForm_Grass_05.wav",
-      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_05_10C4C929.wem"
+      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_05_3A44D4CD.wem"
      },
      {
       "Id": "806431556",
@@ -525,7 +525,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Grass\\SFX_UNI_Player_Footstep_BaseForm_Grass_13.wav",
-      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_13_10C4C929.wem"
+      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_13_225D982D.wem"
      },
      {
       "Id": "855982724",
@@ -541,7 +541,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Grass\\SFX_UNI_Player_Footstep_BaseForm_Grass_09.wav",
-      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_09_10C4C929.wem"
+      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_09_6CAECD78.wem"
      },
      {
       "Id": "867309686",
@@ -605,7 +605,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Grass\\SFX_UNI_Player_Footstep_BaseForm_Grass_11.wav",
-      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_11_10C4C929.wem"
+      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_11_ACA7ABE5.wem"
      },
      {
       "Id": "982618165",
@@ -694,13 +694,38 @@
       ]
      },
      {
+      "Id": "2245623692",
+      "Name": "Play_Jungle_Ambience",
+      "ObjectPath": "\\Events\\Scale_Game\\SFX\\AM\\AMBIENCE\\Play_Jungle_Ambience",
+      "GUID": "{7FCC1BE0-EBCA-4862-A89B-ED186D883F6E}",
+      "DurationType": "Infinite"
+     },
+     {
+      "Id": "3347891624",
+      "Name": "Play_Temple_Ambience",
+      "ObjectPath": "\\Events\\Scale_Game\\SFX\\AM\\AMBIENCE\\Play_Temple_Ambience",
+      "GUID": "{F926092A-95C3-49A4-8E63-49B505D71FD0}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "467174588",
+      "Name": "Play_Waterfall",
+      "ObjectPath": "\\Events\\Scale_Game\\SFX\\AM\\EMITTERS\\Play_Waterfall",
+      "GUID": "{9719FBAD-DF46-42ED-8DE8-9F1627842BC8}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "3302377865",
       "Name": "SFX_PlayFootstep",
       "ObjectPath": "\\Events\\Scale_Game\\SFX\\PLAYER\\FOOTSTEPS\\SFX_PlayFootstep",
       "GUID": "{5895F1CF-136D-416A-8913-2B0DBFFB1A76}",
       "DurationType": "OneShot",
       "DurationMin": "0",
-      "DurationMax": "0.9404375",
+      "DurationMax": "0.92983675",
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -1472,6 +1497,6 @@
     ]
    }
   ],
-  "FileHash": "{B61221F7-7723-FCEA-F025-5B1CE897AB87}"
+  "FileHash": "{7C155A0E-057A-2DD5-2611-43BDA1ACAA24}"
  }
 }

@@ -23,6 +23,12 @@
 						</SwitchGroup>
 					</ChildrenList>
 				</Folder>
+				<SwitchGroup Name="Ambiences" ID="{18B5CAB8-EAE7-4F24-BEA2-9DE9C8BEC78B}">
+					<ChildrenList>
+						<Switch Name="Jungle" ID="{D14A6CE0-B1FA-4ADA-99E3-3807DE08E45E}"/>
+						<Switch Name="Temple" ID="{A0DC6F9A-6F96-47C8-BF9C-72A78FC24686}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

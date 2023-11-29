@@ -54,6 +54,12 @@
 				<GameParameter Id="4160247818" Name="SS_Air_Turbulence" ObjectPath="\Game Parameters\Factory Soundseed Air Game Syncs\SS_Air_Turbulence" GUID="{EDA87B19-73AA-40A0-9F19-2073606DB710}"/>
 			</GameParameters>
 			<SwitchGroups>
+				<SwitchGroup Id="1017660616" Name="Ambiences" ObjectPath="\Switches\Scale_Game\Ambiences" GUID="{18B5CAB8-EAE7-4F24-BEA2-9DE9C8BEC78B}">
+					<Switches>
+						<Switch Id="219304270" Name="Jungle" ObjectPath="\Switches\Scale_Game\Ambiences\Jungle" GUID="{D14A6CE0-B1FA-4ADA-99E3-3807DE08E45E}"/>
+						<Switch Id="2323193050" Name="Temple" ObjectPath="\Switches\Scale_Game\Ambiences\Temple" GUID="{A0DC6F9A-6F96-47C8-BF9C-72A78FC24686}"/>
+					</Switches>
+				</SwitchGroup>
 				<SwitchGroup Id="2947616871" Name="Form" ObjectPath="\Switches\Scale_Game\Form" GUID="{6B34F204-9AC5-4C47-B728-C6BBCDA66A98}">
 					<Switches>
 						<Switch Id="699461374" Name="Fire_Form" ObjectPath="\Switches\Scale_Game\Form\Fire_Form" GUID="{DF777A52-3A08-4C83-A610-8DDE12C21186}"/>
@@ -186,22 +192,22 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" GUID="{181571D8-5C1B-4B16-A2F1-3E5A021A1A77}" Language="SFX" Hash="{7EEA94FE-2613-07C4-0A16-CE8AABB902FB}">
+		<SoundBank Id="3161908922" Type="User" GUID="{181571D8-5C1B-4B16-A2F1-3E5A021A1A77}" Language="SFX" Hash="{D89E0B0D-3CCC-6A1A-5120-AE5AFB7F75AF}">
 			<ObjectPath>\SoundBanks\Scale_Game\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
 				<File Id="49495630" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_01.wav</ShortName>
-					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_01_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_01_0644A972.wem</CachePath>
 				</File>
 				<File Id="50240114" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_19.wav</ShortName>
-					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_19_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_19_6882F651.wem</CachePath>
 				</File>
 				<File Id="50793692" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_14.wav</ShortName>
-					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_14_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_14_D631A6B3.wem</CachePath>
 				</File>
 				<File Id="78787271" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Landings\SFX_UNI_Player_Land_BaseForm_Metal_02.wav</ShortName>
@@ -229,7 +235,7 @@
 				</File>
 				<File Id="173408922" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_03.wav</ShortName>
-					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_03_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_03_829FE9DC.wem</CachePath>
 				</File>
 				<File Id="196646842" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Metal\SFX_UNI_Player_Footstep_BaseForm_Metal_04.wav</ShortName>
@@ -237,11 +243,11 @@
 				</File>
 				<File Id="199128518" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_16.wav</ShortName>
-					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_16_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_16_F1E9EEC3.wem</CachePath>
 				</File>
 				<File Id="206857669" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_17.wav</ShortName>
-					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_17_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_17_C321EB1B.wem</CachePath>
 				</File>
 				<File Id="221138683" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Stone\SFX_UNI_Player_Footstep_BaseForm_Stone_17.wav</ShortName>
@@ -265,7 +271,7 @@
 				</File>
 				<File Id="302948468" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_18.wav</ShortName>
-					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_18_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_18_E518C2AE.wem</CachePath>
 				</File>
 				<File Id="314209416" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Snow\SFX_UNI_Player_Footstep_BaseForm_Snow_06.wav</ShortName>
@@ -321,7 +327,7 @@
 				</File>
 				<File Id="500032320" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_06.wav</ShortName>
-					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_06_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_06_51CC2826.wem</CachePath>
 				</File>
 				<File Id="525095255" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Snow\SFX_UNI_Player_Footstep_BaseForm_Snow_07.wav</ShortName>
@@ -337,7 +343,7 @@
 				</File>
 				<File Id="531867341" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_10.wav</ShortName>
-					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_10_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_10_E4DBADB6.wem</CachePath>
 				</File>
 				<File Id="542086802" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Stone\SFX_UNI_Player_Footstep_BaseForm_Stone_13.wav</ShortName>
@@ -365,7 +371,7 @@
 				</File>
 				<File Id="654005851" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_15.wav</ShortName>
-					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_15_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_15_AFB387C2.wem</CachePath>
 				</File>
 				<File Id="669932054" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Stone\SFX_UNI_Player_Footstep_BaseForm_Stone_14.wav</ShortName>
@@ -373,7 +379,7 @@
 				</File>
 				<File Id="679662746" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_08.wav</ShortName>
-					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_08_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_08_A09FB44F.wem</CachePath>
 				</File>
 				<File Id="679892057" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Snow\SFX_UNI_Player_Footstep_BaseForm_Snow_13.wav</ShortName>
@@ -393,7 +399,7 @@
 				</File>
 				<File Id="745364906" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_02.wav</ShortName>
-					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_02_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_02_A4A18F10.wem</CachePath>
 				</File>
 				<File Id="751119909" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Stone\SFX_UNI_Player_Footstep_BaseForm_Stone_01.wav</ShortName>
@@ -413,7 +419,7 @@
 				</File>
 				<File Id="778317978" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_07.wav</ShortName>
-					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_07_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_07_BB92FCE7.wem</CachePath>
 				</File>
 				<File Id="791789816" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Snow\SFX_UNI_Player_Footstep_BaseForm_Snow_11.wav</ShortName>
@@ -421,7 +427,7 @@
 				</File>
 				<File Id="802617084" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_05.wav</ShortName>
-					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_05_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_05_3A44D4CD.wem</CachePath>
 				</File>
 				<File Id="806431556" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Metal\SFX_UNI_Player_Footstep_BaseForm_Metal_02.wav</ShortName>
@@ -445,7 +451,7 @@
 				</File>
 				<File Id="836303112" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_13.wav</ShortName>
-					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_13_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_13_225D982D.wem</CachePath>
 				</File>
 				<File Id="855982724" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Metal\SFX_UNI_Player_Footstep_BaseForm_Metal_03.wav</ShortName>
@@ -453,7 +459,7 @@
 				</File>
 				<File Id="857983961" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_09.wav</ShortName>
-					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_09_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_09_6CAECD78.wem</CachePath>
 				</File>
 				<File Id="867309686" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Snow\SFX_UNI_Player_Footstep_BaseForm_Snow_16.wav</ShortName>
@@ -485,7 +491,7 @@
 				</File>
 				<File Id="951353149" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_11.wav</ShortName>
-					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_11_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_11_ACA7ABE5.wem</CachePath>
 				</File>
 				<File Id="982618165" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Metal\SFX_UNI_Player_Footstep_BaseForm_Metal_10.wav</ShortName>
@@ -523,7 +529,10 @@
 						<ActionSetSwitchEntry GroupId="2947616871" Id="699461374" Name="Fire_Form" ObjectPath="\Switches\Scale_Game\Form\Fire_Form" GUID="{DF777A52-3A08-4C83-A610-8DDE12C21186}"/>
 					</ActionSetSwitch>
 				</Event>
-				<Event Id="3302377865" Name="SFX_PlayFootstep" ObjectPath="\Events\Scale_Game\SFX\PLAYER\FOOTSTEPS\SFX_PlayFootstep" GUID="{5895F1CF-136D-416A-8913-2B0DBFFB1A76}" DurationType="OneShot" DurationMin="0" DurationMax="0.9404375">
+				<Event Id="2245623692" Name="Play_Jungle_Ambience" ObjectPath="\Events\Scale_Game\SFX\AM\AMBIENCE\Play_Jungle_Ambience" GUID="{7FCC1BE0-EBCA-4862-A89B-ED186D883F6E}" DurationType="Infinite"/>
+				<Event Id="3347891624" Name="Play_Temple_Ambience" ObjectPath="\Events\Scale_Game\SFX\AM\AMBIENCE\Play_Temple_Ambience" GUID="{F926092A-95C3-49A4-8E63-49B505D71FD0}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="467174588" Name="Play_Waterfall" ObjectPath="\Events\Scale_Game\SFX\AM\EMITTERS\Play_Waterfall" GUID="{9719FBAD-DF46-42ED-8DE8-9F1627842BC8}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3302377865" Name="SFX_PlayFootstep" ObjectPath="\Events\Scale_Game\SFX\PLAYER\FOOTSTEPS\SFX_PlayFootstep" GUID="{5895F1CF-136D-416A-8913-2B0DBFFB1A76}" DurationType="OneShot" DurationMin="0" DurationMax="0.92983675">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="2947616871" Id="3977289983" GUID="{7E67AF8A-75DD-492B-8BCC-8499F51EFE58}" Default="true"/>
@@ -812,5 +821,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{78DD4C6E-24E6-F3BA-516E-A5E1E99793EC}</FileHash>
+	<FileHash>{A51B550F-9EFF-927B-EBD4-CE9FF93ED0EC}</FileHash>
 </SoundBanksInfo>

@@ -220,6 +220,26 @@
     ],
     "SwitchGroups": [
      {
+      "Id": "1017660616",
+      "Name": "Ambiences",
+      "ObjectPath": "\\Switches\\Scale_Game\\Ambiences",
+      "GUID": "{18B5CAB8-EAE7-4F24-BEA2-9DE9C8BEC78B}",
+      "Switches": [
+       {
+        "Id": "219304270",
+        "Name": "Jungle",
+        "ObjectPath": "\\Switches\\Scale_Game\\Ambiences\\Jungle",
+        "GUID": "{D14A6CE0-B1FA-4ADA-99E3-3807DE08E45E}"
+       },
+       {
+        "Id": "2323193050",
+        "Name": "Temple",
+        "ObjectPath": "\\Switches\\Scale_Game\\Ambiences\\Temple",
+        "GUID": "{A0DC6F9A-6F96-47C8-BF9C-72A78FC24686}"
+       }
+      ]
+     },
+     {
       "Id": "2947616871",
       "Name": "Form",
       "ObjectPath": "\\Switches\\Scale_Game\\Form",
@@ -680,6 +700,6 @@
     ]
    }
   ],
-  "FileHash": "{3B43BAF8-D2C5-07C9-EA1F-889EC14F6B93}"
+  "FileHash": "{99567901-F8FB-956A-D588-CD20336B49E5}"
  }
 }
