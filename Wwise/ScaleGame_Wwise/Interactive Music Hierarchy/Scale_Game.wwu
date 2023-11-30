@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{28771294-58D7-4496-BBAA-B70091C22000}" SchemaVersion="110">
+	<InteractiveMusic>
+		<WorkUnit Name="Scale_Game" ID="{28771294-58D7-4496-BBAA-B70091C22000}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicPlaylistContainer Name="MainMenu" ID="{0CE7E67D-C11B-445F-8261-2886CC797F07}" ShortID="338154557">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+						</Reference>
+					</ReferenceList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{367914AF-8B62-4819-962A-C6E48521A78E}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{09D2E417-F6EE-4A65-BA58-37E3B236273C}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{780204F3-4A52-4F2E-8F39-27343EAA754F}" ShortID="744577589"/>
+					</Playlist>
+				</MusicPlaylistContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>
