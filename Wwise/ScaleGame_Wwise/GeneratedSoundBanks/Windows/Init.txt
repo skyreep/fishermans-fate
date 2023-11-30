@@ -36,6 +36,12 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	3710512361	DX_CEDERARE			\Scale_Game\MASTER\DX\DX_CEDERARE	
 	4056684167	MASTER			\Scale_Game\MASTER	
 
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	3518710954	SFX_Verb			\Scale_Game\MASTER\SFX\SFX_Verb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1020291235	Matrix Reverb (Custom)	Wwise Matrix Reverb			
+
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
 	3859886410	System	System			

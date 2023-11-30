@@ -4,14 +4,117 @@
 		<WorkUnit Name="Scale_Game" ID="{28771294-58D7-4496-BBAA-B70091C22000}" PersistMode="Standalone">
 			<ChildrenList>
 				<MusicPlaylistContainer Name="MainMenu" ID="{0CE7E67D-C11B-445F-8261-2886CC797F07}" ShortID="338154557">
+					<PropertyList>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+						<Property Name="Tempo" Type="Real64" Value="88"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+							<ObjectRef Name="MX" ID="{753DD298-76AA-4A1C-B8E9-849DF6EE696E}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="1 - Main Menu 88bpm" ID="{DB651A81-333E-4AAB-B7E5-91447AB3177C}" ShortID="1001738889">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="84317.2414862602"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="1 - Main Menu 88bpm" ID="{3A07BDF4-267E-4361-A9CE-7BFEE8A3D8BB}" ShortID="581071748">
+									<PropertyList>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="1 - Main Menu 88bpm" ID="{9651F96D-54D9-4C47-B18A-5D7DFCC85137}">
+											<Language>SFX</Language>
+											<AudioFile>MX\1 - Main Menu 88bpm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="152920470"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{C95747EA-9375-4B8E-B1E7-982E974372B2}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{0BED4DF4-5091-402A-9F84-8AD01BF9FB49}">
+													<TransitionInfo/>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{2115D9DB-69BB-4C86-9AC5-02C0DAA7803D}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="1 - Main Menu 88bpm" ID="{34D6C1A2-9E28-424D-A390-371B387E5A8A}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="76001.0204081633"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutDuration" Type="Real64" Value="1570.84175919608"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="1 - Main Menu 88bpm" ID="{9651F96D-54D9-4C47-B18A-5D7DFCC85137}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{F48687B9-9D22-45DE-A134-8A166DDBC0DB}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{5B009724-6E13-4370-AC65-AB60F43C770F}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="76001.0204081633"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
 					<TransitionList>
 						<MusicTransition Name="Root" ID="{367914AF-8B62-4819-962A-C6E48521A78E}">
 							<PropertyList>
@@ -26,7 +129,167 @@
 						</MusicTransition>
 					</TransitionList>
 					<Playlist>
-						<MusicPlaylistItem Name="" ID="{780204F3-4A52-4F2E-8F39-27343EAA754F}" ShortID="744577589"/>
+						<MusicPlaylistItem Name="" ID="{780204F3-4A52-4F2E-8F39-27343EAA754F}" ShortID="744577589">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="0"/>
+								<Property Name="PlayMode" Type="int16" Value="3"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{E64E4DDD-540F-43B3-A74E-71B0DAFD8BD8}" ShortID="103274389">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<SegmentRef Name="1 - Main Menu 88bpm" ID="{DB651A81-333E-4AAB-B7E5-91447AB3177C}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+				<MusicPlaylistContainer Name="AmadanTemple" ID="{D9158DA9-3389-452A-A228-B5B7677C2B07}" ShortID="298794569">
+					<PropertyList>
+						<Property Name="Tempo" Type="Real64" Value="130"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="1 - Amadan temple loop 130bpm" ID="{81725580-A79B-4ED2-A229-F839D55AE73F}" ShortID="624350331">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="118153.832199546"/>
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="1 - Amadan temple loop 130bpm" ID="{6DB0B783-910A-4D8D-830E-283E3E41A4CB}" ShortID="165394774">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="1 - Amadan temple loop 130bpm" ID="{87DAD22E-5EE1-4885-A2E1-08BE271186D0}">
+											<Language>SFX</Language>
+											<AudioFile>MX\1 - Amadan temple loop 130bpm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="966139343"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{708D0CFD-AC9E-4909-89C7-161D7FA6AF25}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{3ADF6FA9-16BF-44D3-8CED-B751B03A4AB0}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="1 - Amadan temple loop 130bpm" ID="{2AFE63BD-0CB6-47C0-8DBA-0BCB83E2B525}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="118153.832199546"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="1 - Amadan temple loop 130bpm" ID="{87DAD22E-5EE1-4885-A2E1-08BE271186D0}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{E370E92C-2B96-4547-A4CF-3270714F9EF2}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{5DE71158-13A7-4E89-B8B1-CB41E9F65B01}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="118153.832199546"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{CA7DAA53-1B5D-4984-BB48-174363B55113}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{ADFE35B1-57E4-4443-AE76-60CA9C86F262}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{C9DF3BFD-56AE-4ED8-87C8-9CD71D95B25C}" ShortID="287395158">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="0"/>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="PlayMode" Type="int16" Value="3"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{A5E98726-732E-4C2B-890A-55B8F49F2A6A}" ShortID="376982248">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<SegmentRef Name="1 - Amadan temple loop 130bpm" ID="{81725580-A79B-4ED2-A229-F839D55AE73F}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
 					</Playlist>
 				</MusicPlaylistContainer>
 			</ChildrenList>

@@ -11,10 +11,33 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="SFX" ID="{D694299A-C7DF-4B84-A54C-FB8501EA2F39}">
+							<ReferenceList/>
 							<ChildrenList>
 								<Bus Name="PLAYER" ID="{1BCA237D-61C0-4EDE-AC56-E79779BDD759}"/>
 								<Bus Name="AMBIENCE" ID="{F9659496-102B-4B94-823A-78B4042A4CC7}"/>
 								<Bus Name="EMITTERS" ID="{6563AFA8-162C-4EF4-B85B-0635888B6781}"/>
+								<AuxBus Name="SFX_Verb" ID="{FC358F5D-2424-4538-B07B-FF934BE7922D}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect0">
+											<Custom>
+												<Effect Name="Matrix Reverb (Custom)" ID="{B6187DC5-D445-4257-B332-0B83D302BBD8}" ShortID="1020291235" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<PropertyList>
+														<Property Name="HFRatio" Type="Real32" Value="0.5"/>
+														<Property Name="NumberOfDelays" Type="int32" Value="12"/>
+														<Property Name="ReverbTime" Type="Real32" Value="0.6"/>
+													</PropertyList>
+												</Effect>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
 							</ChildrenList>
 						</Bus>
 						<Bus Name="DX" ID="{0E3EB6F5-F672-42A4-B452-13EBD4EFB74B}">

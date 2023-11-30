@@ -19,6 +19,7 @@
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Base_Form" ID="{7E67AF8A-75DD-492B-8BCC-8499F51EFE58}"/>
 						<CurrentSwitchRef Name="Dirt" ID="{22A37D54-D3DD-4687-A44F-D240BD429E36}"/>
+						<CurrentSwitchRef Name="Temple" ID="{A0DC6F9A-6F96-47C8-BF9C-72A78FC24686}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

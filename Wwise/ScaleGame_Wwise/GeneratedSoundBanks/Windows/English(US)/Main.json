@@ -1,0 +1,3228 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "3161908922",
+    "Type": "User",
+    "GUID": "{181571D8-5C1B-4B16-A2F1-3E5A021A1A77}",
+    "Language": "English(US)",
+    "Hash": "{0A8AFB0C-F8C2-245F-08C9-B8CDE4D5634A}",
+    "ObjectPath": "\\SoundBanks\\Scale_Game\\Main",
+    "ShortName": "Main",
+    "Path": "English(US)/Main.bnk",
+    "Media": [
+     {
+      "Id": "817693",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Water\\Water\\SFX_UNI_Player_Footstep_BaseForm_Water_08.wav",
+      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_08_10C4C929.wem"
+     },
+     {
+      "Id": "20015697",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Dirt\\SFX_UNI_Player_Footstep_BaseForm_Dirt_10.wav",
+      "CachePath": "SFX/Footsteps/Dirt/SFX_UNI_Player_Footstep_BaseForm_Dirt_10_10C4C929.wem"
+     },
+     {
+      "Id": "31153336",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\VO\\Landry_03.wav",
+      "CachePath": "Voices/English(US)/Landry/VO/Landry_03_10C4C929.wem"
+     },
+     {
+      "Id": "34773905",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\VO\\Landry_01.wav",
+      "CachePath": "Voices/English(US)/Landry/VO/Landry_01_10C4C929.wem"
+     },
+     {
+      "Id": "39664796",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Leaves\\SFX_UNI_Player_Footstep_BaseForm_Leaves_20.wav",
+      "CachePath": "SFX/Footsteps/Leaves/SFX_UNI_Player_Footstep_BaseForm_Leaves_20_10C4C929.wem"
+     },
+     {
+      "Id": "49381136",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_13.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_13_10C4C929.wem"
+     },
+     {
+      "Id": "49495630",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Grass\\SFX_UNI_Player_Footstep_BaseForm_Grass_01.wav",
+      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_01_0644A972.wem"
+     },
+     {
+      "Id": "50039862",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_03.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_03_2462F194.wem"
+     },
+     {
+      "Id": "50240114",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Grass\\SFX_UNI_Player_Footstep_BaseForm_Grass_19.wav",
+      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_19_6882F651.wem"
+     },
+     {
+      "Id": "50793692",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Grass\\SFX_UNI_Player_Footstep_BaseForm_Grass_14.wav",
+      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_14_D631A6B3.wem"
+     },
+     {
+      "Id": "62550627",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Dirt\\SFX_UNI_Player_Footstep_BaseForm_Dirt_02.wav",
+      "CachePath": "SFX/Footsteps/Dirt/SFX_UNI_Player_Footstep_BaseForm_Dirt_02_10C4C929.wem"
+     },
+     {
+      "Id": "63372239",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Leaves\\SFX_UNI_Player_Footstep_BaseForm_Leaves_14.wav",
+      "CachePath": "SFX/Footsteps/Leaves/SFX_UNI_Player_Footstep_BaseForm_Leaves_14_10C4C929.wem"
+     },
+     {
+      "Id": "72751665",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\JUMP\\SFX_UNI_Player_jump\\SFX_UNI_Player_Jump_01.wav",
+      "CachePath": "SFX/SGAssetsTurnover/JUMP/SFX_UNI_Player_jump/SFX_UNI_Player_Jump_01_10C4C929.wem"
+     },
+     {
+      "Id": "78787271",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landings\\SFX_UNI_Player_Land_BaseForm_Metal_02.wav",
+      "CachePath": "SFX/Landings/SFX_UNI_Player_Land_BaseForm_Metal_02_10C4C929.wem"
+     },
+     {
+      "Id": "93955131",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Stone\\SFX_UNI_Player_Footstep_BaseForm_Stone_02.wav",
+      "CachePath": "SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_02_10C4C929.wem"
+     },
+     {
+      "Id": "105609577",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\SPECS\\AM_CD_AMBIENCE_SPECS_JUNGLE_2.wav",
+      "CachePath": "SFX/SGAssetsTurnover/SPECS/AM_CD_AMBIENCE_SPECS_JUNGLE_2_10C4C929.wem"
+     },
+     {
+      "Id": "107891927",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\SPECS\\AM_CD_AMBIENCE_SPECS_JUNGLE.wav",
+      "CachePath": "SFX/SGAssetsTurnover/SPECS/AM_CD_AMBIENCE_SPECS_JUNGLE_10C4C929.wem"
+     },
+     {
+      "Id": "120783583",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\SFX_AM_Emit_Plant_PlantGrow_01.wav",
+      "CachePath": "SFX/SGAssetsTurnover/SFX_AM_Emit_Plant_PlantGrow_01_10C4C929.wem"
+     },
+     {
+      "Id": "120830246",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Water\\Water\\SFX_UNI_Player_Footstep_BaseForm_Water_09.wav",
+      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_09_10C4C929.wem"
+     },
+     {
+      "Id": "121854168",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_29.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_29_10C4C929.wem"
+     },
+     {
+      "Id": "131889721",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_07.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_07_10C4C929.wem"
+     },
+     {
+      "Id": "140683062",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_16.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_16_10C4C929.wem"
+     },
+     {
+      "Id": "143937575",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Stone\\SFX_UNI_Player_Footstep_BaseForm_Stone_09.wav",
+      "CachePath": "SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_09_10C4C929.wem"
+     },
+     {
+      "Id": "145471257",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Metal\\SFX_UNI_Player_Footstep_BaseForm_Metal_07.wav",
+      "CachePath": "SFX/Footsteps/Metal/SFX_UNI_Player_Footstep_BaseForm_Metal_07_10C4C929.wem"
+     },
+     {
+      "Id": "147702939",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_32.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_32_10C4C929.wem"
+     },
+     {
+      "Id": "152920470",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "MX\\1 - Main Menu 88bpm.wav",
+      "Path": "Media/152920470.wem",
+      "CachePath": "SFX/MX/1 - Main Menu 88bpm_D79FB2B7.wem"
+     },
+     {
+      "Id": "164934613",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Stone\\SFX_UNI_Player_Footstep_BaseForm_Stone_07.wav",
+      "CachePath": "SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_07_10C4C929.wem"
+     },
+     {
+      "Id": "166327263",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\VO\\Landry_08.wav",
+      "CachePath": "Voices/English(US)/Landry/VO/Landry_08_10C4C929.wem"
+     },
+     {
+      "Id": "173408922",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Grass\\SFX_UNI_Player_Footstep_BaseForm_Grass_03.wav",
+      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_03_829FE9DC.wem"
+     },
+     {
+      "Id": "196646842",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Metal\\SFX_UNI_Player_Footstep_BaseForm_Metal_04.wav",
+      "CachePath": "SFX/Footsteps/Metal/SFX_UNI_Player_Footstep_BaseForm_Metal_04_10C4C929.wem"
+     },
+     {
+      "Id": "197141158",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_23.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_23_10C4C929.wem"
+     },
+     {
+      "Id": "199128518",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Grass\\SFX_UNI_Player_Footstep_BaseForm_Grass_16.wav",
+      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_16_F1E9EEC3.wem"
+     },
+     {
+      "Id": "205410784",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\GRAPPLE\\SFX_UNI_Player_Grapple_Shoot\\SFX_UNI_Player_Grapple_Shoot_02.wav",
+      "CachePath": "SFX/SGAssetsTurnover/GRAPPLE/SFX_UNI_Player_Grapple_Shoot/SFX_UNI_Player_Grapple_Shoot_02_10C4C929.wem"
+     },
+     {
+      "Id": "205604226",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\SFX_AM_Emit_Fan_FanStarting_01.wav",
+      "CachePath": "SFX/SGAssetsTurnover/SFX_AM_Emit_Fan_FanStarting_01_10C4C929.wem"
+     },
+     {
+      "Id": "206857669",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Grass\\SFX_UNI_Player_Footstep_BaseForm_Grass_17.wav",
+      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_17_C321EB1B.wem"
+     },
+     {
+      "Id": "215318433",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\WALL\\SFX_UNI_Player_WallJump_02.wav",
+      "CachePath": "SFX/SGAssetsTurnover/WALL/SFX_UNI_Player_WallJump_02_10C4C929.wem"
+     },
+     {
+      "Id": "221138683",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Stone\\SFX_UNI_Player_Footstep_BaseForm_Stone_17.wav",
+      "CachePath": "SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_17_10C4C929.wem"
+     },
+     {
+      "Id": "232026882",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Water_Splash\\SFX_UNI_Player_BaseForm_WaterSplash_03.wav",
+      "CachePath": "SFX/Footsteps/Water_Splash/SFX_UNI_Player_BaseForm_WaterSplash_03_10C4C929.wem"
+     },
+     {
+      "Id": "233780264",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_37.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_37_10C4C929.wem"
+     },
+     {
+      "Id": "235060415",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PressurePlatre\\SFX_AM_Emit_PressurePlate_02.wav",
+      "CachePath": "SFX/PressurePlatre/SFX_AM_Emit_PressurePlate_02_10C4C929.wem"
+     },
+     {
+      "Id": "242033932",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\SPECS\\AM_CD_AMBIENCE_SPECS_TEMPLE_1.wav",
+      "CachePath": "SFX/SGAssetsTurnover/SPECS/AM_CD_AMBIENCE_SPECS_TEMPLE_1_10C4C929.wem"
+     },
+     {
+      "Id": "242388446",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Metal\\SFX_UNI_Player_Footstep_BaseForm_Metal_01.wav",
+      "CachePath": "SFX/Footsteps/Metal/SFX_UNI_Player_Footstep_BaseForm_Metal_01_10C4C929.wem"
+     },
+     {
+      "Id": "242492586",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\JUMP\\SFX_UNI_Player_DoubleJump\\SFX_UNI_Player_DoubleJumpM_02.wav",
+      "CachePath": "SFX/SGAssetsTurnover/JUMP/SFX_UNI_Player_DoubleJump/SFX_UNI_Player_DoubleJumpM_02_10C4C929.wem"
+     },
+     {
+      "Id": "244031450",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\SFX_AM_Emit_Platform_PlatformStart.wav",
+      "CachePath": "SFX/SGAssetsTurnover/SFX_AM_Emit_Platform_PlatformStart_10C4C929.wem"
+     },
+     {
+      "Id": "247544321",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\VO\\Landry_012.wav",
+      "CachePath": "Voices/English(US)/Landry/VO/Landry_012_10C4C929.wem"
+     },
+     {
+      "Id": "247903333",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Water\\Water\\SFX_UNI_Player_Footstep_BaseForm_Water_06.wav",
+      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_06_10C4C929.wem"
+     },
+     {
+      "Id": "249465602",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\GRAPPLE\\SFX_UNI_Player_Grapple_Attach\\SFX_UNI_Player_Grapple_Attach_03.wav",
+      "CachePath": "SFX/SGAssetsTurnover/GRAPPLE/SFX_UNI_Player_Grapple_Attach/SFX_UNI_Player_Grapple_Attach_03_10C4C929.wem"
+     },
+     {
+      "Id": "253050910",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\VO\\Landry_010.wav",
+      "CachePath": "Voices/English(US)/Landry/VO/Landry_010_10C4C929.wem"
+     },
+     {
+      "Id": "262184214",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\SFX_AM_Emit_LightActivationM_01.wav",
+      "CachePath": "SFX/SGAssetsTurnover/SFX_AM_Emit_LightActivationM_01_10C4C929.wem"
+     },
+     {
+      "Id": "262438230",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Water\\Water\\SFX_UNI_Player_Footstep_BaseForm_Water_04.wav",
+      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_04_10C4C929.wem"
+     },
+     {
+      "Id": "265266726",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Dirt\\SFX_UNI_Player_Footstep_BaseForm_Dirt_07.wav",
+      "CachePath": "SFX/Footsteps/Dirt/SFX_UNI_Player_Footstep_BaseForm_Dirt_07_10C4C929.wem"
+     },
+     {
+      "Id": "269487289",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_36.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_36_10C4C929.wem"
+     },
+     {
+      "Id": "275344003",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landings\\SFX_UNI_Player_Land_BaseForm_Grass_01.wav",
+      "CachePath": "SFX/Landings/SFX_UNI_Player_Land_BaseForm_Grass_01_10C4C929.wem"
+     },
+     {
+      "Id": "281548802",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\VO\\Landry_011.wav",
+      "CachePath": "Voices/English(US)/Landry/VO/Landry_011_10C4C929.wem"
+     },
+     {
+      "Id": "281630002",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\WALL\\SFX_UNI_Player_WallSlideScuff_01.wav",
+      "CachePath": "SFX/SGAssetsTurnover/WALL/SFX_UNI_Player_WallSlideScuff_01_10C4C929.wem"
+     },
+     {
+      "Id": "289623428",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_41.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_41_10C4C929.wem"
+     },
+     {
+      "Id": "293491081",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Stone\\SFX_UNI_Player_Footstep_BaseForm_Stone_04.wav",
+      "CachePath": "SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_04_10C4C929.wem"
+     },
+     {
+      "Id": "296638309",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\WALL\\SFX_UNI_Player_WallLand_03.wav",
+      "CachePath": "SFX/SGAssetsTurnover/WALL/SFX_UNI_Player_WallLand_03_10C4C929.wem"
+     },
+     {
+      "Id": "297744874",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_27.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_27_10C4C929.wem"
+     },
+     {
+      "Id": "299957507",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\SPECS\\AM_CD_AMBIENCE_SPECS_JUNGLE_4.wav",
+      "CachePath": "SFX/SGAssetsTurnover/SPECS/AM_CD_AMBIENCE_SPECS_JUNGLE_4_10C4C929.wem"
+     },
+     {
+      "Id": "302948468",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Grass\\SFX_UNI_Player_Footstep_BaseForm_Grass_18.wav",
+      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_18_E518C2AE.wem"
+     },
+     {
+      "Id": "315578647",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\WALL\\SFX_UNI_Player_WallLand_01.wav",
+      "CachePath": "SFX/SGAssetsTurnover/WALL/SFX_UNI_Player_WallLand_01_10C4C929.wem"
+     },
+     {
+      "Id": "321938921",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landings\\SFX_UNI_Player_Land_BaseForm_Metal_04.wav",
+      "CachePath": "SFX/Landings/SFX_UNI_Player_Land_BaseForm_Metal_04_10C4C929.wem"
+     },
+     {
+      "Id": "323608992",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Dirt\\SFX_UNI_Player_Footstep_BaseForm_Dirt_01.wav",
+      "CachePath": "SFX/Footsteps/Dirt/SFX_UNI_Player_Footstep_BaseForm_Dirt_01_10C4C929.wem"
+     },
+     {
+      "Id": "328172047",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Stone\\SFX_UNI_Player_Footstep_BaseForm_Stone_10.wav",
+      "CachePath": "SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_10_10C4C929.wem"
+     },
+     {
+      "Id": "342915962",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\SFX_CD_Emit_WaterfallSplash.wav",
+      "CachePath": "SFX/SGAssetsTurnover/SFX_CD_Emit_WaterfallSplash_D79FB2B7.wem"
+     },
+     {
+      "Id": "347472251",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Leaves\\SFX_UNI_Player_Footstep_BaseForm_Leaves_12.wav",
+      "CachePath": "SFX/Footsteps/Leaves/SFX_UNI_Player_Footstep_BaseForm_Leaves_12_10C4C929.wem"
+     },
+     {
+      "Id": "348775715",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambiences\\AM_CD_AMBIENCE_TEMPLE.wav",
+      "CachePath": "SFX/Ambiences/AM_CD_AMBIENCE_TEMPLE_D79FB2B7.wem"
+     },
+     {
+      "Id": "349560223",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Stone\\SFX_UNI_Player_Footstep_BaseForm_Stone_12.wav",
+      "CachePath": "SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_12_10C4C929.wem"
+     },
+     {
+      "Id": "358645539",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\SFX_AM_Emit_River_Waterfall.wav",
+      "CachePath": "SFX/SGAssetsTurnover/SFX_AM_Emit_River_Waterfall_D79FB2B7.wem"
+     },
+     {
+      "Id": "359531657",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\SFX_UNI_Player_CollectST_03.wav",
+      "CachePath": "SFX/SGAssetsTurnover/SFX_UNI_Player_CollectST_03_10C4C929.wem"
+     },
+     {
+      "Id": "366308041",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\SFX_UNI_Player_CollectM_02.wav",
+      "CachePath": "SFX/SGAssetsTurnover/SFX_UNI_Player_CollectM_02_10C4C929.wem"
+     },
+     {
+      "Id": "366625327",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\SFX_AM_Emit_Fan_FanTurning_01.wav",
+      "CachePath": "SFX/SGAssetsTurnover/SFX_AM_Emit_Fan_FanTurning_01_10C4C929.wem"
+     },
+     {
+      "Id": "404173135",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Stone\\SFX_UNI_Player_Footstep_BaseForm_Stone_15.wav",
+      "CachePath": "SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_15_10C4C929.wem"
+     },
+     {
+      "Id": "414511005",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Metal\\SFX_UNI_Player_Footstep_BaseForm_Metal_09.wav",
+      "CachePath": "SFX/Footsteps/Metal/SFX_UNI_Player_Footstep_BaseForm_Metal_09_10C4C929.wem"
+     },
+     {
+      "Id": "414925772",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\GRAPPLE\\SFX_UNI_Player_Grapple_Shoot\\SFX_UNI_Player_Grapple_Shoot_03.wav",
+      "CachePath": "SFX/SGAssetsTurnover/GRAPPLE/SFX_UNI_Player_Grapple_Shoot/SFX_UNI_Player_Grapple_Shoot_03_10C4C929.wem"
+     },
+     {
+      "Id": "418323662",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Water_Splash\\SFX_UNI_Player_BaseForm_WaterSplash_01.wav",
+      "CachePath": "SFX/Footsteps/Water_Splash/SFX_UNI_Player_BaseForm_WaterSplash_01_10C4C929.wem"
+     },
+     {
+      "Id": "423369765",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\SPECS\\AM_CD_AMBIENCE_SPECS_TEMPLE_2.wav",
+      "CachePath": "SFX/SGAssetsTurnover/SPECS/AM_CD_AMBIENCE_SPECS_TEMPLE_2_10C4C929.wem"
+     },
+     {
+      "Id": "426848565",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_UNI_Emit_Conveyor.wav",
+      "CachePath": "SFX/SFX_UNI_Emit_Conveyor_D79FB2B7.wem"
+     },
+     {
+      "Id": "434907872",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_09.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_09_10C4C929.wem"
+     },
+     {
+      "Id": "436479131",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\JUMP\\SFX_UNI_Player_jump\\SFX_UNI_Player_Jump_03.wav",
+      "CachePath": "SFX/SGAssetsTurnover/JUMP/SFX_UNI_Player_jump/SFX_UNI_Player_Jump_03_10C4C929.wem"
+     },
+     {
+      "Id": "437371362",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Stone\\SFX_UNI_Player_Footstep_BaseForm_Stone_05.wav",
+      "CachePath": "SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_05_10C4C929.wem"
+     },
+     {
+      "Id": "448374933",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_22.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_22_10C4C929.wem"
+     },
+     {
+      "Id": "452138877",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\VO\\Landry_07.wav",
+      "CachePath": "Voices/English(US)/Landry/VO/Landry_07_10C4C929.wem"
+     },
+     {
+      "Id": "455471930",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_10.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_10_10C4C929.wem"
+     },
+     {
+      "Id": "461308666",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Dirt\\SFX_UNI_Player_Footstep_BaseForm_Dirt_09.wav",
+      "CachePath": "SFX/Footsteps/Dirt/SFX_UNI_Player_Footstep_BaseForm_Dirt_09_10C4C929.wem"
+     },
+     {
+      "Id": "466562833",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landings\\SFX_UNI_Player_Land_BaseForm_Snow_04.wav",
+      "CachePath": "SFX/Landings/SFX_UNI_Player_Land_BaseForm_Snow_04_10C4C929.wem"
+     },
+     {
+      "Id": "474686024",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_21.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_21_10C4C929.wem"
+     },
+     {
+      "Id": "482753125",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Stone\\SFX_UNI_Player_Footstep_BaseForm_Stone_16.wav",
+      "CachePath": "SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_16_10C4C929.wem"
+     },
+     {
+      "Id": "494326145",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\GRAPPLE\\SFX_UNI_Player_Grapple_SwingWind.wav",
+      "CachePath": "SFX/SGAssetsTurnover/GRAPPLE/SFX_UNI_Player_Grapple_SwingWind_10C4C929.wem"
+     },
+     {
+      "Id": "497630648",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landings\\SFX_UNI_Player_Land_BaseForm_Stone_04.wav",
+      "CachePath": "SFX/Landings/SFX_UNI_Player_Land_BaseForm_Stone_04_10C4C929.wem"
+     },
+     {
+      "Id": "498237780",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Grass\\SFX_UNI_Player_Footstep_BaseForm_Grass_12.wav",
+      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_12_10C4C929.wem"
+     },
+     {
+      "Id": "500032320",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Grass\\SFX_UNI_Player_Footstep_BaseForm_Grass_06.wav",
+      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_06_51CC2826.wem"
+     },
+     {
+      "Id": "506501964",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_38.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_38_10C4C929.wem"
+     },
+     {
+      "Id": "510208985",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_14.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_14_10C4C929.wem"
+     },
+     {
+      "Id": "513291930",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Leaves\\SFX_UNI_Player_Footstep_BaseForm_Leaves_18.wav",
+      "CachePath": "SFX/Footsteps/Leaves/SFX_UNI_Player_Footstep_BaseForm_Leaves_18_10C4C929.wem"
+     },
+     {
+      "Id": "516911126",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_05.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_05_10C4C929.wem"
+     },
+     {
+      "Id": "523146457",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\VO\\Landry_06.wav",
+      "CachePath": "Voices/English(US)/Landry/VO/Landry_06_10C4C929.wem"
+     },
+     {
+      "Id": "524345419",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_33.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_33_10C4C929.wem"
+     },
+     {
+      "Id": "527518421",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Stone\\SFX_UNI_Player_Footstep_BaseForm_Stone_06.wav",
+      "CachePath": "SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_06_10C4C929.wem"
+     },
+     {
+      "Id": "528409158",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Water\\Water\\SFX_UNI_Player_Footstep_BaseForm_Water_02.wav",
+      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_02_10C4C929.wem"
+     },
+     {
+      "Id": "531867341",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Grass\\SFX_UNI_Player_Footstep_BaseForm_Grass_10.wav",
+      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_10_E4DBADB6.wem"
+     },
+     {
+      "Id": "542086802",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Stone\\SFX_UNI_Player_Footstep_BaseForm_Stone_13.wav",
+      "CachePath": "SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_13_10C4C929.wem"
+     },
+     {
+      "Id": "542225467",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\SFX_AM_Emit_Blackhole.wav",
+      "CachePath": "SFX/SGAssetsTurnover/SFX_AM_Emit_Blackhole_D79FB2B7.wem"
+     },
+     {
+      "Id": "548744805",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_31.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_31_10C4C929.wem"
+     },
+     {
+      "Id": "553890541",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\GRAPPLE\\SFX_UNI_Player_Grapple_Shoot\\SFX_UNI_Player_Grapple_Shoot_01.wav",
+      "CachePath": "SFX/SGAssetsTurnover/GRAPPLE/SFX_UNI_Player_Grapple_Shoot/SFX_UNI_Player_Grapple_Shoot_01_10C4C929.wem"
+     },
+     {
+      "Id": "557193297",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Leaves\\SFX_UNI_Player_Footstep_BaseForm_Leaves_11.wav",
+      "CachePath": "SFX/Footsteps/Leaves/SFX_UNI_Player_Footstep_BaseForm_Leaves_11_10C4C929.wem"
+     },
+     {
+      "Id": "560384443",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_11.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_11_10C4C929.wem"
+     },
+     {
+      "Id": "571047480",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambiences\\AM_CD_AMBIENCE_JUNGLE.wav",
+      "CachePath": "SFX/Ambiences/AM_CD_AMBIENCE_JUNGLE_D79FB2B7.wem"
+     },
+     {
+      "Id": "575083913",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landings\\SFX_UNI_Player_Land_BaseForm_Snow_03.wav",
+      "CachePath": "SFX/Landings/SFX_UNI_Player_Land_BaseForm_Snow_03_10C4C929.wem"
+     },
+     {
+      "Id": "580828944",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_06.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_06_10C4C929.wem"
+     },
+     {
+      "Id": "588744506",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_28.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_28_10C4C929.wem"
+     },
+     {
+      "Id": "591814181",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\SFX_UNI_Player_CollectST_01.wav",
+      "CachePath": "SFX/SGAssetsTurnover/SFX_UNI_Player_CollectST_01_10C4C929.wem"
+     },
+     {
+      "Id": "594487904",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landings\\SFX_UNI_Player_Land_BaseForm_Stone_01.wav",
+      "CachePath": "SFX/Landings/SFX_UNI_Player_Land_BaseForm_Stone_01_10C4C929.wem"
+     },
+     {
+      "Id": "611079317",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Water\\Water\\SFX_UNI_Player_Footstep_BaseForm_Water_03.wav",
+      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_03_10C4C929.wem"
+     },
+     {
+      "Id": "612891392",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\SFX_UNI_Player_CollectM_03.wav",
+      "CachePath": "SFX/SGAssetsTurnover/SFX_UNI_Player_CollectM_03_10C4C929.wem"
+     },
+     {
+      "Id": "628400858",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_25.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_25_10C4C929.wem"
+     },
+     {
+      "Id": "628836744",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landings\\SFX_UNI_Player_Land_BaseForm_Stone_02.wav",
+      "CachePath": "SFX/Landings/SFX_UNI_Player_Land_BaseForm_Stone_02_10C4C929.wem"
+     },
+     {
+      "Id": "630705681",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\GRAPPLE\\SFX_UNI_Player_Grapple_SwingFly.wav",
+      "CachePath": "SFX/SGAssetsTurnover/GRAPPLE/SFX_UNI_Player_Grapple_SwingFly_10C4C929.wem"
+     },
+     {
+      "Id": "632811779",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PressurePlatre\\SFX_AM_Emit_PressurePlate_03.wav",
+      "CachePath": "SFX/PressurePlatre/SFX_AM_Emit_PressurePlate_03_10C4C929.wem"
+     },
+     {
+      "Id": "633130903",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Water\\Water\\SFX_UNI_Player_Footstep_BaseForm_Water_05.wav",
+      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_05_10C4C929.wem"
+     },
+     {
+      "Id": "636200006",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\SFX_AM_Emit_River_RiverFlow.wav",
+      "CachePath": "SFX/SGAssetsTurnover/SFX_AM_Emit_River_RiverFlow_D79FB2B7.wem"
+     },
+     {
+      "Id": "636677778",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_34.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_34_10C4C929.wem"
+     },
+     {
+      "Id": "642354987",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\VO\\Landry_04.wav",
+      "CachePath": "Voices/English(US)/Landry/VO/Landry_04_10C4C929.wem"
+     },
+     {
+      "Id": "646402946",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_40.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_40_10C4C929.wem"
+     },
+     {
+      "Id": "652720063",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Leaves\\SFX_UNI_Player_Footstep_BaseForm_Leaves_17.wav",
+      "CachePath": "SFX/Footsteps/Leaves/SFX_UNI_Player_Footstep_BaseForm_Leaves_17_10C4C929.wem"
+     },
+     {
+      "Id": "654005851",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Grass\\SFX_UNI_Player_Footstep_BaseForm_Grass_15.wav",
+      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_15_AFB387C2.wem"
+     },
+     {
+      "Id": "669932054",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Stone\\SFX_UNI_Player_Footstep_BaseForm_Stone_14.wav",
+      "CachePath": "SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_14_10C4C929.wem"
+     },
+     {
+      "Id": "675987768",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Water_Splash\\SFX_UNI_Player_BaseForm_WaterSplash_02.wav",
+      "CachePath": "SFX/Footsteps/Water_Splash/SFX_UNI_Player_BaseForm_WaterSplash_02_10C4C929.wem"
+     },
+     {
+      "Id": "679662746",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Grass\\SFX_UNI_Player_Footstep_BaseForm_Grass_08.wav",
+      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_08_A09FB44F.wem"
+     },
+     {
+      "Id": "679876424",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_04.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_04_10C4C929.wem"
+     },
+     {
+      "Id": "679929361",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Water\\Water\\SFX_UNI_Player_Footstep_BaseForm_Water_07.wav",
+      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_07_10C4C929.wem"
+     },
+     {
+      "Id": "682362156",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\VO\\Landry_09.wav",
+      "CachePath": "Voices/English(US)/Landry/VO/Landry_09_10C4C929.wem"
+     },
+     {
+      "Id": "689381409",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_02.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_02_10C4C929.wem"
+     },
+     {
+      "Id": "694395620",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Stone\\SFX_UNI_Player_Footstep_BaseForm_Stone_03.wav",
+      "CachePath": "SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_03_10C4C929.wem"
+     },
+     {
+      "Id": "695613401",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\WALL\\SFX_UNI_Player_WallSlideScrape_01.wav",
+      "CachePath": "SFX/SGAssetsTurnover/WALL/SFX_UNI_Player_WallSlideScrape_01_10C4C929.wem"
+     },
+     {
+      "Id": "706199035",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\WALL\\SFX_UNI_Player_WallSlideCrack_01.wav",
+      "CachePath": "SFX/SGAssetsTurnover/WALL/SFX_UNI_Player_WallSlideCrack_01_10C4C929.wem"
+     },
+     {
+      "Id": "711575748",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_19.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_19_10C4C929.wem"
+     },
+     {
+      "Id": "718010320",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Leaves\\SFX_UNI_Player_Footstep_BaseForm_Leaves_15.wav",
+      "CachePath": "SFX/Footsteps/Leaves/SFX_UNI_Player_Footstep_BaseForm_Leaves_15_10C4C929.wem"
+     },
+     {
+      "Id": "720534712",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\JUMP\\SFX_UNI_Player_DoubleJump\\SFX_UNI_Player_DoubleJumpM_03.wav",
+      "CachePath": "SFX/SGAssetsTurnover/JUMP/SFX_UNI_Player_DoubleJump/SFX_UNI_Player_DoubleJumpM_03_10C4C929.wem"
+     },
+     {
+      "Id": "722026963",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Dirt\\SFX_UNI_Player_Footstep_BaseForm_Dirt_03.wav",
+      "CachePath": "SFX/Footsteps/Dirt/SFX_UNI_Player_Footstep_BaseForm_Dirt_03_10C4C929.wem"
+     },
+     {
+      "Id": "726310640",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\SPECS\\AM_CD_AMBIENCE_SPECS_TEMPLE_3.wav",
+      "CachePath": "SFX/SGAssetsTurnover/SPECS/AM_CD_AMBIENCE_SPECS_TEMPLE_3_10C4C929.wem"
+     },
+     {
+      "Id": "731455646",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Leaves\\SFX_UNI_Player_Footstep_BaseForm_Leaves_13.wav",
+      "CachePath": "SFX/Footsteps/Leaves/SFX_UNI_Player_Footstep_BaseForm_Leaves_13_10C4C929.wem"
+     },
+     {
+      "Id": "735105717",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_17.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_17_10C4C929.wem"
+     },
+     {
+      "Id": "735764247",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landings\\SFX_UNI_Player_Land_BaseForm_Stone_03.wav",
+      "CachePath": "SFX/Landings/SFX_UNI_Player_Land_BaseForm_Stone_03_10C4C929.wem"
+     },
+     {
+      "Id": "736505251",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landings\\SFX_UNI_Player_Land_BaseForm_Metal_03.wav",
+      "CachePath": "SFX/Landings/SFX_UNI_Player_Land_BaseForm_Metal_03_10C4C929.wem"
+     },
+     {
+      "Id": "738254812",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Dirt\\SFX_UNI_Player_Footstep_BaseForm_Dirt_05.wav",
+      "CachePath": "SFX/Footsteps/Dirt/SFX_UNI_Player_Footstep_BaseForm_Dirt_05_10C4C929.wem"
+     },
+     {
+      "Id": "742677407",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_12.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_12_10C4C929.wem"
+     },
+     {
+      "Id": "745364906",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Grass\\SFX_UNI_Player_Footstep_BaseForm_Grass_02.wav",
+      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_02_A4A18F10.wem"
+     },
+     {
+      "Id": "745463972",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\SPECS\\AM_CD_AMBIENCE_SPECS_JUNGLE_3.wav",
+      "CachePath": "SFX/SGAssetsTurnover/SPECS/AM_CD_AMBIENCE_SPECS_JUNGLE_3_10C4C929.wem"
+     },
+     {
+      "Id": "750737807",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\SFX_AM_Emit_LightActivationST_01.wav",
+      "CachePath": "SFX/SGAssetsTurnover/SFX_AM_Emit_LightActivationST_01_10C4C929.wem"
+     },
+     {
+      "Id": "751119909",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Stone\\SFX_UNI_Player_Footstep_BaseForm_Stone_01.wav",
+      "CachePath": "SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_01_10C4C929.wem"
+     },
+     {
+      "Id": "755957384",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Stone\\SFX_UNI_Player_Footstep_BaseForm_Stone_08.wav",
+      "CachePath": "SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_08_10C4C929.wem"
+     },
+     {
+      "Id": "761069620",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\SFX_AM_Emit_Platform_PlatformStop.wav",
+      "CachePath": "SFX/SGAssetsTurnover/SFX_AM_Emit_Platform_PlatformStop_10C4C929.wem"
+     },
+     {
+      "Id": "770253449",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\SFX_UNI_Player_CollectST_02.wav",
+      "CachePath": "SFX/SGAssetsTurnover/SFX_UNI_Player_CollectST_02_10C4C929.wem"
+     },
+     {
+      "Id": "772071808",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\SFX_AM_Emit_Plant_SeedPlant_01.wav",
+      "CachePath": "SFX/SGAssetsTurnover/SFX_AM_Emit_Plant_SeedPlant_01_10C4C929.wem"
+     },
+     {
+      "Id": "774912862",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landings\\SFX_UNI_Player_Land_BaseForm_Grass_02.wav",
+      "CachePath": "SFX/Landings/SFX_UNI_Player_Land_BaseForm_Grass_02_10C4C929.wem"
+     },
+     {
+      "Id": "775009871",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\SFX_UNI_Player_Interact_03.wav",
+      "CachePath": "SFX/SGAssetsTurnover/SFX_UNI_Player_Interact_03_10C4C929.wem"
+     },
+     {
+      "Id": "778317978",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Grass\\SFX_UNI_Player_Footstep_BaseForm_Grass_07.wav",
+      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_07_BB92FCE7.wem"
+     },
+     {
+      "Id": "781534355",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_18.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_18_10C4C929.wem"
+     },
+     {
+      "Id": "784956035",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_26.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_26_10C4C929.wem"
+     },
+     {
+      "Id": "792898453",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Dirt\\SFX_UNI_Player_Footstep_BaseForm_Dirt_04.wav",
+      "CachePath": "SFX/Footsteps/Dirt/SFX_UNI_Player_Footstep_BaseForm_Dirt_04_10C4C929.wem"
+     },
+     {
+      "Id": "794299830",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_01.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_01_10C4C929.wem"
+     },
+     {
+      "Id": "798409231",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\SFX_UNI_Player_CollectM_01.wav",
+      "CachePath": "SFX/SGAssetsTurnover/SFX_UNI_Player_CollectM_01_10C4C929.wem"
+     },
+     {
+      "Id": "800387101",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\SFX_AM_Emit_Platform_PlatformLoop.wav",
+      "CachePath": "SFX/SGAssetsTurnover/SFX_AM_Emit_Platform_PlatformLoop_D79FB2B7.wem"
+     },
+     {
+      "Id": "802617084",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Grass\\SFX_UNI_Player_Footstep_BaseForm_Grass_05.wav",
+      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_05_3A44D4CD.wem"
+     },
+     {
+      "Id": "805602674",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_30.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_30_10C4C929.wem"
+     },
+     {
+      "Id": "806431556",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Metal\\SFX_UNI_Player_Footstep_BaseForm_Metal_02.wav",
+      "CachePath": "SFX/Footsteps/Metal/SFX_UNI_Player_Footstep_BaseForm_Metal_02_10C4C929.wem"
+     },
+     {
+      "Id": "807512412",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landings\\SFX_UNI_Player_Land_BaseForm_Grass_04.wav",
+      "CachePath": "SFX/Landings/SFX_UNI_Player_Land_BaseForm_Grass_04_10C4C929.wem"
+     },
+     {
+      "Id": "808195287",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Stone\\SFX_UNI_Player_Footstep_BaseForm_Stone_18.wav",
+      "CachePath": "SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_18_10C4C929.wem"
+     },
+     {
+      "Id": "814046876",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Metal\\SFX_UNI_Player_Footstep_BaseForm_Metal_06.wav",
+      "CachePath": "SFX/Footsteps/Metal/SFX_UNI_Player_Footstep_BaseForm_Metal_06_10C4C929.wem"
+     },
+     {
+      "Id": "818583968",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\JUMP\\SFX_UNI_Player_DoubleJump\\SFX_UNI_Player_DoubleJumpM_01.wav",
+      "CachePath": "SFX/SGAssetsTurnover/JUMP/SFX_UNI_Player_DoubleJump/SFX_UNI_Player_DoubleJumpM_01_10C4C929.wem"
+     },
+     {
+      "Id": "819867141",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\SFX_AM_Emit_Fan_FanStopping_01.wav",
+      "CachePath": "SFX/SGAssetsTurnover/SFX_AM_Emit_Fan_FanStopping_01_10C4C929.wem"
+     },
+     {
+      "Id": "825072310",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Grass\\SFX_UNI_Player_Footstep_BaseForm_Grass_04.wav",
+      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_04_10C4C929.wem"
+     },
+     {
+      "Id": "827266749",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\SFX_UNI_Player_Interact_02.wav",
+      "CachePath": "SFX/SGAssetsTurnover/SFX_UNI_Player_Interact_02_10C4C929.wem"
+     },
+     {
+      "Id": "829995260",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\VO\\Landry_05.wav",
+      "CachePath": "Voices/English(US)/Landry/VO/Landry_05_10C4C929.wem"
+     },
+     {
+      "Id": "831769369",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\VO\\Landry_02.wav",
+      "CachePath": "Voices/English(US)/Landry/VO/Landry_02_10C4C929.wem"
+     },
+     {
+      "Id": "832092403",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\WALL\\SFX_UNI_Player_WallJump_03.wav",
+      "CachePath": "SFX/SGAssetsTurnover/WALL/SFX_UNI_Player_WallJump_03_10C4C929.wem"
+     },
+     {
+      "Id": "835431521",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Leaves\\SFX_UNI_Player_Footstep_BaseForm_Leaves_19.wav",
+      "CachePath": "SFX/Footsteps/Leaves/SFX_UNI_Player_Footstep_BaseForm_Leaves_19_10C4C929.wem"
+     },
+     {
+      "Id": "836303112",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Grass\\SFX_UNI_Player_Footstep_BaseForm_Grass_13.wav",
+      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_13_225D982D.wem"
+     },
+     {
+      "Id": "837371848",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Water\\Water\\SFX_UNI_Player_Footstep_BaseForm_Water_10.wav",
+      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_10_10C4C929.wem"
+     },
+     {
+      "Id": "854450253",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\SPECS\\AM_CD_AMBIENCE_SPECS_JUNGLE_5.wav",
+      "CachePath": "SFX/SGAssetsTurnover/SPECS/AM_CD_AMBIENCE_SPECS_JUNGLE_5_10C4C929.wem"
+     },
+     {
+      "Id": "855982724",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Metal\\SFX_UNI_Player_Footstep_BaseForm_Metal_03.wav",
+      "CachePath": "SFX/Footsteps/Metal/SFX_UNI_Player_Footstep_BaseForm_Metal_03_10C4C929.wem"
+     },
+     {
+      "Id": "857983961",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Grass\\SFX_UNI_Player_Footstep_BaseForm_Grass_09.wav",
+      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_09_6CAECD78.wem"
+     },
+     {
+      "Id": "888500946",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\SFX_UNI_Player_Interact_01.wav",
+      "CachePath": "SFX/SGAssetsTurnover/SFX_UNI_Player_Interact_01_10C4C929.wem"
+     },
+     {
+      "Id": "890536254",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_35.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_35_10C4C929.wem"
+     },
+     {
+      "Id": "895025043",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\SFX_CD_Player_SlowDown.wav",
+      "CachePath": "SFX/SGAssetsTurnover/SFX_CD_Player_SlowDown_7104D2A2.wem"
+     },
+     {
+      "Id": "901083238",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\WALL\\SFX_UNI_Player_WallJump_01.wav",
+      "CachePath": "SFX/SGAssetsTurnover/WALL/SFX_UNI_Player_WallJump_01_10C4C929.wem"
+     },
+     {
+      "Id": "916199629",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_42.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_42_10C4C929.wem"
+     },
+     {
+      "Id": "924104311",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_20.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_20_10C4C929.wem"
+     },
+     {
+      "Id": "928052215",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Metal\\SFX_UNI_Player_Footstep_BaseForm_Metal_08.wav",
+      "CachePath": "SFX/Footsteps/Metal/SFX_UNI_Player_Footstep_BaseForm_Metal_08_10C4C929.wem"
+     },
+     {
+      "Id": "942843214",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landings\\SFX_UNI_Player_Land_BaseForm_Snow_01.wav",
+      "CachePath": "SFX/Landings/SFX_UNI_Player_Land_BaseForm_Snow_01_10C4C929.wem"
+     },
+     {
+      "Id": "943342087",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Stone\\SFX_UNI_Player_Footstep_BaseForm_Stone_11.wav",
+      "CachePath": "SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_11_10C4C929.wem"
+     },
+     {
+      "Id": "947448112",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Dirt\\SFX_UNI_Player_Footstep_BaseForm_Dirt_06.wav",
+      "CachePath": "SFX/Footsteps/Dirt/SFX_UNI_Player_Footstep_BaseForm_Dirt_06_10C4C929.wem"
+     },
+     {
+      "Id": "951353149",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Grass\\SFX_UNI_Player_Footstep_BaseForm_Grass_11.wav",
+      "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_11_ACA7ABE5.wem"
+     },
+     {
+      "Id": "966139343",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MX\\1 - Amadan temple loop 130bpm.wav",
+      "CachePath": "SFX/MX/1 - Amadan temple loop 130bpm_D79FB2B7.wem"
+     },
+     {
+      "Id": "974947044",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\WALL\\SFX_UNI_Player_WallLand_02.wav",
+      "CachePath": "SFX/SGAssetsTurnover/WALL/SFX_UNI_Player_WallLand_02_10C4C929.wem"
+     },
+     {
+      "Id": "976099030",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Leaves\\SFX_UNI_Player_Footstep_BaseForm_Leaves_16.wav",
+      "CachePath": "SFX/Footsteps/Leaves/SFX_UNI_Player_Footstep_BaseForm_Leaves_16_10C4C929.wem"
+     },
+     {
+      "Id": "978115533",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_24.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_24_10C4C929.wem"
+     },
+     {
+      "Id": "978634077",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_08.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_08_10C4C929.wem"
+     },
+     {
+      "Id": "982618165",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Metal\\SFX_UNI_Player_Footstep_BaseForm_Metal_10.wav",
+      "CachePath": "SFX/Footsteps/Metal/SFX_UNI_Player_Footstep_BaseForm_Metal_10_10C4C929.wem"
+     },
+     {
+      "Id": "982852249",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\JUMP\\SFX_UNI_Player_jump\\SFX_UNI_Player_Jump_02.wav",
+      "CachePath": "SFX/SGAssetsTurnover/JUMP/SFX_UNI_Player_jump/SFX_UNI_Player_Jump_02_10C4C929.wem"
+     },
+     {
+      "Id": "999320167",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\SFX_CD_Player_SpeedUp.wav",
+      "CachePath": "SFX/SGAssetsTurnover/SFX_CD_Player_SpeedUp_58CDDA55.wem"
+     },
+     {
+      "Id": "1004599764",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_15.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_15_10C4C929.wem"
+     },
+     {
+      "Id": "1010328572",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landings\\SFX_UNI_Player_Land_BaseForm_Grass_03.wav",
+      "CachePath": "SFX/Landings/SFX_UNI_Player_Land_BaseForm_Grass_03_10C4C929.wem"
+     },
+     {
+      "Id": "1022933934",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Metal\\SFX_UNI_Player_Footstep_BaseForm_Metal_05.wav",
+      "CachePath": "SFX/Footsteps/Metal/SFX_UNI_Player_Footstep_BaseForm_Metal_05_10C4C929.wem"
+     },
+     {
+      "Id": "1023910767",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Dirt\\SFX_UNI_Player_Footstep_BaseForm_Dirt_08.wav",
+      "CachePath": "SFX/Footsteps/Dirt/SFX_UNI_Player_Footstep_BaseForm_Dirt_08_10C4C929.wem"
+     },
+     {
+      "Id": "1042296933",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PressurePlatre\\SFX_AM_Emit_PressurePlate_01.wav",
+      "CachePath": "SFX/PressurePlatre/SFX_AM_Emit_PressurePlate_01_10C4C929.wem"
+     },
+     {
+      "Id": "1046540910",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landings\\SFX_UNI_Player_Land_BaseForm_Snow_02.wav",
+      "CachePath": "SFX/Landings/SFX_UNI_Player_Land_BaseForm_Snow_02_10C4C929.wem"
+     },
+     {
+      "Id": "1050241607",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landings\\SFX_UNI_Player_Land_BaseForm_Metal_01.wav",
+      "CachePath": "SFX/Landings/SFX_UNI_Player_Land_BaseForm_Metal_01_10C4C929.wem"
+     },
+     {
+      "Id": "1056420906",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Water\\Water\\SFX_UNI_Player_Footstep_BaseForm_Water_01.wav",
+      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_01_10C4C929.wem"
+     },
+     {
+      "Id": "1060645152",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\GRAPPLE\\SFX_UNI_Player_Grapple_Attach\\SFX_UNI_Player_Grapple_Attach_01.wav",
+      "CachePath": "SFX/SGAssetsTurnover/GRAPPLE/SFX_UNI_Player_Grapple_Attach/SFX_UNI_Player_Grapple_Attach_01_10C4C929.wem"
+     },
+     {
+      "Id": "1061784037",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_39.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_39_10C4C929.wem"
+     },
+     {
+      "Id": "1065807115",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SGAssetsTurnover\\GRAPPLE\\SFX_UNI_Player_Grapple_Attach\\SFX_UNI_Player_Grapple_Attach_02.wav",
+      "CachePath": "SFX/SGAssetsTurnover/GRAPPLE/SFX_UNI_Player_Grapple_Attach/SFX_UNI_Player_Grapple_Attach_02_10C4C929.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2698747613",
+      "Name": "Button_Press",
+      "ObjectPath": "\\Events\\Scale_Game\\SFX\\AM\\EMITTERS\\Button_Press",
+      "GUID": "{BF531E0A-41ED-4035-9373-80EA55F515D1}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.2208051",
+      "DurationMax": "0.37897256",
+      "MediaRefs": [
+       {
+        "Id": "235060415"
+       },
+       {
+        "Id": "632811779"
+       },
+       {
+        "Id": "1042296933"
+       }
+      ]
+     },
+     {
+      "Id": "1942692385",
+      "Name": "Dash",
+      "ObjectPath": "\\Events\\Scale_Game\\SFX\\PLAYER\\ABILITIES\\Dash",
+      "GUID": "{3D5D05C4-5903-4494-A82C-9A624137C0A6}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "4038097793",
+      "Name": "GrappleAttach",
+      "ObjectPath": "\\Events\\Scale_Game\\SFX\\PLAYER\\ABILITIES\\GrappleAttach",
+      "GUID": "{0C721032-0672-4945-8B71-64E0929F320B}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.9566875",
+      "DurationMax": "1.0923333",
+      "MediaRefs": [
+       {
+        "Id": "249465602"
+       },
+       {
+        "Id": "1060645152"
+       },
+       {
+        "Id": "1065807115"
+       }
+      ]
+     },
+     {
+      "Id": "1246886611",
+      "Name": "GrappleShoot",
+      "ObjectPath": "\\Events\\Scale_Game\\SFX\\PLAYER\\ABILITIES\\GrappleShoot",
+      "GUID": "{FB195B47-2C81-4C5B-BB7B-57EECA966C6D}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.3546667",
+      "DurationMax": "1.812875",
+      "MediaRefs": [
+       {
+        "Id": "205410784"
+       },
+       {
+        "Id": "414925772"
+       },
+       {
+        "Id": "553890541"
+       }
+      ]
+     },
+     {
+      "Id": "3379075804",
+      "Name": "Mantle",
+      "ObjectPath": "\\Events\\Scale_Game\\SFX\\PLAYER\\ABILITIES\\WALL\\Mantle",
+      "GUID": "{18E9BAE5-55AE-4C28-BA76-AD77E5702AFF}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.32129166",
+      "DurationMax": "0.6922917",
+      "MediaRefs": [
+       {
+        "Id": "121854168"
+       },
+       {
+        "Id": "233780264"
+       },
+       {
+        "Id": "269487289"
+       },
+       {
+        "Id": "281630002"
+       },
+       {
+        "Id": "289623428"
+       },
+       {
+        "Id": "588744506"
+       },
+       {
+        "Id": "636677778"
+       },
+       {
+        "Id": "695613401"
+       },
+       {
+        "Id": "706199035"
+       }
+      ]
+     },
+     {
+      "Id": "829412918",
+      "Name": "Moving_Platform_Start",
+      "ObjectPath": "\\Events\\Scale_Game\\SFX\\AM\\EMITTERS\\Moving_Platform_Start",
+      "GUID": "{B7D57096-4C58-49ED-B3F1-060405EC686B}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "244031450"
+       },
+       {
+        "Id": "800387101"
+       }
+      ]
+     },
+     {
+      "Id": "3554161078",
+      "Name": "Moving_Platform_Stop",
+      "ObjectPath": "\\Events\\Scale_Game\\SFX\\AM\\EMITTERS\\Moving_Platform_Stop",
+      "GUID": "{D19BCA65-717E-4C83-AF2C-A132B869D3D4}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.3353333",
+      "DurationMax": "1.3353333",
+      "MediaRefs": [
+       {
+        "Id": "761069620"
+       },
+       {
+        "Id": "800387101"
+       }
+      ]
+     },
+     {
+      "Id": "133526117",
+      "Name": "Play_AmadanTemple",
+      "ObjectPath": "\\Events\\Scale_Game\\MX\\Play_AmadanTemple",
+      "GUID": "{73DB34FA-DAF9-4339-BD2A-BCB15AD654A1}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "966139343"
+       }
+      ]
+     },
+     {
+      "Id": "278617630",
+      "Name": "Play_Ambience",
+      "ObjectPath": "\\Events\\Scale_Game\\SFX\\AM\\AMBIENCE\\Play_Ambience",
+      "GUID": "{F926092A-95C3-49A4-8E63-49B505D71FD0}",
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1017660616",
+         "Id": "2323193050",
+         "GUID": "{A0DC6F9A-6F96-47C8-BF9C-72A78FC24686}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "348775715"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1017660616",
+         "Id": "219304270",
+         "GUID": "{D14A6CE0-B1FA-4ADA-99E3-3807DE08E45E}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "571047480"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1017660616",
+         "Id": "2323193050",
+         "GUID": "{A0DC6F9A-6F96-47C8-BF9C-72A78FC24686}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "348775715"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1017660616",
+         "Id": "219304270",
+         "GUID": "{D14A6CE0-B1FA-4ADA-99E3-3807DE08E45E}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "571047480"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "2492934017",
+      "Name": "Play_Conveyor",
+      "ObjectPath": "\\Events\\Scale_Game\\SFX\\AM\\EMITTERS\\Play_Conveyor",
+      "GUID": "{4AFA6817-626E-4E66-B5F5-CBC1F380992E}",
+      "MaxAttenuation": "100",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "426848565"
+       }
+      ]
+     },
+     {
+      "Id": "595748461",
+      "Name": "Play_DoubleJump",
+      "ObjectPath": "\\Events\\Scale_Game\\SFX\\PLAYER\\JUMP\\Play_DoubleJump",
+      "GUID": "{AF1AEF94-52A3-4452-BEBB-A1E84B0C8486}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.6840208",
+      "DurationMax": "0.7300417",
+      "MediaRefs": [
+       {
+        "Id": "131889721"
+       },
+       {
+        "Id": "242492586"
+       },
+       {
+        "Id": "434907872"
+       },
+       {
+        "Id": "455471930"
+       },
+       {
+        "Id": "560384443"
+       },
+       {
+        "Id": "720534712"
+       },
+       {
+        "Id": "818583968"
+       },
+       {
+        "Id": "978634077"
+       }
+      ]
+     },
+     {
+      "Id": "2757069037",
+      "Name": "Play_Fan",
+      "ObjectPath": "\\Events\\Scale_Game\\SFX\\AM\\EMITTERS\\Play_Fan",
+      "GUID": "{FE71B634-492C-49AF-AC01-956C0D354EBF}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.37335417",
+      "DurationMax": "0.4786875",
+      "MediaRefs": [
+       {
+        "Id": "72751665"
+       },
+       {
+        "Id": "436479131"
+       },
+       {
+        "Id": "982852249"
+       }
+      ]
+     },
+     {
+      "Id": "3689126666",
+      "Name": "Play_Jump",
+      "ObjectPath": "\\Events\\Scale_Game\\SFX\\PLAYER\\JUMP\\Play_Jump",
+      "GUID": "{3DE10F46-00F8-41EA-B3AC-1D0CE4BEF67C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.37335417",
+      "DurationMax": "0.6695",
+      "MediaRefs": [
+       {
+        "Id": "50039862"
+       },
+       {
+        "Id": "72751665"
+       },
+       {
+        "Id": "140683062"
+       },
+       {
+        "Id": "436479131"
+       },
+       {
+        "Id": "516911126"
+       },
+       {
+        "Id": "580828944"
+       },
+       {
+        "Id": "679876424"
+       },
+       {
+        "Id": "689381409"
+       },
+       {
+        "Id": "794299830"
+       },
+       {
+        "Id": "982852249"
+       }
+      ]
+     },
+     {
+      "Id": "3306210749",
+      "Name": "Play_Main_Menu",
+      "ObjectPath": "\\Events\\Scale_Game\\MX\\Play_Main_Menu",
+      "GUID": "{7D47ABE7-946D-4A31-8B19-03F9A7217E68}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "152920470"
+       }
+      ]
+     },
+     {
+      "Id": "2948305991",
+      "Name": "Play_River_Flow",
+      "ObjectPath": "\\Events\\Scale_Game\\SFX\\AM\\EMITTERS\\Play_River_Flow",
+      "GUID": "{F0B90D69-CEBB-44B4-8210-542AABB2DC12}",
+      "MaxAttenuation": "100",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "636200006"
+       }
+      ]
+     },
+     {
+      "Id": "3449447501",
+      "Name": "Play_Wall_Jump",
+      "ObjectPath": "\\Events\\Scale_Game\\SFX\\PLAYER\\ABILITIES\\WALL\\Play_Wall_Jump",
+      "GUID": "{80B3EB72-DE3E-4BE3-8A10-4CE99898CEFB}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.3431875",
+      "DurationMax": "0.47425002",
+      "MediaRefs": [
+       {
+        "Id": "131889721"
+       },
+       {
+        "Id": "215318433"
+       },
+       {
+        "Id": "281630002"
+       },
+       {
+        "Id": "434907872"
+       },
+       {
+        "Id": "455471930"
+       },
+       {
+        "Id": "560384443"
+       },
+       {
+        "Id": "695613401"
+       },
+       {
+        "Id": "706199035"
+       },
+       {
+        "Id": "832092403"
+       },
+       {
+        "Id": "901083238"
+       },
+       {
+        "Id": "978634077"
+       }
+      ]
+     },
+     {
+      "Id": "2020546930",
+      "Name": "Play_Wall_Land",
+      "ObjectPath": "\\Events\\Scale_Game\\SFX\\PLAYER\\ABILITIES\\WALL\\Play_Wall_Land",
+      "GUID": "{01C427B7-3A60-462B-ADBC-72141D7428C1}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.48",
+      "DurationMax": "2.48",
+      "MediaRefs": [
+       {
+        "Id": "281630002"
+       },
+       {
+        "Id": "296638309"
+       },
+       {
+        "Id": "315578647"
+       },
+       {
+        "Id": "695613401"
+       },
+       {
+        "Id": "706199035"
+       },
+       {
+        "Id": "974947044"
+       }
+      ]
+     },
+     {
+      "Id": "467174588",
+      "Name": "Play_Waterfall",
+      "ObjectPath": "\\Events\\Scale_Game\\SFX\\AM\\EMITTERS\\Play_Waterfall",
+      "GUID": "{9719FBAD-DF46-42ED-8DE8-9F1627842BC8}",
+      "MaxAttenuation": "100",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "358645539"
+       }
+      ]
+     },
+     {
+      "Id": "1418208654",
+      "Name": "Play_Waterfall_Splash",
+      "ObjectPath": "\\Events\\Scale_Game\\SFX\\AM\\EMITTERS\\Play_Waterfall_Splash",
+      "GUID": "{43351BF7-1EEC-46A6-A674-7F9FF2AC6C06}",
+      "MaxAttenuation": "100",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "342915962"
+       }
+      ]
+     },
+     {
+      "Id": "2774863440",
+      "Name": "SFX_Play_WaterLand",
+      "ObjectPath": "\\Events\\Scale_Game\\SFX\\PLAYER\\FOOTSTEPS\\SFX_Play_WaterLand",
+      "GUID": "{C0A281F5-2D02-4B15-84BC-4ADD3D50DBA9}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.5498866",
+      "DurationMax": "1.6722676",
+      "MediaRefs": [
+       {
+        "Id": "232026882"
+       },
+       {
+        "Id": "418323662"
+       },
+       {
+        "Id": "675987768"
+       }
+      ]
+     },
+     {
+      "Id": "3302377865",
+      "Name": "SFX_PlayFootstep",
+      "ObjectPath": "\\Events\\Scale_Game\\SFX\\PLAYER\\FOOTSTEPS\\SFX_PlayFootstep",
+      "GUID": "{5895F1CF-136D-416A-8913-2B0DBFFB1A76}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.39210886",
+      "DurationMax": "0.92983675",
+      "MediaRefs": [
+       {
+        "Id": "281630002"
+       },
+       {
+        "Id": "695613401"
+       },
+       {
+        "Id": "706199035"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "3518710954",
+        "Name": "SFX_Verb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\SFX\\SFX_Verb",
+        "GUID": "{FC358F5D-2424-4538-B07B-FF934BE7922D}"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2947616871",
+         "Id": "3977289983",
+         "GUID": "{7E67AF8A-75DD-492B-8BCC-8499F51EFE58}",
+         "Default": "true"
+        },
+        "Children": [
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "3714303081",
+           "Id": "582824249",
+           "GUID": "{6284C819-A785-4040-A443-36CAA919EB60}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "39664796"
+           },
+           {
+            "Id": "63372239"
+           },
+           {
+            "Id": "347472251"
+           },
+           {
+            "Id": "513291930"
+           },
+           {
+            "Id": "557193297"
+           },
+           {
+            "Id": "652720063"
+           },
+           {
+            "Id": "718010320"
+           },
+           {
+            "Id": "731455646"
+           },
+           {
+            "Id": "835431521"
+           },
+           {
+            "Id": "976099030"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "3714303081",
+           "Id": "1216965916",
+           "GUID": "{EA23D431-D524-4E95-B3D5-98F351E22ABC}",
+           "Default": "true"
+          },
+          "MediaRefs": [
+           {
+            "Id": "93955131"
+           },
+           {
+            "Id": "143937575"
+           },
+           {
+            "Id": "164934613"
+           },
+           {
+            "Id": "221138683"
+           },
+           {
+            "Id": "293491081"
+           },
+           {
+            "Id": "328172047"
+           },
+           {
+            "Id": "349560223"
+           },
+           {
+            "Id": "404173135"
+           },
+           {
+            "Id": "437371362"
+           },
+           {
+            "Id": "482753125"
+           },
+           {
+            "Id": "527518421"
+           },
+           {
+            "Id": "542086802"
+           },
+           {
+            "Id": "669932054"
+           },
+           {
+            "Id": "694395620"
+           },
+           {
+            "Id": "751119909"
+           },
+           {
+            "Id": "755957384"
+           },
+           {
+            "Id": "808195287"
+           },
+           {
+            "Id": "943342087"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "3714303081",
+           "Id": "4248645337",
+           "GUID": "{0C94A94C-E6AE-4818-8212-39A05454FD13}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "49495630"
+           },
+           {
+            "Id": "50240114"
+           },
+           {
+            "Id": "50793692"
+           },
+           {
+            "Id": "173408922"
+           },
+           {
+            "Id": "199128518"
+           },
+           {
+            "Id": "206857669"
+           },
+           {
+            "Id": "302948468"
+           },
+           {
+            "Id": "498237780"
+           },
+           {
+            "Id": "500032320"
+           },
+           {
+            "Id": "531867341"
+           },
+           {
+            "Id": "654005851"
+           },
+           {
+            "Id": "679662746"
+           },
+           {
+            "Id": "745364906"
+           },
+           {
+            "Id": "778317978"
+           },
+           {
+            "Id": "802617084"
+           },
+           {
+            "Id": "825072310"
+           },
+           {
+            "Id": "836303112"
+           },
+           {
+            "Id": "857983961"
+           },
+           {
+            "Id": "951353149"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "3714303081",
+           "Id": "2195636714",
+           "GUID": "{22A37D54-D3DD-4687-A44F-D240BD429E36}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "20015697"
+           },
+           {
+            "Id": "62550627"
+           },
+           {
+            "Id": "265266726"
+           },
+           {
+            "Id": "323608992"
+           },
+           {
+            "Id": "461308666"
+           },
+           {
+            "Id": "722026963"
+           },
+           {
+            "Id": "738254812"
+           },
+           {
+            "Id": "792898453"
+           },
+           {
+            "Id": "947448112"
+           },
+           {
+            "Id": "1023910767"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "3714303081",
+           "Id": "2654748154",
+           "GUID": "{0F78037C-C696-4B32-941D-66988DF4B509}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "817693"
+           },
+           {
+            "Id": "120830246"
+           },
+           {
+            "Id": "247903333"
+           },
+           {
+            "Id": "262438230"
+           },
+           {
+            "Id": "528409158"
+           },
+           {
+            "Id": "611079317"
+           },
+           {
+            "Id": "633130903"
+           },
+           {
+            "Id": "679929361"
+           },
+           {
+            "Id": "837371848"
+           },
+           {
+            "Id": "1056420906"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "3714303081",
+           "Id": "2473969246",
+           "GUID": "{0E81217E-5D7D-42D0-AED6-D679BD01FA58}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "145471257"
+           },
+           {
+            "Id": "196646842"
+           },
+           {
+            "Id": "242388446"
+           },
+           {
+            "Id": "414511005"
+           },
+           {
+            "Id": "806431556"
+           },
+           {
+            "Id": "814046876"
+           },
+           {
+            "Id": "855982724"
+           },
+           {
+            "Id": "928052215"
+           },
+           {
+            "Id": "982618165"
+           },
+           {
+            "Id": "1022933934"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2947616871",
+         "Id": "3977289983",
+         "GUID": "{7E67AF8A-75DD-492B-8BCC-8499F51EFE58}",
+         "Default": "true"
+        },
+        "Children": [
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "3714303081",
+           "Id": "582824249",
+           "GUID": "{6284C819-A785-4040-A443-36CAA919EB60}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "39664796"
+           },
+           {
+            "Id": "63372239"
+           },
+           {
+            "Id": "347472251"
+           },
+           {
+            "Id": "513291930"
+           },
+           {
+            "Id": "557193297"
+           },
+           {
+            "Id": "652720063"
+           },
+           {
+            "Id": "718010320"
+           },
+           {
+            "Id": "731455646"
+           },
+           {
+            "Id": "835431521"
+           },
+           {
+            "Id": "976099030"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "3714303081",
+           "Id": "1216965916",
+           "GUID": "{EA23D431-D524-4E95-B3D5-98F351E22ABC}",
+           "Default": "true"
+          },
+          "MediaRefs": [
+           {
+            "Id": "93955131"
+           },
+           {
+            "Id": "143937575"
+           },
+           {
+            "Id": "164934613"
+           },
+           {
+            "Id": "221138683"
+           },
+           {
+            "Id": "293491081"
+           },
+           {
+            "Id": "328172047"
+           },
+           {
+            "Id": "349560223"
+           },
+           {
+            "Id": "404173135"
+           },
+           {
+            "Id": "437371362"
+           },
+           {
+            "Id": "482753125"
+           },
+           {
+            "Id": "527518421"
+           },
+           {
+            "Id": "542086802"
+           },
+           {
+            "Id": "669932054"
+           },
+           {
+            "Id": "694395620"
+           },
+           {
+            "Id": "751119909"
+           },
+           {
+            "Id": "755957384"
+           },
+           {
+            "Id": "808195287"
+           },
+           {
+            "Id": "943342087"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "3714303081",
+           "Id": "4248645337",
+           "GUID": "{0C94A94C-E6AE-4818-8212-39A05454FD13}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "49495630"
+           },
+           {
+            "Id": "50240114"
+           },
+           {
+            "Id": "50793692"
+           },
+           {
+            "Id": "173408922"
+           },
+           {
+            "Id": "199128518"
+           },
+           {
+            "Id": "206857669"
+           },
+           {
+            "Id": "302948468"
+           },
+           {
+            "Id": "498237780"
+           },
+           {
+            "Id": "500032320"
+           },
+           {
+            "Id": "531867341"
+           },
+           {
+            "Id": "654005851"
+           },
+           {
+            "Id": "679662746"
+           },
+           {
+            "Id": "745364906"
+           },
+           {
+            "Id": "778317978"
+           },
+           {
+            "Id": "802617084"
+           },
+           {
+            "Id": "825072310"
+           },
+           {
+            "Id": "836303112"
+           },
+           {
+            "Id": "857983961"
+           },
+           {
+            "Id": "951353149"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "3714303081",
+           "Id": "2195636714",
+           "GUID": "{22A37D54-D3DD-4687-A44F-D240BD429E36}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "20015697"
+           },
+           {
+            "Id": "62550627"
+           },
+           {
+            "Id": "265266726"
+           },
+           {
+            "Id": "323608992"
+           },
+           {
+            "Id": "461308666"
+           },
+           {
+            "Id": "722026963"
+           },
+           {
+            "Id": "738254812"
+           },
+           {
+            "Id": "792898453"
+           },
+           {
+            "Id": "947448112"
+           },
+           {
+            "Id": "1023910767"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "3714303081",
+           "Id": "2654748154",
+           "GUID": "{0F78037C-C696-4B32-941D-66988DF4B509}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "817693"
+           },
+           {
+            "Id": "120830246"
+           },
+           {
+            "Id": "247903333"
+           },
+           {
+            "Id": "262438230"
+           },
+           {
+            "Id": "528409158"
+           },
+           {
+            "Id": "611079317"
+           },
+           {
+            "Id": "633130903"
+           },
+           {
+            "Id": "679929361"
+           },
+           {
+            "Id": "837371848"
+           },
+           {
+            "Id": "1056420906"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "3714303081",
+           "Id": "2473969246",
+           "GUID": "{0E81217E-5D7D-42D0-AED6-D679BD01FA58}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "145471257"
+           },
+           {
+            "Id": "196646842"
+           },
+           {
+            "Id": "242388446"
+           },
+           {
+            "Id": "414511005"
+           },
+           {
+            "Id": "806431556"
+           },
+           {
+            "Id": "814046876"
+           },
+           {
+            "Id": "855982724"
+           },
+           {
+            "Id": "928052215"
+           },
+           {
+            "Id": "982618165"
+           },
+           {
+            "Id": "1022933934"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "3321841820",
+      "Name": "SFX_PlayLanding",
+      "ObjectPath": "\\Events\\Scale_Game\\SFX\\PLAYER\\FOOTSTEPS\\SFX_PlayLanding",
+      "GUID": "{DAA7A6D7-A772-4479-90AA-42544783BCA2}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.6118125",
+      "DurationMax": "0.88547915",
+      "MediaRefs": [
+       {
+        "Id": "281630002"
+       },
+       {
+        "Id": "695613401"
+       },
+       {
+        "Id": "706199035"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2947616871",
+         "Id": "3977289983",
+         "GUID": "{7E67AF8A-75DD-492B-8BCC-8499F51EFE58}",
+         "Default": "true"
+        },
+        "Children": [
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "3714303081",
+           "Id": "582824249",
+           "GUID": "{6284C819-A785-4040-A443-36CAA919EB60}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "275344003"
+           },
+           {
+            "Id": "774912862"
+           },
+           {
+            "Id": "807512412"
+           },
+           {
+            "Id": "1010328572"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "3714303081",
+           "Id": "1216965916",
+           "GUID": "{EA23D431-D524-4E95-B3D5-98F351E22ABC}",
+           "Default": "true"
+          },
+          "MediaRefs": [
+           {
+            "Id": "497630648"
+           },
+           {
+            "Id": "594487904"
+           },
+           {
+            "Id": "628836744"
+           },
+           {
+            "Id": "735764247"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "3714303081",
+           "Id": "4248645337",
+           "GUID": "{0C94A94C-E6AE-4818-8212-39A05454FD13}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "275344003"
+           },
+           {
+            "Id": "774912862"
+           },
+           {
+            "Id": "807512412"
+           },
+           {
+            "Id": "1010328572"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "3714303081",
+           "Id": "2195636714",
+           "GUID": "{22A37D54-D3DD-4687-A44F-D240BD429E36}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "466562833"
+           },
+           {
+            "Id": "575083913"
+           },
+           {
+            "Id": "942843214"
+           },
+           {
+            "Id": "1046540910"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "3714303081",
+           "Id": "2473969246",
+           "GUID": "{0E81217E-5D7D-42D0-AED6-D679BD01FA58}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "78787271"
+           },
+           {
+            "Id": "321938921"
+           },
+           {
+            "Id": "736505251"
+           },
+           {
+            "Id": "1050241607"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2947616871",
+         "Id": "3977289983",
+         "GUID": "{7E67AF8A-75DD-492B-8BCC-8499F51EFE58}",
+         "Default": "true"
+        },
+        "Children": [
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "3714303081",
+           "Id": "582824249",
+           "GUID": "{6284C819-A785-4040-A443-36CAA919EB60}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "275344003"
+           },
+           {
+            "Id": "774912862"
+           },
+           {
+            "Id": "807512412"
+           },
+           {
+            "Id": "1010328572"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "3714303081",
+           "Id": "1216965916",
+           "GUID": "{EA23D431-D524-4E95-B3D5-98F351E22ABC}",
+           "Default": "true"
+          },
+          "MediaRefs": [
+           {
+            "Id": "497630648"
+           },
+           {
+            "Id": "594487904"
+           },
+           {
+            "Id": "628836744"
+           },
+           {
+            "Id": "735764247"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "3714303081",
+           "Id": "4248645337",
+           "GUID": "{0C94A94C-E6AE-4818-8212-39A05454FD13}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "275344003"
+           },
+           {
+            "Id": "774912862"
+           },
+           {
+            "Id": "807512412"
+           },
+           {
+            "Id": "1010328572"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "3714303081",
+           "Id": "2195636714",
+           "GUID": "{22A37D54-D3DD-4687-A44F-D240BD429E36}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "466562833"
+           },
+           {
+            "Id": "575083913"
+           },
+           {
+            "Id": "942843214"
+           },
+           {
+            "Id": "1046540910"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "3714303081",
+           "Id": "2473969246",
+           "GUID": "{0E81217E-5D7D-42D0-AED6-D679BD01FA58}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "78787271"
+           },
+           {
+            "Id": "321938921"
+           },
+           {
+            "Id": "736505251"
+           },
+           {
+            "Id": "1050241607"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "3101299514",
+      "Name": "SlowDown",
+      "ObjectPath": "\\Events\\Scale_Game\\SFX\\PLAYER\\ABILITIES\\SlowDown",
+      "GUID": "{CFD1702E-71F4-4428-98E9-B06FF73351A6}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.46728",
+      "DurationMax": "2.46728",
+      "MediaRefs": [
+       {
+        "Id": "895025043"
+       }
+      ]
+     },
+     {
+      "Id": "1221709037",
+      "Name": "SpeedUp",
+      "ObjectPath": "\\Events\\Scale_Game\\SFX\\PLAYER\\ABILITIES\\SpeedUp",
+      "GUID": "{E402FBA9-AD6B-45E7-BACB-259145CD5DEB}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.5628465",
+      "DurationMax": "1.5628465",
+      "MediaRefs": [
+       {
+        "Id": "999320167"
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "1017660616",
+      "Name": "Ambiences",
+      "ObjectPath": "\\Switches\\Scale_Game\\Ambiences",
+      "GUID": "{18B5CAB8-EAE7-4F24-BEA2-9DE9C8BEC78B}",
+      "Switches": [
+       {
+        "Id": "219304270",
+        "Name": "Jungle",
+        "ObjectPath": "\\Switches\\Scale_Game\\Ambiences\\Jungle",
+        "GUID": "{D14A6CE0-B1FA-4ADA-99E3-3807DE08E45E}"
+       },
+       {
+        "Id": "2323193050",
+        "Name": "Temple",
+        "ObjectPath": "\\Switches\\Scale_Game\\Ambiences\\Temple",
+        "GUID": "{A0DC6F9A-6F96-47C8-BF9C-72A78FC24686}"
+       }
+      ]
+     },
+     {
+      "Id": "2947616871",
+      "Name": "Form",
+      "ObjectPath": "\\Switches\\Scale_Game\\Form",
+      "GUID": "{6B34F204-9AC5-4C47-B728-C6BBCDA66A98}",
+      "Switches": [
+       {
+        "Id": "699461374",
+        "Name": "Fire_Form",
+        "ObjectPath": "\\Switches\\Scale_Game\\Form\\Fire_Form",
+        "GUID": "{DF777A52-3A08-4C83-A610-8DDE12C21186}"
+       },
+       {
+        "Id": "3283007359",
+        "Name": "Ice_Form",
+        "ObjectPath": "\\Switches\\Scale_Game\\Form\\Ice_Form",
+        "GUID": "{FCA3DDB7-33D8-4BDA-9495-4A6FCEB30E92}"
+       },
+       {
+        "Id": "3977289983",
+        "Name": "Base_Form",
+        "ObjectPath": "\\Switches\\Scale_Game\\Form\\Base_Form",
+        "GUID": "{7E67AF8A-75DD-492B-8BCC-8499F51EFE58}"
+       }
+      ]
+     },
+     {
+      "Id": "3714303081",
+      "Name": "Surfaces",
+      "ObjectPath": "\\Switches\\Scale_Game\\Footsteps\\Surfaces",
+      "GUID": "{F9DF1E7E-B488-4E02-9259-0AA9E9122922}",
+      "Switches": [
+       {
+        "Id": "582824249",
+        "Name": "Leaves",
+        "ObjectPath": "\\Switches\\Scale_Game\\Footsteps\\Surfaces\\Leaves",
+        "GUID": "{6284C819-A785-4040-A443-36CAA919EB60}"
+       },
+       {
+        "Id": "1216965916",
+        "Name": "Stone",
+        "ObjectPath": "\\Switches\\Scale_Game\\Footsteps\\Surfaces\\Stone",
+        "GUID": "{EA23D431-D524-4E95-B3D5-98F351E22ABC}"
+       },
+       {
+        "Id": "2195636714",
+        "Name": "Dirt",
+        "ObjectPath": "\\Switches\\Scale_Game\\Footsteps\\Surfaces\\Dirt",
+        "GUID": "{22A37D54-D3DD-4687-A44F-D240BD429E36}"
+       },
+       {
+        "Id": "2473969246",
+        "Name": "Metal",
+        "ObjectPath": "\\Switches\\Scale_Game\\Footsteps\\Surfaces\\Metal",
+        "GUID": "{0E81217E-5D7D-42D0-AED6-D679BD01FA58}"
+       },
+       {
+        "Id": "2654748154",
+        "Name": "Water",
+        "ObjectPath": "\\Switches\\Scale_Game\\Footsteps\\Surfaces\\Water",
+        "GUID": "{0F78037C-C696-4B32-941D-66988DF4B509}"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Scale_Game\\Footsteps\\Surfaces\\Grass",
+        "GUID": "{0C94A94C-E6AE-4818-8212-39A05454FD13}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{BA0685D4-05FA-FDD9-2C76-64F73022C052}"
+ }
+}

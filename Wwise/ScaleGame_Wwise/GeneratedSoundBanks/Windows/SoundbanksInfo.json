@@ -18,11 +18,21 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{AA40A463-535F-484F-740C-87FA93EBD46E}",
+    "Hash": "{EEF0A5EF-638C-B7DC-C92F-E7F921D5C568}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "Plugins": {
+     "Custom": [
+      {
+       "Id": "1020291235",
+       "Name": "Matrix Reverb (Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\SFX\\SFX_Verb\\Matrix Reverb (Custom)",
+       "GUID": "{B6187DC5-D445-4257-B332-0B83D302BBD8}",
+       "LibName": "Wwise Matrix Reverb",
+       "LibId": "7536643"
+      }
+     ],
      "AudioDevices": [
       {
        "Id": "2317455096",
@@ -164,66 +174,19 @@
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
      }
     ],
-    "GameParameters": [
+    "AuxBusses": [
      {
-      "Id": "822163944",
-      "Name": "SS_Air_RPM",
-      "ObjectPath": "\\Game Parameters\\Factory Soundseed Air Game Syncs\\SS_Air_RPM",
-      "GUID": "{A34890AB-B9D5-4526-A64D-5290C43EF2DC}"
-     },
-     {
-      "Id": "1029930033",
-      "Name": "SS_Air_Fury",
-      "ObjectPath": "\\Game Parameters\\Factory Soundseed Air Game Syncs\\SS_Air_Fury",
-      "GUID": "{A2AE79DC-CA3A-46BA-9652-9986C322A87B}"
-     },
-     {
-      "Id": "1351367891",
-      "Name": "SS_Air_Fear",
-      "ObjectPath": "\\Game Parameters\\Factory Soundseed Air Game Syncs\\SS_Air_Fear",
-      "GUID": "{F72E0659-4346-4E1C-A1B1-DAB46A05101E}"
-     },
-     {
-      "Id": "2648548617",
-      "Name": "SS_Air_Month",
-      "ObjectPath": "\\Game Parameters\\Factory Soundseed Air Game Syncs\\SS_Air_Month",
-      "GUID": "{09E2B445-C4A3-447F-B3CA-818A1D925EF7}"
-     },
-     {
-      "Id": "3002758120",
-      "Name": "SS_Air_Freefall",
-      "ObjectPath": "\\Game Parameters\\Factory Soundseed Air Game Syncs\\SS_Air_Freefall",
-      "GUID": "{2F2DFE37-4F9E-4D94-83D8-53CCA39781AD}"
-     },
-     {
-      "Id": "3074696722",
-      "Name": "SS_Air_Size",
-      "ObjectPath": "\\Game Parameters\\Factory Soundseed Air Game Syncs\\SS_Air_Size",
-      "GUID": "{1329EBEF-A193-472E-A38C-64668B494879}"
-     },
-     {
-      "Id": "3203397129",
-      "Name": "SS_Air_TimeOfDay",
-      "ObjectPath": "\\Game Parameters\\Factory Soundseed Air Game Syncs\\SS_Air_TimeOfDay",
-      "GUID": "{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}"
-     },
-     {
-      "Id": "3715662592",
-      "Name": "SS_Air_Storm",
-      "ObjectPath": "\\Game Parameters\\Factory Soundseed Air Game Syncs\\SS_Air_Storm",
-      "GUID": "{E93F8CDB-06D1-4737-ACAF-7CD44BBED783}"
-     },
-     {
-      "Id": "3847924954",
-      "Name": "SS_Air_Presence",
-      "ObjectPath": "\\Game Parameters\\Factory Soundseed Air Game Syncs\\SS_Air_Presence",
-      "GUID": "{E3B7811A-7B2F-490F-B44F-5FE51B468041}"
-     },
-     {
-      "Id": "4160247818",
-      "Name": "SS_Air_Turbulence",
-      "ObjectPath": "\\Game Parameters\\Factory Soundseed Air Game Syncs\\SS_Air_Turbulence",
-      "GUID": "{EDA87B19-73AA-40A0-9F19-2073606DB710}"
+      "Id": "3518710954",
+      "Name": "SFX_Verb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\SFX\\SFX_Verb",
+      "GUID": "{FC358F5D-2424-4538-B07B-FF934BE7922D}",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "1020291235"
+        }
+       ]
+      }
      }
     ],
     "SwitchGroups": [
@@ -717,11 +680,11 @@
     "Id": "3161908922",
     "Type": "User",
     "GUID": "{181571D8-5C1B-4B16-A2F1-3E5A021A1A77}",
-    "Language": "SFX",
-    "Hash": "{ECCE3878-8660-D1DB-32F2-C3F5E0704250}",
+    "Language": "English(US)",
+    "Hash": "{0A8AFB0C-F8C2-245F-08C9-B8CDE4D5634A}",
     "ObjectPath": "\\SoundBanks\\Scale_Game\\Main",
     "ShortName": "Main",
-    "Path": "Main.bnk",
+    "Path": "English(US)/Main.bnk",
     "Media": [
      {
       "Id": "817693",
@@ -740,6 +703,22 @@
       "CachePath": "SFX/Footsteps/Dirt/SFX_UNI_Player_Footstep_BaseForm_Dirt_10_10C4C929.wem"
      },
      {
+      "Id": "31153336",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\VO\\Landry_03.wav",
+      "CachePath": "Voices/English(US)/Landry/VO/Landry_03_10C4C929.wem"
+     },
+     {
+      "Id": "34773905",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\VO\\Landry_01.wav",
+      "CachePath": "Voices/English(US)/Landry/VO/Landry_01_10C4C929.wem"
+     },
+     {
       "Id": "39664796",
       "Language": "SFX",
       "Streaming": "false",
@@ -748,12 +727,28 @@
       "CachePath": "SFX/Footsteps/Leaves/SFX_UNI_Player_Footstep_BaseForm_Leaves_20_10C4C929.wem"
      },
      {
+      "Id": "49381136",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_13.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_13_10C4C929.wem"
+     },
+     {
       "Id": "49495630",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Grass\\SFX_UNI_Player_Footstep_BaseForm_Grass_01.wav",
       "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_01_0644A972.wem"
+     },
+     {
+      "Id": "50039862",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_03.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_03_2462F194.wem"
      },
      {
       "Id": "50240114",
@@ -844,6 +839,30 @@
       "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_09_10C4C929.wem"
      },
      {
+      "Id": "121854168",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_29.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_29_10C4C929.wem"
+     },
+     {
+      "Id": "131889721",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_07.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_07_10C4C929.wem"
+     },
+     {
+      "Id": "140683062",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_16.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_16_10C4C929.wem"
+     },
+     {
       "Id": "143937575",
       "Language": "SFX",
       "Streaming": "false",
@@ -860,12 +879,37 @@
       "CachePath": "SFX/Footsteps/Metal/SFX_UNI_Player_Footstep_BaseForm_Metal_07_10C4C929.wem"
      },
      {
+      "Id": "147702939",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_32.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_32_10C4C929.wem"
+     },
+     {
+      "Id": "152920470",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "MX\\1 - Main Menu 88bpm.wav",
+      "Path": "Media/152920470.wem",
+      "CachePath": "SFX/MX/1 - Main Menu 88bpm_D79FB2B7.wem"
+     },
+     {
       "Id": "164934613",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Stone\\SFX_UNI_Player_Footstep_BaseForm_Stone_07.wav",
       "CachePath": "SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_07_10C4C929.wem"
+     },
+     {
+      "Id": "166327263",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\VO\\Landry_08.wav",
+      "CachePath": "Voices/English(US)/Landry/VO/Landry_08_10C4C929.wem"
      },
      {
       "Id": "173408922",
@@ -882,6 +926,14 @@
       "Location": "Memory",
       "ShortName": "Footsteps\\Metal\\SFX_UNI_Player_Footstep_BaseForm_Metal_04.wav",
       "CachePath": "SFX/Footsteps/Metal/SFX_UNI_Player_Footstep_BaseForm_Metal_04_10C4C929.wem"
+     },
+     {
+      "Id": "197141158",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_23.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_23_10C4C929.wem"
      },
      {
       "Id": "199128518",
@@ -940,6 +992,22 @@
       "CachePath": "SFX/Footsteps/Water_Splash/SFX_UNI_Player_BaseForm_WaterSplash_03_10C4C929.wem"
      },
      {
+      "Id": "233780264",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_37.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_37_10C4C929.wem"
+     },
+     {
+      "Id": "235060415",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PressurePlatre\\SFX_AM_Emit_PressurePlate_02.wav",
+      "CachePath": "SFX/PressurePlatre/SFX_AM_Emit_PressurePlate_02_10C4C929.wem"
+     },
+     {
       "Id": "242033932",
       "Language": "SFX",
       "Streaming": "false",
@@ -972,6 +1040,14 @@
       "CachePath": "SFX/SGAssetsTurnover/SFX_AM_Emit_Platform_PlatformStart_10C4C929.wem"
      },
      {
+      "Id": "247544321",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\VO\\Landry_012.wav",
+      "CachePath": "Voices/English(US)/Landry/VO/Landry_012_10C4C929.wem"
+     },
+     {
       "Id": "247903333",
       "Language": "SFX",
       "Streaming": "false",
@@ -986,6 +1062,14 @@
       "Location": "Memory",
       "ShortName": "SGAssetsTurnover\\GRAPPLE\\SFX_UNI_Player_Grapple_Attach\\SFX_UNI_Player_Grapple_Attach_03.wav",
       "CachePath": "SFX/SGAssetsTurnover/GRAPPLE/SFX_UNI_Player_Grapple_Attach/SFX_UNI_Player_Grapple_Attach_03_10C4C929.wem"
+     },
+     {
+      "Id": "253050910",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\VO\\Landry_010.wav",
+      "CachePath": "Voices/English(US)/Landry/VO/Landry_010_10C4C929.wem"
      },
      {
       "Id": "262184214",
@@ -1012,6 +1096,14 @@
       "CachePath": "SFX/Footsteps/Dirt/SFX_UNI_Player_Footstep_BaseForm_Dirt_07_10C4C929.wem"
      },
      {
+      "Id": "269487289",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_36.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_36_10C4C929.wem"
+     },
+     {
       "Id": "275344003",
       "Language": "SFX",
       "Streaming": "false",
@@ -1020,12 +1112,28 @@
       "CachePath": "SFX/Landings/SFX_UNI_Player_Land_BaseForm_Grass_01_10C4C929.wem"
      },
      {
+      "Id": "281548802",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\VO\\Landry_011.wav",
+      "CachePath": "Voices/English(US)/Landry/VO/Landry_011_10C4C929.wem"
+     },
+     {
       "Id": "281630002",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SGAssetsTurnover\\WALL\\SFX_UNI_Player_WallSlideScuff_01.wav",
       "CachePath": "SFX/SGAssetsTurnover/WALL/SFX_UNI_Player_WallSlideScuff_01_10C4C929.wem"
+     },
+     {
+      "Id": "289623428",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_41.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_41_10C4C929.wem"
      },
      {
       "Id": "293491081",
@@ -1042,6 +1150,14 @@
       "Location": "Memory",
       "ShortName": "SGAssetsTurnover\\WALL\\SFX_UNI_Player_WallLand_03.wav",
       "CachePath": "SFX/SGAssetsTurnover/WALL/SFX_UNI_Player_WallLand_03_10C4C929.wem"
+     },
+     {
+      "Id": "297744874",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_27.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_27_10C4C929.wem"
      },
      {
       "Id": "299957507",
@@ -1196,6 +1312,22 @@
       "CachePath": "SFX/SGAssetsTurnover/SPECS/AM_CD_AMBIENCE_SPECS_TEMPLE_2_10C4C929.wem"
      },
      {
+      "Id": "426848565",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_UNI_Emit_Conveyor.wav",
+      "CachePath": "SFX/SFX_UNI_Emit_Conveyor_D79FB2B7.wem"
+     },
+     {
+      "Id": "434907872",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_09.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_09_10C4C929.wem"
+     },
+     {
       "Id": "436479131",
       "Language": "SFX",
       "Streaming": "false",
@@ -1212,12 +1344,52 @@
       "CachePath": "SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_05_10C4C929.wem"
      },
      {
+      "Id": "448374933",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_22.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_22_10C4C929.wem"
+     },
+     {
+      "Id": "452138877",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\VO\\Landry_07.wav",
+      "CachePath": "Voices/English(US)/Landry/VO/Landry_07_10C4C929.wem"
+     },
+     {
+      "Id": "455471930",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_10.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_10_10C4C929.wem"
+     },
+     {
       "Id": "461308666",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Dirt\\SFX_UNI_Player_Footstep_BaseForm_Dirt_09.wav",
       "CachePath": "SFX/Footsteps/Dirt/SFX_UNI_Player_Footstep_BaseForm_Dirt_09_10C4C929.wem"
+     },
+     {
+      "Id": "466562833",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landings\\SFX_UNI_Player_Land_BaseForm_Snow_04.wav",
+      "CachePath": "SFX/Landings/SFX_UNI_Player_Land_BaseForm_Snow_04_10C4C929.wem"
+     },
+     {
+      "Id": "474686024",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_21.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_21_10C4C929.wem"
      },
      {
       "Id": "482753125",
@@ -1260,12 +1432,52 @@
       "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_06_51CC2826.wem"
      },
      {
+      "Id": "506501964",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_38.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_38_10C4C929.wem"
+     },
+     {
+      "Id": "510208985",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_14.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_14_10C4C929.wem"
+     },
+     {
       "Id": "513291930",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Leaves\\SFX_UNI_Player_Footstep_BaseForm_Leaves_18.wav",
       "CachePath": "SFX/Footsteps/Leaves/SFX_UNI_Player_Footstep_BaseForm_Leaves_18_10C4C929.wem"
+     },
+     {
+      "Id": "516911126",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_05.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_05_10C4C929.wem"
+     },
+     {
+      "Id": "523146457",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\VO\\Landry_06.wav",
+      "CachePath": "Voices/English(US)/Landry/VO/Landry_06_10C4C929.wem"
+     },
+     {
+      "Id": "524345419",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_33.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_33_10C4C929.wem"
      },
      {
       "Id": "527518421",
@@ -1308,6 +1520,14 @@
       "CachePath": "SFX/SGAssetsTurnover/SFX_AM_Emit_Blackhole_D79FB2B7.wem"
      },
      {
+      "Id": "548744805",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_31.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_31_10C4C929.wem"
+     },
+     {
       "Id": "553890541",
       "Language": "SFX",
       "Streaming": "false",
@@ -1324,12 +1544,44 @@
       "CachePath": "SFX/Footsteps/Leaves/SFX_UNI_Player_Footstep_BaseForm_Leaves_11_10C4C929.wem"
      },
      {
+      "Id": "560384443",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_11.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_11_10C4C929.wem"
+     },
+     {
       "Id": "571047480",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Ambiences\\AM_CD_AMBIENCE_JUNGLE.wav",
       "CachePath": "SFX/Ambiences/AM_CD_AMBIENCE_JUNGLE_D79FB2B7.wem"
+     },
+     {
+      "Id": "575083913",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landings\\SFX_UNI_Player_Land_BaseForm_Snow_03.wav",
+      "CachePath": "SFX/Landings/SFX_UNI_Player_Land_BaseForm_Snow_03_10C4C929.wem"
+     },
+     {
+      "Id": "580828944",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_06.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_06_10C4C929.wem"
+     },
+     {
+      "Id": "588744506",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_28.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_28_10C4C929.wem"
      },
      {
       "Id": "591814181",
@@ -1364,6 +1616,14 @@
       "CachePath": "SFX/SGAssetsTurnover/SFX_UNI_Player_CollectM_03_10C4C929.wem"
      },
      {
+      "Id": "628400858",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_25.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_25_10C4C929.wem"
+     },
+     {
       "Id": "628836744",
       "Language": "SFX",
       "Streaming": "false",
@@ -1380,6 +1640,14 @@
       "CachePath": "SFX/SGAssetsTurnover/GRAPPLE/SFX_UNI_Player_Grapple_SwingFly_10C4C929.wem"
      },
      {
+      "Id": "632811779",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PressurePlatre\\SFX_AM_Emit_PressurePlate_03.wav",
+      "CachePath": "SFX/PressurePlatre/SFX_AM_Emit_PressurePlate_03_10C4C929.wem"
+     },
+     {
       "Id": "633130903",
       "Language": "SFX",
       "Streaming": "false",
@@ -1393,7 +1661,31 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SGAssetsTurnover\\SFX_AM_Emit_River_RiverFlow.wav",
-      "CachePath": "SFX/SGAssetsTurnover/SFX_AM_Emit_River_RiverFlow_10C4C929.wem"
+      "CachePath": "SFX/SGAssetsTurnover/SFX_AM_Emit_River_RiverFlow_D79FB2B7.wem"
+     },
+     {
+      "Id": "636677778",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_34.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_34_10C4C929.wem"
+     },
+     {
+      "Id": "642354987",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\VO\\Landry_04.wav",
+      "CachePath": "Voices/English(US)/Landry/VO/Landry_04_10C4C929.wem"
+     },
+     {
+      "Id": "646402946",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_40.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_40_10C4C929.wem"
      },
      {
       "Id": "652720063",
@@ -1436,12 +1728,36 @@
       "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_08_A09FB44F.wem"
      },
      {
+      "Id": "679876424",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_04.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_04_10C4C929.wem"
+     },
+     {
       "Id": "679929361",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Water\\Water\\SFX_UNI_Player_Footstep_BaseForm_Water_07.wav",
       "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_07_10C4C929.wem"
+     },
+     {
+      "Id": "682362156",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\VO\\Landry_09.wav",
+      "CachePath": "Voices/English(US)/Landry/VO/Landry_09_10C4C929.wem"
+     },
+     {
+      "Id": "689381409",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_02.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_02_10C4C929.wem"
      },
      {
       "Id": "694395620",
@@ -1466,6 +1782,14 @@
       "Location": "Memory",
       "ShortName": "SGAssetsTurnover\\WALL\\SFX_UNI_Player_WallSlideCrack_01.wav",
       "CachePath": "SFX/SGAssetsTurnover/WALL/SFX_UNI_Player_WallSlideCrack_01_10C4C929.wem"
+     },
+     {
+      "Id": "711575748",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_19.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_19_10C4C929.wem"
      },
      {
       "Id": "718010320",
@@ -1508,6 +1832,14 @@
       "CachePath": "SFX/Footsteps/Leaves/SFX_UNI_Player_Footstep_BaseForm_Leaves_13_10C4C929.wem"
      },
      {
+      "Id": "735105717",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_17.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_17_10C4C929.wem"
+     },
+     {
       "Id": "735764247",
       "Language": "SFX",
       "Streaming": "false",
@@ -1530,6 +1862,14 @@
       "Location": "Memory",
       "ShortName": "Footsteps\\Dirt\\SFX_UNI_Player_Footstep_BaseForm_Dirt_05.wav",
       "CachePath": "SFX/Footsteps/Dirt/SFX_UNI_Player_Footstep_BaseForm_Dirt_05_10C4C929.wem"
+     },
+     {
+      "Id": "742677407",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_12.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_12_10C4C929.wem"
      },
      {
       "Id": "745364906",
@@ -1620,12 +1960,36 @@
       "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_07_BB92FCE7.wem"
      },
      {
+      "Id": "781534355",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_18.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_18_10C4C929.wem"
+     },
+     {
+      "Id": "784956035",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_26.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_26_10C4C929.wem"
+     },
+     {
       "Id": "792898453",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Dirt\\SFX_UNI_Player_Footstep_BaseForm_Dirt_04.wav",
       "CachePath": "SFX/Footsteps/Dirt/SFX_UNI_Player_Footstep_BaseForm_Dirt_04_10C4C929.wem"
+     },
+     {
+      "Id": "794299830",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_01.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_01_10C4C929.wem"
      },
      {
       "Id": "798409231",
@@ -1650,6 +2014,14 @@
       "Location": "Memory",
       "ShortName": "Footsteps\\Grass\\SFX_UNI_Player_Footstep_BaseForm_Grass_05.wav",
       "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_05_3A44D4CD.wem"
+     },
+     {
+      "Id": "805602674",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_30.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_30_10C4C929.wem"
      },
      {
       "Id": "806431556",
@@ -1716,6 +2088,22 @@
       "CachePath": "SFX/SGAssetsTurnover/SFX_UNI_Player_Interact_02_10C4C929.wem"
      },
      {
+      "Id": "829995260",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\VO\\Landry_05.wav",
+      "CachePath": "Voices/English(US)/Landry/VO/Landry_05_10C4C929.wem"
+     },
+     {
+      "Id": "831769369",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\VO\\Landry_02.wav",
+      "CachePath": "Voices/English(US)/Landry/VO/Landry_02_10C4C929.wem"
+     },
+     {
       "Id": "832092403",
       "Language": "SFX",
       "Streaming": "false",
@@ -1780,12 +2168,20 @@
       "CachePath": "SFX/SGAssetsTurnover/SFX_UNI_Player_Interact_01_10C4C929.wem"
      },
      {
+      "Id": "890536254",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_35.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_35_10C4C929.wem"
+     },
+     {
       "Id": "895025043",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SGAssetsTurnover\\SFX_CD_Player_SlowDown.wav",
-      "CachePath": "SFX/SGAssetsTurnover/SFX_CD_Player_SlowDown_10C4C929.wem"
+      "CachePath": "SFX/SGAssetsTurnover/SFX_CD_Player_SlowDown_7104D2A2.wem"
      },
      {
       "Id": "901083238",
@@ -1796,12 +2192,36 @@
       "CachePath": "SFX/SGAssetsTurnover/WALL/SFX_UNI_Player_WallJump_01_10C4C929.wem"
      },
      {
+      "Id": "916199629",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_42.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_42_10C4C929.wem"
+     },
+     {
+      "Id": "924104311",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_20.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_20_10C4C929.wem"
+     },
+     {
       "Id": "928052215",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Metal\\SFX_UNI_Player_Footstep_BaseForm_Metal_08.wav",
       "CachePath": "SFX/Footsteps/Metal/SFX_UNI_Player_Footstep_BaseForm_Metal_08_10C4C929.wem"
+     },
+     {
+      "Id": "942843214",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landings\\SFX_UNI_Player_Land_BaseForm_Snow_01.wav",
+      "CachePath": "SFX/Landings/SFX_UNI_Player_Land_BaseForm_Snow_01_10C4C929.wem"
      },
      {
       "Id": "943342087",
@@ -1828,6 +2248,14 @@
       "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_11_ACA7ABE5.wem"
      },
      {
+      "Id": "966139343",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MX\\1 - Amadan temple loop 130bpm.wav",
+      "CachePath": "SFX/MX/1 - Amadan temple loop 130bpm_D79FB2B7.wem"
+     },
+     {
       "Id": "974947044",
       "Language": "SFX",
       "Streaming": "false",
@@ -1842,6 +2270,22 @@
       "Location": "Memory",
       "ShortName": "Footsteps\\Leaves\\SFX_UNI_Player_Footstep_BaseForm_Leaves_16.wav",
       "CachePath": "SFX/Footsteps/Leaves/SFX_UNI_Player_Footstep_BaseForm_Leaves_16_10C4C929.wem"
+     },
+     {
+      "Id": "978115533",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_24.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_24_10C4C929.wem"
+     },
+     {
+      "Id": "978634077",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_08.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_08_10C4C929.wem"
      },
      {
       "Id": "982618165",
@@ -1865,7 +2309,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SGAssetsTurnover\\SFX_CD_Player_SpeedUp.wav",
-      "CachePath": "SFX/SGAssetsTurnover/SFX_CD_Player_SpeedUp_10C4C929.wem"
+      "CachePath": "SFX/SGAssetsTurnover/SFX_CD_Player_SpeedUp_58CDDA55.wem"
+     },
+     {
+      "Id": "1004599764",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_15.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_15_10C4C929.wem"
      },
      {
       "Id": "1010328572",
@@ -1892,6 +2344,22 @@
       "CachePath": "SFX/Footsteps/Dirt/SFX_UNI_Player_Footstep_BaseForm_Dirt_08_10C4C929.wem"
      },
      {
+      "Id": "1042296933",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PressurePlatre\\SFX_AM_Emit_PressurePlate_01.wav",
+      "CachePath": "SFX/PressurePlatre/SFX_AM_Emit_PressurePlate_01_10C4C929.wem"
+     },
+     {
+      "Id": "1046540910",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landings\\SFX_UNI_Player_Land_BaseForm_Snow_02.wav",
+      "CachePath": "SFX/Landings/SFX_UNI_Player_Land_BaseForm_Snow_02_10C4C929.wem"
+     },
+     {
       "Id": "1050241607",
       "Language": "SFX",
       "Streaming": "false",
@@ -1916,6 +2384,14 @@
       "CachePath": "SFX/SGAssetsTurnover/GRAPPLE/SFX_UNI_Player_Grapple_Attach/SFX_UNI_Player_Grapple_Attach_01_10C4C929.wem"
      },
      {
+      "Id": "1061784037",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Landry\\Efforts\\Landry_Effort_39.wav",
+      "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_39_10C4C929.wem"
+     },
+     {
       "Id": "1065807115",
       "Language": "SFX",
       "Streaming": "false",
@@ -1926,50 +2402,24 @@
     ],
     "Events": [
      {
-      "Id": "753980219",
-      "Name": "BaseToCold",
-      "ObjectPath": "\\Events\\Scale_Game\\SFX\\PLAYER\\ABILITIES\\BaseToCold",
-      "GUID": "{E6F27384-46D8-41F2-9B7A-95CE05FE1A13}",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0",
-      "ActionSetSwitch": [
-       {
-        "GroupId": "2947616871",
-        "Id": "3283007359",
-        "Name": "Ice_Form",
-        "ObjectPath": "\\Switches\\Scale_Game\\Form\\Ice_Form",
-        "GUID": "{FCA3DDB7-33D8-4BDA-9495-4A6FCEB30E92}"
-       }
-      ]
-     },
-     {
-      "Id": "2264193906",
-      "Name": "BaseToHot",
-      "ObjectPath": "\\Events\\Scale_Game\\SFX\\PLAYER\\ABILITIES\\BaseToHot",
-      "GUID": "{40530FCD-F9DA-465A-A2D2-1349C8136310}",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0",
-      "ActionSetSwitch": [
-       {
-        "GroupId": "2947616871",
-        "Id": "699461374",
-        "Name": "Fire_Form",
-        "ObjectPath": "\\Switches\\Scale_Game\\Form\\Fire_Form",
-        "GUID": "{DF777A52-3A08-4C83-A610-8DDE12C21186}"
-       }
-      ]
-     },
-     {
       "Id": "2698747613",
       "Name": "Button_Press",
       "ObjectPath": "\\Events\\Scale_Game\\SFX\\AM\\EMITTERS\\Button_Press",
       "GUID": "{BF531E0A-41ED-4035-9373-80EA55F515D1}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.2208051",
+      "DurationMax": "0.37897256",
+      "MediaRefs": [
+       {
+        "Id": "235060415"
+       },
+       {
+        "Id": "632811779"
+       },
+       {
+        "Id": "1042296933"
+       }
+      ]
      },
      {
       "Id": "1942692385",
@@ -2018,6 +2468,88 @@
        },
        {
         "Id": "553890541"
+       }
+      ]
+     },
+     {
+      "Id": "3379075804",
+      "Name": "Mantle",
+      "ObjectPath": "\\Events\\Scale_Game\\SFX\\PLAYER\\ABILITIES\\WALL\\Mantle",
+      "GUID": "{18E9BAE5-55AE-4C28-BA76-AD77E5702AFF}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.32129166",
+      "DurationMax": "0.6922917",
+      "MediaRefs": [
+       {
+        "Id": "121854168"
+       },
+       {
+        "Id": "233780264"
+       },
+       {
+        "Id": "269487289"
+       },
+       {
+        "Id": "281630002"
+       },
+       {
+        "Id": "289623428"
+       },
+       {
+        "Id": "588744506"
+       },
+       {
+        "Id": "636677778"
+       },
+       {
+        "Id": "695613401"
+       },
+       {
+        "Id": "706199035"
+       }
+      ]
+     },
+     {
+      "Id": "829412918",
+      "Name": "Moving_Platform_Start",
+      "ObjectPath": "\\Events\\Scale_Game\\SFX\\AM\\EMITTERS\\Moving_Platform_Start",
+      "GUID": "{B7D57096-4C58-49ED-B3F1-060405EC686B}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "244031450"
+       },
+       {
+        "Id": "800387101"
+       }
+      ]
+     },
+     {
+      "Id": "3554161078",
+      "Name": "Moving_Platform_Stop",
+      "ObjectPath": "\\Events\\Scale_Game\\SFX\\AM\\EMITTERS\\Moving_Platform_Stop",
+      "GUID": "{D19BCA65-717E-4C83-AF2C-A132B869D3D4}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.3353333",
+      "DurationMax": "1.3353333",
+      "MediaRefs": [
+       {
+        "Id": "761069620"
+       },
+       {
+        "Id": "800387101"
+       }
+      ]
+     },
+     {
+      "Id": "133526117",
+      "Name": "Play_AmadanTemple",
+      "ObjectPath": "\\Events\\Scale_Game\\MX\\Play_AmadanTemple",
+      "GUID": "{73DB34FA-DAF9-4339-BD2A-BCB15AD654A1}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "966139343"
        }
       ]
      },
@@ -2085,6 +2617,19 @@
       ]
      },
      {
+      "Id": "2492934017",
+      "Name": "Play_Conveyor",
+      "ObjectPath": "\\Events\\Scale_Game\\SFX\\AM\\EMITTERS\\Play_Conveyor",
+      "GUID": "{4AFA6817-626E-4E66-B5F5-CBC1F380992E}",
+      "MaxAttenuation": "100",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "426848565"
+       }
+      ]
+     },
+     {
       "Id": "595748461",
       "Name": "Play_DoubleJump",
       "ObjectPath": "\\Events\\Scale_Game\\SFX\\PLAYER\\JUMP\\Play_DoubleJump",
@@ -2094,13 +2639,28 @@
       "DurationMax": "0.7300417",
       "MediaRefs": [
        {
+        "Id": "131889721"
+       },
+       {
         "Id": "242492586"
+       },
+       {
+        "Id": "434907872"
+       },
+       {
+        "Id": "455471930"
+       },
+       {
+        "Id": "560384443"
        },
        {
         "Id": "720534712"
        },
        {
         "Id": "818583968"
+       },
+       {
+        "Id": "978634077"
        }
       ]
      },
@@ -2131,16 +2691,135 @@
       "GUID": "{3DE10F46-00F8-41EA-B3AC-1D0CE4BEF67C}",
       "DurationType": "OneShot",
       "DurationMin": "0.37335417",
-      "DurationMax": "0.4786875",
+      "DurationMax": "0.6695",
       "MediaRefs": [
        {
+        "Id": "50039862"
+       },
+       {
         "Id": "72751665"
+       },
+       {
+        "Id": "140683062"
        },
        {
         "Id": "436479131"
        },
        {
+        "Id": "516911126"
+       },
+       {
+        "Id": "580828944"
+       },
+       {
+        "Id": "679876424"
+       },
+       {
+        "Id": "689381409"
+       },
+       {
+        "Id": "794299830"
+       },
+       {
         "Id": "982852249"
+       }
+      ]
+     },
+     {
+      "Id": "3306210749",
+      "Name": "Play_Main_Menu",
+      "ObjectPath": "\\Events\\Scale_Game\\MX\\Play_Main_Menu",
+      "GUID": "{7D47ABE7-946D-4A31-8B19-03F9A7217E68}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "152920470"
+       }
+      ]
+     },
+     {
+      "Id": "2948305991",
+      "Name": "Play_River_Flow",
+      "ObjectPath": "\\Events\\Scale_Game\\SFX\\AM\\EMITTERS\\Play_River_Flow",
+      "GUID": "{F0B90D69-CEBB-44B4-8210-542AABB2DC12}",
+      "MaxAttenuation": "100",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "636200006"
+       }
+      ]
+     },
+     {
+      "Id": "3449447501",
+      "Name": "Play_Wall_Jump",
+      "ObjectPath": "\\Events\\Scale_Game\\SFX\\PLAYER\\ABILITIES\\WALL\\Play_Wall_Jump",
+      "GUID": "{80B3EB72-DE3E-4BE3-8A10-4CE99898CEFB}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.3431875",
+      "DurationMax": "0.47425002",
+      "MediaRefs": [
+       {
+        "Id": "131889721"
+       },
+       {
+        "Id": "215318433"
+       },
+       {
+        "Id": "281630002"
+       },
+       {
+        "Id": "434907872"
+       },
+       {
+        "Id": "455471930"
+       },
+       {
+        "Id": "560384443"
+       },
+       {
+        "Id": "695613401"
+       },
+       {
+        "Id": "706199035"
+       },
+       {
+        "Id": "832092403"
+       },
+       {
+        "Id": "901083238"
+       },
+       {
+        "Id": "978634077"
+       }
+      ]
+     },
+     {
+      "Id": "2020546930",
+      "Name": "Play_Wall_Land",
+      "ObjectPath": "\\Events\\Scale_Game\\SFX\\PLAYER\\ABILITIES\\WALL\\Play_Wall_Land",
+      "GUID": "{01C427B7-3A60-462B-ADBC-72141D7428C1}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.48",
+      "DurationMax": "2.48",
+      "MediaRefs": [
+       {
+        "Id": "281630002"
+       },
+       {
+        "Id": "296638309"
+       },
+       {
+        "Id": "315578647"
+       },
+       {
+        "Id": "695613401"
+       },
+       {
+        "Id": "706199035"
+       },
+       {
+        "Id": "974947044"
        }
       ]
      },
@@ -2196,8 +2875,27 @@
       "ObjectPath": "\\Events\\Scale_Game\\SFX\\PLAYER\\FOOTSTEPS\\SFX_PlayFootstep",
       "GUID": "{5895F1CF-136D-416A-8913-2B0DBFFB1A76}",
       "DurationType": "OneShot",
-      "DurationMin": "0",
+      "DurationMin": "0.39210886",
       "DurationMax": "0.92983675",
+      "MediaRefs": [
+       {
+        "Id": "281630002"
+       },
+       {
+        "Id": "695613401"
+       },
+       {
+        "Id": "706199035"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "3518710954",
+        "Name": "SFX_Verb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\SFX\\SFX_Verb",
+        "GUID": "{FC358F5D-2424-4538-B07B-FF934BE7922D}"
+       }
+      ],
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -2813,8 +3511,19 @@
       "ObjectPath": "\\Events\\Scale_Game\\SFX\\PLAYER\\FOOTSTEPS\\SFX_PlayLanding",
       "GUID": "{DAA7A6D7-A772-4479-90AA-42544783BCA2}",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0.79775",
+      "DurationMin": "0.6118125",
+      "DurationMax": "0.88547915",
+      "MediaRefs": [
+       {
+        "Id": "281630002"
+       },
+       {
+        "Id": "695613401"
+       },
+       {
+        "Id": "706199035"
+       }
+      ],
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -2825,6 +3534,28 @@
          "Default": "true"
         },
         "Children": [
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "3714303081",
+           "Id": "582824249",
+           "GUID": "{6284C819-A785-4040-A443-36CAA919EB60}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "275344003"
+           },
+           {
+            "Id": "774912862"
+           },
+           {
+            "Id": "807512412"
+           },
+           {
+            "Id": "1010328572"
+           }
+          ]
+         },
          {
           "SwitchValue": {
            "GroupType": "Switch",
@@ -2867,6 +3598,28 @@
            },
            {
             "Id": "1010328572"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "3714303081",
+           "Id": "2195636714",
+           "GUID": "{22A37D54-D3DD-4687-A44F-D240BD429E36}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "466562833"
+           },
+           {
+            "Id": "575083913"
+           },
+           {
+            "Id": "942843214"
+           },
+           {
+            "Id": "1046540910"
            }
           ]
          },
@@ -2907,6 +3660,28 @@
           "SwitchValue": {
            "GroupType": "Switch",
            "GroupId": "3714303081",
+           "Id": "582824249",
+           "GUID": "{6284C819-A785-4040-A443-36CAA919EB60}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "275344003"
+           },
+           {
+            "Id": "774912862"
+           },
+           {
+            "Id": "807512412"
+           },
+           {
+            "Id": "1010328572"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "3714303081",
            "Id": "1216965916",
            "GUID": "{EA23D431-D524-4E95-B3D5-98F351E22ABC}",
            "Default": "true"
@@ -2952,6 +3727,28 @@
           "SwitchValue": {
            "GroupType": "Switch",
            "GroupId": "3714303081",
+           "Id": "2195636714",
+           "GUID": "{22A37D54-D3DD-4687-A44F-D240BD429E36}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "466562833"
+           },
+           {
+            "Id": "575083913"
+           },
+           {
+            "Id": "942843214"
+           },
+           {
+            "Id": "1046540910"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "3714303081",
            "Id": "2473969246",
            "GUID": "{0E81217E-5D7D-42D0-AED6-D679BD01FA58}"
           },
@@ -2971,6 +3768,34 @@
           ]
          }
         ]
+       }
+      ]
+     },
+     {
+      "Id": "3101299514",
+      "Name": "SlowDown",
+      "ObjectPath": "\\Events\\Scale_Game\\SFX\\PLAYER\\ABILITIES\\SlowDown",
+      "GUID": "{CFD1702E-71F4-4428-98E9-B06FF73351A6}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.46728",
+      "DurationMax": "2.46728",
+      "MediaRefs": [
+       {
+        "Id": "895025043"
+       }
+      ]
+     },
+     {
+      "Id": "1221709037",
+      "Name": "SpeedUp",
+      "ObjectPath": "\\Events\\Scale_Game\\SFX\\PLAYER\\ABILITIES\\SpeedUp",
+      "GUID": "{E402FBA9-AD6B-45E7-BACB-259145CD5DEB}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.5628465",
+      "DurationMax": "1.5628465",
+      "MediaRefs": [
+       {
+        "Id": "999320167"
        }
       ]
      }
@@ -3069,6 +3894,6 @@
     ]
    }
   ],
-  "FileHash": "{BA15A091-FB80-C9D1-9316-E58D70B00222}"
+  "FileHash": "{B5123CDE-F32B-12AA-3E24-92D1B87C3E69}"
  }
 }
