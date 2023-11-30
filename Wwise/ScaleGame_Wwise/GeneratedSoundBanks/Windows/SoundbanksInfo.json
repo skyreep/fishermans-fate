@@ -718,7 +718,7 @@
     "Type": "User",
     "GUID": "{181571D8-5C1B-4B16-A2F1-3E5A021A1A77}",
     "Language": "SFX",
-    "Hash": "{E4720248-8C46-DD3F-4A0C-F5F921F2343A}",
+    "Hash": "{ECCE3878-8660-D1DB-32F2-C3F5E0704250}",
     "ObjectPath": "\\SoundBanks\\Scale_Game\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -1972,6 +1972,16 @@
       "DurationMax": "0"
      },
      {
+      "Id": "1942692385",
+      "Name": "Dash",
+      "ObjectPath": "\\Events\\Scale_Game\\SFX\\PLAYER\\ABILITIES\\Dash",
+      "GUID": "{3D5D05C4-5903-4494-A82C-9A624137C0A6}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "4038097793",
       "Name": "GrappleAttach",
       "ObjectPath": "\\Events\\Scale_Game\\SFX\\PLAYER\\ABILITIES\\GrappleAttach",
@@ -2079,20 +2089,60 @@
       "Name": "Play_DoubleJump",
       "ObjectPath": "\\Events\\Scale_Game\\SFX\\PLAYER\\JUMP\\Play_DoubleJump",
       "GUID": "{AF1AEF94-52A3-4452-BEBB-A1E84B0C8486}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.6840208",
+      "DurationMax": "0.7300417",
+      "MediaRefs": [
+       {
+        "Id": "242492586"
+       },
+       {
+        "Id": "720534712"
+       },
+       {
+        "Id": "818583968"
+       }
+      ]
+     },
+     {
+      "Id": "2757069037",
+      "Name": "Play_Fan",
+      "ObjectPath": "\\Events\\Scale_Game\\SFX\\AM\\EMITTERS\\Play_Fan",
+      "GUID": "{FE71B634-492C-49AF-AC01-956C0D354EBF}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.37335417",
+      "DurationMax": "0.4786875",
+      "MediaRefs": [
+       {
+        "Id": "72751665"
+       },
+       {
+        "Id": "436479131"
+       },
+       {
+        "Id": "982852249"
+       }
+      ]
      },
      {
       "Id": "3689126666",
       "Name": "Play_Jump",
       "ObjectPath": "\\Events\\Scale_Game\\SFX\\PLAYER\\JUMP\\Play_Jump",
       "GUID": "{3DE10F46-00F8-41EA-B3AC-1D0CE4BEF67C}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.37335417",
+      "DurationMax": "0.4786875",
+      "MediaRefs": [
+       {
+        "Id": "72751665"
+       },
+       {
+        "Id": "436479131"
+       },
+       {
+        "Id": "982852249"
+       }
+      ]
      },
      {
       "Id": "467174588",
@@ -3019,6 +3069,6 @@
     ]
    }
   ],
-  "FileHash": "{3DBEDD48-2CBC-0D3E-F710-3A4A87CB3908}"
+  "FileHash": "{BA15A091-FB80-C9D1-9316-E58D70B00222}"
  }
 }
