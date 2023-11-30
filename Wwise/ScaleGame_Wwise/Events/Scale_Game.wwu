@@ -272,6 +272,39 @@
 												</Event>
 												<Event Name="Play_Wall_Land" ID="{01C427B7-3A60-462B-ADBC-72141D7428C1}">
 													<ChildrenList>
+														<Action Name="" ID="{E1D5B52C-CD89-4F7F-B980-7F4317F86F34}" ShortID="543921095">
+															<PropertyList>
+																<Property Name="ActionType" Type="int16" Value="16"/>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="SFX_UNI_Player_WallSlideCrack_01" ID="{C4037935-ECC4-4D5F-AA5A-BC7E65CF294D}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+														<Action Name="" ID="{0C7AF516-375C-4250-AD9C-4992635F25C6}" ShortID="299475155">
+															<PropertyList>
+																<Property Name="ActionType" Type="int16" Value="16"/>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="SFX_UNI_Player_WallSlideScrape_01" ID="{0D8CE243-CB5F-48CE-9F64-4DB679DFE0E0}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+														<Action Name="" ID="{8024740C-29A9-4BA7-88A3-92243D969414}" ShortID="435022836">
+															<PropertyList>
+																<Property Name="ActionType" Type="int16" Value="16"/>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="SFX_UNI_Player_WallSlideScuff_01" ID="{833D7263-457F-4B4F-A2F8-10465AC5A13D}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
 														<Action Name="" ID="{87FDD837-10B3-41DF-81DD-C4F5DD8B8B7B}" ShortID="354185513">
 															<ReferenceList>
 																<Reference Name="Target">
@@ -297,6 +330,40 @@
 															<ReferenceList>
 																<Reference Name="Target">
 																	<ObjectRef Name="SFX_UNI_Player_WallSlideScuff_01" ID="{833D7263-457F-4B4F-A2F8-10465AC5A13D}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+													</ChildrenList>
+												</Event>
+												<Event Name="Stop_Slide" ID="{84665D23-00B7-45DC-A505-43F460787FEB}">
+													<ChildrenList>
+														<Action Name="" ID="{9A5F4958-4CC8-4BD5-BB16-4CDFC703302C}" ShortID="411564076">
+															<PropertyList>
+																<Property Name="ActionType" Type="int16" Value="2"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="SFX_UNI_Player_WallSlideCrack_01" ID="{C4037935-ECC4-4D5F-AA5A-BC7E65CF294D}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+														<Action Name="" ID="{E36A1552-9186-411C-85DE-0285D953A3E0}" ShortID="549474900">
+															<PropertyList>
+																<Property Name="ActionType" Type="int16" Value="2"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="SFX_UNI_Player_WallSlideScuff_01" ID="{833D7263-457F-4B4F-A2F8-10465AC5A13D}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+														<Action Name="" ID="{4997E25D-5ECA-4324-A599-D2D8F0AB56E8}" ShortID="999489896">
+															<PropertyList>
+																<Property Name="ActionType" Type="int16" Value="2"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="SFX_UNI_Player_WallSlideScrape_01" ID="{0D8CE243-CB5F-48CE-9F64-4DB679DFE0E0}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
 																</Reference>
 															</ReferenceList>
 														</Action>
@@ -332,26 +399,21 @@
 									<ChildrenList>
 										<Event Name="SFX_PlayFootstep" ID="{5895F1CF-136D-416A-8913-2B0DBFFB1A76}">
 											<ChildrenList>
-												<Action Name="" ID="{407574FE-1174-48C7-B2FD-7D870066996C}" ShortID="875280636">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Footsteps" ID="{9D86F9F4-53A9-4862-8397-3EB19C7AB025}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-												<Action Name="" ID="{100CA8CA-E55C-41ED-86A6-A5066EBF8866}" ShortID="363621673">
+												<Action Name="" ID="{49771C99-B23E-4CCA-BF3F-E9E4C724DE6D}" ShortID="512247144">
 													<PropertyList>
-														<Property Name="ActionType" Type="int16" Value="2"/>
+														<Property Name="ActionType" Type="int16" Value="12"/>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="SFX_UNI_Player_WallSlideCrack_01" ID="{C4037935-ECC4-4D5F-AA5A-BC7E65CF294D}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
+															<ObjectRef Name="SFX_UNI_Player_WallSlideScrape_01" ID="{0D8CE243-CB5F-48CE-9F64-4DB679DFE0E0}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
 												<Action Name="" ID="{6D16F205-A632-4AE2-96A4-093567051082}" ShortID="273477408">
 													<PropertyList>
-														<Property Name="ActionType" Type="int16" Value="2"/>
+														<Property Name="ActionType" Type="int16" Value="12"/>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Target">
@@ -359,13 +421,21 @@
 														</Reference>
 													</ReferenceList>
 												</Action>
-												<Action Name="" ID="{49771C99-B23E-4CCA-BF3F-E9E4C724DE6D}" ShortID="512247144">
+												<Action Name="" ID="{100CA8CA-E55C-41ED-86A6-A5066EBF8866}" ShortID="363621673">
 													<PropertyList>
-														<Property Name="ActionType" Type="int16" Value="2"/>
+														<Property Name="ActionType" Type="int16" Value="12"/>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="SFX_UNI_Player_WallSlideScrape_01" ID="{0D8CE243-CB5F-48CE-9F64-4DB679DFE0E0}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
+															<ObjectRef Name="SFX_UNI_Player_WallSlideCrack_01" ID="{C4037935-ECC4-4D5F-AA5A-BC7E65CF294D}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{407574FE-1174-48C7-B2FD-7D870066996C}" ShortID="875280636">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Footsteps" ID="{9D86F9F4-53A9-4862-8397-3EB19C7AB025}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -380,19 +450,10 @@
 														</Reference>
 													</ReferenceList>
 												</Action>
-												<Action Name="" ID="{85069294-861E-4DDE-A3DE-332B29A55696}" ShortID="215150836">
+												<Action Name="" ID="{D7468BA5-0166-4947-83CD-F4692C8683F2}" ShortID="218038121">
 													<PropertyList>
-														<Property Name="ActionType" Type="int16" Value="2"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="SFX_UNI_Player_WallSlideScuff_01" ID="{833D7263-457F-4B4F-A2F8-10465AC5A13D}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-												<Action Name="" ID="{A95AF3F5-6C76-411E-B115-734C88D9A2FF}" ShortID="505729453">
-													<PropertyList>
-														<Property Name="ActionType" Type="int16" Value="2"/>
+														<Property Name="ActionType" Type="int16" Value="12"/>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Target">
@@ -400,13 +461,25 @@
 														</Reference>
 													</ReferenceList>
 												</Action>
-												<Action Name="" ID="{6CDB9EC0-BEAE-4764-84D1-F51987B8583B}" ShortID="786162726">
+												<Action Name="" ID="{1B2F2F56-55D8-49D2-99FC-0028AA2FEBF1}" ShortID="162784729">
 													<PropertyList>
-														<Property Name="ActionType" Type="int16" Value="2"/>
+														<Property Name="ActionType" Type="int16" Value="12"/>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="SFX_UNI_Player_WallSlideCrack_01" ID="{C4037935-ECC4-4D5F-AA5A-BC7E65CF294D}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{1293E4F4-2F19-4205-A41C-D852CCB11A53}" ShortID="654768023">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="12"/>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SFX_UNI_Player_WallSlideScuff_01" ID="{833D7263-457F-4B4F-A2F8-10465AC5A13D}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>

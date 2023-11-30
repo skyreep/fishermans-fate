@@ -4,6 +4,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	467174588	Play_Waterfall			\Scale_Game\SFX\AM\EMITTERS\Play_Waterfall	
 	595748461	Play_DoubleJump			\Scale_Game\SFX\PLAYER\JUMP\Play_DoubleJump	
 	829412918	Moving_Platform_Start			\Scale_Game\SFX\AM\EMITTERS\Moving_Platform_Start	
+	1116482623	Stop_Slide			\Scale_Game\SFX\PLAYER\ABILITIES\WALL\Stop_Slide	
 	1221709037	SpeedUp			\Scale_Game\SFX\PLAYER\ABILITIES\SpeedUp	
 	1246886611	GrappleShoot			\Scale_Game\SFX\PLAYER\ABILITIES\GrappleShoot	
 	1418208654	Play_Waterfall_Splash			\Scale_Game\SFX\AM\EMITTERS\Play_Waterfall_Splash	

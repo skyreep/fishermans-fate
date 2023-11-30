@@ -681,7 +681,7 @@
     "Type": "User",
     "GUID": "{181571D8-5C1B-4B16-A2F1-3E5A021A1A77}",
     "Language": "English(US)",
-    "Hash": "{0A8AFB0C-F8C2-245F-08C9-B8CDE4D5634A}",
+    "Hash": "{5FFBFC4A-DD00-DA9D-DBC7-BB4C1FD355E5}",
     "ObjectPath": "\\SoundBanks\\Scale_Game\\Main",
     "ShortName": "Main",
     "Path": "English(US)/Main.bnk",
@@ -3798,6 +3798,27 @@
         "Id": "999320167"
        }
       ]
+     },
+     {
+      "Id": "1116482623",
+      "Name": "Stop_Slide",
+      "ObjectPath": "\\Events\\Scale_Game\\SFX\\PLAYER\\ABILITIES\\WALL\\Stop_Slide",
+      "GUID": "{84665D23-00B7-45DC-A505-43F460787FEB}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "MediaRefs": [
+       {
+        "Id": "281630002"
+       },
+       {
+        "Id": "695613401"
+       },
+       {
+        "Id": "706199035"
+       }
+      ]
      }
     ],
     "SwitchGroups": [
@@ -3894,6 +3915,6 @@
     ]
    }
   ],
-  "FileHash": "{B5123CDE-F32B-12AA-3E24-92D1B87C3E69}"
+  "FileHash": "{2AC67022-18BE-DA55-21B6-2D897042E4BB}"
  }
 }
