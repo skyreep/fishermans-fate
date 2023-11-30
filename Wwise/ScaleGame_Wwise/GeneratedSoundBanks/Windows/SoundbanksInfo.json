@@ -718,7 +718,7 @@
     "Type": "User",
     "GUID": "{181571D8-5C1B-4B16-A2F1-3E5A021A1A77}",
     "Language": "SFX",
-    "Hash": "{C76D0596-0C8E-2B95-6D22-E85EC0AD6285}",
+    "Hash": "{E4720248-8C46-DD3F-4A0C-F5F921F2343A}",
     "ObjectPath": "\\SoundBanks\\Scale_Game\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -1962,6 +1962,16 @@
       ]
      },
      {
+      "Id": "2698747613",
+      "Name": "Button_Press",
+      "ObjectPath": "\\Events\\Scale_Game\\SFX\\AM\\EMITTERS\\Button_Press",
+      "GUID": "{BF531E0A-41ED-4035-9373-80EA55F515D1}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "4038097793",
       "Name": "GrappleAttach",
       "ObjectPath": "\\Events\\Scale_Game\\SFX\\PLAYER\\ABILITIES\\GrappleAttach",
@@ -3009,6 +3019,6 @@
     ]
    }
   ],
-  "FileHash": "{53C30F4E-14F8-1D0E-28A5-5620FFC84C7E}"
+  "FileHash": "{3DBEDD48-2CBC-0D3E-F710-3A4A87CB3908}"
  }
 }

@@ -53,6 +53,7 @@
 												</Action>
 											</ChildrenList>
 										</Event>
+										<Event Name="Button_Press" ID="{BF531E0A-41ED-4035-9373-80EA55F515D1}"/>
 									</ChildrenList>
 								</Folder>
 							</ChildrenList>

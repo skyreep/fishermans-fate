@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{181571D8-5C1B-4B16-A2F1-3E5A021A1A77}" Language="SFX" Hash="{C76D0596-0C8E-2B95-6D22-E85EC0AD6285}">
+		<SoundBank Id="3161908922" Type="User" GUID="{181571D8-5C1B-4B16-A2F1-3E5A021A1A77}" Language="SFX" Hash="{E4720248-8C46-DD3F-4A0C-F5F921F2343A}">
 			<ObjectPath>\SoundBanks\Scale_Game\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -618,6 +618,7 @@
 						<ActionSetSwitchEntry GroupId="2947616871" Id="699461374" Name="Fire_Form" ObjectPath="\Switches\Scale_Game\Form\Fire_Form" GUID="{DF777A52-3A08-4C83-A610-8DDE12C21186}"/>
 					</ActionSetSwitch>
 				</Event>
+				<Event Id="2698747613" Name="Button_Press" ObjectPath="\Events\Scale_Game\SFX\AM\EMITTERS\Button_Press" GUID="{BF531E0A-41ED-4035-9373-80EA55F515D1}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="4038097793" Name="GrappleAttach" ObjectPath="\Events\Scale_Game\SFX\PLAYER\ABILITIES\GrappleAttach" GUID="{0C721032-0672-4945-8B71-64E0929F320B}" DurationType="OneShot" DurationMin="0.9566875" DurationMax="1.0923333">
 					<MediaRefs>
 						<MediaRef Id="249465602"/>
@@ -1003,5 +1004,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{173D3DF2-605D-B9A0-C908-A9192DE9E4A5}</FileHash>
+	<FileHash>{CE820D13-F362-E24B-04FE-C653FCE80B3E}</FileHash>
 </SoundBanksInfo>
