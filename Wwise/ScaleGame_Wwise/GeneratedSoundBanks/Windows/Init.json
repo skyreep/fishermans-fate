@@ -183,6 +183,26 @@
     ],
     "SwitchGroups": [
      {
+      "Id": "440928865",
+      "Name": "InWater",
+      "ObjectPath": "\\Switches\\Scale_Game\\InWater",
+      "GUID": "{FAE5E3E1-071B-429C-B1C9-880E7256F830}",
+      "Switches": [
+       {
+        "Id": "979470758",
+        "Name": "Yes",
+        "ObjectPath": "\\Switches\\Scale_Game\\InWater\\Yes",
+        "GUID": "{29470E2A-8EC1-4D51-893B-55746A2AE802}"
+       },
+       {
+        "Id": "1668749452",
+        "Name": "No",
+        "ObjectPath": "\\Switches\\Scale_Game\\InWater\\No",
+        "GUID": "{2A99CF6B-F4A0-40AE-84DB-CCF05CD07491}"
+       }
+      ]
+     },
+     {
       "Id": "1017660616",
       "Name": "Ambiences",
       "ObjectPath": "\\Switches\\Scale_Game\\Ambiences",
@@ -669,6 +689,6 @@
     ]
    }
   ],
-  "FileHash": "{C5D50DEF-97A1-D199-2103-83A30E5AA3B1}"
+  "FileHash": "{CD67C329-867C-7EEE-9CD9-413BC3405537}"
  }
 }

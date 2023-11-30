@@ -46,6 +46,12 @@
 				</AuxBus>
 			</AuxBusses>
 			<SwitchGroups>
+				<SwitchGroup Id="440928865" Name="InWater" ObjectPath="\Switches\Scale_Game\InWater" GUID="{FAE5E3E1-071B-429C-B1C9-880E7256F830}">
+					<Switches>
+						<Switch Id="979470758" Name="Yes" ObjectPath="\Switches\Scale_Game\InWater\Yes" GUID="{29470E2A-8EC1-4D51-893B-55746A2AE802}"/>
+						<Switch Id="1668749452" Name="No" ObjectPath="\Switches\Scale_Game\InWater\No" GUID="{2A99CF6B-F4A0-40AE-84DB-CCF05CD07491}"/>
+					</Switches>
+				</SwitchGroup>
 				<SwitchGroup Id="1017660616" Name="Ambiences" ObjectPath="\Switches\Scale_Game\Ambiences" GUID="{18B5CAB8-EAE7-4F24-BEA2-9DE9C8BEC78B}">
 					<Switches>
 						<Switch Id="219304270" Name="Jungle" ObjectPath="\Switches\Scale_Game\Ambiences\Jungle" GUID="{D14A6CE0-B1FA-4ADA-99E3-3807DE08E45E}"/>
@@ -186,5 +192,5 @@
 			</AcousticTextures>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A34FAD30-3E8C-0454-73BD-6B225ED37751}</FileHash>
+	<FileHash>{82C47CD9-C823-90E6-D0E8-E366AC398AF4}</FileHash>
 </SoundBanksInfo>

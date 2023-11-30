@@ -17,6 +17,7 @@
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Yes" ID="{29470E2A-8EC1-4D51-893B-55746A2AE802}"/>
 						<CurrentSwitchRef Name="Base_Form" ID="{7E67AF8A-75DD-492B-8BCC-8499F51EFE58}"/>
 						<CurrentSwitchRef Name="Dirt" ID="{22A37D54-D3DD-4687-A44F-D240BD429E36}"/>
 						<CurrentSwitchRef Name="Jungle" ID="{D14A6CE0-B1FA-4ADA-99E3-3807DE08E45E}"/>

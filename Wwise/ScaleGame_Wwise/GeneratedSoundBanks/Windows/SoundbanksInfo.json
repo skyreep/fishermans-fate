@@ -191,6 +191,26 @@
     ],
     "SwitchGroups": [
      {
+      "Id": "440928865",
+      "Name": "InWater",
+      "ObjectPath": "\\Switches\\Scale_Game\\InWater",
+      "GUID": "{FAE5E3E1-071B-429C-B1C9-880E7256F830}",
+      "Switches": [
+       {
+        "Id": "979470758",
+        "Name": "Yes",
+        "ObjectPath": "\\Switches\\Scale_Game\\InWater\\Yes",
+        "GUID": "{29470E2A-8EC1-4D51-893B-55746A2AE802}"
+       },
+       {
+        "Id": "1668749452",
+        "Name": "No",
+        "ObjectPath": "\\Switches\\Scale_Game\\InWater\\No",
+        "GUID": "{2A99CF6B-F4A0-40AE-84DB-CCF05CD07491}"
+       }
+      ]
+     },
+     {
       "Id": "1017660616",
       "Name": "Ambiences",
       "ObjectPath": "\\Switches\\Scale_Game\\Ambiences",
@@ -681,7 +701,7 @@
     "Type": "User",
     "GUID": "{181571D8-5C1B-4B16-A2F1-3E5A021A1A77}",
     "Language": "English(US)",
-    "Hash": "{5FFBFC4A-DD00-DA9D-DBC7-BB4C1FD355E5}",
+    "Hash": "{C7C57BB0-5684-E299-86B0-572C845C602A}",
     "ObjectPath": "\\SoundBanks\\Scale_Game\\Main",
     "ShortName": "Main",
     "Path": "English(US)/Main.bnk",
@@ -692,7 +712,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Water\\Water\\SFX_UNI_Player_Footstep_BaseForm_Water_08.wav",
-      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_08_10C4C929.wem"
+      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_08_88855C22.wem"
      },
      {
       "Id": "20015697",
@@ -836,7 +856,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Water\\Water\\SFX_UNI_Player_Footstep_BaseForm_Water_09.wav",
-      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_09_10C4C929.wem"
+      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_09_CC80996B.wem"
      },
      {
       "Id": "121854168",
@@ -989,7 +1009,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Water_Splash\\SFX_UNI_Player_BaseForm_WaterSplash_03.wav",
-      "CachePath": "SFX/Footsteps/Water_Splash/SFX_UNI_Player_BaseForm_WaterSplash_03_10C4C929.wem"
+      "CachePath": "SFX/Footsteps/Water_Splash/SFX_UNI_Player_BaseForm_WaterSplash_03_FAB24745.wem"
      },
      {
       "Id": "233780264",
@@ -1053,7 +1073,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Water\\Water\\SFX_UNI_Player_Footstep_BaseForm_Water_06.wav",
-      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_06_10C4C929.wem"
+      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_06_AB8FFCD4.wem"
      },
      {
       "Id": "249465602",
@@ -1085,7 +1105,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Water\\Water\\SFX_UNI_Player_Footstep_BaseForm_Water_04.wav",
-      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_04_10C4C929.wem"
+      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_04_2A3FF316.wem"
      },
      {
       "Id": "265266726",
@@ -1301,7 +1321,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Water_Splash\\SFX_UNI_Player_BaseForm_WaterSplash_01.wav",
-      "CachePath": "SFX/Footsteps/Water_Splash/SFX_UNI_Player_BaseForm_WaterSplash_01_10C4C929.wem"
+      "CachePath": "SFX/Footsteps/Water_Splash/SFX_UNI_Player_BaseForm_WaterSplash_01_DB64CAE5.wem"
      },
      {
       "Id": "423369765",
@@ -1493,7 +1513,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Water\\Water\\SFX_UNI_Player_Footstep_BaseForm_Water_02.wav",
-      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_02_10C4C929.wem"
+      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_02_3C488C9A.wem"
      },
      {
       "Id": "531867341",
@@ -1605,7 +1625,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Water\\Water\\SFX_UNI_Player_Footstep_BaseForm_Water_03.wav",
-      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_03_10C4C929.wem"
+      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_03_DFD0328D.wem"
      },
      {
       "Id": "612891392",
@@ -1653,7 +1673,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Water\\Water\\SFX_UNI_Player_Footstep_BaseForm_Water_05.wav",
-      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_05_10C4C929.wem"
+      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_05_6BE23B1C.wem"
      },
      {
       "Id": "636200006",
@@ -1717,7 +1737,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Water_Splash\\SFX_UNI_Player_BaseForm_WaterSplash_02.wav",
-      "CachePath": "SFX/Footsteps/Water_Splash/SFX_UNI_Player_BaseForm_WaterSplash_02_10C4C929.wem"
+      "CachePath": "SFX/Footsteps/Water_Splash/SFX_UNI_Player_BaseForm_WaterSplash_02_4448273D.wem"
      },
      {
       "Id": "679662746",
@@ -1741,7 +1761,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Water\\Water\\SFX_UNI_Player_Footstep_BaseForm_Water_07.wav",
-      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_07_10C4C929.wem"
+      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_07_FCB4F901.wem"
      },
      {
       "Id": "682362156",
@@ -2133,7 +2153,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Water\\Water\\SFX_UNI_Player_Footstep_BaseForm_Water_10.wav",
-      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_10_10C4C929.wem"
+      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_10_1E041DF5.wem"
      },
      {
       "Id": "854450253",
@@ -2373,7 +2393,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Water\\Water\\SFX_UNI_Player_Footstep_BaseForm_Water_01.wav",
-      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_01_10C4C929.wem"
+      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_01_7CC05D64.wem"
      },
      {
       "Id": "1060645152",
@@ -2855,8 +2875,8 @@
       "ObjectPath": "\\Events\\Scale_Game\\SFX\\PLAYER\\FOOTSTEPS\\SFX_Play_WaterLand",
       "GUID": "{C0A281F5-2D02-4B15-84BC-4ADD3D50DBA9}",
       "DurationType": "OneShot",
-      "DurationMin": "1.5498866",
-      "DurationMax": "1.6722676",
+      "DurationMin": "1.2384632",
+      "DurationMax": "1.7041544",
       "MediaRefs": [
        {
         "Id": "232026882"
@@ -2886,14 +2906,6 @@
        },
        {
         "Id": "706199035"
-       }
-      ],
-      "AuxBusRefs": [
-       {
-        "Id": "3518710954",
-        "Name": "SFX_Verb",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\SFX\\SFX_Verb",
-        "GUID": "{FC358F5D-2424-4538-B07B-FF934BE7922D}"
        }
       ],
       "SwitchContainers": [
@@ -3115,46 +3127,6 @@
            },
            {
             "Id": "1023910767"
-           }
-          ]
-         },
-         {
-          "SwitchValue": {
-           "GroupType": "Switch",
-           "GroupId": "3714303081",
-           "Id": "2654748154",
-           "GUID": "{0F78037C-C696-4B32-941D-66988DF4B509}"
-          },
-          "MediaRefs": [
-           {
-            "Id": "817693"
-           },
-           {
-            "Id": "120830246"
-           },
-           {
-            "Id": "247903333"
-           },
-           {
-            "Id": "262438230"
-           },
-           {
-            "Id": "528409158"
-           },
-           {
-            "Id": "611079317"
-           },
-           {
-            "Id": "633130903"
-           },
-           {
-            "Id": "679929361"
-           },
-           {
-            "Id": "837371848"
-           },
-           {
-            "Id": "1056420906"
            }
           ]
          },
@@ -3418,46 +3390,6 @@
            },
            {
             "Id": "1023910767"
-           }
-          ]
-         },
-         {
-          "SwitchValue": {
-           "GroupType": "Switch",
-           "GroupId": "3714303081",
-           "Id": "2654748154",
-           "GUID": "{0F78037C-C696-4B32-941D-66988DF4B509}"
-          },
-          "MediaRefs": [
-           {
-            "Id": "817693"
-           },
-           {
-            "Id": "120830246"
-           },
-           {
-            "Id": "247903333"
-           },
-           {
-            "Id": "262438230"
-           },
-           {
-            "Id": "528409158"
-           },
-           {
-            "Id": "611079317"
-           },
-           {
-            "Id": "633130903"
-           },
-           {
-            "Id": "679929361"
-           },
-           {
-            "Id": "837371848"
-           },
-           {
-            "Id": "1056420906"
            }
           ]
          },
@@ -3823,6 +3755,26 @@
     ],
     "SwitchGroups": [
      {
+      "Id": "440928865",
+      "Name": "InWater",
+      "ObjectPath": "\\Switches\\Scale_Game\\InWater",
+      "GUID": "{FAE5E3E1-071B-429C-B1C9-880E7256F830}",
+      "Switches": [
+       {
+        "Id": "979470758",
+        "Name": "Yes",
+        "ObjectPath": "\\Switches\\Scale_Game\\InWater\\Yes",
+        "GUID": "{29470E2A-8EC1-4D51-893B-55746A2AE802}"
+       },
+       {
+        "Id": "1668749452",
+        "Name": "No",
+        "ObjectPath": "\\Switches\\Scale_Game\\InWater\\No",
+        "GUID": "{2A99CF6B-F4A0-40AE-84DB-CCF05CD07491}"
+       }
+      ]
+     },
+     {
       "Id": "1017660616",
       "Name": "Ambiences",
       "ObjectPath": "\\Switches\\Scale_Game\\Ambiences",
@@ -3915,6 +3867,6 @@
     ]
    }
   ],
-  "FileHash": "{2AC67022-18BE-DA55-21B6-2D897042E4BB}"
+  "FileHash": "{7959AD1A-66BC-A319-89E4-4553DE459AA7}"
  }
 }

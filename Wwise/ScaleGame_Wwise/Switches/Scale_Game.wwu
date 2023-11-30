@@ -30,6 +30,12 @@
 						<Switch Name="Temple" ID="{A0DC6F9A-6F96-47C8-BF9C-72A78FC24686}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="InWater" ID="{FAE5E3E1-071B-429C-B1C9-880E7256F830}">
+					<ChildrenList>
+						<Switch Name="Yes" ID="{29470E2A-8EC1-4D51-893B-55746A2AE802}"/>
+						<Switch Name="No" ID="{2A99CF6B-F4A0-40AE-84DB-CCF05CD07491}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

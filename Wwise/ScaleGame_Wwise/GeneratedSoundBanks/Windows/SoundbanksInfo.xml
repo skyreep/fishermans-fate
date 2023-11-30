@@ -54,6 +54,12 @@
 				</AuxBus>
 			</AuxBusses>
 			<SwitchGroups>
+				<SwitchGroup Id="440928865" Name="InWater" ObjectPath="\Switches\Scale_Game\InWater" GUID="{FAE5E3E1-071B-429C-B1C9-880E7256F830}">
+					<Switches>
+						<Switch Id="979470758" Name="Yes" ObjectPath="\Switches\Scale_Game\InWater\Yes" GUID="{29470E2A-8EC1-4D51-893B-55746A2AE802}"/>
+						<Switch Id="1668749452" Name="No" ObjectPath="\Switches\Scale_Game\InWater\No" GUID="{2A99CF6B-F4A0-40AE-84DB-CCF05CD07491}"/>
+					</Switches>
+				</SwitchGroup>
 				<SwitchGroup Id="1017660616" Name="Ambiences" ObjectPath="\Switches\Scale_Game\Ambiences" GUID="{18B5CAB8-EAE7-4F24-BEA2-9DE9C8BEC78B}">
 					<Switches>
 						<Switch Id="219304270" Name="Jungle" ObjectPath="\Switches\Scale_Game\Ambiences\Jungle" GUID="{D14A6CE0-B1FA-4ADA-99E3-3807DE08E45E}"/>
@@ -193,14 +199,14 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" GUID="{181571D8-5C1B-4B16-A2F1-3E5A021A1A77}" Language="English(US)" Hash="{5FFBFC4A-DD00-DA9D-DBC7-BB4C1FD355E5}">
+		<SoundBank Id="3161908922" Type="User" GUID="{181571D8-5C1B-4B16-A2F1-3E5A021A1A77}" Language="English(US)" Hash="{C7C57BB0-5684-E299-86B0-572C845C602A}">
 			<ObjectPath>\SoundBanks\Scale_Game\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
 			<Media>
 				<File Id="817693" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Water\Water\SFX_UNI_Player_Footstep_BaseForm_Water_08.wav</ShortName>
-					<CachePath>SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_08_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_08_88855C22.wem</CachePath>
 				</File>
 				<File Id="20015697" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Dirt\SFX_UNI_Player_Footstep_BaseForm_Dirt_10.wav</ShortName>
@@ -272,7 +278,7 @@
 				</File>
 				<File Id="120830246" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Water\Water\SFX_UNI_Player_Footstep_BaseForm_Water_09.wav</ShortName>
-					<CachePath>SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_09_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_09_CC80996B.wem</CachePath>
 				</File>
 				<File Id="121854168" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>Landry\Efforts\Landry_Effort_29.wav</ShortName>
@@ -349,7 +355,7 @@
 				</File>
 				<File Id="232026882" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Water_Splash\SFX_UNI_Player_BaseForm_WaterSplash_03.wav</ShortName>
-					<CachePath>SFX/Footsteps/Water_Splash/SFX_UNI_Player_BaseForm_WaterSplash_03_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footsteps/Water_Splash/SFX_UNI_Player_BaseForm_WaterSplash_03_FAB24745.wem</CachePath>
 				</File>
 				<File Id="233780264" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>Landry\Efforts\Landry_Effort_37.wav</ShortName>
@@ -381,7 +387,7 @@
 				</File>
 				<File Id="247903333" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Water\Water\SFX_UNI_Player_Footstep_BaseForm_Water_06.wav</ShortName>
-					<CachePath>SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_06_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_06_AB8FFCD4.wem</CachePath>
 				</File>
 				<File Id="249465602" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SGAssetsTurnover\GRAPPLE\SFX_UNI_Player_Grapple_Attach\SFX_UNI_Player_Grapple_Attach_03.wav</ShortName>
@@ -397,7 +403,7 @@
 				</File>
 				<File Id="262438230" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Water\Water\SFX_UNI_Player_Footstep_BaseForm_Water_04.wav</ShortName>
-					<CachePath>SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_04_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_04_2A3FF316.wem</CachePath>
 				</File>
 				<File Id="265266726" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Dirt\SFX_UNI_Player_Footstep_BaseForm_Dirt_07.wav</ShortName>
@@ -505,7 +511,7 @@
 				</File>
 				<File Id="418323662" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Water_Splash\SFX_UNI_Player_BaseForm_WaterSplash_01.wav</ShortName>
-					<CachePath>SFX/Footsteps/Water_Splash/SFX_UNI_Player_BaseForm_WaterSplash_01_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footsteps/Water_Splash/SFX_UNI_Player_BaseForm_WaterSplash_01_DB64CAE5.wem</CachePath>
 				</File>
 				<File Id="423369765" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SGAssetsTurnover\SPECS\AM_CD_AMBIENCE_SPECS_TEMPLE_2.wav</ShortName>
@@ -601,7 +607,7 @@
 				</File>
 				<File Id="528409158" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Water\Water\SFX_UNI_Player_Footstep_BaseForm_Water_02.wav</ShortName>
-					<CachePath>SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_02_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_02_3C488C9A.wem</CachePath>
 				</File>
 				<File Id="531867341" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_10.wav</ShortName>
@@ -657,7 +663,7 @@
 				</File>
 				<File Id="611079317" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Water\Water\SFX_UNI_Player_Footstep_BaseForm_Water_03.wav</ShortName>
-					<CachePath>SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_03_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_03_DFD0328D.wem</CachePath>
 				</File>
 				<File Id="612891392" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SGAssetsTurnover\SFX_UNI_Player_CollectM_03.wav</ShortName>
@@ -681,7 +687,7 @@
 				</File>
 				<File Id="633130903" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Water\Water\SFX_UNI_Player_Footstep_BaseForm_Water_05.wav</ShortName>
-					<CachePath>SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_05_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_05_6BE23B1C.wem</CachePath>
 				</File>
 				<File Id="636200006" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SGAssetsTurnover\SFX_AM_Emit_River_RiverFlow.wav</ShortName>
@@ -713,7 +719,7 @@
 				</File>
 				<File Id="675987768" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Water_Splash\SFX_UNI_Player_BaseForm_WaterSplash_02.wav</ShortName>
-					<CachePath>SFX/Footsteps/Water_Splash/SFX_UNI_Player_BaseForm_WaterSplash_02_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footsteps/Water_Splash/SFX_UNI_Player_BaseForm_WaterSplash_02_4448273D.wem</CachePath>
 				</File>
 				<File Id="679662746" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_08.wav</ShortName>
@@ -725,7 +731,7 @@
 				</File>
 				<File Id="679929361" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Water\Water\SFX_UNI_Player_Footstep_BaseForm_Water_07.wav</ShortName>
-					<CachePath>SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_07_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_07_FCB4F901.wem</CachePath>
 				</File>
 				<File Id="682362156" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>Landry\VO\Landry_09.wav</ShortName>
@@ -921,7 +927,7 @@
 				</File>
 				<File Id="837371848" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Water\Water\SFX_UNI_Player_Footstep_BaseForm_Water_10.wav</ShortName>
-					<CachePath>SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_10_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_10_1E041DF5.wem</CachePath>
 				</File>
 				<File Id="854450253" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SGAssetsTurnover\SPECS\AM_CD_AMBIENCE_SPECS_JUNGLE_5.wav</ShortName>
@@ -1041,7 +1047,7 @@
 				</File>
 				<File Id="1056420906" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Water\Water\SFX_UNI_Player_Footstep_BaseForm_Water_01.wav</ShortName>
-					<CachePath>SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_01_10C4C929.wem</CachePath>
+					<CachePath>SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_01_7CC05D64.wem</CachePath>
 				</File>
 				<File Id="1060645152" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SGAssetsTurnover\GRAPPLE\SFX_UNI_Player_Grapple_Attach\SFX_UNI_Player_Grapple_Attach_01.wav</ShortName>
@@ -1220,7 +1226,7 @@
 						<MediaRef Id="342915962"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2774863440" Name="SFX_Play_WaterLand" ObjectPath="\Events\Scale_Game\SFX\PLAYER\FOOTSTEPS\SFX_Play_WaterLand" GUID="{C0A281F5-2D02-4B15-84BC-4ADD3D50DBA9}" DurationType="OneShot" DurationMin="1.5498866" DurationMax="1.6722676">
+				<Event Id="2774863440" Name="SFX_Play_WaterLand" ObjectPath="\Events\Scale_Game\SFX\PLAYER\FOOTSTEPS\SFX_Play_WaterLand" GUID="{C0A281F5-2D02-4B15-84BC-4ADD3D50DBA9}" DurationType="OneShot" DurationMin="1.2384632" DurationMax="1.7041544">
 					<MediaRefs>
 						<MediaRef Id="232026882"/>
 						<MediaRef Id="418323662"/>
@@ -1233,9 +1239,6 @@
 						<MediaRef Id="695613401"/>
 						<MediaRef Id="706199035"/>
 					</MediaRefs>
-					<AuxBusRefs>
-						<AuxBusRef Id="3518710954" Name="SFX_Verb" ObjectPath="\Master-Mixer Hierarchy\Scale_Game\MASTER\SFX\SFX_Verb" GUID="{FC358F5D-2424-4538-B07B-FF934BE7922D}"/>
-					</AuxBusRefs>
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="2947616871" Id="3977289983" GUID="{7E67AF8A-75DD-492B-8BCC-8499F51EFE58}" Default="true"/>
@@ -1315,21 +1318,6 @@
 										<MediaRef Id="792898453"/>
 										<MediaRef Id="947448112"/>
 										<MediaRef Id="1023910767"/>
-									</MediaRefs>
-								</SwitchContainer>
-								<SwitchContainer>
-									<SwitchValue GroupType="Switch" GroupId="3714303081" Id="2654748154" GUID="{0F78037C-C696-4B32-941D-66988DF4B509}"/>
-									<MediaRefs>
-										<MediaRef Id="817693"/>
-										<MediaRef Id="120830246"/>
-										<MediaRef Id="247903333"/>
-										<MediaRef Id="262438230"/>
-										<MediaRef Id="528409158"/>
-										<MediaRef Id="611079317"/>
-										<MediaRef Id="633130903"/>
-										<MediaRef Id="679929361"/>
-										<MediaRef Id="837371848"/>
-										<MediaRef Id="1056420906"/>
 									</MediaRefs>
 								</SwitchContainer>
 								<SwitchContainer>
@@ -1427,21 +1415,6 @@
 										<MediaRef Id="792898453"/>
 										<MediaRef Id="947448112"/>
 										<MediaRef Id="1023910767"/>
-									</MediaRefs>
-								</SwitchContainer>
-								<SwitchContainer>
-									<SwitchValue GroupType="Switch" GroupId="3714303081" Id="2654748154" GUID="{0F78037C-C696-4B32-941D-66988DF4B509}"/>
-									<MediaRefs>
-										<MediaRef Id="817693"/>
-										<MediaRef Id="120830246"/>
-										<MediaRef Id="247903333"/>
-										<MediaRef Id="262438230"/>
-										<MediaRef Id="528409158"/>
-										<MediaRef Id="611079317"/>
-										<MediaRef Id="633130903"/>
-										<MediaRef Id="679929361"/>
-										<MediaRef Id="837371848"/>
-										<MediaRef Id="1056420906"/>
 									</MediaRefs>
 								</SwitchContainer>
 								<SwitchContainer>
@@ -1591,6 +1564,12 @@
 				</Event>
 			</Events>
 			<SwitchGroups>
+				<SwitchGroup Id="440928865" Name="InWater" ObjectPath="\Switches\Scale_Game\InWater" GUID="{FAE5E3E1-071B-429C-B1C9-880E7256F830}">
+					<Switches>
+						<Switch Id="979470758" Name="Yes" ObjectPath="\Switches\Scale_Game\InWater\Yes" GUID="{29470E2A-8EC1-4D51-893B-55746A2AE802}"/>
+						<Switch Id="1668749452" Name="No" ObjectPath="\Switches\Scale_Game\InWater\No" GUID="{2A99CF6B-F4A0-40AE-84DB-CCF05CD07491}"/>
+					</Switches>
+				</SwitchGroup>
 				<SwitchGroup Id="1017660616" Name="Ambiences" ObjectPath="\Switches\Scale_Game\Ambiences" GUID="{18B5CAB8-EAE7-4F24-BEA2-9DE9C8BEC78B}">
 					<Switches>
 						<Switch Id="219304270" Name="Jungle" ObjectPath="\Switches\Scale_Game\Ambiences\Jungle" GUID="{D14A6CE0-B1FA-4ADA-99E3-3807DE08E45E}"/>
@@ -1617,5 +1596,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{65F31A41-0DB9-8788-755B-3659434EE146}</FileHash>
+	<FileHash>{25434700-190B-1616-32F9-55F26EBC0EF8}</FileHash>
 </SoundBanksInfo>
