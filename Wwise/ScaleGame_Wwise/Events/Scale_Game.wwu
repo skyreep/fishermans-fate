@@ -54,6 +54,17 @@
 											</ChildrenList>
 										</Event>
 										<Event Name="Button_Press" ID="{BF531E0A-41ED-4035-9373-80EA55F515D1}"/>
+										<Event Name="Play_Fan" ID="{FE71B634-492C-49AF-AC01-956C0D354EBF}">
+											<ChildrenList>
+												<Action Name="" ID="{BD5D95B7-CC1F-4AC3-B5B3-B99C373E1C1B}" ShortID="77493801">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SFX_UNI_Player_jump" ID="{5DE39BBE-D339-4ACE-981D-D677F6ACDBD6}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
 								</Folder>
 							</ChildrenList>
@@ -128,6 +139,7 @@
 												</Action>
 											</ChildrenList>
 										</Event>
+										<Event Name="Dash" ID="{3D5D05C4-5903-4494-A82C-9A624137C0A6}"/>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="FOOTSTEPS" ID="{5E283223-8AD7-41E9-AE35-59D6AD66FE55}" ShortID="202993952">
@@ -169,8 +181,28 @@
 								</Folder>
 								<Folder Name="JUMP" ID="{C4190718-7CCF-4A22-A056-AF7D8F51429C}" ShortID="733556309">
 									<ChildrenList>
-										<Event Name="Play_Jump" ID="{3DE10F46-00F8-41EA-B3AC-1D0CE4BEF67C}"/>
-										<Event Name="Play_DoubleJump" ID="{AF1AEF94-52A3-4452-BEBB-A1E84B0C8486}"/>
+										<Event Name="Play_Jump" ID="{3DE10F46-00F8-41EA-B3AC-1D0CE4BEF67C}">
+											<ChildrenList>
+												<Action Name="" ID="{ED26D8BE-100F-4C2C-979C-0FCB8B14AD02}" ShortID="251387519">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SFX_UNI_Player_jump" ID="{5DE39BBE-D339-4ACE-981D-D677F6ACDBD6}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_DoubleJump" ID="{AF1AEF94-52A3-4452-BEBB-A1E84B0C8486}">
+											<ChildrenList>
+												<Action Name="" ID="{DC80D63E-1FA0-4FC8-AEB5-2D016F644EC2}" ShortID="909152814">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SFX_UNI_Player_DoubleJump" ID="{A3A65DB6-633D-4698-A62D-A68C764CBDCC}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
 								</Folder>
 							</ChildrenList>

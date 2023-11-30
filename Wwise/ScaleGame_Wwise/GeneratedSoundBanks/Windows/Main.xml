@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{181571D8-5C1B-4B16-A2F1-3E5A021A1A77}" Language="SFX" Hash="{E4720248-8C46-DD3F-4A0C-F5F921F2343A}">
+		<SoundBank Id="3161908922" Type="User" GUID="{181571D8-5C1B-4B16-A2F1-3E5A021A1A77}" Language="SFX" Hash="{ECCE3878-8660-D1DB-32F2-C3F5E0704250}">
 			<ObjectPath>\SoundBanks\Scale_Game\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -619,6 +619,7 @@
 					</ActionSetSwitch>
 				</Event>
 				<Event Id="2698747613" Name="Button_Press" ObjectPath="\Events\Scale_Game\SFX\AM\EMITTERS\Button_Press" GUID="{BF531E0A-41ED-4035-9373-80EA55F515D1}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1942692385" Name="Dash" ObjectPath="\Events\Scale_Game\SFX\PLAYER\ABILITIES\Dash" GUID="{3D5D05C4-5903-4494-A82C-9A624137C0A6}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="4038097793" Name="GrappleAttach" ObjectPath="\Events\Scale_Game\SFX\PLAYER\ABILITIES\GrappleAttach" GUID="{0C721032-0672-4945-8B71-64E0929F320B}" DurationType="OneShot" DurationMin="0.9566875" DurationMax="1.0923333">
 					<MediaRefs>
 						<MediaRef Id="249465602"/>
@@ -661,8 +662,27 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="595748461" Name="Play_DoubleJump" ObjectPath="\Events\Scale_Game\SFX\PLAYER\JUMP\Play_DoubleJump" GUID="{AF1AEF94-52A3-4452-BEBB-A1E84B0C8486}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="3689126666" Name="Play_Jump" ObjectPath="\Events\Scale_Game\SFX\PLAYER\JUMP\Play_Jump" GUID="{3DE10F46-00F8-41EA-B3AC-1D0CE4BEF67C}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="595748461" Name="Play_DoubleJump" ObjectPath="\Events\Scale_Game\SFX\PLAYER\JUMP\Play_DoubleJump" GUID="{AF1AEF94-52A3-4452-BEBB-A1E84B0C8486}" DurationType="OneShot" DurationMin="0.6840208" DurationMax="0.7300417">
+					<MediaRefs>
+						<MediaRef Id="242492586"/>
+						<MediaRef Id="720534712"/>
+						<MediaRef Id="818583968"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2757069037" Name="Play_Fan" ObjectPath="\Events\Scale_Game\SFX\AM\EMITTERS\Play_Fan" GUID="{FE71B634-492C-49AF-AC01-956C0D354EBF}" DurationType="OneShot" DurationMin="0.37335417" DurationMax="0.4786875">
+					<MediaRefs>
+						<MediaRef Id="72751665"/>
+						<MediaRef Id="436479131"/>
+						<MediaRef Id="982852249"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3689126666" Name="Play_Jump" ObjectPath="\Events\Scale_Game\SFX\PLAYER\JUMP\Play_Jump" GUID="{3DE10F46-00F8-41EA-B3AC-1D0CE4BEF67C}" DurationType="OneShot" DurationMin="0.37335417" DurationMax="0.4786875">
+					<MediaRefs>
+						<MediaRef Id="72751665"/>
+						<MediaRef Id="436479131"/>
+						<MediaRef Id="982852249"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="467174588" Name="Play_Waterfall" ObjectPath="\Events\Scale_Game\SFX\AM\EMITTERS\Play_Waterfall" GUID="{9719FBAD-DF46-42ED-8DE8-9F1627842BC8}" MaxAttenuation="100" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="358645539"/>
@@ -1004,5 +1024,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{CE820D13-F362-E24B-04FE-C653FCE80B3E}</FileHash>
+	<FileHash>{AF3131BC-CDDF-45D2-AEE5-861F7C79871B}</FileHash>
 </SoundBanksInfo>

@@ -5,8 +5,10 @@ Event	ID	Name			Wwise Object Path	Notes
 	753980219	BaseToCold			\Scale_Game\SFX\PLAYER\ABILITIES\BaseToCold	
 	1246886611	GrappleShoot			\Scale_Game\SFX\PLAYER\ABILITIES\GrappleShoot	
 	1418208654	Play_Waterfall_Splash			\Scale_Game\SFX\AM\EMITTERS\Play_Waterfall_Splash	
+	1942692385	Dash			\Scale_Game\SFX\PLAYER\ABILITIES\Dash	
 	2264193906	BaseToHot			\Scale_Game\SFX\PLAYER\ABILITIES\BaseToHot	
 	2698747613	Button_Press			\Scale_Game\SFX\AM\EMITTERS\Button_Press	
+	2757069037	Play_Fan			\Scale_Game\SFX\AM\EMITTERS\Play_Fan	
 	2774863440	SFX_Play_WaterLand			\Scale_Game\SFX\PLAYER\FOOTSTEPS\SFX_Play_WaterLand	
 	3302377865	SFX_PlayFootstep			\Scale_Game\SFX\PLAYER\FOOTSTEPS\SFX_PlayFootstep	
 	3321841820	SFX_PlayLanding			\Scale_Game\SFX\PLAYER\FOOTSTEPS\SFX_PlayLanding	
