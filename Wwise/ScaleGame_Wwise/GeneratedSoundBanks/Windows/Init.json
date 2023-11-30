@@ -255,6 +255,12 @@
       "GUID": "{F9DF1E7E-B488-4E02-9259-0AA9E9122922}",
       "Switches": [
        {
+        "Id": "467482081",
+        "Name": "Rainbow",
+        "ObjectPath": "\\Switches\\Scale_Game\\Footsteps\\Surfaces\\Rainbow",
+        "GUID": "{0E26F1FE-43F8-4289-88C6-581F76004A91}"
+       },
+       {
         "Id": "582824249",
         "Name": "Leaves",
         "ObjectPath": "\\Switches\\Scale_Game\\Footsteps\\Surfaces\\Leaves",
@@ -289,6 +295,32 @@
         "Name": "Grass",
         "ObjectPath": "\\Switches\\Scale_Game\\Footsteps\\Surfaces\\Grass",
         "GUID": "{0C94A94C-E6AE-4818-8212-39A05454FD13}"
+       }
+      ]
+     },
+     {
+      "Id": "3898138217",
+      "Name": "FanSpeed",
+      "ObjectPath": "\\Switches\\Scale_Game\\FanSpeed",
+      "GUID": "{A24E67BF-FCBD-4DCD-B07A-2B5FDCA1DDC9}",
+      "Switches": [
+       {
+        "Id": "787604482",
+        "Name": "Slow",
+        "ObjectPath": "\\Switches\\Scale_Game\\FanSpeed\\Slow",
+        "GUID": "{FF747217-8A92-4975-A8ED-A879BA6BB4E3}"
+       },
+       {
+        "Id": "1291433366",
+        "Name": "Base",
+        "ObjectPath": "\\Switches\\Scale_Game\\FanSpeed\\Base",
+        "GUID": "{36F438E7-BFA6-4EB9-BF41-39C781BBA948}"
+       },
+       {
+        "Id": "2965380179",
+        "Name": "Fast",
+        "ObjectPath": "\\Switches\\Scale_Game\\FanSpeed\\Fast",
+        "GUID": "{65702D58-168F-4645-981C-EBD76F95D7E1}"
        }
       ]
      }
@@ -689,6 +721,6 @@
     ]
    }
   ],
-  "FileHash": "{CD67C329-867C-7EEE-9CD9-413BC3405537}"
+  "FileHash": "{E6F7E944-6945-1089-A452-B69351B5A669}"
  }
 }

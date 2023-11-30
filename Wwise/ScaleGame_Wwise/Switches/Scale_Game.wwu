@@ -20,6 +20,7 @@
 								<Switch Name="Dirt" ID="{22A37D54-D3DD-4687-A44F-D240BD429E36}"/>
 								<Switch Name="Leaves" ID="{6284C819-A785-4040-A443-36CAA919EB60}"/>
 								<Switch Name="Water" ID="{0F78037C-C696-4B32-941D-66988DF4B509}"/>
+								<Switch Name="Rainbow" ID="{0E26F1FE-43F8-4289-88C6-581F76004A91}"/>
 							</ChildrenList>
 						</SwitchGroup>
 					</ChildrenList>
@@ -34,6 +35,13 @@
 					<ChildrenList>
 						<Switch Name="Yes" ID="{29470E2A-8EC1-4D51-893B-55746A2AE802}"/>
 						<Switch Name="No" ID="{2A99CF6B-F4A0-40AE-84DB-CCF05CD07491}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="FanSpeed" ID="{A24E67BF-FCBD-4DCD-B07A-2B5FDCA1DDC9}">
+					<ChildrenList>
+						<Switch Name="Slow" ID="{FF747217-8A92-4975-A8ED-A879BA6BB4E3}"/>
+						<Switch Name="Fast" ID="{65702D58-168F-4645-981C-EBD76F95D7E1}"/>
+						<Switch Name="Base" ID="{36F438E7-BFA6-4EB9-BF41-39C781BBA948}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>

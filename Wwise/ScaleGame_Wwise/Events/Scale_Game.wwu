@@ -66,10 +66,20 @@
 										</Event>
 										<Event Name="Play_Fan" ID="{FE71B634-492C-49AF-AC01-956C0D354EBF}">
 											<ChildrenList>
-												<Action Name="" ID="{BD5D95B7-CC1F-4AC3-B5B3-B99C373E1C1B}" ShortID="77493801">
+												<Action Name="" ID="{B7225538-3BF3-42AB-BAEC-33B04ED63290}" ShortID="557087011">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="SFX_UNI_Player_jump" ID="{5DE39BBE-D339-4ACE-981D-D677F6ACDBD6}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
+															<ObjectRef Name="FanSpeed" ID="{5AD638A9-D9C3-4803-AAF8-4B195D3995A3}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{BC8A121F-C65B-430B-9386-AA3FAE2FC120}" ShortID="159217442">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="FanSpeed" ID="{5AD638A9-D9C3-4803-AAF8-4B195D3995A3}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -134,6 +144,17 @@
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="MovingPlatform_Loop" ID="{FA009A6F-7BC5-411C-8F42-BB8C1B74FB26}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Stop_Fan" ID="{A83FE261-820E-4EE8-89D0-940E6ADA59ED}">
+											<ChildrenList>
+												<Action Name="" ID="{E0D77994-BA93-4950-BD63-7999E8464336}" ShortID="615029484">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="FanSpeed" ID="{5AD638A9-D9C3-4803-AAF8-4B195D3995A3}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>

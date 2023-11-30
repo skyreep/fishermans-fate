@@ -263,6 +263,12 @@
       "GUID": "{F9DF1E7E-B488-4E02-9259-0AA9E9122922}",
       "Switches": [
        {
+        "Id": "467482081",
+        "Name": "Rainbow",
+        "ObjectPath": "\\Switches\\Scale_Game\\Footsteps\\Surfaces\\Rainbow",
+        "GUID": "{0E26F1FE-43F8-4289-88C6-581F76004A91}"
+       },
+       {
         "Id": "582824249",
         "Name": "Leaves",
         "ObjectPath": "\\Switches\\Scale_Game\\Footsteps\\Surfaces\\Leaves",
@@ -297,6 +303,32 @@
         "Name": "Grass",
         "ObjectPath": "\\Switches\\Scale_Game\\Footsteps\\Surfaces\\Grass",
         "GUID": "{0C94A94C-E6AE-4818-8212-39A05454FD13}"
+       }
+      ]
+     },
+     {
+      "Id": "3898138217",
+      "Name": "FanSpeed",
+      "ObjectPath": "\\Switches\\Scale_Game\\FanSpeed",
+      "GUID": "{A24E67BF-FCBD-4DCD-B07A-2B5FDCA1DDC9}",
+      "Switches": [
+       {
+        "Id": "787604482",
+        "Name": "Slow",
+        "ObjectPath": "\\Switches\\Scale_Game\\FanSpeed\\Slow",
+        "GUID": "{FF747217-8A92-4975-A8ED-A879BA6BB4E3}"
+       },
+       {
+        "Id": "1291433366",
+        "Name": "Base",
+        "ObjectPath": "\\Switches\\Scale_Game\\FanSpeed\\Base",
+        "GUID": "{36F438E7-BFA6-4EB9-BF41-39C781BBA948}"
+       },
+       {
+        "Id": "2965380179",
+        "Name": "Fast",
+        "ObjectPath": "\\Switches\\Scale_Game\\FanSpeed\\Fast",
+        "GUID": "{65702D58-168F-4645-981C-EBD76F95D7E1}"
        }
       ]
      }
@@ -701,7 +733,7 @@
     "Type": "User",
     "GUID": "{181571D8-5C1B-4B16-A2F1-3E5A021A1A77}",
     "Language": "English(US)",
-    "Hash": "{C7C57BB0-5684-E299-86B0-572C845C602A}",
+    "Hash": "{9299AEC4-941A-BEB1-6561-0A18A6B4A840}",
     "ObjectPath": "\\SoundBanks\\Scale_Game\\Main",
     "ShortName": "Main",
     "Path": "English(US)/Main.bnk",
@@ -712,7 +744,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Water\\Water\\SFX_UNI_Player_Footstep_BaseForm_Water_08.wav",
-      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_08_88855C22.wem"
+      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_08_117086E4.wem"
      },
      {
       "Id": "20015697",
@@ -856,7 +888,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Water\\Water\\SFX_UNI_Player_Footstep_BaseForm_Water_09.wav",
-      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_09_CC80996B.wem"
+      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_09_CB3C2DDD.wem"
      },
      {
       "Id": "121854168",
@@ -988,6 +1020,14 @@
       "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_17_C321EB1B.wem"
      },
      {
+      "Id": "210515482",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "drive-download-20231130T215446Z-001\\SFX_AM_Emit_Fan_FanTurning_Standard.wav",
+      "CachePath": "SFX/drive-download-20231130T215446Z-001/SFX_AM_Emit_Fan_FanTurning_Standard_D79FB2B7.wem"
+     },
+     {
       "Id": "215318433",
       "Language": "SFX",
       "Streaming": "false",
@@ -1009,7 +1049,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Water_Splash\\SFX_UNI_Player_BaseForm_WaterSplash_03.wav",
-      "CachePath": "SFX/Footsteps/Water_Splash/SFX_UNI_Player_BaseForm_WaterSplash_03_FAB24745.wem"
+      "CachePath": "SFX/Footsteps/Water_Splash/SFX_UNI_Player_BaseForm_WaterSplash_03_74C2F31F.wem"
      },
      {
       "Id": "233780264",
@@ -1073,7 +1113,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Water\\Water\\SFX_UNI_Player_Footstep_BaseForm_Water_06.wav",
-      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_06_AB8FFCD4.wem"
+      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_06_50096A47.wem"
      },
      {
       "Id": "249465602",
@@ -1105,7 +1145,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Water\\Water\\SFX_UNI_Player_Footstep_BaseForm_Water_04.wav",
-      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_04_2A3FF316.wem"
+      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_04_729EF8E4.wem"
      },
      {
       "Id": "265266726",
@@ -1300,6 +1340,14 @@
       "CachePath": "SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_15_10C4C929.wem"
      },
      {
+      "Id": "411652973",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "drive-download-20231130T215446Z-001\\SFX_AM_Emit_Fan_FanTurning_Slow.wav",
+      "CachePath": "SFX/drive-download-20231130T215446Z-001/SFX_AM_Emit_Fan_FanTurning_Slow_D79FB2B7.wem"
+     },
+     {
       "Id": "414511005",
       "Language": "SFX",
       "Streaming": "false",
@@ -1321,7 +1369,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Water_Splash\\SFX_UNI_Player_BaseForm_WaterSplash_01.wav",
-      "CachePath": "SFX/Footsteps/Water_Splash/SFX_UNI_Player_BaseForm_WaterSplash_01_DB64CAE5.wem"
+      "CachePath": "SFX/Footsteps/Water_Splash/SFX_UNI_Player_BaseForm_WaterSplash_01_029A21D1.wem"
      },
      {
       "Id": "423369765",
@@ -1513,7 +1561,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Water\\Water\\SFX_UNI_Player_Footstep_BaseForm_Water_02.wav",
-      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_02_3C488C9A.wem"
+      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_02_2F5E596D.wem"
      },
      {
       "Id": "531867341",
@@ -1625,7 +1673,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Water\\Water\\SFX_UNI_Player_Footstep_BaseForm_Water_03.wav",
-      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_03_DFD0328D.wem"
+      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_03_D0ABA5E1.wem"
      },
      {
       "Id": "612891392",
@@ -1673,7 +1721,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Water\\Water\\SFX_UNI_Player_Footstep_BaseForm_Water_05.wav",
-      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_05_6BE23B1C.wem"
+      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_05_6BE0B4C8.wem"
      },
      {
       "Id": "636200006",
@@ -1737,7 +1785,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Water_Splash\\SFX_UNI_Player_BaseForm_WaterSplash_02.wav",
-      "CachePath": "SFX/Footsteps/Water_Splash/SFX_UNI_Player_BaseForm_WaterSplash_02_4448273D.wem"
+      "CachePath": "SFX/Footsteps/Water_Splash/SFX_UNI_Player_BaseForm_WaterSplash_02_263B8996.wem"
      },
      {
       "Id": "679662746",
@@ -1810,6 +1858,14 @@
       "Location": "Memory",
       "ShortName": "Landry\\Efforts\\Landry_Effort_19.wav",
       "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_19_10C4C929.wem"
+     },
+     {
+      "Id": "716090463",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "drive-download-20231130T215446Z-001\\SFX_AM_Emit_Fan_FanTurning_Fast.wav",
+      "CachePath": "SFX/drive-download-20231130T215446Z-001/SFX_AM_Emit_Fan_FanTurning_Fast_D79FB2B7.wem"
      },
      {
       "Id": "718010320",
@@ -2153,7 +2209,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Water\\Water\\SFX_UNI_Player_Footstep_BaseForm_Water_10.wav",
-      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_10_1E041DF5.wem"
+      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_10_15319C1A.wem"
      },
      {
       "Id": "854450253",
@@ -2393,7 +2449,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Water\\Water\\SFX_UNI_Player_Footstep_BaseForm_Water_01.wav",
-      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_01_7CC05D64.wem"
+      "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_01_E3F0287A.wem"
      },
      {
       "Id": "1060645152",
@@ -2689,18 +2745,87 @@
       "Name": "Play_Fan",
       "ObjectPath": "\\Events\\Scale_Game\\SFX\\AM\\EMITTERS\\Play_Fan",
       "GUID": "{FE71B634-492C-49AF-AC01-956C0D354EBF}",
-      "DurationType": "OneShot",
-      "DurationMin": "0.37335417",
-      "DurationMax": "0.4786875",
-      "MediaRefs": [
+      "DurationType": "Infinite",
+      "SwitchContainers": [
        {
-        "Id": "72751665"
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3898138217",
+         "Id": "787604482",
+         "GUID": "{FF747217-8A92-4975-A8ED-A879BA6BB4E3}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "411652973"
+         }
+        ]
        },
        {
-        "Id": "436479131"
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3898138217",
+         "Id": "2965380179",
+         "GUID": "{65702D58-168F-4645-981C-EBD76F95D7E1}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "716090463"
+         }
+        ]
        },
        {
-        "Id": "982852249"
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3898138217",
+         "Id": "1291433366",
+         "GUID": "{36F438E7-BFA6-4EB9-BF41-39C781BBA948}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "210515482"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3898138217",
+         "Id": "787604482",
+         "GUID": "{FF747217-8A92-4975-A8ED-A879BA6BB4E3}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "411652973"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3898138217",
+         "Id": "2965380179",
+         "GUID": "{65702D58-168F-4645-981C-EBD76F95D7E1}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "716090463"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3898138217",
+         "Id": "1291433366",
+         "GUID": "{36F438E7-BFA6-4EB9-BF41-39C781BBA948}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "210515482"
+         }
+        ]
        }
       ]
      },
@@ -3732,6 +3857,95 @@
       ]
      },
      {
+      "Id": "503719263",
+      "Name": "Stop_Fan",
+      "ObjectPath": "\\Events\\Scale_Game\\SFX\\AM\\EMITTERS\\Stop_Fan",
+      "GUID": "{A83FE261-820E-4EE8-89D0-940E6ADA59ED}",
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3898138217",
+         "Id": "787604482",
+         "GUID": "{FF747217-8A92-4975-A8ED-A879BA6BB4E3}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "411652973"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3898138217",
+         "Id": "2965380179",
+         "GUID": "{65702D58-168F-4645-981C-EBD76F95D7E1}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "716090463"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3898138217",
+         "Id": "1291433366",
+         "GUID": "{36F438E7-BFA6-4EB9-BF41-39C781BBA948}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "210515482"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3898138217",
+         "Id": "787604482",
+         "GUID": "{FF747217-8A92-4975-A8ED-A879BA6BB4E3}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "411652973"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3898138217",
+         "Id": "2965380179",
+         "GUID": "{65702D58-168F-4645-981C-EBD76F95D7E1}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "716090463"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3898138217",
+         "Id": "1291433366",
+         "GUID": "{36F438E7-BFA6-4EB9-BF41-39C781BBA948}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "210515482"
+         }
+        ]
+       }
+      ]
+     },
+     {
       "Id": "1116482623",
       "Name": "Stop_Slide",
       "ObjectPath": "\\Events\\Scale_Game\\SFX\\PLAYER\\ABILITIES\\WALL\\Stop_Slide",
@@ -3827,6 +4041,12 @@
       "GUID": "{F9DF1E7E-B488-4E02-9259-0AA9E9122922}",
       "Switches": [
        {
+        "Id": "467482081",
+        "Name": "Rainbow",
+        "ObjectPath": "\\Switches\\Scale_Game\\Footsteps\\Surfaces\\Rainbow",
+        "GUID": "{0E26F1FE-43F8-4289-88C6-581F76004A91}"
+       },
+       {
         "Id": "582824249",
         "Name": "Leaves",
         "ObjectPath": "\\Switches\\Scale_Game\\Footsteps\\Surfaces\\Leaves",
@@ -3863,10 +4083,36 @@
         "GUID": "{0C94A94C-E6AE-4818-8212-39A05454FD13}"
        }
       ]
+     },
+     {
+      "Id": "3898138217",
+      "Name": "FanSpeed",
+      "ObjectPath": "\\Switches\\Scale_Game\\FanSpeed",
+      "GUID": "{A24E67BF-FCBD-4DCD-B07A-2B5FDCA1DDC9}",
+      "Switches": [
+       {
+        "Id": "787604482",
+        "Name": "Slow",
+        "ObjectPath": "\\Switches\\Scale_Game\\FanSpeed\\Slow",
+        "GUID": "{FF747217-8A92-4975-A8ED-A879BA6BB4E3}"
+       },
+       {
+        "Id": "1291433366",
+        "Name": "Base",
+        "ObjectPath": "\\Switches\\Scale_Game\\FanSpeed\\Base",
+        "GUID": "{36F438E7-BFA6-4EB9-BF41-39C781BBA948}"
+       },
+       {
+        "Id": "2965380179",
+        "Name": "Fast",
+        "ObjectPath": "\\Switches\\Scale_Game\\FanSpeed\\Fast",
+        "GUID": "{65702D58-168F-4645-981C-EBD76F95D7E1}"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{7959AD1A-66BC-A319-89E4-4553DE459AA7}"
+  "FileHash": "{F8B1FEA7-E665-1034-B6EF-6853ACF77800}"
  }
 }

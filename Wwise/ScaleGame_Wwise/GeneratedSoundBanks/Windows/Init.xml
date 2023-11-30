@@ -67,12 +67,20 @@
 				</SwitchGroup>
 				<SwitchGroup Id="3714303081" Name="Surfaces" ObjectPath="\Switches\Scale_Game\Footsteps\Surfaces" GUID="{F9DF1E7E-B488-4E02-9259-0AA9E9122922}">
 					<Switches>
+						<Switch Id="467482081" Name="Rainbow" ObjectPath="\Switches\Scale_Game\Footsteps\Surfaces\Rainbow" GUID="{0E26F1FE-43F8-4289-88C6-581F76004A91}"/>
 						<Switch Id="582824249" Name="Leaves" ObjectPath="\Switches\Scale_Game\Footsteps\Surfaces\Leaves" GUID="{6284C819-A785-4040-A443-36CAA919EB60}"/>
 						<Switch Id="1216965916" Name="Stone" ObjectPath="\Switches\Scale_Game\Footsteps\Surfaces\Stone" GUID="{EA23D431-D524-4E95-B3D5-98F351E22ABC}"/>
 						<Switch Id="2195636714" Name="Dirt" ObjectPath="\Switches\Scale_Game\Footsteps\Surfaces\Dirt" GUID="{22A37D54-D3DD-4687-A44F-D240BD429E36}"/>
 						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Scale_Game\Footsteps\Surfaces\Metal" GUID="{0E81217E-5D7D-42D0-AED6-D679BD01FA58}"/>
 						<Switch Id="2654748154" Name="Water" ObjectPath="\Switches\Scale_Game\Footsteps\Surfaces\Water" GUID="{0F78037C-C696-4B32-941D-66988DF4B509}"/>
 						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Scale_Game\Footsteps\Surfaces\Grass" GUID="{0C94A94C-E6AE-4818-8212-39A05454FD13}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3898138217" Name="FanSpeed" ObjectPath="\Switches\Scale_Game\FanSpeed" GUID="{A24E67BF-FCBD-4DCD-B07A-2B5FDCA1DDC9}">
+					<Switches>
+						<Switch Id="787604482" Name="Slow" ObjectPath="\Switches\Scale_Game\FanSpeed\Slow" GUID="{FF747217-8A92-4975-A8ED-A879BA6BB4E3}"/>
+						<Switch Id="1291433366" Name="Base" ObjectPath="\Switches\Scale_Game\FanSpeed\Base" GUID="{36F438E7-BFA6-4EB9-BF41-39C781BBA948}"/>
+						<Switch Id="2965380179" Name="Fast" ObjectPath="\Switches\Scale_Game\FanSpeed\Fast" GUID="{65702D58-168F-4645-981C-EBD76F95D7E1}"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
@@ -192,5 +200,5 @@
 			</AcousticTextures>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{82C47CD9-C823-90E6-D0E8-E366AC398AF4}</FileHash>
+	<FileHash>{7F277BD4-363C-E6CE-E255-59F0584582B4}</FileHash>
 </SoundBanksInfo>

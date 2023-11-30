@@ -746,25 +746,15 @@
 								</Folder>
 								<Folder Name="EMITTERS" ID="{EF6280AB-F349-477E-BF94-F7BE86BF8CAC}" ShortID="864403966">
 									<ChildrenList>
-										<RandomSequenceContainer Name="Waterfall" ID="{009552A6-098A-4615-B2C0-8905307F94AB}" ShortID="705249583">
-											<PropertyList>
-												<Property Name="3DSpatialization" Type="int16" Value="1"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Attenuation">
-													<ObjectRef Name="Ambiences" ID="{9FD9A9F8-4A41-46E0-B034-8F3CE2BD1F69}" WorkUnitID="{DC015E21-92DF-435F-8A28-DADDC835995F}"/>
-												</Reference>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
-												</Reference>
-											</ReferenceList>
+										<Folder Name="Devices" ID="{3E928B48-D278-4F31-9B32-11798DB58A51}" ShortID="540100759">
 											<ChildrenList>
-												<Sound Name="SFX_AM_Emit_River_Waterfall" ID="{0BCC71F4-FDB5-4749-A546-BC68B4F4DCC4}" ShortID="348822429">
+												<RandomSequenceContainer Name="MovingPlatform_Start" ID="{175BBB92-3261-4815-A137-03D0C6C877DE}" ShortID="651041789">
 													<PropertyList>
-														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>27</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -775,226 +765,92 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_AM_Emit_River_Waterfall" ID="{A87D35F6-CBE9-491E-BDBB-171302E1F5DE}">
-															<Language>SFX</Language>
-															<AudioFile>SGAssetsTurnover\SFX_AM_Emit_River_Waterfall.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="358645539"/>
-															</MediaIDList>
-														</AudioFileSource>
+														<Sound Name="SFX_AM_Emit_Platform_PlatformStart" ID="{AA419482-F69F-4424-AADF-AC6D2111482D}" ShortID="270078699">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_AM_Emit_Platform_PlatformStart" ID="{2C9E56A1-6DC0-4997-A964-8560B9F48236}">
+																	<Language>SFX</Language>
+																	<AudioFile>SGAssetsTurnover\SFX_AM_Emit_Platform_PlatformStart.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="244031450"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_AM_Emit_Platform_PlatformStart" ID="{2C9E56A1-6DC0-4997-A964-8560B9F48236}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
 													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="SFX_AM_Emit_River_Waterfall" ID="{A87D35F6-CBE9-491E-BDBB-171302E1F5DE}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-											</ChildrenList>
-										</RandomSequenceContainer>
-										<RandomSequenceContainer Name="WaterfallSplash" ID="{97FC555B-917D-4635-8641-2918FE7A4726}" ShortID="537414591">
-											<ReferenceList>
-												<Reference Name="Attenuation">
-													<ObjectRef Name="Ambiences" ID="{9FD9A9F8-4A41-46E0-B034-8F3CE2BD1F69}" WorkUnitID="{DC015E21-92DF-435F-8A28-DADDC835995F}"/>
-												</Reference>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<Sound Name="SFX_CD_Emit_WaterfallSplash" ID="{FBD43226-7918-4FA1-BE04-16F493FDD80F}" ShortID="564561284">
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="Conveyor" ID="{0D514BDF-6061-47B5-80E1-462F40B155B5}" ShortID="542757087">
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="ConveyorBelt" ID="{C119D678-F595-4A44-9742-21176F4BD38E}" WorkUnitID="{DC015E21-92DF-435F-8A28-DADDC835995F}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="SFX_UNI_Emit_Conveyor" ID="{3B45CD4C-0ADE-4FC8-94A2-FEAEAAD9B84E}" ShortID="1063915036">
+															<PropertyList>
+																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_UNI_Emit_Conveyor" ID="{A1E48507-3AEC-46AE-8FE6-170B64C8B2D0}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_UNI_Emit_Conveyor.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="426848565"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_UNI_Emit_Conveyor" ID="{A1E48507-3AEC-46AE-8FE6-170B64C8B2D0}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="PressurePlatre" ID="{E208C694-50BB-4EB1-8059-47A9DC7357A4}" ShortID="742029733">
 													<PropertyList>
-														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="SFX_CD_Emit_WaterfallSplash" ID="{C3289AC5-1B37-48FA-B2CA-8133677F1281}">
-															<Language>SFX</Language>
-															<AudioFile>SGAssetsTurnover\SFX_CD_Emit_WaterfallSplash.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="342915962"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="SFX_CD_Emit_WaterfallSplash" ID="{C3289AC5-1B37-48FA-B2CA-8133677F1281}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-											</ChildrenList>
-										</RandomSequenceContainer>
-										<RandomSequenceContainer Name="Conveyor" ID="{0D514BDF-6061-47B5-80E1-462F40B155B5}" ShortID="542757087">
-											<ReferenceList>
-												<Reference Name="Attenuation">
-													<ObjectRef Name="Ambiences" ID="{9FD9A9F8-4A41-46E0-B034-8F3CE2BD1F69}" WorkUnitID="{DC015E21-92DF-435F-8A28-DADDC835995F}"/>
-												</Reference>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<Sound Name="SFX_UNI_Emit_Conveyor" ID="{3B45CD4C-0ADE-4FC8-94A2-FEAEAAD9B84E}" ShortID="1063915036">
-													<PropertyList>
-														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="SFX_UNI_Emit_Conveyor" ID="{A1E48507-3AEC-46AE-8FE6-170B64C8B2D0}">
-															<Language>SFX</Language>
-															<AudioFile>SFX_UNI_Emit_Conveyor.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="426848565"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="SFX_UNI_Emit_Conveyor" ID="{A1E48507-3AEC-46AE-8FE6-170B64C8B2D0}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-											</ChildrenList>
-										</RandomSequenceContainer>
-										<RandomSequenceContainer Name="PressurePlatre" ID="{E208C694-50BB-4EB1-8059-47A9DC7357A4}" ShortID="742029733">
-											<PropertyList>
-												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-												<Property Name="Pitch" Type="int32">
-													<ValueList>
-														<Value>-170</Value>
-													</ValueList>
-													<ModifierList>
-														<ModifierInfo>
-															<Modifier Name="" ID="{DC197329-ABCB-456C-A062-10B60505C9E3}">
-																<PropertyList>
-																	<Property Name="Enabled" Type="bool" Value="True"/>
-																	<Property Name="Max" Type="Real64" Value="531"/>
-																	<Property Name="Min" Type="Real64" Value="-354"/>
-																</PropertyList>
-															</Modifier>
-														</ModifierInfo>
-													</ModifierList>
-												</Property>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>5</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<Sound Name="SFX_AM_Emit_PressurePlate_01" ID="{FD48203B-B48A-4B89-B7A0-29EA6D2D77BD}" ShortID="1017575248">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="SFX_AM_Emit_PressurePlate_01" ID="{7EF8F2B4-757A-4C97-954D-E5452FE3F469}">
-															<Language>SFX</Language>
-															<AudioFile>PressurePlatre\SFX_AM_Emit_PressurePlate_01.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="1042296933"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="SFX_AM_Emit_PressurePlate_01" ID="{7EF8F2B4-757A-4C97-954D-E5452FE3F469}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="SFX_AM_Emit_PressurePlate_02" ID="{461BCCE9-C301-4310-9BEC-5734DBB33741}" ShortID="378783452">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="SFX_AM_Emit_PressurePlate_02" ID="{A35DF1B5-2014-4E85-BD1C-AF95A87166C5}">
-															<Language>SFX</Language>
-															<AudioFile>PressurePlatre\SFX_AM_Emit_PressurePlate_02.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="235060415"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="SFX_AM_Emit_PressurePlate_02" ID="{A35DF1B5-2014-4E85-BD1C-AF95A87166C5}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="SFX_AM_Emit_PressurePlate_03" ID="{99646F19-B5DA-459E-99C7-4E90978103AA}" ShortID="600743858">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="SFX_AM_Emit_PressurePlate_03" ID="{594AE0CD-548C-4970-8BDD-6DC7BF11516B}">
-															<Language>SFX</Language>
-															<AudioFile>PressurePlatre\SFX_AM_Emit_PressurePlate_03.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="632811779"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="SFX_AM_Emit_PressurePlate_03" ID="{594AE0CD-548C-4970-8BDD-6DC7BF11516B}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-											</ChildrenList>
-										</RandomSequenceContainer>
-										<RandomSequenceContainer Name="RiverFlow" ID="{CC544061-E642-4006-8FF2-C2D0DD60F3DC}" ShortID="536716255">
-											<ReferenceList>
-												<Reference Name="Attenuation">
-													<ObjectRef Name="Ambiences" ID="{9FD9A9F8-4A41-46E0-B034-8F3CE2BD1F69}" WorkUnitID="{DC015E21-92DF-435F-8A28-DADDC835995F}"/>
-												</Reference>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<Sound Name="SFX_AM_Emit_River_RiverFlow" ID="{EE0D85CB-94CF-48F7-AE85-CA1FBC6A2FA8}" ShortID="456911274">
-													<PropertyList>
-														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 														<Property Name="Pitch" Type="int32">
 															<ValueList>
-																<Value>-350</Value>
+																<Value>-170</Value>
 															</ValueList>
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{DC197329-ABCB-456C-A062-10B60505C9E3}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="531"/>
+																			<Property Name="Min" Type="Real64" Value="-354"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
 														</Property>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>-8</Value>
+																<Value>5</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -1007,122 +863,81 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_AM_Emit_River_RiverFlow" ID="{922FE571-04CA-4F65-ABC4-18BD2A7A1E8D}">
-															<Language>SFX</Language>
-															<AudioFile>SGAssetsTurnover\SFX_AM_Emit_River_RiverFlow.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="636200006"/>
-															</MediaIDList>
-														</AudioFileSource>
+														<Sound Name="SFX_AM_Emit_PressurePlate_01" ID="{FD48203B-B48A-4B89-B7A0-29EA6D2D77BD}" ShortID="1017575248">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_AM_Emit_PressurePlate_01" ID="{7EF8F2B4-757A-4C97-954D-E5452FE3F469}">
+																	<Language>SFX</Language>
+																	<AudioFile>PressurePlatre\SFX_AM_Emit_PressurePlate_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="1042296933"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_AM_Emit_PressurePlate_01" ID="{7EF8F2B4-757A-4C97-954D-E5452FE3F469}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SFX_AM_Emit_PressurePlate_02" ID="{461BCCE9-C301-4310-9BEC-5734DBB33741}" ShortID="378783452">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_AM_Emit_PressurePlate_02" ID="{A35DF1B5-2014-4E85-BD1C-AF95A87166C5}">
+																	<Language>SFX</Language>
+																	<AudioFile>PressurePlatre\SFX_AM_Emit_PressurePlate_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="235060415"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_AM_Emit_PressurePlate_02" ID="{A35DF1B5-2014-4E85-BD1C-AF95A87166C5}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SFX_AM_Emit_PressurePlate_03" ID="{99646F19-B5DA-459E-99C7-4E90978103AA}" ShortID="600743858">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_AM_Emit_PressurePlate_03" ID="{594AE0CD-548C-4970-8BDD-6DC7BF11516B}">
+																	<Language>SFX</Language>
+																	<AudioFile>PressurePlatre\SFX_AM_Emit_PressurePlate_03.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="632811779"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_AM_Emit_PressurePlate_03" ID="{594AE0CD-548C-4970-8BDD-6DC7BF11516B}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
 													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="SFX_AM_Emit_River_RiverFlow" ID="{922FE571-04CA-4F65-ABC4-18BD2A7A1E8D}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-											</ChildrenList>
-										</RandomSequenceContainer>
-										<RandomSequenceContainer Name="MovingPlatform_Stop" ID="{A38027DA-0C47-486D-AE72-F53E87EB5FDA}" ShortID="7507691">
-											<PropertyList>
-												<Property Name="Lowpass" Type="int16">
-													<ValueList>
-														<Value>27</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<Sound Name="SFX_AM_Emit_Platform_PlatformStop" ID="{C86CC43D-DA89-4E9C-9531-EF62D6F8227B}" ShortID="92765063">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="SFX_AM_Emit_Platform_PlatformStop" ID="{82539DEE-CA8D-4A8C-AD9D-CF8AB9E37BFD}">
-															<Language>SFX</Language>
-															<AudioFile>SGAssetsTurnover\SFX_AM_Emit_Platform_PlatformStop.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="761069620"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="SFX_AM_Emit_Platform_PlatformStop" ID="{82539DEE-CA8D-4A8C-AD9D-CF8AB9E37BFD}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-											</ChildrenList>
-										</RandomSequenceContainer>
-										<RandomSequenceContainer Name="MovingPlatform_Start" ID="{175BBB92-3261-4815-A137-03D0C6C877DE}" ShortID="651041789">
-											<PropertyList>
-												<Property Name="Lowpass" Type="int16">
-													<ValueList>
-														<Value>27</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<Sound Name="SFX_AM_Emit_Platform_PlatformStart" ID="{AA419482-F69F-4424-AADF-AC6D2111482D}" ShortID="270078699">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="SFX_AM_Emit_Platform_PlatformStart" ID="{2C9E56A1-6DC0-4997-A964-8560B9F48236}">
-															<Language>SFX</Language>
-															<AudioFile>SGAssetsTurnover\SFX_AM_Emit_Platform_PlatformStart.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="244031450"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="SFX_AM_Emit_Platform_PlatformStart" ID="{2C9E56A1-6DC0-4997-A964-8560B9F48236}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-											</ChildrenList>
-										</RandomSequenceContainer>
-										<RandomSequenceContainer Name="MovingPlatform_Loop" ID="{FA009A6F-7BC5-411C-8F42-BB8C1B74FB26}" ShortID="725090790">
-											<PropertyList>
-												<Property Name="Lowpass" Type="int16">
-													<ValueList>
-														<Value>27</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<Sound Name="SFX_AM_Emit_Platform_PlatformLoop" ID="{3BC2C809-BA20-452D-A24A-4340F1DC3FBE}" ShortID="640244932">
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="MovingPlatform_Stop" ID="{A38027DA-0C47-486D-AE72-F53E87EB5FDA}" ShortID="7507691">
 													<PropertyList>
-														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>27</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -1133,20 +948,355 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_AM_Emit_Platform_PlatformLoop" ID="{5282721F-ECD2-4F25-BD5F-6228C0FEA01A}">
-															<Language>SFX</Language>
-															<AudioFile>SGAssetsTurnover\SFX_AM_Emit_Platform_PlatformLoop.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="800387101"/>
-															</MediaIDList>
-														</AudioFileSource>
+														<Sound Name="SFX_AM_Emit_Platform_PlatformStop" ID="{C86CC43D-DA89-4E9C-9531-EF62D6F8227B}" ShortID="92765063">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_AM_Emit_Platform_PlatformStop" ID="{82539DEE-CA8D-4A8C-AD9D-CF8AB9E37BFD}">
+																	<Language>SFX</Language>
+																	<AudioFile>SGAssetsTurnover\SFX_AM_Emit_Platform_PlatformStop.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="761069620"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_AM_Emit_Platform_PlatformStop" ID="{82539DEE-CA8D-4A8C-AD9D-CF8AB9E37BFD}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
 													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="SFX_AM_Emit_Platform_PlatformLoop" ID="{5282721F-ECD2-4F25-BD5F-6228C0FEA01A}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="MovingPlatform_Loop" ID="{FA009A6F-7BC5-411C-8F42-BB8C1B74FB26}" ShortID="725090790">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>27</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="SFX_AM_Emit_Platform_PlatformLoop" ID="{3BC2C809-BA20-452D-A24A-4340F1DC3FBE}" ShortID="640244932">
+															<PropertyList>
+																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_AM_Emit_Platform_PlatformLoop" ID="{5282721F-ECD2-4F25-BD5F-6228C0FEA01A}">
+																	<Language>SFX</Language>
+																	<AudioFile>SGAssetsTurnover\SFX_AM_Emit_Platform_PlatformLoop.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="800387101"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_AM_Emit_Platform_PlatformLoop" ID="{5282721F-ECD2-4F25-BD5F-6228C0FEA01A}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<SwitchContainer Name="FanSpeed" ID="{5AD638A9-D9C3-4803-AAF8-4B195D3995A3}" ShortID="455165358">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+														<Property Name="MaxSoundPerInstance" Type="int16">
+															<ValueList>
+																<Value>1</Value>
+															</ValueList>
+														</Property>
+														<Property Name="UseMaxSoundPerInstance" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+														</Reference>
+														<Reference Name="DefaultSwitchOrState">
+															<ObjectRef Name="Base" ID="{36F438E7-BFA6-4EB9-BF41-39C781BBA948}" WorkUnitID="{2CBB1A4C-2327-4CB4-8527-FF6EEEA8957E}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+														</Reference>
+														<Reference Name="SwitchGroupOrStateGroup">
+															<ObjectRef Name="FanSpeed" ID="{A24E67BF-FCBD-4DCD-B07A-2B5FDCA1DDC9}" WorkUnitID="{2CBB1A4C-2327-4CB4-8527-FF6EEEA8957E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="SFX_AM_Emit_Fan_FanTurning_Fast" ID="{5BE3BC8E-3815-4034-A9EC-39579FF8C7CD}" ShortID="233996161">
+															<PropertyList>
+																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_AM_Emit_Fan_FanTurning_Fast" ID="{7E6C4BE8-7658-46E4-90A5-328944D7B262}">
+																	<Language>SFX</Language>
+																	<AudioFile>drive-download-20231130T215446Z-001\SFX_AM_Emit_Fan_FanTurning_Fast.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="716090463"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_AM_Emit_Fan_FanTurning_Fast" ID="{7E6C4BE8-7658-46E4-90A5-328944D7B262}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SFX_AM_Emit_Fan_FanTurning_Slow" ID="{A0293B3C-9DC7-4455-960F-024E7C140C38}" ShortID="183835294">
+															<PropertyList>
+																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_AM_Emit_Fan_FanTurning_Slow" ID="{194F4592-3AE4-4C1E-8EF6-BE5E5414F8C6}">
+																	<Language>SFX</Language>
+																	<AudioFile>drive-download-20231130T215446Z-001\SFX_AM_Emit_Fan_FanTurning_Slow.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="411652973"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_AM_Emit_Fan_FanTurning_Slow" ID="{194F4592-3AE4-4C1E-8EF6-BE5E5414F8C6}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SFX_AM_Emit_Fan_FanTurning_Standard" ID="{27365E63-BE0F-4596-B169-F62A74958726}" ShortID="691188537">
+															<PropertyList>
+																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_AM_Emit_Fan_FanTurning_Standard" ID="{7B167EF7-C488-4062-B1D3-AE6F3ED5DCED}">
+																	<Language>SFX</Language>
+																	<AudioFile>drive-download-20231130T215446Z-001\SFX_AM_Emit_Fan_FanTurning_Standard.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="210515482"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_AM_Emit_Fan_FanTurning_Standard" ID="{7B167EF7-C488-4062-B1D3-AE6F3ED5DCED}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+													<PositioningInfo>
+														<Position Name="" ID="{7B634A33-F08F-44F0-A7E2-593D3D6F9223}"/>
+													</PositioningInfo>
+													<GroupingInfo>
+														<GroupingBehaviorList>
+															<GroupingBehavior>
+																<ItemRef Name="SFX_AM_Emit_Fan_FanTurning_Slow" ID="{A0293B3C-9DC7-4455-960F-024E7C140C38}"/>
+															</GroupingBehavior>
+															<GroupingBehavior>
+																<ItemRef Name="SFX_AM_Emit_Fan_FanTurning_Standard" ID="{27365E63-BE0F-4596-B169-F62A74958726}"/>
+															</GroupingBehavior>
+															<GroupingBehavior>
+																<ItemRef Name="SFX_AM_Emit_Fan_FanTurning_Fast" ID="{5BE3BC8E-3815-4034-A9EC-39579FF8C7CD}"/>
+															</GroupingBehavior>
+														</GroupingBehaviorList>
+														<GroupingList>
+															<Grouping>
+																<SwitchRef Name="Slow" ID="{FF747217-8A92-4975-A8ED-A879BA6BB4E3}"/>
+																<ItemList>
+																	<ItemRef Name="SFX_AM_Emit_Fan_FanTurning_Slow" ID="{A0293B3C-9DC7-4455-960F-024E7C140C38}"/>
+																</ItemList>
+															</Grouping>
+															<Grouping>
+																<SwitchRef Name="Fast" ID="{65702D58-168F-4645-981C-EBD76F95D7E1}"/>
+																<ItemList>
+																	<ItemRef Name="SFX_AM_Emit_Fan_FanTurning_Fast" ID="{5BE3BC8E-3815-4034-A9EC-39579FF8C7CD}"/>
+																</ItemList>
+															</Grouping>
+															<Grouping>
+																<SwitchRef Name="Base" ID="{36F438E7-BFA6-4EB9-BF41-39C781BBA948}"/>
+																<ItemList>
+																	<ItemRef Name="SFX_AM_Emit_Fan_FanTurning_Standard" ID="{27365E63-BE0F-4596-B169-F62A74958726}"/>
+																</ItemList>
+															</Grouping>
+														</GroupingList>
+													</GroupingInfo>
+												</SwitchContainer>
 											</ChildrenList>
-										</RandomSequenceContainer>
+										</Folder>
+										<Folder Name="Amb" ID="{B593D377-FDE3-4E75-95E4-BAEF73AE6AF0}" ShortID="910767724">
+											<ChildrenList>
+												<RandomSequenceContainer Name="Waterfall" ID="{009552A6-098A-4615-B2C0-8905307F94AB}" ShortID="705249583">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Ambiences" ID="{9FD9A9F8-4A41-46E0-B034-8F3CE2BD1F69}" WorkUnitID="{DC015E21-92DF-435F-8A28-DADDC835995F}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="SFX_AM_Emit_River_Waterfall" ID="{0BCC71F4-FDB5-4749-A546-BC68B4F4DCC4}" ShortID="348822429">
+															<PropertyList>
+																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_AM_Emit_River_Waterfall" ID="{A87D35F6-CBE9-491E-BDBB-171302E1F5DE}">
+																	<Language>SFX</Language>
+																	<AudioFile>SGAssetsTurnover\SFX_AM_Emit_River_Waterfall.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="358645539"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_AM_Emit_River_Waterfall" ID="{A87D35F6-CBE9-491E-BDBB-171302E1F5DE}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="RiverFlow" ID="{CC544061-E642-4006-8FF2-C2D0DD60F3DC}" ShortID="536716255">
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Ambiences" ID="{9FD9A9F8-4A41-46E0-B034-8F3CE2BD1F69}" WorkUnitID="{DC015E21-92DF-435F-8A28-DADDC835995F}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="SFX_AM_Emit_River_RiverFlow" ID="{EE0D85CB-94CF-48F7-AE85-CA1FBC6A2FA8}" ShortID="456911274">
+															<PropertyList>
+																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																<Property Name="Pitch" Type="int32">
+																	<ValueList>
+																		<Value>-350</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="Volume" Type="Real64">
+																	<ValueList>
+																		<Value>-8</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_AM_Emit_River_RiverFlow" ID="{922FE571-04CA-4F65-ABC4-18BD2A7A1E8D}">
+																	<Language>SFX</Language>
+																	<AudioFile>SGAssetsTurnover\SFX_AM_Emit_River_RiverFlow.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="636200006"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_AM_Emit_River_RiverFlow" ID="{922FE571-04CA-4F65-ABC4-18BD2A7A1E8D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="WaterfallSplash" ID="{97FC555B-917D-4635-8641-2918FE7A4726}" ShortID="537414591">
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Ambiences" ID="{9FD9A9F8-4A41-46E0-B034-8F3CE2BD1F69}" WorkUnitID="{DC015E21-92DF-435F-8A28-DADDC835995F}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="SFX_CD_Emit_WaterfallSplash" ID="{FBD43226-7918-4FA1-BE04-16F493FDD80F}" ShortID="564561284">
+															<PropertyList>
+																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_CD_Emit_WaterfallSplash" ID="{C3289AC5-1B37-48FA-B2CA-8133677F1281}">
+																	<Language>SFX</Language>
+																	<AudioFile>SGAssetsTurnover\SFX_CD_Emit_WaterfallSplash.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="342915962"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_CD_Emit_WaterfallSplash" ID="{C3289AC5-1B37-48FA-B2CA-8133677F1281}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</Folder>
 									</ChildrenList>
 								</Folder>
 							</ChildrenList>
