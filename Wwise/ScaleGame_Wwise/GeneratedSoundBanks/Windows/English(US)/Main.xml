@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{181571D8-5C1B-4B16-A2F1-3E5A021A1A77}" Language="English(US)" Hash="{4CB30291-49DB-E248-C15E-6CE97C34E4C3}">
+		<SoundBank Id="3161908922" Type="User" GUID="{181571D8-5C1B-4B16-A2F1-3E5A021A1A77}" Language="English(US)" Hash="{4F78D4B8-9153-E870-CD14-D4BA6662005A}">
 			<ObjectPath>\SoundBanks\Scale_Game\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
@@ -90,10 +90,6 @@
 					<ShortName>SGAssetsTurnover\SPECS\AM_CD_AMBIENCE_SPECS_JUNGLE.wav</ShortName>
 					<CachePath>SFX/SGAssetsTurnover/SPECS/AM_CD_AMBIENCE_SPECS_JUNGLE_10C4C929.wem</CachePath>
 				</File>
-				<File Id="120783583" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SGAssetsTurnover\SFX_AM_Emit_Plant_PlantGrow_01.wav</ShortName>
-					<CachePath>SFX/SGAssetsTurnover/SFX_AM_Emit_Plant_PlantGrow_01_10C4C929.wem</CachePath>
-				</File>
 				<File Id="120830246" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Water\Water\SFX_UNI_Player_Footstep_BaseForm_Water_09.wav</ShortName>
 					<CachePath>SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_09_CC80996B.wem</CachePath>
@@ -163,10 +159,6 @@
 					<ShortName>SGAssetsTurnover\GRAPPLE\SFX_UNI_Player_Grapple_Shoot\SFX_UNI_Player_Grapple_Shoot_02.wav</ShortName>
 					<CachePath>SFX/SGAssetsTurnover/GRAPPLE/SFX_UNI_Player_Grapple_Shoot/SFX_UNI_Player_Grapple_Shoot_02_10C4C929.wem</CachePath>
 				</File>
-				<File Id="205604226" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SGAssetsTurnover\SFX_AM_Emit_Fan_FanStarting_01.wav</ShortName>
-					<CachePath>SFX/SGAssetsTurnover/SFX_AM_Emit_Fan_FanStarting_01_10C4C929.wem</CachePath>
-				</File>
 				<File Id="206857669" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_17.wav</ShortName>
 					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_17_C321EB1B.wem</CachePath>
@@ -226,10 +218,6 @@
 				<File Id="261526551" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\StarMetalFS_01_02\SFX_UNI_Player_Footstep_BaseForm_Metal_01_02-16.wav</ShortName>
 					<CachePath>SFX/Footsteps/StarMetalFS_01_02/SFX_UNI_Player_Footstep_BaseForm_Metal_01_02-16_10C4C929.wem</CachePath>
-				</File>
-				<File Id="262184214" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SGAssetsTurnover\SFX_AM_Emit_LightActivationM_01.wav</ShortName>
-					<CachePath>SFX/SGAssetsTurnover/SFX_AM_Emit_LightActivationM_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="262438230" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Water\Water\SFX_UNI_Player_Footstep_BaseForm_Water_04.wav</ShortName>
@@ -335,18 +323,6 @@
 				<File Id="358645539" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SGAssetsTurnover\SFX_AM_Emit_River_Waterfall.wav</ShortName>
 					<CachePath>SFX/SGAssetsTurnover/SFX_AM_Emit_River_Waterfall_D79FB2B7.wem</CachePath>
-				</File>
-				<File Id="359531657" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SGAssetsTurnover\SFX_UNI_Player_CollectST_03.wav</ShortName>
-					<CachePath>SFX/SGAssetsTurnover/SFX_UNI_Player_CollectST_03_10C4C929.wem</CachePath>
-				</File>
-				<File Id="366308041" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SGAssetsTurnover\SFX_UNI_Player_CollectM_02.wav</ShortName>
-					<CachePath>SFX/SGAssetsTurnover/SFX_UNI_Player_CollectM_02_10C4C929.wem</CachePath>
-				</File>
-				<File Id="366625327" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SGAssetsTurnover\SFX_AM_Emit_Fan_FanTurning_01.wav</ShortName>
-					<CachePath>SFX/SGAssetsTurnover/SFX_AM_Emit_Fan_FanTurning_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="378377871" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>drive-download-20231201T013701Z-001\SFX_Player_Ability_SpeedUp_Projectile.wav</ShortName>
@@ -496,10 +472,6 @@
 					<ShortName>Footsteps\Stone\SFX_UNI_Player_Footstep_BaseForm_Stone_13.wav</ShortName>
 					<CachePath>SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_13_10C4C929.wem</CachePath>
 				</File>
-				<File Id="542225467" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SGAssetsTurnover\SFX_AM_Emit_Blackhole.wav</ShortName>
-					<CachePath>SFX/SGAssetsTurnover/SFX_AM_Emit_Blackhole_D79FB2B7.wem</CachePath>
-				</File>
 				<File Id="548744805" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>Landry\Efforts\Landry_Effort_31.wav</ShortName>
 					<CachePath>Voices/English(US)/Landry/Efforts/Landry_Effort_31_10C4C929.wem</CachePath>
@@ -536,10 +508,6 @@
 					<ShortName>Landry\Efforts\Landry_Effort_28.wav</ShortName>
 					<CachePath>Voices/English(US)/Landry/Efforts/Landry_Effort_28_10C4C929.wem</CachePath>
 				</File>
-				<File Id="591814181" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SGAssetsTurnover\SFX_UNI_Player_CollectST_01.wav</ShortName>
-					<CachePath>SFX/SGAssetsTurnover/SFX_UNI_Player_CollectST_01_10C4C929.wem</CachePath>
-				</File>
 				<File Id="594487904" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Landings\SFX_UNI_Player_Land_BaseForm_Stone_01.wav</ShortName>
 					<CachePath>SFX/Landings/SFX_UNI_Player_Land_BaseForm_Stone_01_10C4C929.wem</CachePath>
@@ -547,10 +515,6 @@
 				<File Id="611079317" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Water\Water\SFX_UNI_Player_Footstep_BaseForm_Water_03.wav</ShortName>
 					<CachePath>SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_03_DFD0328D.wem</CachePath>
-				</File>
-				<File Id="612891392" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SGAssetsTurnover\SFX_UNI_Player_CollectM_03.wav</ShortName>
-					<CachePath>SFX/SGAssetsTurnover/SFX_UNI_Player_CollectM_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="628400858" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>Landry\Efforts\Landry_Effort_25.wav</ShortName>
@@ -611,10 +575,6 @@
 				<File Id="669932054" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Stone\SFX_UNI_Player_Footstep_BaseForm_Stone_14.wav</ShortName>
 					<CachePath>SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_14_10C4C929.wem</CachePath>
-				</File>
-				<File Id="674684175" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>UI\UI_UNI_Menu_Slider.wav</ShortName>
-					<CachePath>SFX/UI/UI_UNI_Menu_Slider_10C4C929.wem</CachePath>
 				</File>
 				<File Id="675987768" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Water_Splash\SFX_UNI_Player_BaseForm_WaterSplash_02.wav</ShortName>
@@ -712,10 +672,6 @@
 					<ShortName>SGAssetsTurnover\SPECS\AM_CD_AMBIENCE_SPECS_JUNGLE_3.wav</ShortName>
 					<CachePath>SFX/SGAssetsTurnover/SPECS/AM_CD_AMBIENCE_SPECS_JUNGLE_3_10C4C929.wem</CachePath>
 				</File>
-				<File Id="750737807" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SGAssetsTurnover\SFX_AM_Emit_LightActivationST_01.wav</ShortName>
-					<CachePath>SFX/SGAssetsTurnover/SFX_AM_Emit_LightActivationST_01_10C4C929.wem</CachePath>
-				</File>
 				<File Id="751119909" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Stone\SFX_UNI_Player_Footstep_BaseForm_Stone_01.wav</ShortName>
 					<CachePath>SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_01_10C4C929.wem</CachePath>
@@ -732,21 +688,9 @@
 					<ShortName>Footsteps\StarMetalFS_01_02\SFX_UNI_Player_Footstep_BaseForm_Metal_01_02-14.wav</ShortName>
 					<CachePath>SFX/Footsteps/StarMetalFS_01_02/SFX_UNI_Player_Footstep_BaseForm_Metal_01_02-14_10C4C929.wem</CachePath>
 				</File>
-				<File Id="770253449" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SGAssetsTurnover\SFX_UNI_Player_CollectST_02.wav</ShortName>
-					<CachePath>SFX/SGAssetsTurnover/SFX_UNI_Player_CollectST_02_10C4C929.wem</CachePath>
-				</File>
-				<File Id="772071808" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SGAssetsTurnover\SFX_AM_Emit_Plant_SeedPlant_01.wav</ShortName>
-					<CachePath>SFX/SGAssetsTurnover/SFX_AM_Emit_Plant_SeedPlant_01_10C4C929.wem</CachePath>
-				</File>
 				<File Id="774912862" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Landings\SFX_UNI_Player_Land_BaseForm_Grass_02.wav</ShortName>
 					<CachePath>SFX/Landings/SFX_UNI_Player_Land_BaseForm_Grass_02_10C4C929.wem</CachePath>
-				</File>
-				<File Id="775009871" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SGAssetsTurnover\SFX_UNI_Player_Interact_03.wav</ShortName>
-					<CachePath>SFX/SGAssetsTurnover/SFX_UNI_Player_Interact_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="778317978" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_07.wav</ShortName>
@@ -767,10 +711,6 @@
 				<File Id="794299830" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>Landry\Efforts\Landry_Effort_01.wav</ShortName>
 					<CachePath>Voices/English(US)/Landry/Efforts/Landry_Effort_01_10C4C929.wem</CachePath>
-				</File>
-				<File Id="798409231" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SGAssetsTurnover\SFX_UNI_Player_CollectM_01.wav</ShortName>
-					<CachePath>SFX/SGAssetsTurnover/SFX_UNI_Player_CollectM_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="800387101" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SGAssetsTurnover\SFX_AM_Emit_Platform_PlatformLoop.wav</ShortName>
@@ -804,17 +744,9 @@
 					<ShortName>SGAssetsTurnover\JUMP\SFX_UNI_Player_DoubleJump\SFX_UNI_Player_DoubleJumpM_01.wav</ShortName>
 					<CachePath>SFX/SGAssetsTurnover/JUMP/SFX_UNI_Player_DoubleJump/SFX_UNI_Player_DoubleJumpM_01_10C4C929.wem</CachePath>
 				</File>
-				<File Id="819867141" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SGAssetsTurnover\SFX_AM_Emit_Fan_FanStopping_01.wav</ShortName>
-					<CachePath>SFX/SGAssetsTurnover/SFX_AM_Emit_Fan_FanStopping_01_10C4C929.wem</CachePath>
-				</File>
 				<File Id="825072310" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_04.wav</ShortName>
 					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_04_10C4C929.wem</CachePath>
-				</File>
-				<File Id="827266749" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SGAssetsTurnover\SFX_UNI_Player_Interact_02.wav</ShortName>
-					<CachePath>SFX/SGAssetsTurnover/SFX_UNI_Player_Interact_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="829995260" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>Landry\VO\Landry_05.wav</ShortName>
@@ -860,10 +792,6 @@
 				<File Id="882779724" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\StarMetalFS_01_02\SFX_UNI_Player_Footstep_BaseForm_Metal_01_02-17.wav</ShortName>
 					<CachePath>SFX/Footsteps/StarMetalFS_01_02/SFX_UNI_Player_Footstep_BaseForm_Metal_01_02-17_10C4C929.wem</CachePath>
-				</File>
-				<File Id="888500946" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SGAssetsTurnover\SFX_UNI_Player_Interact_01.wav</ShortName>
-					<CachePath>SFX/SGAssetsTurnover/SFX_UNI_Player_Interact_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="890536254" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>Landry\Efforts\Landry_Effort_35.wav</ShortName>
@@ -920,10 +848,6 @@
 				<File Id="966139343" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MX\1 - Amadan temple loop 130bpm.wav</ShortName>
 					<CachePath>SFX/MX/1 - Amadan temple loop 130bpm_D79FB2B7.wem</CachePath>
-				</File>
-				<File Id="971369613" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MX\1 - Amadan Star Race 155bpm.wav</ShortName>
-					<CachePath>SFX/MX/1 - Amadan Star Race 155bpm_10C4C929.wem</CachePath>
 				</File>
 				<File Id="974947044" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SGAssetsTurnover\WALL\SFX_UNI_Player_WallLand_02.wav</ShortName>
@@ -1117,7 +1041,7 @@
 						<MediaRef Id="978634077"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2757069037" Name="Play_Fan" ObjectPath="\Events\Scale_Game\SFX\AM\EMITTERS\Play_Fan" GUID="{FE71B634-492C-49AF-AC01-956C0D354EBF}" DurationType="Infinite">
+				<Event Id="2757069037" Name="Play_Fan" ObjectPath="\Events\Scale_Game\SFX\AM\EMITTERS\Play_Fan" GUID="{FE71B634-492C-49AF-AC01-956C0D354EBF}" DurationType="OneShot" DurationMin="15.124149" DurationMax="61.694557">
 					<MediaRefs>
 						<MediaRef Id="332706126"/>
 					</MediaRefs>
@@ -1657,7 +1581,7 @@
 						<MediaRef Id="999320167"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="503719263" Name="Stop_Fan" ObjectPath="\Events\Scale_Game\SFX\AM\EMITTERS\Stop_Fan" GUID="{A83FE261-820E-4EE8-89D0-940E6ADA59ED}" DurationType="Infinite">
+				<Event Id="503719263" Name="Stop_Fan" ObjectPath="\Events\Scale_Game\SFX\AM\EMITTERS\Stop_Fan" GUID="{A83FE261-820E-4EE8-89D0-940E6ADA59ED}" DurationType="OneShot" DurationMin="15.124149" DurationMax="61.694557">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3898138217" Id="787604482" GUID="{FF747217-8A92-4975-A8ED-A879BA6BB4E3}"/>
@@ -1764,5 +1688,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{30F5EFB1-7FA6-FF29-BBC9-85CC8460723B}</FileHash>
+	<FileHash>{BE979EAF-5C1D-2C78-1E7F-5A6351D05FA1}</FileHash>
 </SoundBanksInfo>

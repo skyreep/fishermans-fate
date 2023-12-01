@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{181571D8-5C1B-4B16-A2F1-3E5A021A1A77}",
     "Language": "English(US)",
-    "Hash": "{4CB30291-49DB-E248-C15E-6CE97C34E4C3}",
+    "Hash": "{4F78D4B8-9153-E870-CD14-D4BA6662005A}",
     "ObjectPath": "\\SoundBanks\\Scale_Game\\Main",
     "ShortName": "Main",
     "Path": "English(US)/Main.bnk",
@@ -184,14 +184,6 @@
       "CachePath": "SFX/SGAssetsTurnover/SPECS/AM_CD_AMBIENCE_SPECS_JUNGLE_10C4C929.wem"
      },
      {
-      "Id": "120783583",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "SGAssetsTurnover\\SFX_AM_Emit_Plant_PlantGrow_01.wav",
-      "CachePath": "SFX/SGAssetsTurnover/SFX_AM_Emit_Plant_PlantGrow_01_10C4C929.wem"
-     },
-     {
       "Id": "120830246",
       "Language": "SFX",
       "Streaming": "false",
@@ -329,14 +321,6 @@
       "CachePath": "SFX/SGAssetsTurnover/GRAPPLE/SFX_UNI_Player_Grapple_Shoot/SFX_UNI_Player_Grapple_Shoot_02_10C4C929.wem"
      },
      {
-      "Id": "205604226",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "SGAssetsTurnover\\SFX_AM_Emit_Fan_FanStarting_01.wav",
-      "CachePath": "SFX/SGAssetsTurnover/SFX_AM_Emit_Fan_FanStarting_01_10C4C929.wem"
-     },
-     {
       "Id": "206857669",
       "Language": "SFX",
       "Streaming": "false",
@@ -455,14 +439,6 @@
       "Location": "Memory",
       "ShortName": "Footsteps\\StarMetalFS_01_02\\SFX_UNI_Player_Footstep_BaseForm_Metal_01_02-16.wav",
       "CachePath": "SFX/Footsteps/StarMetalFS_01_02/SFX_UNI_Player_Footstep_BaseForm_Metal_01_02-16_10C4C929.wem"
-     },
-     {
-      "Id": "262184214",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "SGAssetsTurnover\\SFX_AM_Emit_LightActivationM_01.wav",
-      "CachePath": "SFX/SGAssetsTurnover/SFX_AM_Emit_LightActivationM_01_10C4C929.wem"
      },
      {
       "Id": "262438230",
@@ -672,30 +648,6 @@
       "Location": "Memory",
       "ShortName": "SGAssetsTurnover\\SFX_AM_Emit_River_Waterfall.wav",
       "CachePath": "SFX/SGAssetsTurnover/SFX_AM_Emit_River_Waterfall_D79FB2B7.wem"
-     },
-     {
-      "Id": "359531657",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "SGAssetsTurnover\\SFX_UNI_Player_CollectST_03.wav",
-      "CachePath": "SFX/SGAssetsTurnover/SFX_UNI_Player_CollectST_03_10C4C929.wem"
-     },
-     {
-      "Id": "366308041",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "SGAssetsTurnover\\SFX_UNI_Player_CollectM_02.wav",
-      "CachePath": "SFX/SGAssetsTurnover/SFX_UNI_Player_CollectM_02_10C4C929.wem"
-     },
-     {
-      "Id": "366625327",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "SGAssetsTurnover\\SFX_AM_Emit_Fan_FanTurning_01.wav",
-      "CachePath": "SFX/SGAssetsTurnover/SFX_AM_Emit_Fan_FanTurning_01_10C4C929.wem"
      },
      {
       "Id": "378377871",
@@ -994,14 +946,6 @@
       "CachePath": "SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_13_10C4C929.wem"
      },
      {
-      "Id": "542225467",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "SGAssetsTurnover\\SFX_AM_Emit_Blackhole.wav",
-      "CachePath": "SFX/SGAssetsTurnover/SFX_AM_Emit_Blackhole_D79FB2B7.wem"
-     },
-     {
       "Id": "548744805",
       "Language": "English(US)",
       "Streaming": "false",
@@ -1074,14 +1018,6 @@
       "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_28_10C4C929.wem"
      },
      {
-      "Id": "591814181",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "SGAssetsTurnover\\SFX_UNI_Player_CollectST_01.wav",
-      "CachePath": "SFX/SGAssetsTurnover/SFX_UNI_Player_CollectST_01_10C4C929.wem"
-     },
-     {
       "Id": "594487904",
       "Language": "SFX",
       "Streaming": "false",
@@ -1096,14 +1032,6 @@
       "Location": "Memory",
       "ShortName": "Footsteps\\Water\\Water\\SFX_UNI_Player_Footstep_BaseForm_Water_03.wav",
       "CachePath": "SFX/Footsteps/Water/Water/SFX_UNI_Player_Footstep_BaseForm_Water_03_DFD0328D.wem"
-     },
-     {
-      "Id": "612891392",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "SGAssetsTurnover\\SFX_UNI_Player_CollectM_03.wav",
-      "CachePath": "SFX/SGAssetsTurnover/SFX_UNI_Player_CollectM_03_10C4C929.wem"
      },
      {
       "Id": "628400858",
@@ -1224,14 +1152,6 @@
       "Location": "Memory",
       "ShortName": "Footsteps\\Stone\\SFX_UNI_Player_Footstep_BaseForm_Stone_14.wav",
       "CachePath": "SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_14_10C4C929.wem"
-     },
-     {
-      "Id": "674684175",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "UI\\UI_UNI_Menu_Slider.wav",
-      "CachePath": "SFX/UI/UI_UNI_Menu_Slider_10C4C929.wem"
      },
      {
       "Id": "675987768",
@@ -1426,14 +1346,6 @@
       "CachePath": "SFX/SGAssetsTurnover/SPECS/AM_CD_AMBIENCE_SPECS_JUNGLE_3_10C4C929.wem"
      },
      {
-      "Id": "750737807",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "SGAssetsTurnover\\SFX_AM_Emit_LightActivationST_01.wav",
-      "CachePath": "SFX/SGAssetsTurnover/SFX_AM_Emit_LightActivationST_01_10C4C929.wem"
-     },
-     {
       "Id": "751119909",
       "Language": "SFX",
       "Streaming": "false",
@@ -1466,36 +1378,12 @@
       "CachePath": "SFX/Footsteps/StarMetalFS_01_02/SFX_UNI_Player_Footstep_BaseForm_Metal_01_02-14_10C4C929.wem"
      },
      {
-      "Id": "770253449",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "SGAssetsTurnover\\SFX_UNI_Player_CollectST_02.wav",
-      "CachePath": "SFX/SGAssetsTurnover/SFX_UNI_Player_CollectST_02_10C4C929.wem"
-     },
-     {
-      "Id": "772071808",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "SGAssetsTurnover\\SFX_AM_Emit_Plant_SeedPlant_01.wav",
-      "CachePath": "SFX/SGAssetsTurnover/SFX_AM_Emit_Plant_SeedPlant_01_10C4C929.wem"
-     },
-     {
       "Id": "774912862",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Landings\\SFX_UNI_Player_Land_BaseForm_Grass_02.wav",
       "CachePath": "SFX/Landings/SFX_UNI_Player_Land_BaseForm_Grass_02_10C4C929.wem"
-     },
-     {
-      "Id": "775009871",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "SGAssetsTurnover\\SFX_UNI_Player_Interact_03.wav",
-      "CachePath": "SFX/SGAssetsTurnover/SFX_UNI_Player_Interact_03_10C4C929.wem"
      },
      {
       "Id": "778317978",
@@ -1536,14 +1424,6 @@
       "Location": "Memory",
       "ShortName": "Landry\\Efforts\\Landry_Effort_01.wav",
       "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_01_10C4C929.wem"
-     },
-     {
-      "Id": "798409231",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "SGAssetsTurnover\\SFX_UNI_Player_CollectM_01.wav",
-      "CachePath": "SFX/SGAssetsTurnover/SFX_UNI_Player_CollectM_01_10C4C929.wem"
      },
      {
       "Id": "800387101",
@@ -1610,28 +1490,12 @@
       "CachePath": "SFX/SGAssetsTurnover/JUMP/SFX_UNI_Player_DoubleJump/SFX_UNI_Player_DoubleJumpM_01_10C4C929.wem"
      },
      {
-      "Id": "819867141",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "SGAssetsTurnover\\SFX_AM_Emit_Fan_FanStopping_01.wav",
-      "CachePath": "SFX/SGAssetsTurnover/SFX_AM_Emit_Fan_FanStopping_01_10C4C929.wem"
-     },
-     {
       "Id": "825072310",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\Grass\\SFX_UNI_Player_Footstep_BaseForm_Grass_04.wav",
       "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_04_10C4C929.wem"
-     },
-     {
-      "Id": "827266749",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "SGAssetsTurnover\\SFX_UNI_Player_Interact_02.wav",
-      "CachePath": "SFX/SGAssetsTurnover/SFX_UNI_Player_Interact_02_10C4C929.wem"
      },
      {
       "Id": "829995260",
@@ -1721,14 +1585,6 @@
       "Location": "Memory",
       "ShortName": "Footsteps\\StarMetalFS_01_02\\SFX_UNI_Player_Footstep_BaseForm_Metal_01_02-17.wav",
       "CachePath": "SFX/Footsteps/StarMetalFS_01_02/SFX_UNI_Player_Footstep_BaseForm_Metal_01_02-17_10C4C929.wem"
-     },
-     {
-      "Id": "888500946",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "SGAssetsTurnover\\SFX_UNI_Player_Interact_01.wav",
-      "CachePath": "SFX/SGAssetsTurnover/SFX_UNI_Player_Interact_01_10C4C929.wem"
      },
      {
       "Id": "890536254",
@@ -1841,14 +1697,6 @@
       "Location": "Memory",
       "ShortName": "MX\\1 - Amadan temple loop 130bpm.wav",
       "CachePath": "SFX/MX/1 - Amadan temple loop 130bpm_D79FB2B7.wem"
-     },
-     {
-      "Id": "971369613",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "MX\\1 - Amadan Star Race 155bpm.wav",
-      "CachePath": "SFX/MX/1 - Amadan Star Race 155bpm_10C4C929.wem"
      },
      {
       "Id": "974947044",
@@ -2310,7 +2158,9 @@
       "Name": "Play_Fan",
       "ObjectPath": "\\Events\\Scale_Game\\SFX\\AM\\EMITTERS\\Play_Fan",
       "GUID": "{FE71B634-492C-49AF-AC01-956C0D354EBF}",
-      "DurationType": "Infinite",
+      "DurationType": "OneShot",
+      "DurationMin": "15.124149",
+      "DurationMax": "61.694557",
       "MediaRefs": [
        {
         "Id": "332706126"
@@ -3715,7 +3565,9 @@
       "Name": "Stop_Fan",
       "ObjectPath": "\\Events\\Scale_Game\\SFX\\AM\\EMITTERS\\Stop_Fan",
       "GUID": "{A83FE261-820E-4EE8-89D0-940E6ADA59ED}",
-      "DurationType": "Infinite",
+      "DurationType": "OneShot",
+      "DurationMin": "15.124149",
+      "DurationMax": "61.694557",
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -4021,6 +3873,6 @@
     ]
    }
   ],
-  "FileHash": "{FE764C47-D62C-C6FC-4E33-2292A20F8945}"
+  "FileHash": "{51CC3FEE-C3BD-0239-8948-EB225CDEB717}"
  }
 }
