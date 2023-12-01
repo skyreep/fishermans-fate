@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{181571D8-5C1B-4B16-A2F1-3E5A021A1A77}" Language="English(US)" Hash="{1481E86E-0296-5239-5250-C1F2BF0029E2}">
+		<SoundBank Id="3161908922" Type="User" GUID="{181571D8-5C1B-4B16-A2F1-3E5A021A1A77}" Language="English(US)" Hash="{4CB30291-49DB-E248-C15E-6CE97C34E4C3}">
 			<ObjectPath>\SoundBanks\Scale_Game\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
@@ -129,11 +129,11 @@
 				</File>
 				<File Id="153677310" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Fan\SFX_AM_Emit_Fan_FanTurning_Fast.wav</ShortName>
-					<CachePath>SFX/Fan/SFX_AM_Emit_Fan_FanTurning_Fast_10C4C929.wem</CachePath>
+					<CachePath>SFX/Fan/SFX_AM_Emit_Fan_FanTurning_Fast_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="159203827" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Fan\SFX_AM_Emit_Fan_FanTurning_Slow.wav</ShortName>
-					<CachePath>SFX/Fan/SFX_AM_Emit_Fan_FanTurning_Slow_10C4C929.wem</CachePath>
+					<CachePath>SFX/Fan/SFX_AM_Emit_Fan_FanTurning_Slow_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="164934613" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Stone\SFX_UNI_Player_Footstep_BaseForm_Stone_07.wav</ShortName>
@@ -298,6 +298,10 @@
 				<File Id="328172047" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Stone\SFX_UNI_Player_Footstep_BaseForm_Stone_10.wav</ShortName>
 					<CachePath>SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="332706126" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_AM_Emit_Fan_FanStarting.wav</ShortName>
+					<CachePath>SFX/SFX_AM_Emit_Fan_FanStarting_10C4C929.wem</CachePath>
 				</File>
 				<File Id="333059415" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\StarMetalFootsteps_01_04-06.wav</ShortName>
@@ -586,7 +590,7 @@
 				</File>
 				<File Id="646566233" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Fan\SFX_AM_Emit_Fan_FanTurning_Standard.wav</ShortName>
-					<CachePath>SFX/Fan/SFX_AM_Emit_Fan_FanTurning_Standard_10C4C929.wem</CachePath>
+					<CachePath>SFX/Fan/SFX_AM_Emit_Fan_FanTurning_Standard_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="650185662" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\StarMetalFS_01_02\SFX_UNI_Player_Footstep_BaseForm_Metal_01_02-06.wav</ShortName>
@@ -1113,7 +1117,10 @@
 						<MediaRef Id="978634077"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2757069037" Name="Play_Fan" ObjectPath="\Events\Scale_Game\SFX\AM\EMITTERS\Play_Fan" GUID="{FE71B634-492C-49AF-AC01-956C0D354EBF}" DurationType="OneShot" DurationMin="5.0413833" DurationMax="20.564852">
+				<Event Id="2757069037" Name="Play_Fan" ObjectPath="\Events\Scale_Game\SFX\AM\EMITTERS\Play_Fan" GUID="{FE71B634-492C-49AF-AC01-956C0D354EBF}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="332706126"/>
+					</MediaRefs>
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3898138217" Id="787604482" GUID="{FF747217-8A92-4975-A8ED-A879BA6BB4E3}"/>
@@ -1650,7 +1657,7 @@
 						<MediaRef Id="999320167"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="503719263" Name="Stop_Fan" ObjectPath="\Events\Scale_Game\SFX\AM\EMITTERS\Stop_Fan" GUID="{A83FE261-820E-4EE8-89D0-940E6ADA59ED}" DurationType="OneShot" DurationMin="5.0413833" DurationMax="20.564852">
+				<Event Id="503719263" Name="Stop_Fan" ObjectPath="\Events\Scale_Game\SFX\AM\EMITTERS\Stop_Fan" GUID="{A83FE261-820E-4EE8-89D0-940E6ADA59ED}" DurationType="Infinite">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3898138217" Id="787604482" GUID="{FF747217-8A92-4975-A8ED-A879BA6BB4E3}"/>
@@ -1757,5 +1764,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{FF8D1728-8823-D2BD-C259-11233222FC99}</FileHash>
+	<FileHash>{30F5EFB1-7FA6-FF29-BBC9-85CC8460723B}</FileHash>
 </SoundBanksInfo>

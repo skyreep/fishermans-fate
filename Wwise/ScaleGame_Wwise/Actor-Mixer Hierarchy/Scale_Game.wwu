@@ -1281,6 +1281,11 @@
 																<Value>True</Value>
 															</ValueList>
 														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-7</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -1401,6 +1406,40 @@
 														</GroupingList>
 													</GroupingInfo>
 												</SwitchContainer>
+												<RandomSequenceContainer Name="FanStart" ID="{50481738-8A10-42AA-8923-5A309EC6E09B}" ShortID="893804822">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="SFX_AM_Emit_Fan_FanStarting" ID="{502FD098-E188-43F8-BAFC-49719C44ED76}" ShortID="64599814">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_AM_Emit_Fan_FanStarting" ID="{2EBF7CA5-1212-423C-989C-33B178A3DF63}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_AM_Emit_Fan_FanStarting.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="332706126"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_AM_Emit_Fan_FanStarting" ID="{2EBF7CA5-1212-423C-989C-33B178A3DF63}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
 											</ChildrenList>
 										</Folder>
 										<Folder Name="Amb" ID="{B593D377-FDE3-4E75-95E4-BAEF73AE6AF0}" ShortID="910767724">

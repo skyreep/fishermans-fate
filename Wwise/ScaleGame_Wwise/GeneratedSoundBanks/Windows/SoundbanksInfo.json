@@ -739,7 +739,7 @@
     "Type": "User",
     "GUID": "{181571D8-5C1B-4B16-A2F1-3E5A021A1A77}",
     "Language": "English(US)",
-    "Hash": "{1481E86E-0296-5239-5250-C1F2BF0029E2}",
+    "Hash": "{4CB30291-49DB-E248-C15E-6CE97C34E4C3}",
     "ObjectPath": "\\SoundBanks\\Scale_Game\\Main",
     "ShortName": "Main",
     "Path": "English(US)/Main.bnk",
@@ -991,7 +991,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Fan\\SFX_AM_Emit_Fan_FanTurning_Fast.wav",
-      "CachePath": "SFX/Fan/SFX_AM_Emit_Fan_FanTurning_Fast_10C4C929.wem"
+      "CachePath": "SFX/Fan/SFX_AM_Emit_Fan_FanTurning_Fast_D79FB2B7.wem"
      },
      {
       "Id": "159203827",
@@ -999,7 +999,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Fan\\SFX_AM_Emit_Fan_FanTurning_Slow.wav",
-      "CachePath": "SFX/Fan/SFX_AM_Emit_Fan_FanTurning_Slow_10C4C929.wem"
+      "CachePath": "SFX/Fan/SFX_AM_Emit_Fan_FanTurning_Slow_D79FB2B7.wem"
      },
      {
       "Id": "164934613",
@@ -1328,6 +1328,14 @@
       "Location": "Memory",
       "ShortName": "Footsteps\\Stone\\SFX_UNI_Player_Footstep_BaseForm_Stone_10.wav",
       "CachePath": "SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_10_10C4C929.wem"
+     },
+     {
+      "Id": "332706126",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_AM_Emit_Fan_FanStarting.wav",
+      "CachePath": "SFX/SFX_AM_Emit_Fan_FanStarting_10C4C929.wem"
      },
      {
       "Id": "333059415",
@@ -1904,7 +1912,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Fan\\SFX_AM_Emit_Fan_FanTurning_Standard.wav",
-      "CachePath": "SFX/Fan/SFX_AM_Emit_Fan_FanTurning_Standard_10C4C929.wem"
+      "CachePath": "SFX/Fan/SFX_AM_Emit_Fan_FanTurning_Standard_D79FB2B7.wem"
      },
      {
       "Id": "650185662",
@@ -3031,9 +3039,12 @@
       "Name": "Play_Fan",
       "ObjectPath": "\\Events\\Scale_Game\\SFX\\AM\\EMITTERS\\Play_Fan",
       "GUID": "{FE71B634-492C-49AF-AC01-956C0D354EBF}",
-      "DurationType": "OneShot",
-      "DurationMin": "5.0413833",
-      "DurationMax": "20.564852",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "332706126"
+       }
+      ],
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -4433,9 +4444,7 @@
       "Name": "Stop_Fan",
       "ObjectPath": "\\Events\\Scale_Game\\SFX\\AM\\EMITTERS\\Stop_Fan",
       "GUID": "{A83FE261-820E-4EE8-89D0-940E6ADA59ED}",
-      "DurationType": "OneShot",
-      "DurationMin": "5.0413833",
-      "DurationMax": "20.564852",
+      "DurationType": "Infinite",
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -4741,6 +4750,6 @@
     ]
    }
   ],
-  "FileHash": "{0C721E69-BC64-42F3-B2FB-01FA6B051908}"
+  "FileHash": "{9201F155-4F62-37A8-1D77-AFA90FC06BDE}"
  }
 }

@@ -104,7 +104,17 @@
 														</Reference>
 													</ReferenceList>
 												</Action>
+												<Action Name="" ID="{F9EB512C-2A10-4336-9F57-8EAED96452F2}" ShortID="781808032">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="FanStart" ID="{50481738-8A10-42AA-8923-5A309EC6E09B}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
 												<Action Name="" ID="{BC8A121F-C65B-430B-9386-AA3FAE2FC120}" ShortID="159217442">
+													<PropertyList>
+														<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="FanSpeed" ID="{5AD638A9-D9C3-4803-AAF8-4B195D3995A3}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
