@@ -16,12 +16,26 @@
 							<ChildrenList>
 								<Folder Name="AMBIENCE" ID="{18A4A329-BECC-4B4B-859C-DE3563FD461D}" ShortID="552104108">
 									<ChildrenList>
-										<Event Name="Play_Ambience" ID="{F926092A-95C3-49A4-8E63-49B505D71FD0}">
+										<Event Name="Play_AmbienceSpeed" ID="{F926092A-95C3-49A4-8E63-49B505D71FD0}">
 											<ChildrenList>
 												<Action Name="" ID="{7CACA84D-C34B-457E-AE60-18E371E1EBE8}" ShortID="1009089655">
+													<PropertyList>
+														<Property Name="FadeTime" Type="Real64" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="AMBIENCE" ID="{C7198263-277F-4A4A-80BE-2F71A2CD67C1}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
+															<ObjectRef Name="AMBIENCE_Speed" ID="{C7198263-277F-4A4A-80BE-2F71A2CD67C1}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_AmbienceSpace" ID="{2D50AD3A-3F6B-48EA-985C-5A30512781EB}">
+											<ChildrenList>
+												<Action Name="" ID="{219C6E02-BC4C-4D09-BD7D-252E761A9E21}" ShortID="655994327">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="AMBIENCE_Space" ID="{9FD4A923-BC81-4A23-BC43-F8ED34DB8FE9}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -192,7 +206,17 @@
 												</Action>
 											</ChildrenList>
 										</Event>
-										<Event Name="Dash" ID="{3D5D05C4-5903-4494-A82C-9A624137C0A6}"/>
+										<Event Name="Dash" ID="{3D5D05C4-5903-4494-A82C-9A624137C0A6}">
+											<ChildrenList>
+												<Action Name="" ID="{D5BF8A6A-939B-44E4-AD25-0C77686F6F05}" ShortID="592095032">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Dash" ID="{24F00A5D-B237-4155-A1BE-B752F39CDEE9}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 										<Folder Name="WALL" ID="{EC2B32C4-29D2-4067-8180-4F94EB7C9705}" ShortID="206677888">
 											<ChildrenList>
 												<Event Name="Mantle" ID="{18E9BAE5-55AE-4C28-BA76-AD77E5702AFF}">
@@ -385,6 +409,28 @@
 															<ReferenceList>
 																<Reference Name="Target">
 																	<ObjectRef Name="SFX_UNI_Player_WallSlideScrape_01" ID="{0D8CE243-CB5F-48CE-9F64-4DB679DFE0E0}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+													</ChildrenList>
+												</Event>
+												<Event Name="Shoot_SlowDown" ID="{28411A5C-8B05-4964-A6EC-089B0A0951A4}">
+													<ChildrenList>
+														<Action Name="" ID="{406CEDF4-237C-4D5C-9AA9-26B06DDCAF2F}" ShortID="74480693">
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="ShootSlowdown" ID="{A4DD21B2-DCC4-41AF-A476-DCB0648D9E17}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+													</ChildrenList>
+												</Event>
+												<Event Name="Shoot_Speedup" ID="{429C742F-ADC9-461C-936B-C5A24F189FFF}">
+													<ChildrenList>
+														<Action Name="" ID="{412F5655-1F2C-4163-A829-8F20D0EA4CA7}" ShortID="22921968">
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="ShootSpeedup" ID="{B8027F08-7105-4526-9454-46DB9D564341}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
 																</Reference>
 															</ReferenceList>
 														</Action>
@@ -596,9 +642,33 @@
 									</ReferenceList>
 								</Action>
 								<Action Name="" ID="{ECD36FBA-BB41-4620-A363-C4C9B7C7041B}" ShortID="385280107">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="AmadanTemple" ID="{D9158DA9-3389-452A-A228-B5B7677C2B07}" WorkUnitID="{28771294-58D7-4496-BBAA-B70091C22000}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_AmadanSpace" ID="{694287C4-2175-422C-8A4F-D85A1857BF71}">
+							<ChildrenList>
+								<Action Name="" ID="{0CE0EEB1-0724-428F-A958-F0F4DB4F5069}" ShortID="680612238">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AmadanTemple" ID="{D9158DA9-3389-452A-A228-B5B7677C2B07}" WorkUnitID="{28771294-58D7-4496-BBAA-B70091C22000}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{804DC54C-3F3E-461B-BC21-E5B612F6AD72}" ShortID="1072991866">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AmadanStarRace" ID="{CF81AA64-BFB0-4287-896E-036D3ADED205}" WorkUnitID="{28771294-58D7-4496-BBAA-B70091C22000}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

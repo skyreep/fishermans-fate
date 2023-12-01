@@ -37,7 +37,7 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	4056684167	MASTER			\Scale_Game\MASTER	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
-	3518710954	SFX_Verb			\Scale_Game\MASTER\SFX\SFX_Verb	
+	2215532353	JungleVerb			\Scale_Game\MASTER\JungleVerb	
 
 Effect plug-ins	ID	Name	Type				Notes
 	1020291235	Matrix Reverb (Custom)	Wwise Matrix Reverb			

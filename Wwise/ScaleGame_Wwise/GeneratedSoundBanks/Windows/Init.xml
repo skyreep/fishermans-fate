@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{EEF0A5EF-638C-B7DC-C92F-E7F921D5C568}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{9C3D273B-846D-0D49-F2E8-26193EDF47A5}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
 				<Custom>
-					<Plugin Id="1020291235" Name="Matrix Reverb (Custom)" ObjectPath="\Master-Mixer Hierarchy\Scale_Game\MASTER\SFX\SFX_Verb\Matrix Reverb (Custom)" GUID="{B6187DC5-D445-4257-B332-0B83D302BBD8}" LibName="Wwise Matrix Reverb" LibId="7536643"/>
+					<Plugin Id="1020291235" Name="Matrix Reverb (Custom)" ObjectPath="\Master-Mixer Hierarchy\Scale_Game\MASTER\JungleVerb\Matrix Reverb (Custom)" GUID="{B6187DC5-D445-4257-B332-0B83D302BBD8}" LibName="Wwise Matrix Reverb" LibId="7536643"/>
 				</Custom>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{7AC81BF1-4ADB-46CE-8311-516912D78B43}" LibName="No Output" LibId="11862023"/>
@@ -37,7 +37,7 @@
 				<Bus Id="4056684167" Name="MASTER" ObjectPath="\Master-Mixer Hierarchy\Scale_Game\MASTER" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 			</Busses>
 			<AuxBusses>
-				<AuxBus Id="3518710954" Name="SFX_Verb" ObjectPath="\Master-Mixer Hierarchy\Scale_Game\MASTER\SFX\SFX_Verb" GUID="{FC358F5D-2424-4538-B07B-FF934BE7922D}">
+				<AuxBus Id="2215532353" Name="JungleVerb" ObjectPath="\Master-Mixer Hierarchy\Scale_Game\MASTER\JungleVerb" GUID="{FC358F5D-2424-4538-B07B-FF934BE7922D}">
 					<PluginRefs>
 						<Custom>
 							<PluginRef Id="1020291235"/>
@@ -70,6 +70,7 @@
 						<Switch Id="467482081" Name="Rainbow" ObjectPath="\Switches\Scale_Game\Footsteps\Surfaces\Rainbow" GUID="{0E26F1FE-43F8-4289-88C6-581F76004A91}"/>
 						<Switch Id="582824249" Name="Leaves" ObjectPath="\Switches\Scale_Game\Footsteps\Surfaces\Leaves" GUID="{6284C819-A785-4040-A443-36CAA919EB60}"/>
 						<Switch Id="1216965916" Name="Stone" ObjectPath="\Switches\Scale_Game\Footsteps\Surfaces\Stone" GUID="{EA23D431-D524-4E95-B3D5-98F351E22ABC}"/>
+						<Switch Id="1462645938" Name="StarMetal" ObjectPath="\Switches\Scale_Game\Footsteps\Surfaces\StarMetal" GUID="{428B9453-C6F1-4C7E-A148-3507D27EB836}"/>
 						<Switch Id="2195636714" Name="Dirt" ObjectPath="\Switches\Scale_Game\Footsteps\Surfaces\Dirt" GUID="{22A37D54-D3DD-4687-A44F-D240BD429E36}"/>
 						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Scale_Game\Footsteps\Surfaces\Metal" GUID="{0E81217E-5D7D-42D0-AED6-D679BD01FA58}"/>
 						<Switch Id="2654748154" Name="Water" ObjectPath="\Switches\Scale_Game\Footsteps\Surfaces\Water" GUID="{0F78037C-C696-4B32-941D-66988DF4B509}"/>
@@ -200,5 +201,5 @@
 			</AcousticTextures>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7F277BD4-363C-E6CE-E255-59F0584582B4}</FileHash>
+	<FileHash>{FF618729-9D29-AD06-0C98-D72448FCD172}</FileHash>
 </SoundBanksInfo>
