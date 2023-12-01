@@ -457,6 +457,98 @@
 								<Folder Name="Landry" ID="{1C58395A-07F3-4059-982E-AC6645CC15E4}" ShortID="38307910"/>
 								<Folder Name="Fan" ID="{758E8FB6-2255-45B2-B315-677FAF557B73}" ShortID="105170681"/>
 								<Folder Name="drive-download-20231201T013701Z-001" ID="{577A7BA4-7EC0-45FF-9626-B28A627D99A9}" ShortID="476210263"/>
+								<Folder Name="UI" ID="{4234511B-C24A-460B-B4EC-6F7B937E1D87}" ShortID="651452667">
+									<ChildrenList>
+										<Sound Name="UI_UNI_Menu_Hover_01" ID="{D8B66A91-F27C-487D-AB42-2EBB51C4CCD8}" ShortID="488795979">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_UNI_Menu_Hover_01" ID="{E145F624-D641-46FD-A61D-40D5257BDCEA}">
+													<Language>SFX</Language>
+													<AudioFile>UI\UI_UNI_Menu_Hover_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="955331407"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_UNI_Menu_Hover_01" ID="{E145F624-D641-46FD-A61D-40D5257BDCEA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_UNI_Menu_Hover_02" ID="{1C811E25-F5AA-4412-8E94-16DBF437E21A}" ShortID="368476867">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_UNI_Menu_Hover_02" ID="{CD937304-B59A-4407-8D42-ECE312DB9CF4}">
+													<Language>SFX</Language>
+													<AudioFile>UI\UI_UNI_Menu_Hover_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="238416239"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_UNI_Menu_Hover_02" ID="{CD937304-B59A-4407-8D42-ECE312DB9CF4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_UNI_Menu_Hover_03" ID="{CAAFB907-3731-4B35-B829-4A74E936302C}" ShortID="796411175">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_UNI_Menu_Hover_03" ID="{A0C1ECAB-E41A-4273-B373-EC0C9F0FB761}">
+													<Language>SFX</Language>
+													<AudioFile>UI\UI_UNI_Menu_Hover_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="55784864"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_UNI_Menu_Hover_03" ID="{A0C1ECAB-E41A-4273-B373-EC0C9F0FB761}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_UNI_Menu_Slider" ID="{D2B0876A-3CEB-4E9A-BFC4-47CCC53628F9}" ShortID="916361653">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_UNI_Menu_Slider" ID="{2248B3F2-5823-4791-A469-1C5734E476C9}">
+													<Language>SFX</Language>
+													<AudioFile>UI\UI_UNI_Menu_Slider.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="674684175"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_UNI_Menu_Slider" ID="{2248B3F2-5823-4791-A469-1C5734E476C9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
@@ -812,7 +904,7 @@
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-13</Value>
+														<Value>-6</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -6023,7 +6115,165 @@
 				</Folder>
 				<Folder Name="UI" ID="{41AA2933-2523-4129-9B76-C7BF3499FA6F}" ShortID="872576863">
 					<ChildrenList>
-						<Folder Name="MENU" ID="{947B7E69-23EA-4DAA-AD22-EA761243D8DA}" ShortID="282326088"/>
+						<Folder Name="MENU" ID="{947B7E69-23EA-4DAA-AD22-EA761243D8DA}" ShortID="282326088">
+							<ChildrenList>
+								<RandomSequenceContainer Name="UI_UNI_Menu_Hover" ID="{DEAA94A9-EC58-4DBD-B06B-AB4C268FFE9C}" ShortID="1026524139">
+									<PropertyList>
+										<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="UI_UNI_Menu_Hover_01" ID="{59A0CCD4-8846-4206-9745-5DFF45CA964E}" ShortID="664357934">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_UNI_Menu_Hover_01" ID="{610E6372-E516-4F84-9897-25DFCE94FC05}">
+													<Language>SFX</Language>
+													<AudioFile>UI\UI_UNI_Menu_Hover_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="955331407"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_UNI_Menu_Hover_01" ID="{610E6372-E516-4F84-9897-25DFCE94FC05}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_UNI_Menu_Hover_02" ID="{C1763653-F6D0-48C3-908B-A17C67E27381}" ShortID="295952481">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_UNI_Menu_Hover_02" ID="{9A0B239B-C65B-4622-8C6F-B81E419AB712}">
+													<Language>SFX</Language>
+													<AudioFile>UI\UI_UNI_Menu_Hover_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="238416239"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_UNI_Menu_Hover_02" ID="{9A0B239B-C65B-4622-8C6F-B81E419AB712}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_UNI_Menu_Hover_03" ID="{A2094194-9D19-491A-BFDD-2BE998FCE78C}" ShortID="716754783">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_UNI_Menu_Hover_03" ID="{8745C7B6-66AD-47B3-AE66-28B2214F418D}">
+													<Language>SFX</Language>
+													<AudioFile>UI\UI_UNI_Menu_Hover_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="55784864"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_UNI_Menu_Hover_03" ID="{8745C7B6-66AD-47B3-AE66-28B2214F418D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="UI_UNI_Menu_Back" ID="{A60EEB32-3CCC-4920-BB26-F9BBF6C9EA5A}" ShortID="1048492609">
+									<PropertyList>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="UI_UNI_Menu_Back" ID="{6491E4E5-9F7C-42D6-BAFA-E59E61F1C350}" ShortID="627344403">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_UNI_Menu_Back" ID="{C0FE0BE3-584A-4681-BF0F-D53FF2F746B7}">
+													<Language>SFX</Language>
+													<AudioFile>UI\UI_UNI_Menu_Back.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="421224897"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_UNI_Menu_Back" ID="{C0FE0BE3-584A-4681-BF0F-D53FF2F746B7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="UI_UNI_Menu_Select" ID="{D0693FF2-B8E2-4F12-B4DB-B13A3FC0D6E6}" ShortID="881419250">
+									<PropertyList>
+										<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="UI_UNI_Menu_Select" ID="{71CDF0AC-9D47-438E-8134-D7A5F7EAD9CF}" ShortID="677502631">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_UNI_Menu_Select" ID="{B2F07F57-C145-4157-AAE4-951EB5953202}">
+													<Language>SFX</Language>
+													<AudioFile>UI\UI_UNI_Menu_Select.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="984058569"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_UNI_Menu_Select" ID="{B2F07F57-C145-4157-AAE4-951EB5953202}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="DX" ID="{398096D8-A547-4D60-8565-0AB0561C83F8}" ShortID="717808457">

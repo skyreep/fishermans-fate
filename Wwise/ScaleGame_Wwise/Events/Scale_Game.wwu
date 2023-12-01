@@ -612,7 +612,43 @@
 						</Folder>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="UI" ID="{A4023210-9760-4ED2-BA5F-BA156626F49E}" ShortID="28412407"/>
+				<Folder Name="UI" ID="{A4023210-9760-4ED2-BA5F-BA156626F49E}" ShortID="28412407">
+					<ChildrenList>
+						<Event Name="UI_UNI_Menu_Back" ID="{2FF5B861-94D5-4A26-8014-7FA988C602CD}">
+							<ChildrenList>
+								<Action Name="" ID="{B6E138A4-49BC-4EC3-B5D7-9CFA173C04EC}" ShortID="338523490">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_UNI_Menu_Back" ID="{A60EEB32-3CCC-4920-BB26-F9BBF6C9EA5A}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_UNI_Menu_Select" ID="{7E5F08BA-9930-4570-8CD9-14AEC01EE33D}">
+							<ChildrenList>
+								<Action Name="" ID="{D9E3BA6A-1A08-43A4-BC2F-462E9CF097B9}" ShortID="195489981">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_UNI_Menu_Select" ID="{D0693FF2-B8E2-4F12-B4DB-B13A3FC0D6E6}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_UNI_Menu_Hover" ID="{194EC0E4-7379-46B6-A8CD-ECC5528C8DA7}">
+							<ChildrenList>
+								<Action Name="" ID="{1B456C4F-8743-4CDE-B9DE-D94A7E102E7A}" ShortID="385002873">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_UNI_Menu_Hover" ID="{DEAA94A9-EC58-4DBD-B06B-AB4C268FFE9C}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 				<Folder Name="MX" ID="{4B5474DD-724A-4245-A162-371A3E3FE702}" ShortID="574310316">
 					<ChildrenList>
 						<Event Name="Play_Main_Menu" ID="{7D47ABE7-946D-4A31-8B19-03F9A7217E68}">
@@ -666,6 +702,9 @@
 									</ReferenceList>
 								</Action>
 								<Action Name="" ID="{804DC54C-3F3E-461B-BC21-E5B612F6AD72}" ShortID="1072991866">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="AmadanStarRace" ID="{CF81AA64-BFB0-4287-896E-036D3ADED205}" WorkUnitID="{28771294-58D7-4496-BBAA-B70091C22000}"/>

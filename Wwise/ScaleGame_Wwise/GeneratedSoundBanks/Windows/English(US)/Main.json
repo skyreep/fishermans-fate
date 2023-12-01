@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{181571D8-5C1B-4B16-A2F1-3E5A021A1A77}",
     "Language": "English(US)",
-    "Hash": "{803C6C82-D255-851F-6C4D-96A3C7161C57}",
+    "Hash": "{E67C9E70-1D0C-8759-5917-31EC3629AFBC}",
     "ObjectPath": "\\SoundBanks\\Scale_Game\\Main",
     "ShortName": "Main",
     "Path": "English(US)/Main.bnk",
@@ -118,6 +118,14 @@
       "Location": "Memory",
       "ShortName": "Footsteps\\Grass\\SFX_UNI_Player_Footstep_BaseForm_Grass_14.wav",
       "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_14_D631A6B3.wem"
+     },
+     {
+      "Id": "55784864",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI\\UI_UNI_Menu_Hover_03.wav",
+      "CachePath": "SFX/UI/UI_UNI_Menu_Hover_03_10C4C929.wem"
      },
      {
       "Id": "62550627",
@@ -399,6 +407,14 @@
       "Location": "Memory",
       "ShortName": "Footsteps\\Starmetal\\SFX_UNI_Player_Footstep_BaseForm_StarMetal_08.wav",
       "CachePath": "SFX/Footsteps/Starmetal/SFX_UNI_Player_Footstep_BaseForm_StarMetal_08_10C4C929.wem"
+     },
+     {
+      "Id": "238416239",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI\\UI_UNI_Menu_Hover_02.wav",
+      "CachePath": "SFX/UI/UI_UNI_Menu_Hover_02_10C4C929.wem"
      },
      {
       "Id": "242033932",
@@ -775,6 +791,14 @@
       "Location": "Memory",
       "ShortName": "Footsteps\\Starmetal\\SFX_UNI_Player_Footstep_BaseForm_StarMetal_04.wav",
       "CachePath": "SFX/Footsteps/Starmetal/SFX_UNI_Player_Footstep_BaseForm_StarMetal_04_10C4C929.wem"
+     },
+     {
+      "Id": "421224897",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI\\UI_UNI_Menu_Back.wav",
+      "CachePath": "SFX/UI/UI_UNI_Menu_Back_10C4C929.wem"
      },
      {
       "Id": "423369765",
@@ -1255,6 +1279,14 @@
       "Location": "Memory",
       "ShortName": "Footsteps\\Stone\\SFX_UNI_Player_Footstep_BaseForm_Stone_14.wav",
       "CachePath": "SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_14_10C4C929.wem"
+     },
+     {
+      "Id": "674684175",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI\\UI_UNI_Menu_Slider.wav",
+      "CachePath": "SFX/UI/UI_UNI_Menu_Slider_10C4C929.wem"
      },
      {
       "Id": "675987768",
@@ -1874,6 +1906,14 @@
       "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_11_ACA7ABE5.wem"
      },
      {
+      "Id": "955331407",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI\\UI_UNI_Menu_Hover_01.wav",
+      "CachePath": "SFX/UI/UI_UNI_Menu_Hover_01_10C4C929.wem"
+     },
+     {
       "Id": "966139343",
       "Language": "SFX",
       "Streaming": "false",
@@ -1944,6 +1984,14 @@
       "Location": "Memory",
       "ShortName": "SGAssetsTurnover\\JUMP\\SFX_UNI_Player_jump\\SFX_UNI_Player_Jump_02.wav",
       "CachePath": "SFX/SGAssetsTurnover/JUMP/SFX_UNI_Player_jump/SFX_UNI_Player_Jump_02_10C4C929.wem"
+     },
+     {
+      "Id": "984058569",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI\\UI_UNI_Menu_Select.wav",
+      "CachePath": "SFX/UI/UI_UNI_Menu_Select_10C4C929.wem"
      },
      {
       "Id": "999320167",
@@ -3839,6 +3887,54 @@
         "Id": "706199035"
        }
       ]
+     },
+     {
+      "Id": "1526441620",
+      "Name": "UI_UNI_Menu_Back",
+      "ObjectPath": "\\Events\\Scale_Game\\UI\\UI_UNI_Menu_Back",
+      "GUID": "{2FF5B861-94D5-4A26-8014-7FA988C602CD}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.532",
+      "DurationMax": "0.532",
+      "MediaRefs": [
+       {
+        "Id": "421224897"
+       }
+      ]
+     },
+     {
+      "Id": "1835668049",
+      "Name": "UI_UNI_Menu_Hover",
+      "ObjectPath": "\\Events\\Scale_Game\\UI\\UI_UNI_Menu_Hover",
+      "GUID": "{194EC0E4-7379-46B6-A8CD-ECC5528C8DA7}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.25435418",
+      "DurationMax": "0.31602085",
+      "MediaRefs": [
+       {
+        "Id": "55784864"
+       },
+       {
+        "Id": "238416239"
+       },
+       {
+        "Id": "955331407"
+       }
+      ]
+     },
+     {
+      "Id": "2684423409",
+      "Name": "UI_UNI_Menu_Select",
+      "ObjectPath": "\\Events\\Scale_Game\\UI\\UI_UNI_Menu_Select",
+      "GUID": "{7E5F08BA-9930-4570-8CD9-14AEC01EE33D}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.5866874",
+      "DurationMax": "1.5866874",
+      "MediaRefs": [
+       {
+        "Id": "984058569"
+       }
+      ]
      }
     ],
     "SwitchGroups": [
@@ -3993,6 +4089,6 @@
     ]
    }
   ],
-  "FileHash": "{2B2A4DFE-7205-1DA7-9041-C69754F1CDFC}"
+  "FileHash": "{C4A75B49-21FE-22EC-7AFD-7FA777C2197F}"
  }
 }
