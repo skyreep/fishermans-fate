@@ -739,7 +739,7 @@
     "Type": "User",
     "GUID": "{181571D8-5C1B-4B16-A2F1-3E5A021A1A77}",
     "Language": "English(US)",
-    "Hash": "{E67C9E70-1D0C-8759-5917-31EC3629AFBC}",
+    "Hash": "{1481E86E-0296-5239-5250-C1F2BF0029E2}",
     "ObjectPath": "\\SoundBanks\\Scale_Game\\Main",
     "ShortName": "Main",
     "Path": "English(US)/Main.bnk",
@@ -775,14 +775,6 @@
       "Location": "Memory",
       "ShortName": "Wylie\\Button\\SFX_AM_Emit_PressurePlate_01.wav",
       "CachePath": "SFX/Wylie/Button/SFX_AM_Emit_PressurePlate_01_10C4C929.wem"
-     },
-     {
-      "Id": "27598299",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Footsteps\\Starmetal\\SFX_UNI_Player_Footstep_BaseForm_StarMetal_07.wav",
-      "CachePath": "SFX/Footsteps/Starmetal/SFX_UNI_Player_Footstep_BaseForm_StarMetal_07_10C4C929.wem"
      },
      {
       "Id": "31153336",
@@ -945,14 +937,6 @@
       "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_29_10C4C929.wem"
      },
      {
-      "Id": "123018352",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Footsteps\\Starmetal\\SFX_UNI_Player_Footstep_BaseForm_StarMetal_05.wav",
-      "CachePath": "SFX/Footsteps/Starmetal/SFX_UNI_Player_Footstep_BaseForm_StarMetal_05_10C4C929.wem"
-     },
-     {
       "Id": "131889721",
       "Language": "English(US)",
       "Streaming": "false",
@@ -1090,14 +1074,6 @@
       "CachePath": "SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_17_C321EB1B.wem"
      },
      {
-      "Id": "214395793",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Footsteps\\Starmetal\\SFX_UNI_Player_Footstep_BaseForm_StarMetal_02.wav",
-      "CachePath": "SFX/Footsteps/Starmetal/SFX_UNI_Player_Footstep_BaseForm_StarMetal_02_10C4C929.wem"
-     },
-     {
       "Id": "215318433",
       "Language": "SFX",
       "Streaming": "false",
@@ -1128,14 +1104,6 @@
       "Location": "Memory",
       "ShortName": "Landry\\Efforts\\Landry_Effort_37.wav",
       "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_37_10C4C929.wem"
-     },
-     {
-      "Id": "237153790",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Footsteps\\Starmetal\\SFX_UNI_Player_Footstep_BaseForm_StarMetal_08.wav",
-      "CachePath": "SFX/Footsteps/Starmetal/SFX_UNI_Player_Footstep_BaseForm_StarMetal_08_10C4C929.wem"
      },
      {
       "Id": "238416239",
@@ -1248,14 +1216,6 @@
       "Location": "Memory",
       "ShortName": "Landry\\Efforts\\Landry_Effort_36.wav",
       "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_36_10C4C929.wem"
-     },
-     {
-      "Id": "272969472",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Footsteps\\Starmetal\\SFX_UNI_Player_Footstep_BaseForm_StarMetal_06.wav",
-      "CachePath": "SFX/Footsteps/Starmetal/SFX_UNI_Player_Footstep_BaseForm_StarMetal_06_10C4C929.wem"
      },
      {
       "Id": "274628378",
@@ -1386,6 +1346,15 @@
       "CachePath": "SFX/SGAssetsTurnover/SFX_CD_Emit_WaterfallSplash_D79FB2B7.wem"
      },
      {
+      "Id": "343201890",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Ambiences\\MMAmb_01.wav",
+      "Path": "Media/343201890.wem",
+      "CachePath": "SFX/Ambiences/MMAmb_01_D79FB2B7.wem"
+     },
+     {
       "Id": "347472251",
       "Language": "SFX",
       "Streaming": "false",
@@ -1474,14 +1443,6 @@
       "CachePath": "SFX/Footsteps/StarMetalFS_01_02/SFX_UNI_Player_Footstep_BaseForm_Metal_01_02-12_10C4C929.wem"
      },
      {
-      "Id": "396543920",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Footsteps\\Starmetal\\SFX_UNI_Player_Land_BaseForm_StarMetal_02.wav",
-      "CachePath": "SFX/Footsteps/Starmetal/SFX_UNI_Player_Land_BaseForm_StarMetal_02_10C4C929.wem"
-     },
-     {
       "Id": "404173135",
       "Language": "SFX",
       "Streaming": "false",
@@ -1512,14 +1473,6 @@
       "Location": "Memory",
       "ShortName": "Footsteps\\Water_Splash\\SFX_UNI_Player_BaseForm_WaterSplash_01.wav",
       "CachePath": "SFX/Footsteps/Water_Splash/SFX_UNI_Player_BaseForm_WaterSplash_01_DB64CAE5.wem"
-     },
-     {
-      "Id": "420279320",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Footsteps\\Starmetal\\SFX_UNI_Player_Footstep_BaseForm_StarMetal_04.wav",
-      "CachePath": "SFX/Footsteps/Starmetal/SFX_UNI_Player_Footstep_BaseForm_StarMetal_04_10C4C929.wem"
      },
      {
       "Id": "421224897",
@@ -1818,28 +1771,12 @@
       "CachePath": "SFX/Ambiences/AM_CD_AMBIENCE_JUNGLE_D79FB2B7.wem"
      },
      {
-      "Id": "572514576",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Footsteps\\Starmetal\\SFX_UNI_Player_Land_BaseForm_StarMetal_01.wav",
-      "CachePath": "SFX/Footsteps/Starmetal/SFX_UNI_Player_Land_BaseForm_StarMetal_01_10C4C929.wem"
-     },
-     {
       "Id": "575083913",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Landings\\SFX_UNI_Player_Land_BaseForm_Snow_03.wav",
       "CachePath": "SFX/Landings/SFX_UNI_Player_Land_BaseForm_Snow_03_10C4C929.wem"
-     },
-     {
-      "Id": "579322003",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Footsteps\\Starmetal\\SFX_UNI_Player_Footstep_BaseForm_StarMetal_03.wav",
-      "CachePath": "SFX/Footsteps/Starmetal/SFX_UNI_Player_Footstep_BaseForm_StarMetal_03_10C4C929.wem"
      },
      {
       "Id": "580828944",
@@ -2474,14 +2411,6 @@
       "CachePath": "SFX/SGAssetsTurnover/SPECS/AM_CD_AMBIENCE_SPECS_JUNGLE_5_10C4C929.wem"
      },
      {
-      "Id": "854467553",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Footsteps\\Starmetal\\SFX_UNI_Player_Footstep_BaseForm_StarMetal_01.wav",
-      "CachePath": "SFX/Footsteps/Starmetal/SFX_UNI_Player_Footstep_BaseForm_StarMetal_01_10C4C929.wem"
-     },
-     {
       "Id": "855982724",
       "Language": "SFX",
       "Streaming": "false",
@@ -2571,14 +2500,6 @@
       "CachePath": "Voices/English(US)/Landry/Efforts/Landry_Effort_42_10C4C929.wem"
      },
      {
-      "Id": "923153011",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Footsteps\\Starmetal\\SFX_UNI_Player_Footstep_BaseForm_StarMetal_10.wav",
-      "CachePath": "SFX/Footsteps/Starmetal/SFX_UNI_Player_Footstep_BaseForm_StarMetal_10_10C4C929.wem"
-     },
-     {
       "Id": "924104311",
       "Language": "English(US)",
       "Streaming": "false",
@@ -2593,14 +2514,6 @@
       "Location": "Memory",
       "ShortName": "Footsteps\\Metal\\SFX_UNI_Player_Footstep_BaseForm_Metal_08.wav",
       "CachePath": "SFX/Footsteps/Metal/SFX_UNI_Player_Footstep_BaseForm_Metal_08_10C4C929.wem"
-     },
-     {
-      "Id": "935823183",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Footsteps\\Starmetal\\SFX_UNI_Player_Land_BaseForm_StarMetal_03.wav",
-      "CachePath": "SFX/Footsteps/Starmetal/SFX_UNI_Player_Land_BaseForm_StarMetal_03_10C4C929.wem"
      },
      {
       "Id": "942843214",
@@ -2657,14 +2570,6 @@
       "Location": "Memory",
       "ShortName": "MX\\1 - Amadan Star Race 155bpm.wav",
       "CachePath": "SFX/MX/1 - Amadan Star Race 155bpm_10C4C929.wem"
-     },
-     {
-      "Id": "971372991",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Footsteps\\Starmetal\\SFX_UNI_Player_Footstep_BaseForm_StarMetal_09.wav",
-      "CachePath": "SFX/Footsteps/Starmetal/SFX_UNI_Player_Footstep_BaseForm_StarMetal_09_10C4C929.wem"
      },
      {
       "Id": "974947044",
@@ -2983,6 +2888,18 @@
       "MediaRefs": [
        {
         "Id": "966139343"
+       }
+      ]
+     },
+     {
+      "Id": "667947928",
+      "Name": "Play_AmbienceMM",
+      "ObjectPath": "\\Events\\Scale_Game\\SFX\\AM\\AMBIENCE\\Play_AmbienceMM",
+      "GUID": "{12AEB642-D045-4CC6-BE1A-F409ABD8FA80}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "343201890"
        }
       ]
      },
@@ -3391,7 +3308,7 @@
       "ObjectPath": "\\Events\\Scale_Game\\SFX\\PLAYER\\FOOTSTEPS\\SFX_PlayFootstep",
       "GUID": "{5895F1CF-136D-416A-8913-2B0DBFFB1A76}",
       "DurationType": "OneShot",
-      "DurationMin": "0.35482994",
+      "DurationMin": "0.39210886",
       "DurationMax": "1.3473542",
       "MediaRefs": [
        {
@@ -3603,34 +3520,34 @@
           },
           "MediaRefs": [
            {
-            "Id": "27598299"
+            "Id": "81927740"
            },
            {
-            "Id": "123018352"
+            "Id": "261526551"
            },
            {
-            "Id": "214395793"
+            "Id": "386997947"
            },
            {
-            "Id": "237153790"
+            "Id": "423850969"
            },
            {
-            "Id": "272969472"
+            "Id": "557206078"
            },
            {
-            "Id": "420279320"
+            "Id": "650185662"
            },
            {
-            "Id": "579322003"
+            "Id": "651076290"
            },
            {
-            "Id": "854467553"
+            "Id": "762127043"
            },
            {
-            "Id": "923153011"
+            "Id": "882779724"
            },
            {
-            "Id": "971372991"
+            "Id": "904110040"
            }
           ]
          },
@@ -3946,34 +3863,34 @@
           },
           "MediaRefs": [
            {
-            "Id": "27598299"
+            "Id": "81927740"
            },
            {
-            "Id": "123018352"
+            "Id": "261526551"
            },
            {
-            "Id": "214395793"
+            "Id": "386997947"
            },
            {
-            "Id": "237153790"
+            "Id": "423850969"
            },
            {
-            "Id": "272969472"
+            "Id": "557206078"
            },
            {
-            "Id": "420279320"
+            "Id": "650185662"
            },
            {
-            "Id": "579322003"
+            "Id": "651076290"
            },
            {
-            "Id": "854467553"
+            "Id": "762127043"
            },
            {
-            "Id": "923153011"
+            "Id": "882779724"
            },
            {
-            "Id": "971372991"
+            "Id": "904110040"
            }
           ]
          },
@@ -4107,7 +4024,7 @@
       "ObjectPath": "\\Events\\Scale_Game\\SFX\\PLAYER\\FOOTSTEPS\\SFX_PlayLanding",
       "GUID": "{DAA7A6D7-A772-4479-90AA-42544783BCA2}",
       "DurationType": "OneShot",
-      "DurationMin": "0.53731203",
+      "DurationMin": "0.6118125",
       "DurationMax": "2.9086666",
       "MediaRefs": [
        {
@@ -4206,13 +4123,16 @@
           },
           "MediaRefs": [
            {
-            "Id": "396543920"
+            "Id": "274628378"
            },
            {
-            "Id": "572514576"
+            "Id": "333059415"
            },
            {
-            "Id": "935823183"
+            "Id": "492591169"
+           },
+           {
+            "Id": "499470424"
            }
           ]
          },
@@ -4369,13 +4289,16 @@
           },
           "MediaRefs": [
            {
-            "Id": "396543920"
+            "Id": "274628378"
            },
            {
-            "Id": "572514576"
+            "Id": "333059415"
            },
            {
-            "Id": "935823183"
+            "Id": "492591169"
+           },
+           {
+            "Id": "499470424"
            }
           ]
          },
@@ -4818,6 +4741,6 @@
     ]
    }
   ],
-  "FileHash": "{D9A31D70-EE18-4AC6-8803-8EB8CD5A735E}"
+  "FileHash": "{0C721E69-BC64-42F3-B2FB-01FA6B051908}"
  }
 }

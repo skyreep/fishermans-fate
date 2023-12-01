@@ -949,6 +949,51 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="AMBIENCE_MM" ID="{8829BDCC-217E-4F62-801F-39395248D24C}" ShortID="135495558">
+											<PropertyList>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="MMAmb_01" ID="{53F6A11E-0AFA-43F9-9AE0-EB1BBA32473C}" ShortID="496890343">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="IsStreamingEnabled" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MMAmb_01" ID="{260A1D70-C6A2-46FC-9EA0-29BD977A157E}">
+															<Language>SFX</Language>
+															<AudioFile>Ambiences\MMAmb_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="343201890"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MMAmb_01" ID="{260A1D70-C6A2-46FC-9EA0-29BD977A157E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="EMITTERS" ID="{EF6280AB-F349-477E-BF94-F7BE86BF8CAC}" ShortID="864403966">
@@ -1963,6 +2008,11 @@
 																		</ModifierInfo>
 																	</ModifierList>
 																</Property>
+																<Property Name="Volume" Type="Real64">
+																	<ValueList>
+																		<Value>-3</Value>
+																	</ValueList>
+																</Property>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
@@ -2185,7 +2235,7 @@
 															<Grouping>
 																<SwitchRef Name="StarMetal" ID="{428B9453-C6F1-4C7E-A148-3507D27EB836}"/>
 																<ItemList>
-																	<ItemRef Name="SFX_UNI_Player_Land_BaseForm_StarMetal" ID="{636F390B-2BF2-40AC-B530-F76FEA457374}"/>
+																	<ItemRef Name="SFX_UNI_Player_Land_BaseForm_Rainbow" ID="{6A4A6420-BC4F-46BD-9C27-43F3CE072E9A}"/>
 																</ItemList>
 															</Grouping>
 															<Grouping>
@@ -4403,6 +4453,11 @@
 																	<PropertyList>
 																		<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 																		<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+																		<Property Name="Volume" Type="Real64">
+																			<ValueList>
+																				<Value>-2</Value>
+																			</ValueList>
+																		</Property>
 																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
@@ -4917,7 +4972,7 @@
 																	<Grouping>
 																		<SwitchRef Name="StarMetal" ID="{428B9453-C6F1-4C7E-A148-3507D27EB836}"/>
 																		<ItemList>
-																			<ItemRef Name="Starmetal" ID="{619247AD-89CB-4465-BDA5-073E0B418DDC}"/>
+																			<ItemRef Name="Rainbow" ID="{1AD95D21-0C4B-4C0E-AA10-651A0FBB550C}"/>
 																		</ItemList>
 																	</Grouping>
 																	<Grouping>
@@ -6238,6 +6293,11 @@
 								<RandomSequenceContainer Name="UI_UNI_Menu_Select" ID="{D0693FF2-B8E2-4F12-B4DB-B13A3FC0D6E6}" ShortID="881419250">
 									<PropertyList>
 										<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">

@@ -41,6 +41,20 @@
 												</Action>
 											</ChildrenList>
 										</Event>
+										<Event Name="Play_AmbienceMM" ID="{12AEB642-D045-4CC6-BE1A-F409ABD8FA80}">
+											<ChildrenList>
+												<Action Name="" ID="{ED874F41-C224-47D7-B57D-2E3170CA1604}" ShortID="751637578">
+													<PropertyList>
+														<Property Name="FadeTime" Type="Real64" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="AMBIENCE_MM" ID="{8829BDCC-217E-4F62-801F-39395248D24C}" WorkUnitID="{FE97195E-9202-4A68-8654-D598E9BDBC35}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="EMITTERS" ID="{2B332068-F363-42F8-9E75-9ACF1E512354}" ShortID="720439644">

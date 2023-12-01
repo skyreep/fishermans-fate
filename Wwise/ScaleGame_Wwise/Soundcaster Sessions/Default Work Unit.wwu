@@ -16,7 +16,13 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
-					<CurrentSwitchList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="No" ID="{2A99CF6B-F4A0-40AE-84DB-CCF05CD07491}"/>
+						<CurrentSwitchRef Name="Base_Form" ID="{7E67AF8A-75DD-492B-8BCC-8499F51EFE58}"/>
+						<CurrentSwitchRef Name="Base" ID="{36F438E7-BFA6-4EB9-BF41-39C781BBA948}"/>
+						<CurrentSwitchRef Name="StarMetal" ID="{428B9453-C6F1-4C7E-A148-3507D27EB836}"/>
+						<CurrentSwitchRef Name="Jungle" ID="{D14A6CE0-B1FA-4ADA-99E3-3807DE08E45E}"/>
+					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>

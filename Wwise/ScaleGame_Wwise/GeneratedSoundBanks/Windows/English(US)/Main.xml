@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{181571D8-5C1B-4B16-A2F1-3E5A021A1A77}" Language="English(US)" Hash="{E67C9E70-1D0C-8759-5917-31EC3629AFBC}">
+		<SoundBank Id="3161908922" Type="User" GUID="{181571D8-5C1B-4B16-A2F1-3E5A021A1A77}" Language="English(US)" Hash="{1481E86E-0296-5239-5250-C1F2BF0029E2}">
 			<ObjectPath>\SoundBanks\Scale_Game\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>English(US)/Main.bnk</Path>
@@ -21,10 +21,6 @@
 				<File Id="25761671" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Wylie\Button\SFX_AM_Emit_PressurePlate_01.wav</ShortName>
 					<CachePath>SFX/Wylie/Button/SFX_AM_Emit_PressurePlate_01_10C4C929.wem</CachePath>
-				</File>
-				<File Id="27598299" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Footsteps\Starmetal\SFX_UNI_Player_Footstep_BaseForm_StarMetal_07.wav</ShortName>
-					<CachePath>SFX/Footsteps/Starmetal/SFX_UNI_Player_Footstep_BaseForm_StarMetal_07_10C4C929.wem</CachePath>
 				</File>
 				<File Id="31153336" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>Landry\VO\Landry_03.wav</ShortName>
@@ -106,10 +102,6 @@
 					<ShortName>Landry\Efforts\Landry_Effort_29.wav</ShortName>
 					<CachePath>Voices/English(US)/Landry/Efforts/Landry_Effort_29_10C4C929.wem</CachePath>
 				</File>
-				<File Id="123018352" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Footsteps\Starmetal\SFX_UNI_Player_Footstep_BaseForm_StarMetal_05.wav</ShortName>
-					<CachePath>SFX/Footsteps/Starmetal/SFX_UNI_Player_Footstep_BaseForm_StarMetal_05_10C4C929.wem</CachePath>
-				</File>
 				<File Id="131889721" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>Landry\Efforts\Landry_Effort_07.wav</ShortName>
 					<CachePath>Voices/English(US)/Landry/Efforts/Landry_Effort_07_10C4C929.wem</CachePath>
@@ -179,10 +171,6 @@
 					<ShortName>Footsteps\Grass\SFX_UNI_Player_Footstep_BaseForm_Grass_17.wav</ShortName>
 					<CachePath>SFX/Footsteps/Grass/SFX_UNI_Player_Footstep_BaseForm_Grass_17_C321EB1B.wem</CachePath>
 				</File>
-				<File Id="214395793" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Footsteps\Starmetal\SFX_UNI_Player_Footstep_BaseForm_StarMetal_02.wav</ShortName>
-					<CachePath>SFX/Footsteps/Starmetal/SFX_UNI_Player_Footstep_BaseForm_StarMetal_02_10C4C929.wem</CachePath>
-				</File>
 				<File Id="215318433" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SGAssetsTurnover\WALL\SFX_UNI_Player_WallJump_02.wav</ShortName>
 					<CachePath>SFX/SGAssetsTurnover/WALL/SFX_UNI_Player_WallJump_02_10C4C929.wem</CachePath>
@@ -198,10 +186,6 @@
 				<File Id="233780264" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>Landry\Efforts\Landry_Effort_37.wav</ShortName>
 					<CachePath>Voices/English(US)/Landry/Efforts/Landry_Effort_37_10C4C929.wem</CachePath>
-				</File>
-				<File Id="237153790" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Footsteps\Starmetal\SFX_UNI_Player_Footstep_BaseForm_StarMetal_08.wav</ShortName>
-					<CachePath>SFX/Footsteps/Starmetal/SFX_UNI_Player_Footstep_BaseForm_StarMetal_08_10C4C929.wem</CachePath>
 				</File>
 				<File Id="238416239" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>UI\UI_UNI_Menu_Hover_02.wav</ShortName>
@@ -258,10 +242,6 @@
 				<File Id="269487289" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>Landry\Efforts\Landry_Effort_36.wav</ShortName>
 					<CachePath>Voices/English(US)/Landry/Efforts/Landry_Effort_36_10C4C929.wem</CachePath>
-				</File>
-				<File Id="272969472" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Footsteps\Starmetal\SFX_UNI_Player_Footstep_BaseForm_StarMetal_06.wav</ShortName>
-					<CachePath>SFX/Footsteps/Starmetal/SFX_UNI_Player_Footstep_BaseForm_StarMetal_06_10C4C929.wem</CachePath>
 				</File>
 				<File Id="274628378" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\StarMetalFootsteps_01_04-04.wav</ShortName>
@@ -327,6 +307,11 @@
 					<ShortName>SGAssetsTurnover\SFX_CD_Emit_WaterfallSplash.wav</ShortName>
 					<CachePath>SFX/SGAssetsTurnover/SFX_CD_Emit_WaterfallSplash_D79FB2B7.wem</CachePath>
 				</File>
+				<File Id="343201890" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Ambiences\MMAmb_01.wav</ShortName>
+					<Path>Media/343201890.wem</Path>
+					<CachePath>SFX/Ambiences/MMAmb_01_D79FB2B7.wem</CachePath>
+				</File>
 				<File Id="347472251" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Leaves\SFX_UNI_Player_Footstep_BaseForm_Leaves_12.wav</ShortName>
 					<CachePath>SFX/Footsteps/Leaves/SFX_UNI_Player_Footstep_BaseForm_Leaves_12_10C4C929.wem</CachePath>
@@ -371,10 +356,6 @@
 					<ShortName>Footsteps\StarMetalFS_01_02\SFX_UNI_Player_Footstep_BaseForm_Metal_01_02-12.wav</ShortName>
 					<CachePath>SFX/Footsteps/StarMetalFS_01_02/SFX_UNI_Player_Footstep_BaseForm_Metal_01_02-12_10C4C929.wem</CachePath>
 				</File>
-				<File Id="396543920" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Footsteps\Starmetal\SFX_UNI_Player_Land_BaseForm_StarMetal_02.wav</ShortName>
-					<CachePath>SFX/Footsteps/Starmetal/SFX_UNI_Player_Land_BaseForm_StarMetal_02_10C4C929.wem</CachePath>
-				</File>
 				<File Id="404173135" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Stone\SFX_UNI_Player_Footstep_BaseForm_Stone_15.wav</ShortName>
 					<CachePath>SFX/Footsteps/Stone/SFX_UNI_Player_Footstep_BaseForm_Stone_15_10C4C929.wem</CachePath>
@@ -390,10 +371,6 @@
 				<File Id="418323662" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Water_Splash\SFX_UNI_Player_BaseForm_WaterSplash_01.wav</ShortName>
 					<CachePath>SFX/Footsteps/Water_Splash/SFX_UNI_Player_BaseForm_WaterSplash_01_DB64CAE5.wem</CachePath>
-				</File>
-				<File Id="420279320" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Footsteps\Starmetal\SFX_UNI_Player_Footstep_BaseForm_StarMetal_04.wav</ShortName>
-					<CachePath>SFX/Footsteps/Starmetal/SFX_UNI_Player_Footstep_BaseForm_StarMetal_04_10C4C929.wem</CachePath>
 				</File>
 				<File Id="421224897" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>UI\UI_UNI_Menu_Back.wav</ShortName>
@@ -543,17 +520,9 @@
 					<ShortName>Ambiences\AM_CD_AMBIENCE_JUNGLE.wav</ShortName>
 					<CachePath>SFX/Ambiences/AM_CD_AMBIENCE_JUNGLE_D79FB2B7.wem</CachePath>
 				</File>
-				<File Id="572514576" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Footsteps\Starmetal\SFX_UNI_Player_Land_BaseForm_StarMetal_01.wav</ShortName>
-					<CachePath>SFX/Footsteps/Starmetal/SFX_UNI_Player_Land_BaseForm_StarMetal_01_10C4C929.wem</CachePath>
-				</File>
 				<File Id="575083913" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Landings\SFX_UNI_Player_Land_BaseForm_Snow_03.wav</ShortName>
 					<CachePath>SFX/Landings/SFX_UNI_Player_Land_BaseForm_Snow_03_10C4C929.wem</CachePath>
-				</File>
-				<File Id="579322003" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Footsteps\Starmetal\SFX_UNI_Player_Footstep_BaseForm_StarMetal_03.wav</ShortName>
-					<CachePath>SFX/Footsteps/Starmetal/SFX_UNI_Player_Footstep_BaseForm_StarMetal_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="580828944" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>Landry\Efforts\Landry_Effort_06.wav</ShortName>
@@ -871,10 +840,6 @@
 					<ShortName>SGAssetsTurnover\SPECS\AM_CD_AMBIENCE_SPECS_JUNGLE_5.wav</ShortName>
 					<CachePath>SFX/SGAssetsTurnover/SPECS/AM_CD_AMBIENCE_SPECS_JUNGLE_5_10C4C929.wem</CachePath>
 				</File>
-				<File Id="854467553" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Footsteps\Starmetal\SFX_UNI_Player_Footstep_BaseForm_StarMetal_01.wav</ShortName>
-					<CachePath>SFX/Footsteps/Starmetal/SFX_UNI_Player_Footstep_BaseForm_StarMetal_01_10C4C929.wem</CachePath>
-				</File>
 				<File Id="855982724" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Metal\SFX_UNI_Player_Footstep_BaseForm_Metal_03.wav</ShortName>
 					<CachePath>SFX/Footsteps/Metal/SFX_UNI_Player_Footstep_BaseForm_Metal_03_10C4C929.wem</CachePath>
@@ -920,10 +885,6 @@
 					<ShortName>Landry\Efforts\Landry_Effort_42.wav</ShortName>
 					<CachePath>Voices/English(US)/Landry/Efforts/Landry_Effort_42_10C4C929.wem</CachePath>
 				</File>
-				<File Id="923153011" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Footsteps\Starmetal\SFX_UNI_Player_Footstep_BaseForm_StarMetal_10.wav</ShortName>
-					<CachePath>SFX/Footsteps/Starmetal/SFX_UNI_Player_Footstep_BaseForm_StarMetal_10_10C4C929.wem</CachePath>
-				</File>
 				<File Id="924104311" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>Landry\Efforts\Landry_Effort_20.wav</ShortName>
 					<CachePath>Voices/English(US)/Landry/Efforts/Landry_Effort_20_10C4C929.wem</CachePath>
@@ -931,10 +892,6 @@
 				<File Id="928052215" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Metal\SFX_UNI_Player_Footstep_BaseForm_Metal_08.wav</ShortName>
 					<CachePath>SFX/Footsteps/Metal/SFX_UNI_Player_Footstep_BaseForm_Metal_08_10C4C929.wem</CachePath>
-				</File>
-				<File Id="935823183" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Footsteps\Starmetal\SFX_UNI_Player_Land_BaseForm_StarMetal_03.wav</ShortName>
-					<CachePath>SFX/Footsteps/Starmetal/SFX_UNI_Player_Land_BaseForm_StarMetal_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="942843214" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Landings\SFX_UNI_Player_Land_BaseForm_Snow_01.wav</ShortName>
@@ -963,10 +920,6 @@
 				<File Id="971369613" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MX\1 - Amadan Star Race 155bpm.wav</ShortName>
 					<CachePath>SFX/MX/1 - Amadan Star Race 155bpm_10C4C929.wem</CachePath>
-				</File>
-				<File Id="971372991" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Footsteps\Starmetal\SFX_UNI_Player_Footstep_BaseForm_StarMetal_09.wav</ShortName>
-					<CachePath>SFX/Footsteps/Starmetal/SFX_UNI_Player_Footstep_BaseForm_StarMetal_09_10C4C929.wem</CachePath>
 				</File>
 				<File Id="974947044" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SGAssetsTurnover\WALL\SFX_UNI_Player_WallLand_02.wav</ShortName>
@@ -1103,6 +1056,11 @@
 				<Event Id="133526117" Name="Play_AmadanTemple" ObjectPath="\Events\Scale_Game\MX\Play_AmadanTemple" GUID="{73DB34FA-DAF9-4339-BD2A-BCB15AD654A1}" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="966139343"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="667947928" Name="Play_AmbienceMM" ObjectPath="\Events\Scale_Game\SFX\AM\AMBIENCE\Play_AmbienceMM" GUID="{12AEB642-D045-4CC6-BE1A-F409ABD8FA80}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="343201890"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2674938140" Name="Play_AmbienceSpace" ObjectPath="\Events\Scale_Game\SFX\AM\AMBIENCE\Play_AmbienceSpace" GUID="{2D50AD3A-3F6B-48EA-985C-5A30512781EB}" DurationType="Infinite">
@@ -1261,7 +1219,7 @@
 						<MediaRef Id="675987768"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3302377865" Name="SFX_PlayFootstep" ObjectPath="\Events\Scale_Game\SFX\PLAYER\FOOTSTEPS\SFX_PlayFootstep" GUID="{5895F1CF-136D-416A-8913-2B0DBFFB1A76}" DurationType="OneShot" DurationMin="0.35482994" DurationMax="1.3473542">
+				<Event Id="3302377865" Name="SFX_PlayFootstep" ObjectPath="\Events\Scale_Game\SFX\PLAYER\FOOTSTEPS\SFX_PlayFootstep" GUID="{5895F1CF-136D-416A-8913-2B0DBFFB1A76}" DurationType="OneShot" DurationMin="0.39210886" DurationMax="1.3473542">
 					<MediaRefs>
 						<MediaRef Id="281630002"/>
 						<MediaRef Id="695613401"/>
@@ -1339,16 +1297,16 @@
 								<SwitchContainer>
 									<SwitchValue GroupType="Switch" GroupId="3714303081" Id="1462645938" GUID="{428B9453-C6F1-4C7E-A148-3507D27EB836}"/>
 									<MediaRefs>
-										<MediaRef Id="27598299"/>
-										<MediaRef Id="123018352"/>
-										<MediaRef Id="214395793"/>
-										<MediaRef Id="237153790"/>
-										<MediaRef Id="272969472"/>
-										<MediaRef Id="420279320"/>
-										<MediaRef Id="579322003"/>
-										<MediaRef Id="854467553"/>
-										<MediaRef Id="923153011"/>
-										<MediaRef Id="971372991"/>
+										<MediaRef Id="81927740"/>
+										<MediaRef Id="261526551"/>
+										<MediaRef Id="386997947"/>
+										<MediaRef Id="423850969"/>
+										<MediaRef Id="557206078"/>
+										<MediaRef Id="650185662"/>
+										<MediaRef Id="651076290"/>
+										<MediaRef Id="762127043"/>
+										<MediaRef Id="882779724"/>
+										<MediaRef Id="904110040"/>
 									</MediaRefs>
 								</SwitchContainer>
 								<SwitchContainer>
@@ -1466,16 +1424,16 @@
 								<SwitchContainer>
 									<SwitchValue GroupType="Switch" GroupId="3714303081" Id="1462645938" GUID="{428B9453-C6F1-4C7E-A148-3507D27EB836}"/>
 									<MediaRefs>
-										<MediaRef Id="27598299"/>
-										<MediaRef Id="123018352"/>
-										<MediaRef Id="214395793"/>
-										<MediaRef Id="237153790"/>
-										<MediaRef Id="272969472"/>
-										<MediaRef Id="420279320"/>
-										<MediaRef Id="579322003"/>
-										<MediaRef Id="854467553"/>
-										<MediaRef Id="923153011"/>
-										<MediaRef Id="971372991"/>
+										<MediaRef Id="81927740"/>
+										<MediaRef Id="261526551"/>
+										<MediaRef Id="386997947"/>
+										<MediaRef Id="423850969"/>
+										<MediaRef Id="557206078"/>
+										<MediaRef Id="650185662"/>
+										<MediaRef Id="651076290"/>
+										<MediaRef Id="762127043"/>
+										<MediaRef Id="882779724"/>
+										<MediaRef Id="904110040"/>
 									</MediaRefs>
 								</SwitchContainer>
 								<SwitchContainer>
@@ -1527,7 +1485,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="3321841820" Name="SFX_PlayLanding" ObjectPath="\Events\Scale_Game\SFX\PLAYER\FOOTSTEPS\SFX_PlayLanding" GUID="{DAA7A6D7-A772-4479-90AA-42544783BCA2}" DurationType="OneShot" DurationMin="0.53731203" DurationMax="2.9086666">
+				<Event Id="3321841820" Name="SFX_PlayLanding" ObjectPath="\Events\Scale_Game\SFX\PLAYER\FOOTSTEPS\SFX_PlayLanding" GUID="{DAA7A6D7-A772-4479-90AA-42544783BCA2}" DurationType="OneShot" DurationMin="0.6118125" DurationMax="2.9086666">
 					<MediaRefs>
 						<MediaRef Id="281630002"/>
 						<MediaRef Id="695613401"/>
@@ -1567,9 +1525,10 @@
 								<SwitchContainer>
 									<SwitchValue GroupType="Switch" GroupId="3714303081" Id="1462645938" GUID="{428B9453-C6F1-4C7E-A148-3507D27EB836}"/>
 									<MediaRefs>
-										<MediaRef Id="396543920"/>
-										<MediaRef Id="572514576"/>
-										<MediaRef Id="935823183"/>
+										<MediaRef Id="274628378"/>
+										<MediaRef Id="333059415"/>
+										<MediaRef Id="492591169"/>
+										<MediaRef Id="499470424"/>
 									</MediaRefs>
 								</SwitchContainer>
 								<SwitchContainer>
@@ -1634,9 +1593,10 @@
 								<SwitchContainer>
 									<SwitchValue GroupType="Switch" GroupId="3714303081" Id="1462645938" GUID="{428B9453-C6F1-4C7E-A148-3507D27EB836}"/>
 									<MediaRefs>
-										<MediaRef Id="396543920"/>
-										<MediaRef Id="572514576"/>
-										<MediaRef Id="935823183"/>
+										<MediaRef Id="274628378"/>
+										<MediaRef Id="333059415"/>
+										<MediaRef Id="492591169"/>
+										<MediaRef Id="499470424"/>
 									</MediaRefs>
 								</SwitchContainer>
 								<SwitchContainer>
@@ -1797,5 +1757,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{EC415398-41AC-1893-AD87-3BB0DDA111EE}</FileHash>
+	<FileHash>{FF8D1728-8823-D2BD-C259-11233222FC99}</FileHash>
 </SoundBanksInfo>
