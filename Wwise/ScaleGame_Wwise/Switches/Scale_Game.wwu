@@ -21,6 +21,7 @@
 								<Switch Name="Leaves" ID="{6284C819-A785-4040-A443-36CAA919EB60}"/>
 								<Switch Name="Water" ID="{0F78037C-C696-4B32-941D-66988DF4B509}"/>
 								<Switch Name="Rainbow" ID="{0E26F1FE-43F8-4289-88C6-581F76004A91}"/>
+								<Switch Name="StarMetal" ID="{428B9453-C6F1-4C7E-A148-3507D27EB836}"/>
 							</ChildrenList>
 						</SwitchGroup>
 					</ChildrenList>

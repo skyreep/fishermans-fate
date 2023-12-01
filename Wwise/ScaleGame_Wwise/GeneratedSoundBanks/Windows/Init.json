@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{EEF0A5EF-638C-B7DC-C92F-E7F921D5C568}",
+    "Hash": "{9C3D273B-846D-0D49-F2E8-26193EDF47A5}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -19,7 +19,7 @@
       {
        "Id": "1020291235",
        "Name": "Matrix Reverb (Custom)",
-       "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\SFX\\SFX_Verb\\Matrix Reverb (Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\JungleVerb\\Matrix Reverb (Custom)",
        "GUID": "{B6187DC5-D445-4257-B332-0B83D302BBD8}",
        "LibName": "Wwise Matrix Reverb",
        "LibId": "7536643"
@@ -168,9 +168,9 @@
     ],
     "AuxBusses": [
      {
-      "Id": "3518710954",
-      "Name": "SFX_Verb",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\SFX\\SFX_Verb",
+      "Id": "2215532353",
+      "Name": "JungleVerb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Scale_Game\\MASTER\\JungleVerb",
       "GUID": "{FC358F5D-2424-4538-B07B-FF934BE7922D}",
       "PluginRefs": {
        "Custom": [
@@ -271,6 +271,12 @@
         "Name": "Stone",
         "ObjectPath": "\\Switches\\Scale_Game\\Footsteps\\Surfaces\\Stone",
         "GUID": "{EA23D431-D524-4E95-B3D5-98F351E22ABC}"
+       },
+       {
+        "Id": "1462645938",
+        "Name": "StarMetal",
+        "ObjectPath": "\\Switches\\Scale_Game\\Footsteps\\Surfaces\\StarMetal",
+        "GUID": "{428B9453-C6F1-4C7E-A148-3507D27EB836}"
        },
        {
         "Id": "2195636714",
@@ -721,6 +727,6 @@
     ]
    }
   ],
-  "FileHash": "{E6F7E944-6945-1089-A452-B69351B5A669}"
+  "FileHash": "{382307F1-1783-F9E8-08E9-32B041EEA9F2}"
  }
 }

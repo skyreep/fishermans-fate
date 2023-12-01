@@ -5,8 +5,58 @@
 			<ChildrenList>
 				<Folder Name="IMPORT" ID="{DF81CF7E-F079-4DAF-85B7-731EAD4A3467}" ShortID="368074531">
 					<ChildrenList>
-						<Folder Name="Wylie" ID="{3288F7E1-3742-49BD-8519-1341B0CE9555}" ShortID="422929140"/>
-						<Folder Name="Lauda" ID="{59F7183C-2E7D-4CB3-A2EC-97F7F15A692B}" ShortID="882152346"/>
+						<Folder Name="Wylie" ID="{3288F7E1-3742-49BD-8519-1341B0CE9555}" ShortID="422929140">
+							<ChildrenList>
+								<RandomSequenceContainer Name="Wylie" ID="{58CF3757-0D87-4A4B-9E7B-8C869C4D851A}" ShortID="310194853">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Button" ID="{0DB31D87-4DAA-46EB-A4AF-1446A925BE11}" ShortID="350054187">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+												</Reference>
+											</ReferenceList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Lauda" ID="{59F7183C-2E7D-4CB3-A2EC-97F7F15A692B}" ShortID="882152346">
+							<ChildrenList>
+								<Sound Name="1 - Amadan Star Race 155bpm" ID="{EEB375D6-95F6-428A-91CD-A2D57DBC6A6E}" ShortID="527272216">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="1 - Amadan Star Race 155bpm" ID="{81AF5B77-81B9-4B29-898F-7A0DBE68CEBD}">
+											<Language>SFX</Language>
+											<AudioFile>MX\1 - Amadan Star Race 155bpm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="971369613"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="1 - Amadan Star Race 155bpm" ID="{81AF5B77-81B9-4B29-898F-7A0DBE68CEBD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
 						<Folder Name="Aidan" ID="{091DD541-8962-4060-95FA-0C3D25150859}" ShortID="1015703150">
 							<ChildrenList>
 								<Folder Name="Ambiences" ID="{B2CB9AF3-BD0C-48A2-A8FB-3FDD92769D23}" ShortID="811338778"/>
@@ -405,6 +455,8 @@
 								</Folder>
 								<Folder Name="Water" ID="{EB5030D1-6CAC-4248-A67B-24BE83D55942}" ShortID="902507483"/>
 								<Folder Name="Landry" ID="{1C58395A-07F3-4059-982E-AC6645CC15E4}" ShortID="38307910"/>
+								<Folder Name="Fan" ID="{758E8FB6-2255-45B2-B315-677FAF557B73}" ShortID="105170681"/>
+								<Folder Name="drive-download-20231201T013701Z-001" ID="{577A7BA4-7EC0-45FF-9626-B28A627D99A9}" ShortID="476210263"/>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
@@ -415,7 +467,7 @@
 							<ChildrenList>
 								<Folder Name="AMBIENCE" ID="{04751222-BCB3-4291-9150-3F98171A099C}" ShortID="893814536">
 									<ChildrenList>
-										<SwitchContainer Name="AMBIENCE" ID="{C7198263-277F-4A4A-80BE-2F71A2CD67C1}" ShortID="291220285">
+										<SwitchContainer Name="AMBIENCE_Speed" ID="{C7198263-277F-4A4A-80BE-2F71A2CD67C1}" ShortID="291220285">
 											<PropertyList>
 												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 												<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
@@ -437,6 +489,13 @@
 											</ReferenceList>
 											<ChildrenList>
 												<RandomSequenceContainer Name="Jungle" ID="{23A46254-9C49-4E1F-9FD9-FB64481218E4}" ShortID="741253320">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-2</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
@@ -474,6 +533,13 @@
 													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Temple" ID="{0E8421A4-493C-4BF0-8750-0C7AF6D9D6F2}" ShortID="175557520">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-8</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
@@ -742,6 +808,55 @@
 												</Sound>
 											</ChildrenList>
 										</Folder>
+										<RandomSequenceContainer Name="AMBIENCE_Space" ID="{9FD4A923-BC81-4A23-BC43-F8ED34DB8FE9}" ShortID="860973201">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-13</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SpaceLvlAmb_03" ID="{1D13A064-0C86-44C8-9D45-A58B0A6DFA25}" ShortID="714508151">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="IsStreamingEnabled" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SpaceLvlAmb_03" ID="{EF038730-3586-4C37-9A67-55556609EBE3}">
+															<Language>SFX</Language>
+															<AudioFile>Ambiences\SpaceLvlAmb_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="864114842"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SpaceLvlAmb_03" ID="{EF038730-3586-4C37-9A67-55556609EBE3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="EMITTERS" ID="{EF6280AB-F349-477E-BF94-F7BE86BF8CAC}" ShortID="864403966">
@@ -863,7 +978,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<Sound Name="SFX_AM_Emit_PressurePlate_01" ID="{FD48203B-B48A-4B89-B7A0-29EA6D2D77BD}" ShortID="1017575248">
+														<Sound Name="SFX_AM_Emit_PressurePlate_02" ID="{B22572EA-06F4-4A86-A3EC-38EDA0CBD00D}" ShortID="782028023">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
@@ -873,19 +988,19 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="SFX_AM_Emit_PressurePlate_01" ID="{7EF8F2B4-757A-4C97-954D-E5452FE3F469}">
+																<AudioFileSource Name="SFX_AM_Emit_PressurePlate_02" ID="{B8C585BF-55AC-4882-BF97-746F8FF8F123}">
 																	<Language>SFX</Language>
-																	<AudioFile>PressurePlatre\SFX_AM_Emit_PressurePlate_01.wav</AudioFile>
+																	<AudioFile>Wylie\Button\SFX_AM_Emit_PressurePlate_02.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="1042296933"/>
+																		<MediaID ID="640534894"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="SFX_AM_Emit_PressurePlate_01" ID="{7EF8F2B4-757A-4C97-954D-E5452FE3F469}" Platform="Linked"/>
+																<ActiveSource Name="SFX_AM_Emit_PressurePlate_02" ID="{B8C585BF-55AC-4882-BF97-746F8FF8F123}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="SFX_AM_Emit_PressurePlate_02" ID="{461BCCE9-C301-4310-9BEC-5734DBB33741}" ShortID="378783452">
+														<Sound Name="SFX_AM_Emit_PressurePlate_03" ID="{AD480AD3-534E-4820-B4CC-679E86136B34}" ShortID="361626466">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
@@ -895,19 +1010,19 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="SFX_AM_Emit_PressurePlate_02" ID="{A35DF1B5-2014-4E85-BD1C-AF95A87166C5}">
+																<AudioFileSource Name="SFX_AM_Emit_PressurePlate_03" ID="{981DAED2-206B-40E8-9C21-E3294058B6D7}">
 																	<Language>SFX</Language>
-																	<AudioFile>PressurePlatre\SFX_AM_Emit_PressurePlate_02.wav</AudioFile>
+																	<AudioFile>Wylie\Button\SFX_AM_Emit_PressurePlate_03.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="235060415"/>
+																		<MediaID ID="13481280"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="SFX_AM_Emit_PressurePlate_02" ID="{A35DF1B5-2014-4E85-BD1C-AF95A87166C5}" Platform="Linked"/>
+																<ActiveSource Name="SFX_AM_Emit_PressurePlate_03" ID="{981DAED2-206B-40E8-9C21-E3294058B6D7}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="SFX_AM_Emit_PressurePlate_03" ID="{99646F19-B5DA-459E-99C7-4E90978103AA}" ShortID="600743858">
+														<Sound Name="SFX_AM_Emit_PressurePlate_01" ID="{64B5327A-E628-4E38-AC40-42E37C29164F}" ShortID="1006323936">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
@@ -917,16 +1032,16 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="SFX_AM_Emit_PressurePlate_03" ID="{594AE0CD-548C-4970-8BDD-6DC7BF11516B}">
+																<AudioFileSource Name="SFX_AM_Emit_PressurePlate_01" ID="{4A054F51-9824-463C-91A7-48905E3A48C5}">
 																	<Language>SFX</Language>
-																	<AudioFile>PressurePlatre\SFX_AM_Emit_PressurePlate_03.wav</AudioFile>
+																	<AudioFile>Wylie\Button\SFX_AM_Emit_PressurePlate_01.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="632811779"/>
+																		<MediaID ID="25761671"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="SFX_AM_Emit_PressurePlate_03" ID="{594AE0CD-548C-4970-8BDD-6DC7BF11516B}" Platform="Linked"/>
+																<ActiveSource Name="SFX_AM_Emit_PressurePlate_01" ID="{4A054F51-9824-463C-91A7-48905E3A48C5}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
@@ -1045,10 +1160,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<Sound Name="SFX_AM_Emit_Fan_FanTurning_Fast" ID="{5BE3BC8E-3815-4034-A9EC-39579FF8C7CD}" ShortID="233996161">
-															<PropertyList>
-																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-															</PropertyList>
+														<Sound Name="SFX_AM_Emit_Fan_FanTurning_Slow" ID="{539ACA2C-C973-4378-8760-BDA74AF407F7}" ShortID="583826583">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
@@ -1058,22 +1170,19 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="SFX_AM_Emit_Fan_FanTurning_Fast" ID="{7E6C4BE8-7658-46E4-90A5-328944D7B262}">
+																<AudioFileSource Name="SFX_AM_Emit_Fan_FanTurning_Slow" ID="{69AC1CD2-1F10-4FBC-A7B3-7080711E3752}">
 																	<Language>SFX</Language>
-																	<AudioFile>drive-download-20231130T215446Z-001\SFX_AM_Emit_Fan_FanTurning_Fast.wav</AudioFile>
+																	<AudioFile>Fan\SFX_AM_Emit_Fan_FanTurning_Slow.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="716090463"/>
+																		<MediaID ID="159203827"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="SFX_AM_Emit_Fan_FanTurning_Fast" ID="{7E6C4BE8-7658-46E4-90A5-328944D7B262}" Platform="Linked"/>
+																<ActiveSource Name="SFX_AM_Emit_Fan_FanTurning_Slow" ID="{69AC1CD2-1F10-4FBC-A7B3-7080711E3752}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="SFX_AM_Emit_Fan_FanTurning_Slow" ID="{A0293B3C-9DC7-4455-960F-024E7C140C38}" ShortID="183835294">
-															<PropertyList>
-																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-															</PropertyList>
+														<Sound Name="SFX_AM_Emit_Fan_FanTurning_Standard" ID="{0C8EF7FE-6DC7-4B6A-A710-4E5FCDC4D6B5}" ShortID="252601049">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
@@ -1083,22 +1192,19 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="SFX_AM_Emit_Fan_FanTurning_Slow" ID="{194F4592-3AE4-4C1E-8EF6-BE5E5414F8C6}">
+																<AudioFileSource Name="SFX_AM_Emit_Fan_FanTurning_Standard" ID="{E5962E2A-AA34-4DAA-A06B-A685F732949F}">
 																	<Language>SFX</Language>
-																	<AudioFile>drive-download-20231130T215446Z-001\SFX_AM_Emit_Fan_FanTurning_Slow.wav</AudioFile>
+																	<AudioFile>Fan\SFX_AM_Emit_Fan_FanTurning_Standard.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="411652973"/>
+																		<MediaID ID="646566233"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="SFX_AM_Emit_Fan_FanTurning_Slow" ID="{194F4592-3AE4-4C1E-8EF6-BE5E5414F8C6}" Platform="Linked"/>
+																<ActiveSource Name="SFX_AM_Emit_Fan_FanTurning_Standard" ID="{E5962E2A-AA34-4DAA-A06B-A685F732949F}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="SFX_AM_Emit_Fan_FanTurning_Standard" ID="{27365E63-BE0F-4596-B169-F62A74958726}" ShortID="691188537">
-															<PropertyList>
-																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-															</PropertyList>
+														<Sound Name="SFX_AM_Emit_Fan_FanTurning_Fast" ID="{146A3EF4-A8E3-4905-9647-E4606FAA1DD3}" ShortID="329681025">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
@@ -1108,16 +1214,16 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="SFX_AM_Emit_Fan_FanTurning_Standard" ID="{7B167EF7-C488-4062-B1D3-AE6F3ED5DCED}">
+																<AudioFileSource Name="SFX_AM_Emit_Fan_FanTurning_Fast" ID="{30543C71-A16F-4A0C-A058-883B8AC300B0}">
 																	<Language>SFX</Language>
-																	<AudioFile>drive-download-20231130T215446Z-001\SFX_AM_Emit_Fan_FanTurning_Standard.wav</AudioFile>
+																	<AudioFile>Fan\SFX_AM_Emit_Fan_FanTurning_Fast.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="210515482"/>
+																		<MediaID ID="153677310"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="SFX_AM_Emit_Fan_FanTurning_Standard" ID="{7B167EF7-C488-4062-B1D3-AE6F3ED5DCED}" Platform="Linked"/>
+																<ActiveSource Name="SFX_AM_Emit_Fan_FanTurning_Fast" ID="{30543C71-A16F-4A0C-A058-883B8AC300B0}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
@@ -1127,32 +1233,32 @@
 													<GroupingInfo>
 														<GroupingBehaviorList>
 															<GroupingBehavior>
-																<ItemRef Name="SFX_AM_Emit_Fan_FanTurning_Slow" ID="{A0293B3C-9DC7-4455-960F-024E7C140C38}"/>
+																<ItemRef Name="SFX_AM_Emit_Fan_FanTurning_Slow" ID="{539ACA2C-C973-4378-8760-BDA74AF407F7}"/>
 															</GroupingBehavior>
 															<GroupingBehavior>
-																<ItemRef Name="SFX_AM_Emit_Fan_FanTurning_Standard" ID="{27365E63-BE0F-4596-B169-F62A74958726}"/>
+																<ItemRef Name="SFX_AM_Emit_Fan_FanTurning_Fast" ID="{146A3EF4-A8E3-4905-9647-E4606FAA1DD3}"/>
 															</GroupingBehavior>
 															<GroupingBehavior>
-																<ItemRef Name="SFX_AM_Emit_Fan_FanTurning_Fast" ID="{5BE3BC8E-3815-4034-A9EC-39579FF8C7CD}"/>
+																<ItemRef Name="SFX_AM_Emit_Fan_FanTurning_Standard" ID="{0C8EF7FE-6DC7-4B6A-A710-4E5FCDC4D6B5}"/>
 															</GroupingBehavior>
 														</GroupingBehaviorList>
 														<GroupingList>
 															<Grouping>
 																<SwitchRef Name="Slow" ID="{FF747217-8A92-4975-A8ED-A879BA6BB4E3}"/>
 																<ItemList>
-																	<ItemRef Name="SFX_AM_Emit_Fan_FanTurning_Slow" ID="{A0293B3C-9DC7-4455-960F-024E7C140C38}"/>
+																	<ItemRef Name="SFX_AM_Emit_Fan_FanTurning_Slow" ID="{539ACA2C-C973-4378-8760-BDA74AF407F7}"/>
 																</ItemList>
 															</Grouping>
 															<Grouping>
 																<SwitchRef Name="Fast" ID="{65702D58-168F-4645-981C-EBD76F95D7E1}"/>
 																<ItemList>
-																	<ItemRef Name="SFX_AM_Emit_Fan_FanTurning_Fast" ID="{5BE3BC8E-3815-4034-A9EC-39579FF8C7CD}"/>
+																	<ItemRef Name="SFX_AM_Emit_Fan_FanTurning_Fast" ID="{146A3EF4-A8E3-4905-9647-E4606FAA1DD3}"/>
 																</ItemList>
 															</Grouping>
 															<Grouping>
 																<SwitchRef Name="Base" ID="{36F438E7-BFA6-4EB9-BF41-39C781BBA948}"/>
 																<ItemList>
-																	<ItemRef Name="SFX_AM_Emit_Fan_FanTurning_Standard" ID="{27365E63-BE0F-4596-B169-F62A74958726}"/>
+																	<ItemRef Name="SFX_AM_Emit_Fan_FanTurning_Standard" ID="{0C8EF7FE-6DC7-4B6A-A710-4E5FCDC4D6B5}"/>
 																</ItemList>
 															</Grouping>
 														</GroupingList>
@@ -1749,9 +1855,209 @@
 																</Sound>
 															</ChildrenList>
 														</RandomSequenceContainer>
+														<RandomSequenceContainer Name="SFX_UNI_Player_Land_BaseForm_StarMetal" ID="{636F390B-2BF2-40AC-B530-F76FEA457374}" ShortID="1676678">
+															<PropertyList>
+																<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+																<Property Name="Pitch" Type="int32">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{AC68D558-2D27-4076-8F34-ED6FB2F535E1}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Max" Type="Real64" Value="202"/>
+																					<Property Name="Min" Type="Real64" Value="-152"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="SFX_UNI_Player_Land_BaseForm_StarMetal_01" ID="{9DDEB3AC-7D46-4DAB-B431-1B1BA7378EC0}" ShortID="344388632">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_UNI_Player_Land_BaseForm_StarMetal_01" ID="{0AF08510-907E-40FE-94FC-9CE975F041C8}">
+																			<Language>SFX</Language>
+																			<AudioFile>Footsteps\Starmetal\SFX_UNI_Player_Land_BaseForm_StarMetal_01.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="572514576"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_UNI_Player_Land_BaseForm_StarMetal_01" ID="{0AF08510-907E-40FE-94FC-9CE975F041C8}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="SFX_UNI_Player_Land_BaseForm_StarMetal_03" ID="{31D3BADD-944E-4B32-935E-2466CDBC42B2}" ShortID="679899170">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_UNI_Player_Land_BaseForm_StarMetal_03" ID="{E9DD52F3-18A6-4A53-99FA-978BD38C3107}">
+																			<Language>SFX</Language>
+																			<AudioFile>Footsteps\Starmetal\SFX_UNI_Player_Land_BaseForm_StarMetal_03.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="935823183"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_UNI_Player_Land_BaseForm_StarMetal_03" ID="{E9DD52F3-18A6-4A53-99FA-978BD38C3107}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="SFX_UNI_Player_Land_BaseForm_StarMetal_02" ID="{7AE847BA-D138-4D4D-83DF-08A65EA7580A}" ShortID="1062889002">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="SFX_UNI_Player_Land_BaseForm_StarMetal_02" ID="{DE3C11F5-B3BD-4ADD-A5C5-F1A1BDAA8A24}">
+																			<Language>SFX</Language>
+																			<AudioFile>Footsteps\Starmetal\SFX_UNI_Player_Land_BaseForm_StarMetal_02.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="396543920"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="SFX_UNI_Player_Land_BaseForm_StarMetal_02" ID="{DE3C11F5-B3BD-4ADD-A5C5-F1A1BDAA8A24}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+														<RandomSequenceContainer Name="SFX_UNI_Player_Land_BaseForm_Rainbow" ID="{6A4A6420-BC4F-46BD-9C27-43F3CE072E9A}" ShortID="826676221">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="StarMetalFootsteps_01_04-02" ID="{5CCCD772-CB45-41D7-B740-0236C7C2431B}" ShortID="1040303658">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="StarMetalFootsteps_01_04-02" ID="{61ADACED-5BE5-492D-A627-AA1648879AEB}">
+																			<Language>SFX</Language>
+																			<AudioFile>Footsteps\StarMetalFootsteps_01_04-02.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="492591169"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="StarMetalFootsteps_01_04-02" ID="{61ADACED-5BE5-492D-A627-AA1648879AEB}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="StarMetalFootsteps_01_04-04" ID="{D6738838-63C3-44C3-999B-EA82C08FE84C}" ShortID="896215078">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="StarMetalFootsteps_01_04-04" ID="{EA8DF7DF-BA56-4EE8-B18E-129316B79E7A}">
+																			<Language>SFX</Language>
+																			<AudioFile>Footsteps\StarMetalFootsteps_01_04-04.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="274628378"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="StarMetalFootsteps_01_04-04" ID="{EA8DF7DF-BA56-4EE8-B18E-129316B79E7A}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="StarMetalFootsteps_01_04-06" ID="{1A8408D8-3C1A-49B1-AAB2-63277B5A954E}" ShortID="936072438">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="StarMetalFootsteps_01_04-06" ID="{BA3A45C3-BC14-4F78-A238-C66BCB5D2964}">
+																			<Language>SFX</Language>
+																			<AudioFile>Footsteps\StarMetalFootsteps_01_04-06.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="333059415"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="StarMetalFootsteps_01_04-06" ID="{BA3A45C3-BC14-4F78-A238-C66BCB5D2964}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="StarMetalFootsteps_01_04-07" ID="{89520374-E487-4ACD-AEDC-8900704934AB}" ShortID="528094190">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="StarMetalFootsteps_01_04-07" ID="{F19E97F2-7A44-4768-84B6-6D0BF78F1B71}">
+																			<Language>SFX</Language>
+																			<AudioFile>Footsteps\StarMetalFootsteps_01_04-07.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="499470424"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="StarMetalFootsteps_01_04-07" ID="{F19E97F2-7A44-4768-84B6-6D0BF78F1B71}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
 													</ChildrenList>
 													<GroupingInfo>
 														<GroupingBehaviorList>
+															<GroupingBehavior>
+																<ItemRef Name="SFX_UNI_Player_Land_BaseForm_StarMetal" ID="{636F390B-2BF2-40AC-B530-F76FEA457374}"/>
+															</GroupingBehavior>
+															<GroupingBehavior>
+																<ItemRef Name="SFX_UNI_Player_Land_BaseForm_Rainbow" ID="{6A4A6420-BC4F-46BD-9C27-43F3CE072E9A}"/>
+															</GroupingBehavior>
 															<GroupingBehavior>
 																<ItemRef Name="SFX_UNI_Player_Land_BaseForm_Stone" ID="{02090F28-3E87-4427-8542-252E89CD6654}"/>
 															</GroupingBehavior>
@@ -1785,6 +2091,12 @@
 																</ItemList>
 															</Grouping>
 															<Grouping>
+																<SwitchRef Name="StarMetal" ID="{428B9453-C6F1-4C7E-A148-3507D27EB836}"/>
+																<ItemList>
+																	<ItemRef Name="SFX_UNI_Player_Land_BaseForm_StarMetal" ID="{636F390B-2BF2-40AC-B530-F76FEA457374}"/>
+																</ItemList>
+															</Grouping>
+															<Grouping>
 																<SwitchRef Name="Dirt" ID="{22A37D54-D3DD-4687-A44F-D240BD429E36}"/>
 																<ItemList>
 																	<ItemRef Name="SFX_UNI_Player_Land_BaseForm_Snow" ID="{99CECBEF-CBFA-458B-9E73-E799DFFBAAAE}"/>
@@ -1794,6 +2106,12 @@
 																<SwitchRef Name="Metal" ID="{0E81217E-5D7D-42D0-AED6-D679BD01FA58}"/>
 																<ItemList>
 																	<ItemRef Name="SFX_UNI_Player_Land_BaseForm_Metal" ID="{472F8B8D-6D3A-439F-8E0C-EBC4399EF2DB}"/>
+																</ItemList>
+															</Grouping>
+															<Grouping>
+																<SwitchRef Name="Rainbow" ID="{0E26F1FE-43F8-4289-88C6-581F76004A91}"/>
+																<ItemList>
+																	<ItemRef Name="SFX_UNI_Player_Land_BaseForm_Rainbow" ID="{6A4A6420-BC4F-46BD-9C27-43F3CE072E9A}"/>
 																</ItemList>
 															</Grouping>
 														</GroupingList>
@@ -1945,6 +2263,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<SwitchContainer Name="Footsteps" ID="{9D86F9F4-53A9-4862-8397-3EB19C7AB025}" ShortID="588482950">
+													<PropertyList>
+														<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
@@ -1959,7 +2280,7 @@
 															<ObjectRef Name="Form" ID="{6B34F204-9AC5-4C47-B728-C6BBCDA66A98}" WorkUnitID="{2CBB1A4C-2327-4CB4-8527-FF6EEEA8957E}"/>
 														</Reference>
 														<Reference Name="UserAuxSend0">
-															<ObjectRef Name="SFX_Verb" ID="{FC358F5D-2424-4538-B07B-FF934BE7922D}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+															<ObjectRef Name="JungleVerb" ID="{FC358F5D-2424-4538-B07B-FF934BE7922D}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
@@ -3986,9 +4307,480 @@
 																		</Sound>
 																	</ChildrenList>
 																</RandomSequenceContainer>
+																<RandomSequenceContainer Name="Starmetal" ID="{619247AD-89CB-4465-BDA5-073E0B418DDC}" ShortID="334890016">
+																	<PropertyList>
+																		<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+																		<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<Sound Name="SFX_UNI_Player_Footstep_BaseForm_StarMetal_01" ID="{01D8280A-420A-427D-ACC9-82233F82C8E0}" ShortID="1015299827">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="SFX_UNI_Player_Footstep_BaseForm_StarMetal_01" ID="{06A7CE74-BA1E-437C-9908-C42DD5154FB9}">
+																					<Language>SFX</Language>
+																					<AudioFile>Footsteps\Starmetal\SFX_UNI_Player_Footstep_BaseForm_StarMetal_01.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="854467553"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="SFX_UNI_Player_Footstep_BaseForm_StarMetal_01" ID="{06A7CE74-BA1E-437C-9908-C42DD5154FB9}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="SFX_UNI_Player_Footstep_BaseForm_StarMetal_02" ID="{6A934F46-EC59-4BCA-88A0-32EDB46BE277}" ShortID="59957259">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="SFX_UNI_Player_Footstep_BaseForm_StarMetal_02" ID="{C861EB9B-6D33-4D37-A49A-A699399F53C6}">
+																					<Language>SFX</Language>
+																					<AudioFile>Footsteps\Starmetal\SFX_UNI_Player_Footstep_BaseForm_StarMetal_02.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="214395793"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="SFX_UNI_Player_Footstep_BaseForm_StarMetal_02" ID="{C861EB9B-6D33-4D37-A49A-A699399F53C6}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="SFX_UNI_Player_Footstep_BaseForm_StarMetal_03" ID="{82A4689B-AE05-4654-A167-7E98F16DB5C0}" ShortID="720490196">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="SFX_UNI_Player_Footstep_BaseForm_StarMetal_03" ID="{BDBC552A-7CD0-42C1-8D50-E6DBF00B6028}">
+																					<Language>SFX</Language>
+																					<AudioFile>Footsteps\Starmetal\SFX_UNI_Player_Footstep_BaseForm_StarMetal_03.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="579322003"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="SFX_UNI_Player_Footstep_BaseForm_StarMetal_03" ID="{BDBC552A-7CD0-42C1-8D50-E6DBF00B6028}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="SFX_UNI_Player_Footstep_BaseForm_StarMetal_04" ID="{F310FF32-8DD3-45B5-958C-AAC3388A1F8F}" ShortID="264087672">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="SFX_UNI_Player_Footstep_BaseForm_StarMetal_04" ID="{C88DCCDB-A3CC-47B5-A48A-7D6F3675B17A}">
+																					<Language>SFX</Language>
+																					<AudioFile>Footsteps\Starmetal\SFX_UNI_Player_Footstep_BaseForm_StarMetal_04.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="420279320"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="SFX_UNI_Player_Footstep_BaseForm_StarMetal_04" ID="{C88DCCDB-A3CC-47B5-A48A-7D6F3675B17A}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="SFX_UNI_Player_Footstep_BaseForm_StarMetal_05" ID="{99A53BCD-7F0D-43D2-9D0C-DF0F3C90DA8F}" ShortID="576631739">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="SFX_UNI_Player_Footstep_BaseForm_StarMetal_05" ID="{7C6F50D7-476E-4043-BA94-003CCF55777D}">
+																					<Language>SFX</Language>
+																					<AudioFile>Footsteps\Starmetal\SFX_UNI_Player_Footstep_BaseForm_StarMetal_05.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="123018352"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="SFX_UNI_Player_Footstep_BaseForm_StarMetal_05" ID="{7C6F50D7-476E-4043-BA94-003CCF55777D}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="SFX_UNI_Player_Footstep_BaseForm_StarMetal_06" ID="{8041909E-CB72-4A02-B014-8EA72191993A}" ShortID="731279959">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="SFX_UNI_Player_Footstep_BaseForm_StarMetal_06" ID="{F447A18A-A279-43F3-B5B0-CD63E0CCBBFE}">
+																					<Language>SFX</Language>
+																					<AudioFile>Footsteps\Starmetal\SFX_UNI_Player_Footstep_BaseForm_StarMetal_06.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="272969472"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="SFX_UNI_Player_Footstep_BaseForm_StarMetal_06" ID="{F447A18A-A279-43F3-B5B0-CD63E0CCBBFE}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="SFX_UNI_Player_Footstep_BaseForm_StarMetal_07" ID="{5FFF5E94-F089-4E57-A68B-2B66568E56D4}" ShortID="61115819">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="SFX_UNI_Player_Footstep_BaseForm_StarMetal_07" ID="{091C6880-2657-4A1F-B011-2FFF460194A9}">
+																					<Language>SFX</Language>
+																					<AudioFile>Footsteps\Starmetal\SFX_UNI_Player_Footstep_BaseForm_StarMetal_07.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="27598299"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="SFX_UNI_Player_Footstep_BaseForm_StarMetal_07" ID="{091C6880-2657-4A1F-B011-2FFF460194A9}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="SFX_UNI_Player_Footstep_BaseForm_StarMetal_08" ID="{E366DE10-0000-42D4-893B-8699955C0A37}" ShortID="114445442">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="SFX_UNI_Player_Footstep_BaseForm_StarMetal_08" ID="{5FBC1225-D89A-420E-A340-13B78924FB78}">
+																					<Language>SFX</Language>
+																					<AudioFile>Footsteps\Starmetal\SFX_UNI_Player_Footstep_BaseForm_StarMetal_08.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="237153790"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="SFX_UNI_Player_Footstep_BaseForm_StarMetal_08" ID="{5FBC1225-D89A-420E-A340-13B78924FB78}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="SFX_UNI_Player_Footstep_BaseForm_StarMetal_09" ID="{B4902107-BFCF-4D5E-ADD8-D2A742BBCA40}" ShortID="451376602">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="SFX_UNI_Player_Footstep_BaseForm_StarMetal_09" ID="{F857FDB8-9317-4383-B424-B0B8D4F3EEB5}">
+																					<Language>SFX</Language>
+																					<AudioFile>Footsteps\Starmetal\SFX_UNI_Player_Footstep_BaseForm_StarMetal_09.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="971372991"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="SFX_UNI_Player_Footstep_BaseForm_StarMetal_09" ID="{F857FDB8-9317-4383-B424-B0B8D4F3EEB5}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="SFX_UNI_Player_Footstep_BaseForm_StarMetal_10" ID="{E6C45629-3924-47CD-9512-FA8DFA5D26A5}" ShortID="724618734">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="SFX_UNI_Player_Footstep_BaseForm_StarMetal_10" ID="{32147F44-DB7F-4731-AE50-648ED029DCD0}">
+																					<Language>SFX</Language>
+																					<AudioFile>Footsteps\Starmetal\SFX_UNI_Player_Footstep_BaseForm_StarMetal_10.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="923153011"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="SFX_UNI_Player_Footstep_BaseForm_StarMetal_10" ID="{32147F44-DB7F-4731-AE50-648ED029DCD0}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																	</ChildrenList>
+																</RandomSequenceContainer>
+																<RandomSequenceContainer Name="Rainbow" ID="{1AD95D21-0C4B-4C0E-AA10-651A0FBB550C}" ShortID="892149187">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<Sound Name="SFX_UNI_Player_Footstep_BaseForm_Metal_01_02-04" ID="{9E1B366F-60F4-45CD-9CE9-0FF9FBFA8085}" ShortID="804141146">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="SFX_UNI_Player_Footstep_BaseForm_Metal_01_02-04" ID="{58C3FF58-67AB-438D-90B5-F37EEF61BC04}">
+																					<Language>SFX</Language>
+																					<AudioFile>Footsteps\StarMetalFS_01_02\SFX_UNI_Player_Footstep_BaseForm_Metal_01_02-04.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="81927740"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="SFX_UNI_Player_Footstep_BaseForm_Metal_01_02-04" ID="{58C3FF58-67AB-438D-90B5-F37EEF61BC04}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="SFX_UNI_Player_Footstep_BaseForm_Metal_01_02-06" ID="{6EE40FD8-0639-4B08-8591-B56CF59BAF54}" ShortID="127446124">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="SFX_UNI_Player_Footstep_BaseForm_Metal_01_02-06" ID="{ED78049E-ABBA-4F50-AD42-3205D1EE5593}">
+																					<Language>SFX</Language>
+																					<AudioFile>Footsteps\StarMetalFS_01_02\SFX_UNI_Player_Footstep_BaseForm_Metal_01_02-06.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="650185662"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="SFX_UNI_Player_Footstep_BaseForm_Metal_01_02-06" ID="{ED78049E-ABBA-4F50-AD42-3205D1EE5593}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="SFX_UNI_Player_Footstep_BaseForm_Metal_01_02-08" ID="{F0B73A5B-DAC8-43F5-B00D-AE7DFDC300F1}" ShortID="119201962">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="SFX_UNI_Player_Footstep_BaseForm_Metal_01_02-08" ID="{23485F3B-9111-4AE7-968B-CE297F0CFC73}">
+																					<Language>SFX</Language>
+																					<AudioFile>Footsteps\StarMetalFS_01_02\SFX_UNI_Player_Footstep_BaseForm_Metal_01_02-08.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="557206078"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="SFX_UNI_Player_Footstep_BaseForm_Metal_01_02-08" ID="{23485F3B-9111-4AE7-968B-CE297F0CFC73}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="SFX_UNI_Player_Footstep_BaseForm_Metal_01_02-12" ID="{D450901A-12A0-4E0D-96D4-A716977A52B0}" ShortID="1004791101">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="SFX_UNI_Player_Footstep_BaseForm_Metal_01_02-12" ID="{BDE3080C-9AE4-42ED-AB3E-C8FAEFACECE5}">
+																					<Language>SFX</Language>
+																					<AudioFile>Footsteps\StarMetalFS_01_02\SFX_UNI_Player_Footstep_BaseForm_Metal_01_02-12.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="386997947"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="SFX_UNI_Player_Footstep_BaseForm_Metal_01_02-12" ID="{BDE3080C-9AE4-42ED-AB3E-C8FAEFACECE5}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="SFX_UNI_Player_Footstep_BaseForm_Metal_01_02-14" ID="{A863C0A7-F7D2-4D16-996B-73D023B9D355}" ShortID="47156715">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="SFX_UNI_Player_Footstep_BaseForm_Metal_01_02-14" ID="{07A5141D-901A-4243-BA17-5122BF7EE36D}">
+																					<Language>SFX</Language>
+																					<AudioFile>Footsteps\StarMetalFS_01_02\SFX_UNI_Player_Footstep_BaseForm_Metal_01_02-14.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="762127043"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="SFX_UNI_Player_Footstep_BaseForm_Metal_01_02-14" ID="{07A5141D-901A-4243-BA17-5122BF7EE36D}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="SFX_UNI_Player_Footstep_BaseForm_Metal_01_02-16" ID="{D4635111-5286-40AB-87CE-032D1D5D5301}" ShortID="106745537">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="SFX_UNI_Player_Footstep_BaseForm_Metal_01_02-16" ID="{777DACF3-9C5B-4F72-9FE0-9B7D225F6F56}">
+																					<Language>SFX</Language>
+																					<AudioFile>Footsteps\StarMetalFS_01_02\SFX_UNI_Player_Footstep_BaseForm_Metal_01_02-16.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="261526551"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="SFX_UNI_Player_Footstep_BaseForm_Metal_01_02-16" ID="{777DACF3-9C5B-4F72-9FE0-9B7D225F6F56}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="SFX_UNI_Player_Footstep_BaseForm_Metal_01_02-17" ID="{71977FA4-BC8B-4211-9449-A223610FB9D3}" ShortID="1053297558">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="SFX_UNI_Player_Footstep_BaseForm_Metal_01_02-17" ID="{1C1DDC22-2F5A-42DB-B313-58C9487613EA}">
+																					<Language>SFX</Language>
+																					<AudioFile>Footsteps\StarMetalFS_01_02\SFX_UNI_Player_Footstep_BaseForm_Metal_01_02-17.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="882779724"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="SFX_UNI_Player_Footstep_BaseForm_Metal_01_02-17" ID="{1C1DDC22-2F5A-42DB-B313-58C9487613EA}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="SFX_UNI_Player_Footstep_BaseForm_Metal_01_04" ID="{71E1D9A0-BB37-4DB0-B563-F9AFA02E9967}" ShortID="408519163">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="SFX_UNI_Player_Footstep_BaseForm_Metal_01_04" ID="{7AC73D1F-7AFF-4071-8F7E-A65E69D39F12}">
+																					<Language>SFX</Language>
+																					<AudioFile>Footsteps\StarMetalFS_01_02\SFX_UNI_Player_Footstep_BaseForm_Metal_01_04.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="423850969"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="SFX_UNI_Player_Footstep_BaseForm_Metal_01_04" ID="{7AC73D1F-7AFF-4071-8F7E-A65E69D39F12}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="SFX_UNI_Player_Footstep_BaseForm_Metal_01_05" ID="{F5B7F3CC-E28D-4BBC-AD23-ABCD3C7724F6}" ShortID="583466185">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="SFX_UNI_Player_Footstep_BaseForm_Metal_01_05" ID="{4106A18B-B290-41C7-A2D6-E108E6475282}">
+																					<Language>SFX</Language>
+																					<AudioFile>Footsteps\StarMetalFS_01_02\SFX_UNI_Player_Footstep_BaseForm_Metal_01_05.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="904110040"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="SFX_UNI_Player_Footstep_BaseForm_Metal_01_05" ID="{4106A18B-B290-41C7-A2D6-E108E6475282}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																		<Sound Name="StarMetalFS_01_02" ID="{B314AB6B-1CFB-4094-AD27-776EE5A2FAC8}" ShortID="80373079">
+																			<ReferenceList>
+																				<Reference Name="Conversion">
+																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+																				</Reference>
+																				<Reference Name="OutputBus">
+																					<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<ChildrenList>
+																				<AudioFileSource Name="StarMetalFS_01_02" ID="{03D7211E-38B7-4C8D-AA09-38CA94ED1726}">
+																					<Language>SFX</Language>
+																					<AudioFile>Footsteps\StarMetalFS_01_02\StarMetalFS_01_02.wav</AudioFile>
+																					<MediaIDList>
+																						<MediaID ID="651076290"/>
+																					</MediaIDList>
+																				</AudioFileSource>
+																			</ChildrenList>
+																			<ActiveSourceList>
+																				<ActiveSource Name="StarMetalFS_01_02" ID="{03D7211E-38B7-4C8D-AA09-38CA94ED1726}" Platform="Linked"/>
+																			</ActiveSourceList>
+																		</Sound>
+																	</ChildrenList>
+																</RandomSequenceContainer>
 															</ChildrenList>
 															<GroupingInfo>
 																<GroupingBehaviorList>
+																	<GroupingBehavior>
+																		<ItemRef Name="Rainbow" ID="{1AD95D21-0C4B-4C0E-AA10-651A0FBB550C}"/>
+																	</GroupingBehavior>
 																	<GroupingBehavior>
 																		<ItemRef Name="Leaves" ID="{4E5F572C-2B27-419B-B734-A91D7C1C5655}"/>
 																	</GroupingBehavior>
@@ -3997,6 +4789,9 @@
 																	</GroupingBehavior>
 																	<GroupingBehavior>
 																		<ItemRef Name="SFX_UNI_Player_Footstep_BaseForm_Grass" ID="{B0948A90-237D-4EE4-BDF9-1F2752D69C54}"/>
+																	</GroupingBehavior>
+																	<GroupingBehavior>
+																		<ItemRef Name="Starmetal" ID="{619247AD-89CB-4465-BDA5-073E0B418DDC}"/>
 																	</GroupingBehavior>
 																	<GroupingBehavior>
 																		<ItemRef Name="SFX_UNI_Player_Footstep_BaseForm_Metal" ID="{30DC50CF-596B-4FA7-80AF-5ACF8B46051F}"/>
@@ -4028,6 +4823,12 @@
 																		</ItemList>
 																	</Grouping>
 																	<Grouping>
+																		<SwitchRef Name="StarMetal" ID="{428B9453-C6F1-4C7E-A148-3507D27EB836}"/>
+																		<ItemList>
+																			<ItemRef Name="Starmetal" ID="{619247AD-89CB-4465-BDA5-073E0B418DDC}"/>
+																		</ItemList>
+																	</Grouping>
+																	<Grouping>
 																		<SwitchRef Name="Dirt" ID="{22A37D54-D3DD-4687-A44F-D240BD429E36}"/>
 																		<ItemList>
 																			<ItemRef Name="Dirt" ID="{8C8020E3-CEF5-46C0-B710-FD0800E0C68C}"/>
@@ -4037,6 +4838,12 @@
 																		<SwitchRef Name="Metal" ID="{0E81217E-5D7D-42D0-AED6-D679BD01FA58}"/>
 																		<ItemList>
 																			<ItemRef Name="SFX_UNI_Player_Footstep_BaseForm_Metal" ID="{30DC50CF-596B-4FA7-80AF-5ACF8B46051F}"/>
+																		</ItemList>
+																	</Grouping>
+																	<Grouping>
+																		<SwitchRef Name="Rainbow" ID="{0E26F1FE-43F8-4289-88C6-581F76004A91}"/>
+																		<ItemList>
+																			<ItemRef Name="Rainbow" ID="{1AD95D21-0C4B-4C0E-AA10-651A0FBB550C}"/>
 																		</ItemList>
 																	</Grouping>
 																</GroupingList>
@@ -4655,6 +5462,74 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="ShootSpeedup" ID="{B8027F08-7105-4526-9454-46DB9D564341}" ShortID="361948387">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_Player_Ability_SpeedUp_Projectile" ID="{2A5BB26C-5180-4CC3-8FB3-1FDF3FE0596D}" ShortID="641313022">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Player_Ability_SpeedUp_Projectile" ID="{3E99FB98-9BB1-423E-B4B6-CE68CC639541}">
+															<Language>SFX</Language>
+															<AudioFile>drive-download-20231201T013701Z-001\SFX_Player_Ability_SpeedUp_Projectile.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="378377871"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Player_Ability_SpeedUp_Projectile" ID="{3E99FB98-9BB1-423E-B4B6-CE68CC639541}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="ShootSlowdown" ID="{A4DD21B2-DCC4-41AF-A476-DCB0648D9E17}" ShortID="791138460">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_Player_Ability_SlowDown_Projectile" ID="{9D0630C0-791C-44E0-90B0-C80CDBA1E764}" ShortID="362183137">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Player_Ability_SlowDown_Projectile" ID="{3EF6E02C-C8DB-42FA-8863-754879FB32C3}">
+															<Language>SFX</Language>
+															<AudioFile>drive-download-20231201T013701Z-001\SFX_Player_Ability_SlowDown_Projectile.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="706063111"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Player_Ability_SlowDown_Projectile" ID="{3EF6E02C-C8DB-42FA-8863-754879FB32C3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Wall" ID="{D208E826-84FF-44E0-B970-5ED2426491BF}" ShortID="392045342">
@@ -5058,6 +5933,84 @@
 													</ChildrenList>
 													<ActiveSourceList>
 														<ActiveSource Name="SFX_UNI_Player_Jump_03" ID="{7F1FAEE4-C36E-47AC-AEEC-F6B7C3F1D14C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Dash" ID="{24F00A5D-B237-4155-A1BE-B752F39CDEE9}" ShortID="366247717">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_UNI_Player_AirDash_01" ID="{62316FD7-1CBC-4648-BB97-C982E1D07522}" ShortID="1015483559">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_UNI_Player_AirDash_01" ID="{74A55AA7-A612-4A5A-A1DB-FC5E44FCC593}">
+															<Language>SFX</Language>
+															<AudioFile>Wylie\Dash\SFX_UNI_Player_AirDash_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="902414778"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_UNI_Player_AirDash_01" ID="{74A55AA7-A612-4A5A-A1DB-FC5E44FCC593}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_UNI_Player_AirDash_02" ID="{88BCE812-E7D2-43CB-B115-1B7D48017FDA}" ShortID="152482238">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_UNI_Player_AirDash_02" ID="{8B1EB1B7-4658-4C4A-A7FF-F0851B1D1300}">
+															<Language>SFX</Language>
+															<AudioFile>Wylie\Dash\SFX_UNI_Player_AirDash_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="683609689"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_UNI_Player_AirDash_02" ID="{8B1EB1B7-4658-4C4A-A7FF-F0851B1D1300}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_UNI_Player_AirDash_03" ID="{112611CF-7E07-43F8-8B3F-252CAB30354B}" ShortID="497989855">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3E3CCCB5-5021-4E1F-9D32-40B43A08FCB9}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="MASTER" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9382E86D-24EC-461A-BAF7-1903773DE9D7}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_UNI_Player_AirDash_03" ID="{47218549-C38A-47AD-8A45-EE4DB0C4E1A5}">
+															<Language>SFX</Language>
+															<AudioFile>Wylie\Dash\SFX_UNI_Player_AirDash_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="383574016"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_UNI_Player_AirDash_03" ID="{47218549-C38A-47AD-8A45-EE4DB0C4E1A5}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
